@@ -5,8 +5,7 @@
 _What is MERL? [See our working definition](https://github.com/MERLTech/MERL-Center-public/blob/master/MERLdefinition.md)_
 
 **Browse sections**
-- Home
-- Case Studies
+- [Case Studies](https://github.com/MERLTech/MERL-Center-public/blob/master/pages/example.html)
 - Beginner's Guides
 - MERL Center Frameworks
 - How to get involved
