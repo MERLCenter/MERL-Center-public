@@ -2,7 +2,7 @@
 
 #### Founded in September 2019 by the [GitHub Social Impact team](https://socialimpact.github.com) and [Kurante/MERL Tech](http://merltech.org), its materials are conceptualized, produced, edited and open sourced by dedicated, cross-disciplinary working groups.
 
-_What is MERL? [See our working definition](_https://github.com/MERLTech/MERL-Center-public/blob/master/MERLdefinition.md)
+_What is MERL? [See our working definition](https://github.com/MERLTech/MERL-Center-public/blob/master/MERLdefinition.md)_
 
 **Browse sections**
 - Home
