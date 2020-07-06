@@ -1,4 +1,4 @@
-Home
-Case Studies
-Beginner's Guides
-MERL Center Frameworks
+- Home
+- Case Studies
+- Beginner's Guides
+- MERL Center Frameworks
