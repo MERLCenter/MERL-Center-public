@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Welcome to the MERL Center
 
-You can use the [editor on GitHub](https://github.com/MERLTech/MERLCenter-public/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The MERL Center is a website to help Monitoring, Evaluation, Research and Learning (MERL) practitioners understand if, how and when to use open source software, data and tools as part of their MERL solutions
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Founded in September 2019 by the Tech for Social Good program of [GitHub Social Impact](https://socialimpact.github.com) and [Kurante/MERL Tech](http://merltech.org), the MERL Center materials are conceptualized, produced, edited and open sourced by dedicated, cross-disciplinary working groups.
 
-### Markdown
+## What is MERL
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[See our working definition](MERLdefinition.md)
 
-```markdown
-Syntax highlighted code block
+## License
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MERLTech/MERLCenter-public/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, and the underlying source code used to format and display that content is licensed under [the MIT license](LICENSE).
