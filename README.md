@@ -1,3 +1,5 @@
+**_This is the repo in which finalized content developed by MERL Center working group members will be hosted as living documents for the forthcoming MERL Center website._**
+
 # Welcome to the MERL Center
 
 The MERL Center is a website to help Monitoring, Evaluation, Research and Learning (MERL) practitioners understand if, how and when to use open source software, data and tools as part of their MERL solutions
