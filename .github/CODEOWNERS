@@ -4,6 +4,12 @@
 # Learning Content CodeOwners
 learning-content/* @merltech/merl-center-lc-editors
 
+# Learning Content Beginner's Guides CodeOwners
+learning-content/beginners-guides/* @merltech/merl-center-lc-editors
+
+# Learning Content Case Studies CodeOwners
+learning-content/case-studies/* @merltech/merl-center-lc-editors
+
 # MERL Center Created Resources CodeOwners
 merl-center-created-resources/* @merltech/merl-center-mccr-editors
 
