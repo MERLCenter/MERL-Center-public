@@ -13,3 +13,7 @@ Founded in September 2019 by the Tech for Social Good program of [GitHub Social 
 ## License
 
 The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, and the underlying source code used to format and display that content is licensed under [the MIT license](LICENSE).
+
+## How to Contribute
+
+[Check out the documentation here.](https://github.com/MERLTech/MERL-Center-public/tree/master/How-to-Contribute)
