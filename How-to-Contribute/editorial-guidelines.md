@@ -4,6 +4,8 @@ This is the editorial style guideline for Learning Content and MERL Center Creat
 
 *Any content created for the MERL Center must abide by the [Code of Conduct](https://github.com/MERLTech/MERL-Center-public/blob/master/How-to-Contribute/CODE_OF_CONDUCT.md).*
 
+## Text
+
 ### Voice
 
 - Language should be clear, professional, and jargon-free (or jargon-defined). 
