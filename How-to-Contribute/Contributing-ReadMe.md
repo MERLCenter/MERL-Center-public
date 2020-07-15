@@ -49,8 +49,7 @@ _External resources the MERL Center did not create, but that help with creation 
 
 ## Licenses
 
-- Code and data is published under the MIT license
-- Text and images are under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
+The content of this project itself is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, and the underlying source code used to format and display that content is licensed under the MIT license.
 
 [Back to top](#sections)
 
