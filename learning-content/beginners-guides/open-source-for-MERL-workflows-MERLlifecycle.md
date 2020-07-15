@@ -51,9 +51,12 @@ Data Analysis and Visualization, Reporting | <ul><li>Perform statistical analyse
 "  | "  | Documents - Word processing | LibreOffice | https://www.libreoffice.org/ | https://github.com/LibreOffice
 "  | "  | Spreadsheet tracking/analysis | ODK Aggregate | https://docs.getodk.org/aggregate-intro/ https://github.com/getodk/aggregate/releases/tag/v2.0.5
 "  | "  | Dashboard creation | Rstudio Shiny | https://rstudio.github.io/shinydashboard/ | https://github.com/rstudio/shinydashboard
+
 One goal of the [MERL Center on GitHub](https://merltech.github.io/MERL-Center-public/) is to help MERL practitioners identify open source tools for each stage of the MERL lifecycle, MERL technology workflow, functionality and output to increase adoption. By identifying examples of open source tools for each, we may encourage greater adoption of open source in MERL work.
+
 #### Footnote 1 
 A core tenant of the [Principles for Digital Development](https://digitalprinciples.org/principle/use-open-standards-open-data-open-source-and-open-innovation) is using Open Standards, Open Licensing, Open Source and Open Innovation whenever possible. This reduces the number of “sector-specific solutions that are locked away behind licensing fees.” As described by the many contributors to the report [Open Source Software in the Social Sector](https://socialimpact.github.com/#report), the decision on if and how to use an open source product is complex and will be addressed in further guides and case studies of the MERL Center. 
+
 ### Further reading
 UNICEF et al, 2020. “Digital Public Goods, Explore”. Accessed May 28, 2020. https://digitalpublicgoods.net/explore/
 Wasserman et al, 2017. “OSSpal: Finding and Evaluating Open Source Software”. Accessed May 26, 2020.
