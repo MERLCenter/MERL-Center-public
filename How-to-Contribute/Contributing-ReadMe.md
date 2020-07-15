@@ -128,10 +128,10 @@ Before content is added to this public repo, it goes through an editing process 
 1. This checklist
 
 - [ ] Is in an accessible format to all editors, such as a Google doc on the Shared drive
-- [ ] Abides by the [Code of Conduct](https://github.com/MERLTech/merl-center/blob/master/Contribute/CODE_OF_CONDUCT.md)
+- [ ] Abides by the [Code of Conduct](https://github.com/MERLTech/MERL-Center-public/blob/master/How-to-Contribute/CODE_OF_CONDUCT.md)
 - [ ] Is factually accurate 
 - [ ] Explicitly states if something is an opinion
-- [ ] Adheres to the [editorial guideline](https://github.com/MERLTech/merl-center/blob/master/Contribute/editorial-guidelines.md)
+- [ ] Adheres to the [editorial guideline](https://github.com/MERLTech/MERL-Center-public/blob/master/How-to-Contribute/editorial-guidelines.md)
 - [ ] Is attributed to the author unless otherwise requested
 - [ ] Attributes quotes unless otherwise requested
 
