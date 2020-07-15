@@ -42,7 +42,7 @@ _Resources that are created as a result of and/or govern the MERL Center_
 
 ### External Resources
 
-_External resources the MERL Center did not create, but that help with creation of the above types of contributions. See current list of external resources in the [Wiki](https://github.com/MERLTech/merl-center/wiki)_
+_External resources the MERL Center did not create, but that help with creation of the above types of contributions._
 
 - Standards of best practices
 - Guidelines, lists or other tools
@@ -111,7 +111,7 @@ Abbreviations*
 
 [Codeowners](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) are editors who are responsible managing proposed changes - either through pull requests or forks - in certain sub-directories ("folders") of the repo. Learning Content Codeowners, for example, can only approve and merge changes made in #learning-content. This helps to ensure unwanted changes are not made. However, working group members are expected to be conscious of their work and stick to files in the MERL Center they are able and have stated they will change.
 
-![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/merlcenter/blob/master/Contribute/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
+![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/MERL-Center-public/blob/master/How-to-Contribute/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
 
 [Back to top](#sections)
 
