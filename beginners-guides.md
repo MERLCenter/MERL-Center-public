@@ -24,7 +24,7 @@ permalink: /beginners-guides/
   <tr>
     <td>This lesson maps out the MERL lifecycle against MERL technology workflows, and open source software that falls into each workflow group. <a href="https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.md" target="_blank">Click here to read</a>    
     </td>
-      <td>![The MERL Lifecyele](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.png)<img src="https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.png" alt="The MERL Lifecycle"></td>
+      <td><img src="https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.png" alt="The MERL Lifecycle"></td>
   </tr>
   </table>
     <footer class="site-footer">
