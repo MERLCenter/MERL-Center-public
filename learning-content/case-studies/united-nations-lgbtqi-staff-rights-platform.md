@@ -48,6 +48,7 @@ Sentiment reports were meant to be open-ended prompts that respondents could use
 Surveys were designed to be set questions respondents could answer to give quantitative measures of experiences. There were four sets of questions related to workplace culture, career advancement, family and personal relationships, and local cultural and political situations. With no dedicated budget, the platform was not taken past the prototyping stage; however, questions for each of the categories were determined and thoroughly tested with respondents that fell into several user personas.
 
 **Example wireframe of survey and sentiment report answers**
+
 ![Example wireframe of survey and sentiment report answers](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/united-nations-lgbtqi-staff-platform-wireframe.png)
 
 ### Common Use Cases
