@@ -60,7 +60,7 @@ The cost barrier to launch the platform was prohibitively expensive for several 
 
 Below are some of the major MERL challenges with the platform.
 
-#### Double/multipe disaggregations**
+#### Double/multipe disaggregations
 The biggest design challenge was balancing the level of response aggregation needed for privacy with being useful. Aggregating all data in one country across all agencies across all time would not only not help an LGBTQI+ UN staff decide whether to accept their post/consultancy, it might be harmful. 
 
 For example, suppose the majority of responses for a particular country office were from cisgender gay male staff who said the environment is accepting. If the two demographic characteristics - cisgender and man -  were not displayed, the platform could be misleading for a gay trans woman staff trying to decide whether to accept a post in that office. Given the sensitive information being collected, however, a high level of data aggregation would be needed to display responses without potentially serious repercussions. The project guestimated several hundred responses per country office per UN organization would be needed to display at least two disaggregations. 
