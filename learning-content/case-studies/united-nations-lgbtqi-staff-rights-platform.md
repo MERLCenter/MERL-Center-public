@@ -21,7 +21,7 @@ By the end of the case study, readers should be able to walk away with an unders
 **The Challenge Faced by LGBTQI+ United Nations Staff Members**
 Accepting a UN job can be particularly challenging for LGBTQI+ staff, consultants, and interns (hereafter referred to as “staff”) when the majority are based in countries that criminalize homosexual activity. The below chart shows the status of criminalized homosexual activity globally as of December 2016.
 
-![united-nations-lgbtqi-staff-rights-platform.png](insert url)
+![Criminalization of Homosexuality/Homosexual Acts as of December 2016](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/united-nations-lgbtqi-staff-platform-map.png)
 **Source: [Digital Security of LGBTQI Aid Workers](https://gisf.ngo/wp-content/uploads/2020/02/2224-EISF-2017-Digital-Security-of-LGBTQI-Aid-Workers-Awareness-and-Response.pdf)
 
 While many INGOs and government foreign services fully advocate for their LGBTQI+ staff, the UN must reach consensus among member states to follow suit. Because the UN does not formally recognize LGBTQI+ staff as a protected class of people, most UN entities do not have specific policies to ensure LGBTQI+ staff are safe, can openly work with local governments and organizations, and can have their families accompany them to family duty stations. 
