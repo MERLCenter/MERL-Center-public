@@ -1,6 +1,6 @@
 # United Nations LGBTQI Staff Rights Platform
 
-_By Mala Kumar, with editing contributions from Amy Sample Ward and Nicolas Dickison_
+_By Mala Kumar, with editing contributions from Amy Sample Ward and Nicolas Dickinson_
 
 ## Introduction
 This case study will cover a collaboration by Fordham Law School, UN-GLOBE and Mala Kumar, who is the author of this case study. It will examine the MERL challenges of a crowdsourcing tool that was designed to help lesbian, gay, bisexual, transgender, queer, and intersex (LGBTQI+) United Nations (UN) staff, consultants, and interns determine if a particular UN job meets their safety, family, and professional needs. The case study will outline how open source tools and practices could have addressed several of the main MERL challenges.
