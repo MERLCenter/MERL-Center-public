@@ -7,7 +7,7 @@ This case study will cover a collaboration by Fordham Law School, UN-GLOBE and M
 
 Readers who will find this case study useful include:
 
-- Monitoring, Evaluation, Resolution, and Learning (MERL) practitioners who use demographically sensitive personal identifying information (PII), such as race, gender, socioeconomic class, sexual orientation and gender identity
+- Monitoring, Evaluation, Research, and Learning (MERL) practitioners who use demographically sensitive personal identifying information (PII), such as race, gender, socioeconomic class, sexual orientation and gender identity
 - UX/UI/Product designers building tools to help users make decisions using demographically sensitive PII
 - UN staff and/or LGBTQI+ people interested in the topic and/or who would like to reprise the work
 
