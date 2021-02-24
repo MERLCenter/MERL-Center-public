@@ -44,11 +44,11 @@ We began by working together with multiple teams from different projects to anal
 
 The following conceptual model aligns with MERL requirements for our projects to track, store, and report on their indicators and data (we renamed elements from Person to Participant for context):
 
-![Conceptual Model](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/building-open-source-based-on-data-standards-conceptual-model1.png)
+![Conceptual Model](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/case-studies/building-open-source-based-on-data-standards-conceptual-model1.png)
 
 In a real-world scenario, international project activities vary by type and size, but in a simplified view, this conceptual model adapts to almost every MERL context. For example: projects work with multiple organization types (e.g.: schools, training institutions, partners, civil society organizations, clinics, communities, and/or government entities, they all can be represented as Organizations. These organizations provide learning resources and content to participants (e.g.: capacity building, training, coaching, books, business start-up kits, medicines). Participants have different roles in these organizations (e.g.: students, teachers, peer trainers, education administrators, health counselors, and/or government officials), access the resources offered by organizations through multiple events during the life of the project.
 
-![Conceptual Model Scenarios](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/building-open-source-based-on-data-standards-conceptual-model2.png)
+![Conceptual Model Scenarios](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/case-studies/building-open-source-based-on-data-standards-conceptual-model2.png)
 
 The following table describes the conceptual model adapted to different project scenarios:
 
@@ -71,7 +71,7 @@ The following table describes the conceptual model adapted to different project 
 
 Using this approach, EDC created M&E Insight, using a simplified data model to build an open source data management platform for international development projects. 
 
-![Conceptual Model](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/building-open-source-based-on-data-standards-meinsight.png)
+![Conceptual Model](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/case-studies/building-open-source-based-on-data-standards-meinsight.png)
 
 M&E Insight is currently available in English, Spanish, and French, but new translations can be easily added.
 
