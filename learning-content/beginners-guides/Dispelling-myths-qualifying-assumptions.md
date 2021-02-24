@@ -1,6 +1,6 @@
 # Dispelling myths and qualifying assumptions about open source for MERL practitioners
 
-_By Melissa Edmiston, Brittany Stubbs, Anh Bui and Mala Kumar, with edits by Stephanie Coker
+_By Melissa Edmiston, Brittany Stubbs, Anh Bui and Mala Kumar, with edits by Stephanie Coker_
 
 _Note that this beginner's guide is useful for any of MERL practitioners, program managers, procurement officers or funders who are interested in using or creating open source software, data or content for a MERL project or problem statement. [See our definition of MERL here](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md)._
 
