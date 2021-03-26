@@ -1,17 +1,9 @@
-Case Study
 
-Ruby for Good: Building Community in Open Source
+# Ruby for Good: Building Community in Open Source
 
-Authored by: Gia Coelho
+_By Gia Coelho_
 
-Created on: October 10, 2020
-
-Last Updated on: January 24, 2020
-
-Last Updated by: Gia Coelho
-
-I. Introduction
-===============
+## Introduction
 
 The mission of the nonprofit organization Ruby for Good is to deliver specialized software development solutions to nonprofit organizations to bolster their critical missions, build an inclusive technology community, and provide technology-focused educational opportunities to underserved communities. In 2015, the Portland Diaper Bank approached [Ruby for Good](https://rubyforgood.org/) with a problem: they were in need of an inventory and partner agency management system to reduce their operational overhead, reduce labor demands, and create operational efficiencies. They wanted to be able to use barcode scanning and potentially have a better solution than the generic inventory system that the majority of diaper banks were using while also attempting to adapt to their unique challenges and business processes. That year, Ruby for Good built a proof-of-concept that satisfied the basic needs of inventory tracking for their operation.
 
@@ -21,8 +13,7 @@ The Diaper Bank has a repository on the[ Ruby for Good GitHub organization](http
 
 Through the Diaper Bank application, Ruby for Good simultaneously enables a non-technical community to streamline their business processes and also provides the technical community with opportunities to support the nonprofits serving critical missions, contribute to vital social impact work, learn from peers, and skill-up.
 
-Overview of Ruby for Good 
---------------------------
+### Overview of Ruby for Good 
 
 Nonprofit and civic organizations work to deliver critical missions across the country, which are more vital in the current climate than ever before. The people on the front lines of these missions don't always have the resources they need to deliver these critical programs. That's where Ruby for Good comes in. We bring together people of varied skills and experiences to build technology solutions that benefit nonprofits. Ruby for Good's mission is to deliver specialized software development solutions to nonprofit organizations to bolster their critical missions, build an inclusive technology community, and provide technology-focused educational opportunities to underserved communities.
 
@@ -30,13 +21,11 @@ We work with incredible nonprofit partners like Habitat for Humanity, The Homele
 
 We also partner with technology companies and offer skills-based volunteering opportunities for a variety of roles and skill levels, like product and project managers, developers, designers, UX and UI contributors, and marketing gurus. We believe in building bridges and relationships between volunteers and the missions they are serving to foster long term commitments.
 
-Problem Statement This Case Study Explores/Addresses
-----------------------------------------------------
+### Problem Statement This Case Study Explores/Addresses
 
 Creation and maintenance of free technological solutions to operationalize the inventory management of Diaper Banks and similar organizations to enable them to maximize their available funds and resources towards serving vulnerable communities in need. 
 
-Key Takeaways
--------------
+### Key Takeaways
 
 -   Regular stakeholder engagement is critical to project success.
 
@@ -46,25 +35,21 @@ Key Takeaways
 
 -   A non-monetized software application built around volunteer support is possible and can be successful over an extended period of time.
 
-Which Readers Will Find This Case Study Useful
-----------------------------------------------
+### Which Readers Will Find This Case Study Useful
 
 MERL practitioners who are building or thinking about building their own open source software supported by a robust community of developers.
 
-What the Reader Should get out of This Case Study
--------------------------------------------------
+### What the Reader Should get out of This Case Study
 
 Nearly five years into this project, we provide a concrete example of how to successfully build an application that directly supports organizations that provide a critical human service. The process and paradigms through which we have developed this application are fungible and can be adapted to other problems of a similar nature.
 
-II. Narrative of the Problem
-============================
+## Narrative of the Problem
 
 Diaper Banks and Period Supply Banks are nonprofit organizations similar to Food Banks, except they deal with sanitary supplies for mothers, newborns, infants, young children, the elderly, and individuals in need of menstrual supplies. Supplemental aid provided by federal programs often does not accommodate this kind of need, and so marginalized communities tragically find themselves making difficult decisions between dignity and survival.
 
 Also similar to Food Banks, Diaper Banks process a large amount and variety of inventory, and must keep fairly detailed records of this inventory flow both to ensure they can sufficiently service their community and  to provide accurate data when making grant requests. While a few do their bookkeeping with pen and paper, most have turned to technological solutions such as Google Sheets, Excel, and other similar tools. These tools enable some success, but have technical limitations in their generalized use cases. Specialized inventory software is often either cost-prohibitive or does not closely mirror the needs of Diaper Bank inventory tracking.
 
-Contextual Challenges
----------------------
+### Contextual Challenges
 
 Most Diaper Banks are very small operations, with minimal funding that is directed almost wholly towards purchasing sanitary supplies, which are intended to be directed towards the community. Oftentimes the principal of the Diaper Bank serves in a volunteer capacity. Smaller Diaper Banks still move an ample amount of inventory and have limited staffing, which creates a cognitive load problem with a few people being in charge of all the steps in the supply chain distribution process.
 
@@ -72,8 +57,7 @@ Larger Diaper Bank organizations have the luxury of more staffing, and even sala
 
 Lastly, while all Diaper Banks are similar, no two are exactly the same. There is no single recipe for success, although they do freely share tribal knowledge with one another that drives functionality. Any solution that is provided will need to be flexible enough to accommodate some variability in its operation.
 
-Technology Challenges
----------------------
+### Technology Challenges
 
 The most important technical consideration is that Diaper Banks, in general, have very limited budgets and staffing, and the staff they do have available are often not technical-savvy enough to be able to develop or maintain an application. Technical skill varies by Diaper Bank; some are more comfortable working with technology than others, but generally speaking, this means that in the best case scenario they need less training.
 
@@ -86,8 +70,7 @@ The solution will need to function with regular technology such as desktop or la
 DiaperBase Landing Page ![](https://lh4.googleusercontent.com/lVJlSlgUvh1-poyUotpjgGbTMCuEz36gqDkGtBZgPbNngXLGdL1OjM9J-BY2XlZVFT6maCUbfIaMi83jfWnpKWSuLvrGMoLifempnziGgjEPbhsOeUpwkbyoGnGElhBTNvruQZ6i)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-MERL (Monitoring, Evaluation, Research, Learning) Challenges
-------------------------------------------------------------
+### MERL (Monitoring, Evaluation, Research, Learning) Challenges
 
 Effective monitoring is an essential part of impact measurement, process improvement, impact measurement and accountability to funding agencies, as well as other stakeholders. [A KPMG assessment](https://assets.kpmg/content/dam/kpmg/pdf/2014/09/2014-survey-monitoring-evaluation-v4.pdf) of global M&E systems identified the cost of data management and analysis and ease of data accessibility and standardization as key roadblocks to introducing data analytics and "big data" into evaluation systems. A robust monitoring system allows small organizations with limited capacity to access critical information about service delivery and  populations served that would ordinarily be out of reach.   Maintaining inventory for nonprofits throughout the continental and non-continental United States required initial architecture to facilitate a system that would work well regardless of location, inventory inflow processes, and even language differences. Unsurprisingly the value of a single diaper is different in a large city like New York, rural Appalachia, or on one of the small islands of Hawai'i, and the system needed to be able to report on the local value of a diaper. Being open source software, we were able to customize the solution to enable users to enter the value per item. We even needed to build the system to be robust enough to handle non-English characters like those used on the Hawaiian Islands.
 
@@ -101,11 +84,9 @@ DiaperBase Dashboard
 
 ![](https://lh4.googleusercontent.com/k1PkFdC057hdKwYK3tlIfPjtD28bnWPpj_2-1EVlibJ2Ed0MFAl48_GhjQ99vwYXR82MOKjWLzRHpv5QYfeObJxYC00hvBG9DGO4f9HfA1g0tqoiiCVobH12rdKvlp-3c6mkz6Pt)
 
-III. Actions Taken
-==================
+## Actions Taken
 
-Constant Ongoing Discovery with Stakeholders
---------------------------------------------
+### Constant Ongoing Discovery with Stakeholders
 
 Ruby for Good was in its third year when the Diaper Base proof-of-concept was developed for the Portland Diaper Bank. The established process at that point was to engage with the stakeholder as much as possible to define a minimum viable product (MVP). Over time, we included several Diaper Bank stakeholders in our discovery process to gain a better understanding of their needs, and used their feedback, from testing the product, to improving the user experience, as we continued to finesse the application. Eventually this discussion included the NDBN, and we were invited to present at their annual conference, which was the endorsement that resulted in a large volume of new diaper banks signing up to use the app.
 
@@ -123,8 +104,7 @@ Diaper Requests from Partner Organizations
 
 ![](https://lh4.googleusercontent.com/vxgU_eQF4c2j7N7qlVzBrAhPLFrwsDB0Yok4I6XdqcHW3qZpJMLQeX6GXNdgZrL6vrSAGxVMnWH3eJ8yqWZO4YgFjY2p8zLHqrr830y2l20IHIeGFmKUmxV1teMA94CcR4li7sP6)
 
-Application Intentionally Kept as Basic as Possible
----------------------------------------------------
+### Application Intentionally Kept as Basic as Possible
 
 Ruby-on-Rails is a highly opinionated framework, with Rails Way idioms creating an implicit lingua franca between Rails applications. Many shops will use this as a basis and diverge towards a solution that integrates non-Rails-way idioms. Decisions such as these create a barrier of entry for contributors if they are not absolutely necessary, and create additional labor overhead when maintaining the application or upgrading it.
 
@@ -134,8 +114,7 @@ When making software architecture decisions, we tried to keep the structure as c
 
 Technical debt means greater overhead and more brambles for a new contributor. Since no one is absolutely dedicated or paid to support the application, we need to keep this overhead low, and based on positive anecdotal feedback from past contributors, this effort has been quite fruitful.
 
-Constant Community Culture-building and Outreach Efforts
---------------------------------------------------------
+### Constant Community Culture-building and Outreach Efforts
 
 During the annual Ruby for Good conference, the core maintaining team is available to answer questions and provide assistance to contributors directly throughout the event.
 
@@ -167,17 +146,14 @@ Forecasting Feature: Donations
 
 ![](https://lh6.googleusercontent.com/qBax-Foq5F7kTgSxjC9Srxb4wVQn4WvEMvkGIKrOq1mmAHuhBw_MilnqWQ4k6dx15FJARQkXFKKVuUPEgk-62gVQN5MZrL2oOkBBn1f1qMpujyvRXbzRRbND-UAAktLfee-dpAWv)
 
-IV. Conclusion
-==============
+## Conclusion
 
 We have learned how to successfully engage with the nonprofit community, build technology solutions to solve their problems, and engage with the open source technology community to deliver a solution.
 
-How to Apply Lessons Learned to Other Scenarios
------------------------------------------------
+### How to Apply Lessons Learned to Other Scenarios
 
 Ruby for Good has several projects underway, and we invite you to join us in supporting the trajectory of our [Court Appointed Special Advocates (CASA) Project](https://github.com/rubyforgood/casa), for foster youth. The CASA project, which was launched this year, is following the path forged by our inventory management application and is using the lessons learned as we intend to grow it from a single stakeholder application to one supporting CASA's across the country.
 
-How to Get Involved 
---------------------
+### How to Get Involved 
 
 Join us on [Slack](https://rubyforgood.herokuapp.com/), and view the [Diaper](https://github.com/rubyforgood/diaper) and [Partner](https://github.com/rubyforgood/partner) repositories on [GitHub](https://github.com/rubyforgood/partner). Follow us on social media: [Twitter](https://twitter.com/rubyforgood) and [LinkedIn](https://www.linkedin.com/company/ruby-for-good), and lend your skills, voice, and support to this vital work as we continue to build on our inventory management, CASA, and many other applications. Your support is more critical now than ever before.
