@@ -21,7 +21,7 @@ By the end of the case study, readers should be able to walk away with an unders
 **The Challenge Faced by LGBTQI+ United Nations Staff Members**
 Accepting a UN job can be particularly challenging for LGBTQI+ staff, consultants, and interns (hereafter referred to as “staff”) when the majority are based in countries that criminalize homosexual activity. The below chart shows the status of criminalized homosexual activity globally as of December 2016.
 
-![Criminalization of Homosexuality/Homosexual Acts as of December 2016](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/united-nations-lgbtqi-staff-platform-map.png)
+![Criminalization of Homosexuality/Homosexual Acts as of December 2016](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/case-studies/united-nations-lgbtqi-staff-platform-map.png)
 **Source:** [Digital Security of LGBTQI Aid Workers](https://gisf.ngo/wp-content/uploads/2020/02/2224-EISF-2017-Digital-Security-of-LGBTQI-Aid-Workers-Awareness-and-Response.pdf)
 
 While many INGOs and government foreign services fully advocate for their LGBTQI+ staff, the UN must reach consensus among member states to follow suit. Because the UN does not formally recognize LGBTQI+ staff as a protected class of people, most UN entities do not have specific policies to ensure LGBTQI+ staff are safe, can openly work with local governments and organizations, and can have their families accompany them to family duty stations. 
@@ -49,7 +49,7 @@ Surveys were designed to be set questions respondents could answer to give quant
 
 **Example wireframe of survey and sentiment report answers**
 
-![Example wireframe of survey and sentiment report answers](https://github.com/MERLTech/MERL-Center-public/blob/master/learning-content/case-studies/united-nations-lgbtqi-staff-platform-wireframe.png)
+![Example wireframe of survey and sentiment report answers](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/case-studies/united-nations-lgbtqi-staff-platform-wireframe.png)
 
 ### Common Use Cases
 - Farrah has worked for UNICEF for 20 years and is currently posted to UNICEF HQ in New York City. To advance her career and maintain her status on a P (professional) contract, she must be based in a field office soon. Her rotation options are all in family duty station countries that criminalize homosexual acts and/or do not recognize her marrage to a woman. She uses the tool to evaluate which of the three UNICEF country offices other UNICEF staff members report helping them bring their same-sex spouse on the same visa as opposite-sex spouses.
