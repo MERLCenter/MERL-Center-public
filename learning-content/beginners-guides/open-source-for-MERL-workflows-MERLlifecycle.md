@@ -18,6 +18,8 @@ _Where_
   - Creating, configuring or using a technology platform (e.g. mobile app, website) to gather quantitative or qualitative data, such as survey responses
   - Storing quantitative or qualitative data, such as survey responses, on a database or spreadsheet
   - Creating, modifying, enforcing permissions models to access quantitative or qualitative data through a technology platform
+  - Preparing data stored for further analysis using data relationshpis and models
+  - Creating governing mechanisms for stored data including data catalogs, metadata and data lineages
 - **Data Analysis and Visualization** are MERL technology workflows that include but are not limited to:
   - Inputting or importing raw data into a spreadsheet
   - Cleaning raw quantitative or qualitative data in a spreadsheet or with a script (code)
