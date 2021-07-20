@@ -43,4 +43,4 @@ Color 1 | Hex value | Color fill 1 | Hex value
 - There are no minimum heights or widths. Authors should test image resolution on different devices.
 
 ### Formats
-Images can be .png, .jpg, .jpeg, .tiff, or HTML embeds
+The following extensions are supported: .png, .jpg, .jpeg, .tiff, or .gif
