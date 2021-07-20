@@ -25,3 +25,16 @@ _For any inputs or outputs that are part of the MERL Center public-facing websit
 
 - Code - front-end or back-end code for a MERL Center website
 - Assets - UI assets, other images, UX research, content for a MERL Center website
+
+## For MERL Center Members
+
+### Create a New Piece of Content
+_Note you will need the correct permissions level (access) to follow the steps below. Contact a MERL Center admin if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
+
+1. Go to the Code tab at the top of the screen
+2. Click on `learning-content` directory (folder)
+3. Click on the `beginners-guides` or `case-studies` sub-directory (folder), depending on the type of content you're submitting
+4. At the top right, click the `Add file` button, then `Create new file` if you don't have a markdown file already created or `Upload file` if you do
+5. Add your content formatted in markdown. [Here's a markdown cheet sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
+6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign `CodeOwners to review and merge your pull request.
+7. Your content will be live on the (forthcoming) MERL Center website after your pull request has been merged. The CodeOwner may request changes before merging.
