@@ -1,7 +1,7 @@
 # Contributing to the MERL Center public repo
 ## Sections
 
-[Background](#background) | [Licenses](#licenses) | |[Types of MERL Center content](#types-of-merl-center-content) | [For MERL Center Members](#for-merl-center-members) | [Contact](#contact)
+[Background](#background) | [Licenses](#licenses) | [Types of MERL Center content](#types-of-merl-center-content) | [For MERL Center Members](#for-merl-center-members) | [Contact](#contact)
 
 ## Background
 The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/)
