@@ -44,5 +44,12 @@ _Note you will need the correct permissions level (access) to follow the steps b
 2. Click the pencil icon indicated below
 <img width="1258" alt="EditFile" src="https://user-images.githubusercontent.com/12953652/126375993-89b76420-766e-4df2-9f55-d117f35bd7d9.png">
 
-3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` to review.
+3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
 4. After your pull request has been merged, your content will be live on the repo immediately and on (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
+
+### CodeOwners
+
+_Note that despite `CodeOwners` containing the word "code", the MERL Center uses `CodeOwners` to review and merge pull requests on text files._
+
+`CodeOwners` are automatically assigned to pull requests made to files in a particular sub-directory to take out the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS).
+
