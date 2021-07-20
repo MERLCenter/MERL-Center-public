@@ -1,19 +1,15 @@
-**_This is the repo in which finalized content developed by MERL Center working group members will be hosted as living documents for the forthcoming MERL Center website._**
-
 # Welcome to the MERL Center
+The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/)
 
-The MERL Center is a website to help Monitoring, Evaluation, Research and Learning (MERL) practitioners understand if, how and when to use open source software, data and tools as part of their MERL solutions
-
-Founded in September 2019 by the Tech for Social Good program of [GitHub Social Impact](https://socialimpact.github.com/tech-for-social-good) and [Kurante/MERL Tech](http://merltech.org), the MERL Center materials are conceptualized, produced, edited and open sourced by dedicated, cross-disciplinary working groups.
+## What's in this repo?
+This is the public repository of the MERL Center on which publicly available learning content and the code for the forthcoming MERL Center website are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center memeber, which is free of charge and limited to those who have some experience in MERL and/or open source. Anyone - regardless of MERL Center membership - can access published MERL Center content through this public repository. Currently, only MERL Center members can propose changes to content, though this may change in the future to allow change proposals from anyone.
 
 ## What is MERL
-
 [See our working definition](MERLdefinition.md)
 
 ## License
-
-The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, and the underlying source code used to format and display that content is licensed under [the MIT license](LICENSE).
+- Learning content (see documentation on how to contribute) is under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license
+- Code is under [the MIT license](LICENSE).
 
 ## How to Contribute
-
 [Check out the documentation here.](https://github.com/MERLTech/MERL-Center-public/tree/main/How-to-Contribute)
