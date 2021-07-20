@@ -28,7 +28,7 @@ _For any inputs or outputs that are part of the MERL Center public-facing websit
 
 ## For MERL Center Members
 
-### Create a New Piece of Content
+### Create a New Piece of Learning Content
 _Note you will need the correct permissions level (access) to follow the steps below. Contact a MERL Center admin if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
 
 1. Go to the Code tab at the top of the screen
@@ -36,5 +36,12 @@ _Note you will need the correct permissions level (access) to follow the steps b
 3. Click on the `beginners-guides` or `case-studies` sub-directory (folder), depending on the type of content you're submitting
 4. At the top right, click the `Add file` button, then `Create new file` if you don't have a markdown file already created or `Upload file` if you do
 5. Add your content formatted in markdown. [Here's a markdown cheet sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
-6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) to review and merge your pull request.
-7. Your content will be live on the (forthcoming) MERL Center website after your pull request has been merged. The CodeOwner may request changes before merging.
+6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) to review and merge your pull request.
+7. After your pull request has been merged, your content will be live on the repo immediately and on (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
+
+### Edit an Existing Piece of Learning Content
+1. Navigate to the piece of learning content you wish to edit by following the first three steps above
+2. Click the pencil icon indicated below
+<img width="1258" alt="EditFile" src="https://user-images.githubusercontent.com/12953652/126375993-89b76420-766e-4df2-9f55-d117f35bd7d9.png">
+3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` to review.
+4. After your pull request has been merged, your content will be live on the repo immediately and on (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
