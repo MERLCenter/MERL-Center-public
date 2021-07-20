@@ -89,7 +89,7 @@ Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 - LC = Learning Content
 - WCA = Web Code and Assets
 
-![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/merl-center/blob/main/Contribute/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
+![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/MERL-Center-public/blob/main/How-to-Contribute/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
 
 ### Things MERL Center Members can do to Modify the Website
 
