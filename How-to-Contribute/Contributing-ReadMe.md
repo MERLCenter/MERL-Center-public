@@ -62,6 +62,29 @@ _Note that despite `CodeOwners` containing the word "code", the MERL Center uses
 
 `CodeOwners` are automatically assigned to pull requests made to files in a particular sub-directory to take out the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact the MERL Center admins if you want to be added to the editing team.
 
+### Permissions Levels
+Types of Contributions | All Org Members | WG Writer | WG Editor | WG Admin | GitHub Teams
+---------------------- | --------------- | --------- | --------- | -------- | ------------
+Read-only LC | X | X | X | X | merl-center-public
+Propose LC changes through [forks](https://github.com/orgs/MERLTech/teams) | X | -- | -- | -- | merl-center-public
+Propose LC changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers
+Approve and merge LC changes | -- | -- | X | X | merl-center-lc-editors
+Approve and merge MCCR changes | -- | -- | X | X | merl-center-mccr-editors
+Read-only WCA | X | X | X | X | merl-center-public
+Propose WCA changes through [forks](https://github.com/orgs/MERLTech/teams) | X | -- | -- | -- | merl-center-public
+Propose WCA changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-wca-writers
+Approve and merge WCA changes | -- | -- | X | X | merl-center-wca-editors
+Change Repo settings | -- | -- | -- | X | merl-center-public-admins
+
+**Abbreviations**
+
+- WG = Workring Group
+- LC = Learning Content
+- WCA = Web Code and Assets
+
+
+![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/merl-center/blob/main/Contribute/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
+
 ### Things MERL Center Members can do to Modify the Website
 
 _Only admins are allowed to make most changes to the MERL Center website. Below is a list of things any MERL Center member can do._
