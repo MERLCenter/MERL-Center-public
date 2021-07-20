@@ -1,0 +1,6 @@
+# Contributing to the MERL Center public repo
+
+## Background
+The MERL Center is an interdisciplinary community that is creating resources for monitoring, evaluation, research and learning (MERL) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger MERL Tech community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/)
+
+MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center memeber, which is free of charge and limited to those who have some experience in MERL and/or open source. Anyone - regardless of MERL Center membership - can access published MERL Center content through this public repository. Currently, only MERL Center members can propose changes to content, though this may change in the future to allow change proposals from anyone.
