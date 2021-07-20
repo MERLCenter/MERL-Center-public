@@ -48,6 +48,11 @@ _Note you will need the correct permissions level (access) to follow the steps b
 3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
 4. After your pull request has been merged, your content will be live on the repo immediately and on (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
 
+### Formatting Options for Learning Content
+- One author vs muliple authors
+- One tag vs multiple authors
+- Dates must be in DD/MM/YYYY (TBC)
+
 ### Adding Pictures to Your Learning Content
 _coming soon_
 
