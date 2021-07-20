@@ -4,7 +4,7 @@
 
 The MERL Center is a website to help Monitoring, Evaluation, Research and Learning (MERL) practitioners understand if, how and when to use open source software, data and tools as part of their MERL solutions
 
-Founded in September 2019 by the Tech for Social Good program of [GitHub Social Impact](https://socialimpact.github.com) and [Kurante/MERL Tech](http://merltech.org), the MERL Center materials are conceptualized, produced, edited and open sourced by dedicated, cross-disciplinary working groups.
+Founded in September 2019 by the Tech for Social Good program of [GitHub Social Impact](https://socialimpact.github.com/tech-for-social-good) and [Kurante/MERL Tech](http://merltech.org), the MERL Center materials are conceptualized, produced, edited and open sourced by dedicated, cross-disciplinary working groups.
 
 ## What is MERL
 
@@ -16,4 +16,4 @@ The content of this project itself is licensed under the [Creative Commons Attri
 
 ## How to Contribute
 
-[Check out the documentation here.](https://github.com/MERLTech/MERL-Center-public/tree/master/How-to-Contribute)
+[Check out the documentation here.](https://github.com/MERLTech/MERL-Center-public/tree/main/How-to-Contribute)
