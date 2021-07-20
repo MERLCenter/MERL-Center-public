@@ -7,7 +7,7 @@ This is the public repository of the MERL Center on which publicly available lea
 
 ## Licenses
 - Learning Content (see below) is under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
-- Web Code and Assets are currently proprietary (this may change)
+- Code is under [the MIT license](LICENSE)
 
 ## Types of MERL Center content
 
