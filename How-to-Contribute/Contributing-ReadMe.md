@@ -1,4 +1,7 @@
 # Contributing to the MERL Center public repo
+## Sections
+
+[Background](#background) | [Licenses](#licenses) | |[Types of MERL Center content](#types-of-merl-center-content) | [For MERL Center Members](#for-merl-center-members) | [Contact](#contact)
 
 ## Background
 The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/)
@@ -8,6 +11,8 @@ This is the public repository of the MERL Center on which publicly available lea
 ## Licenses
 - Learning Content (see below) is under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
 - Code is under [the MIT license](LICENSE)
+
+[Back to top](#sections)
 
 ## Types of MERL Center content
 
@@ -25,6 +30,8 @@ _For any inputs or outputs that are part of the MERL Center public-facing websit
 
 - Code - front-end or back-end code for a MERL Center website
 - Assets - UI assets, other images, UX research, content for a MERL Center website
+
+[Back to top](#sections)
 
 ## For MERL Center Members
 
@@ -82,7 +89,6 @@ Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 - LC = Learning Content
 - WCA = Web Code and Assets
 
-
 ![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/merl-center/blob/main/Contribute/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
 
 ### Things MERL Center Members can do to Modify the Website
@@ -96,10 +102,14 @@ _Only admins are allowed to make most changes to the MERL Center website. Below 
 
 _more coming_
 
-### Which Admin Should I Contact?
+[Back to top](#sections)
+
+## Contact
 
 GitHub ID | Contact | Ask About
 --------- | ---- | ---------
 @malakumar85 | malakumar85@github.com | Anything about the MERL Center repo
 @scoker-me | (insert) | MERL Center onboarding
 @andrewrmn | (insert) | Website bug fixes
+
+[Back to top](#sections)
