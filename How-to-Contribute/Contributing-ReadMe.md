@@ -43,5 +43,6 @@ _Note you will need the correct permissions level (access) to follow the steps b
 1. Navigate to the piece of learning content you wish to edit by following the first three steps above
 2. Click the pencil icon indicated below
 <img width="1258" alt="EditFile" src="https://user-images.githubusercontent.com/12953652/126375993-89b76420-766e-4df2-9f55-d117f35bd7d9.png">
+
 3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` to review.
 4. After your pull request has been merged, your content will be live on the repo immediately and on (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
