@@ -1,6 +1,6 @@
 # How to make open source projects contributor friendly: _Contributor engagement (Part 2 of 2)_
 
-_By [Andrew Pham](https://www.andrewpham.org/) with editing contributions from [Mala Kumar](https://github.com/malakumar85), 4 min read_
+_By [Andrew Pham](https://www.andrewpham.org/) with editing contributions from [Amy Sample Ward](https://github.com/amysampleward) and [Mala Kumar](https://github.com/malakumar85), 4 min read_
 
 ### Ways to engage with contributors
 
@@ -19,7 +19,7 @@ At Hikaya, we invite all our contributors, both current and former, to a dedicat
 #### Daily communication
 <br>
 
-First, it's helpful to have a space for daily communication like a messaging platform like MS Teams or Slack set up. Invite your contributors to your workspace so everyone has a place where they can ask questions as they get started. A messaging platform often can take the place of an “office” for remote teams so make team channels to promote discussions on specific topics while including some channels to promote your office culture.
+First, it's helpful to have a space for daily communication like a messaging platform like MS Teams or Slack set up. Invite your contributors to your workspace so everyone has a place where they can ask questions as they get started. A messaging platform often can take the place of an “office” for remote teams so make team channels to promote discussions on specific topics while including some channels to promote your team culture.
 
 #### Project boards
 <br>
@@ -31,16 +31,16 @@ At Hikaya, we use [GitHub Projects](https://github.com/features/project-manageme
 #### Get the word out
 <br>
 
-On your open source project repository ensure you have a way for contributors to get in touch if they are interested in contributing to the project. It can be helpful to post on job boards that you are looking for contributors. In these advertisements, it can be helpful to include links to your repository as well as a list of open issues so if contributors are curious they can easily investigate further.
+On your open source project repository ensure you have a way for potential contributors to get in touch if they are interested in contributing to the project. It can be helpful to post on job boards that you are looking for contributors. In these advertisements, it can be helpful to include links to your repository as well as a list of open issues so if contributors are curious they can easily investigate further.
 
-Once you have these advertisements published, it is helpful to have a simple application process in place where interested contributors can express interest or apply to your project. As contributors apply, you can use this opportunity to ask questions about their profile and why they are interested in contributing to an open source project. The lesson we have learned at Hikaya is finding contributors who want to continue making contributions over time so that they can progress and build upon their early contributions. By allowing your contributors to be part of team discussions and information sharing sessions it can help them better understand the project’s goals and the ability to contribute at a deeper level to your project.
+Once you have these advertisements published, consider creating a simple application process so interested contributors can express interest or apply to your project. As contributors apply, you can use this opportunity to ask questions about their profile and why they are interested in contributing to an open source project. The lesson we have learned at Hikaya is that it is most valuable to find contributors who want to continue making contributions over time so that they can progress and build upon their early contributions. By allowing your contributors to be part of team discussions and information sharing sessions it can help them better understand the project’s goals and the ability to contribute at a deeper level to your project.
 
 #### Treat contributors like members of your team
 <br>
 
-When thinking about the role you’d like a contributor to play in your project, it is helpful to think of them in the same way as you would be hiring them. This ensures you treat your contributions with the same professionalism as you would any new team member. Open source contributors are people who often have a day job and are primarily driven by eagerness to work on interesting projects where they can develop new skills or simply looking for a new challenge to solve. If you can tap into what a contributor is passionate about, it can help to align on common goals.
+When thinking about the role you’d like a contributor to play in your project, think of them in the same way as you would be hiring them. This ensures you treat your contributions with the same professionalism and support as you would any new team member. Open source contributors are people who often have a day job and are primarily driven by eagerness to work on interesting projects where they can develop new skills or are simply looking for a new challenge to solve. If you can tap into what a contributor is passionate about, it can help to align on common goals.
 
-If you’d like to move candidates on to the next stage, you can invite them to an initial call. These calls could be a mix of interview questions that try to better understand their motivations for contributing as well as a way to introduce them to the project. Some logistical topics can be helpful such as confirming their schedule of availability and how long they would like to contribute to keep expectations aligned. It’s helpful to keep these conversations interesting by spending time on the product vision while also being practical and ensuring they have everything in order to get set up.  
+If you’d like to move candidates on to the next stage, you can invite them to an initial call. These calls could be a mix of interview questions that try to better understand their motivations for contributing as well as a way to introduce them to the project. Some logistical topics can be helpful such as confirming their schedule of availability and how long they would like to contribute to keep expectations aligned. Spend time discussing the product vision while also being practical and ensuring they have everything in order to get set up. 
 
 Here is a summary of topics that we use at Hikaya when onboarding a new contributor:
 
@@ -56,7 +56,7 @@ At [Hikaya](https://hikaya.io/), we are building a number of open source project
 
 ### Further Reading
 
-1. **Open Source pre-launch checklist:** https://opensource.guide/starting-a-project/#your-pre-launch-checklist 
+1. **Open Source pre-launch checklist:** https://opensource.guide/starting-a-project/#your-pre-launch-checklist
 
 2. **GitHub contribution and dependency insights:** https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization
 
