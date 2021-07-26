@@ -12,4 +12,4 @@ This is the public repository of the MERL Center on which publicly available lea
 - Code is under [the MIT license](LICENSE).
 
 ## How to Contribute
-[Check out the documentation here.](https://github.com/MERLTech/MERL-Center-public/tree/main/How-to-Contribute)
+[Check out the contributing doc here.](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md)
