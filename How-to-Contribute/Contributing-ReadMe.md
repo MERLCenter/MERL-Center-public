@@ -109,7 +109,7 @@ _more coming_
 GitHub ID | Contact | Ask About
 --------- | ---- | ---------
 @malakumar85 | malakumar85@github.com | Anything about the MERL Center repo
-@scoker-me | (insert) | MERL Center onboarding
+@scoker-me | scoker@tccgrp.com | MERL Center onboarding
 @andrewrmn | (insert) | Website bug fixes
 
 [Back to top](#sections)
