@@ -1,12 +1,14 @@
 # How to make open source projects contributor friendly: _Contributor engagement (Part 2 of 2)_
 
+<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2.html">
+
 _By [Andrew Pham](https://www.andrewpham.org/) with editing contributions from [Amy Sample Ward](https://github.com/amysampleward) and [Mala Kumar](https://github.com/malakumar85), 4 min read_
 
 ### Ways to engage with contributors
 
 <br>
 <div style="text-align: center">
-    <img src="../../../learning-content/case-studies/how-to-make-open-source-projects-contributor-friendly/ways-to-engage-with-contributors.svg"
+    <img src="https://hikaya.io/assets/img/ways-to-engage-with-contributors.43cf2006.svg"
     width="700"
     height="350"/>
 </div>
@@ -49,15 +51,11 @@ Here is a summary of topics that we use at Hikaya when onboarding a new contribu
 - Invite to communication channels used by the project and send out calendar invites for any recurring contributor calls.
 Help to resolve any setup issues they are facing.
 
+<br>
+
+_This article is originally published on [Hikaya's blog](https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2.html)._
+
 ### About Hikaya
 <br>
 
 At [Hikaya](https://hikaya.io/), we are building a number of open source projects that help nonprofits better manage their data. By building open source solutions on common data standards, we help nonprofits worldwide improve their delivery of goods and services to those most in need while making reporting to funders more transparent. We are a team of data scientists, designers, humanitarians, and software engineers who have lived and worked in some of the most challenging parts of the world and are always welcoming new open source contributors to our team. If you are interested in contributing or would like to learn more, check out our projects at [https://github.com/hikaya-io](https://github.com/hikaya-io).
-
-### Further Reading
-
-1. **Open Source pre-launch checklist:** https://opensource.guide/starting-a-project/#your-pre-launch-checklist
-
-2. **GitHub contribution and dependency insights:** https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization
-
-3. **Value of Open Source:** https://www.apereo.org/content/value-open-source-software

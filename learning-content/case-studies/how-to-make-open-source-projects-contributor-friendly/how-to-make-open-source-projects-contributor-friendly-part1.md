@@ -1,10 +1,12 @@
 # How to make open source projects contributor friendly: _Initial setup (Part 1 of 2)_
 
+<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part1.html">
+
 _By [Andrew Pham](https://www.andrewpham.org/) with editing contributions from [Amy Sample Ward](https://github.com/amysampleward) and [Mala Kumar](https://github.com/malakumar85), 7 min read_
 
 <br>
 <div style="text-align: center">
-    <img src="../../../learning-content/case-studies/how-to-make-open-source-projects-contributor-friendly/how-to-make-open-source-contributor-friendly.svg"
+    <img src="https://hikaya.io/assets/img/how-to-make-open-source-contributor-friendly.b6223ced.svg"
     width="700" 
     height="350"/>
 </div>
@@ -34,7 +36,7 @@ With this in mind, one of your early goals should be to make it as easy as possi
 
 <br>
 <div style="text-align: center">
-    <img src="../../../learning-content/case-studies/how-to-make-open-source-projects-contributor-friendly/checklist-for-starting-an-open-source-project.svg" 
+    <img src="https://hikaya.io/assets/img/checklist-for-starting-an-open-source-project.64605340.svg" 
     width="700"
     height="350"/>
 </div>
@@ -87,6 +89,10 @@ Here are some guidelines that any issue should have:
 When starting a software project, certain technologies and architecture choices will be selected for the project and depending on this, there are different established best practices that should be followed when writing code. [Coding conventions](https://github.com/topics/coding-conventions) help to improve the code quality while making sure the code base is written in a way that can easily be interpreted by new contributors to your project. It is important to work with developers early in your project process to define what coding conventions the project should follow. This can include style guides for writing code such as for [Python PEP 8](https://www.python.org/dev/peps/pep-0008/) and [JavaScript](https://github.com/airbnb/javascript) while also including practices such as writing unit and integration tests and setting targets for test coverage.
 
 In Part 2 of this article we will discuss effective ways of engaging with open source contributors.
+
+<br>
+
+_This article is originally published on [Hikaya's blog](https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part1.html)._
 
 ### About Hikaya
 <br>
