@@ -6,7 +6,7 @@
 ## Background
 The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/)
 
-This is the public repository of the MERL Center on which publicly available learning content and the code for the forthcoming MERL Center website are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. **Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center memeber, which is free of charge and limited to those who have some experience in MERL and/or open source. Currently, only MERL Center members can propose changes to content, though this may change in the future to allow change proposals from anyone.** Anyone - regardless of MERL Center membership - can access published MERL Center content through this public repository. 
+This is the public repository of the MERL Center on which publicly available learning content and the code for the forthcoming MERL Center website are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. **Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center member, which is free of charge and limited to those who have some experience in MERL and/or open source. Currently, only MERL Center members can propose changes to content, though this may change in the future to allow change proposals from anyone.** Anyone - regardless of MERL Center membership - can access published MERL Center content through this public repository. 
 
 ## Licenses
 - Learning Content (see below) is under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
@@ -43,7 +43,7 @@ _Note you will need the correct permissions level (access) to follow the steps b
 3. Click on the `beginners-guides` or `case-studies` sub-directory (folder), depending on the type of content you're submitting
 4. At the top right, click the `Add file` button, then `Create new file` if you don't have a markdown file already created or `Upload file` if you do
 5. _(forthcoming) Add your `frontmatter` (the information above the dotted lines) to the file. [Follow this piece as an example.](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.md)_
-6. Add your content formatted in markdown. [Here's a markdown cheet sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
+6. Add your content formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
 7. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) to review and merge your pull request.
 8. After your pull request has been merged, your content will be live on the repo immediately and on the (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
 
@@ -56,7 +56,7 @@ _Note you will need the correct permissions level (access) to follow the steps b
 4. After your pull request has been merged, your content will be live on the repo immediately and on the (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
 
 ### Formatting Options for Learning Content
-- One author vs muliple authors
+- One author vs multiple authors
 - One tag vs multiple authors
 - Dates must be in DD/MM/YYYY (TBC)
 
@@ -85,7 +85,7 @@ Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
 **Abbreviations**
 
-- WG = Workring Group
+- WG = Working Group
 - LC = Learning Content
 - WCA = Web Code and Assets
 
