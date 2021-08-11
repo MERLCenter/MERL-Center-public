@@ -2,14 +2,10 @@
 layout: blog-post
 title: Building an Open Source Data Management System for Monitoring and Evaluation based on Data Standards
 authors:
-  - author: Mala Kumar
-    authorTitle: Director of Tech for Social Good, GitHub Social Impact
+  - author: Munir Mahomar
+    authorTitle: Senior M&E Technology Associate, Education Development Center (EDC)
     authorGitHubHandle: malakumar85
-    authorGitHubID: 12953652
-  - author: Mala Kumar
-    authorTitle: Director of Tech for Social Good, GitHub Social Impact
-    authorGitHubHandle: malakumar85
-    authorGitHubID: 12953652
+    authorGitHubID: 2126867
 tags:
   - tag: Data Collection and Management
   #- tag: Data Analysis and Visualization
