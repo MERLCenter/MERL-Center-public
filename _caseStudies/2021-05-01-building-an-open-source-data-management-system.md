@@ -4,7 +4,7 @@ title: Building an Open Source Data Management System for Monitoring and Evaluat
 authors:
   - author: Munir Mahomar
     authorTitle: Senior M&E Technology Associate, Education Development Center (EDC)
-    authorGitHubHandle: malakumar85
+    authorGitHubHandle: mmahomar
     authorGitHubID: 2126867
 tags:
   - tag: Data Collection and Management
