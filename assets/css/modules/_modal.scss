@@ -1,0 +1,110 @@
+// ---------------------------------------------------------------------
+//  Modal
+// ---------------------------------------------------------------------
+
+.modal-wrap {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2000;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.2s ease;
+
+	&.is-active {
+		opacity: 1;
+		pointer-events: inherit;
+	}
+
+	.modal__screen {
+		background: rgba(#24292E,0.95);
+		width: 100%;
+		height: 100%;
+		padding-bottom: 0;
+		border-radius: 0;
+		top: 0;
+		left: 0;
+		position: fixed;
+		z-index: -1;
+
+		&:hover {
+			cursor: crosshair;
+		}
+	}
+}
+
+// ----------------------------------------
+// Modal Inner
+// ----------------------------------------
+
+.modal {
+	position: relative;
+	max-width: calc(100% - 12px);
+	max-height: calc(100% - 12px);
+	border-radius: 3px;
+	width: 580px;
+    height: auto;
+	overflow: auto;
+	background: $white;
+	transition: all $transition;
+	padding: 36px 12px;
+
+	@include start-at($medium) {
+		padding: 36px;
+	}
+
+	.f2 {
+		font-size: 18px !important;
+	}
+
+	// @include stop-at($small) {
+	// 	height: 100%;
+	// 	width: 100%;
+	// }
+}
+
+
+body.modal-is-active {
+	overflow: hidden;
+}
+
+
+.modal__full {
+	width: 100%;
+	height: 100%;
+}
+
+// ----------------------------------------
+// Modal Close
+// ----------------------------------------
+
+.modal__close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	width: 44px;
+	height: 44px;
+	transition: opacity $trans;
+
+	&:after {
+		content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent url('./images/svgs/close.svg') center / 15px 15px no-repeat;
+	}
+
+	&:hover {
+		opacity: 0.6;
+	}
+}

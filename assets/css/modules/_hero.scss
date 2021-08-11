@@ -1,0 +1,72 @@
+// ---------------------------------------------------------------------
+//
+// ---------------------------------------------------------------------
+
+.hero {
+  position: relative;
+  background: $cream;
+  overflow: hidden;
+  width: 100%;
+
+  @include start-at($medium) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 538px;
+
+  }
+
+  &.hero--blue {
+    background: $blue;
+    color: $white;
+  }
+
+  &.hero--blue-light {
+    background: $blue-light;
+    color: $white;
+  }
+}
+
+.hero__content {
+  padding: 60px 0 36px;
+  max-width: 600px;
+
+  @include start-at($medium) {
+    padding: 48px 0;
+  }
+}
+
+
+.hero__pattern {
+
+  @include stop-at($medium) {
+    img {
+      margin-left: auto;
+      width: 90%;
+    }
+  }
+
+  @include start-at($medium) {
+    margin-top: 0;
+    position: absolute;
+    left: calc(600px + 4%);
+    bottom: 0;
+
+    img {
+      height: 100%;
+      //width: auto;
+      max-width: 2000%;
+    }
+  }
+  @include start-at($xlarge) {
+    max-width: 50%;
+    left: auto;
+    right: 0;
+
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------

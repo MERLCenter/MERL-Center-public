@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content= "#24292e">
+  <meta name="octolytics-host" content="collector.githubapp.com">
+  <meta name="octolytics-app" content="github-social-impact">
+  <!--[if IE]><meta http-equiv="cleartype" content="on" /><![endif]-->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="stylesheet" href="https://use.typekit.net/fhk4uct.css">
+  <link rel="stylesheet" media="screen" href="{{ '/assets/css/index.css' | relative_url }}" />
+  <link rel="shortcut icon" type="image/ico" href="{{ '/assets/img/favicons/favicon.png' | relative_url }}" />
+  <link rel="apple-touch-icon" href="{{ '/assets/img/favicons/apple-touch-icon.png' | relative_url }}" />
+  <link rel="icon" href="{{ '/assets/img/favicons/android-favicon.png' | relative_url }}">
+
+  {% seo %}
+
+  <style type="text/css">
+  *[data-animate-in="up"],
+  *[data-animate-in="fade"],
+  *[data-animate-in="left"],
+  *[data-animate-in="right"] {
+    opacity: 0;
+  }
+  </style>
+
+</head>
+
+<body class="page-loading no-js {{ page.id }}" id="page-{{ page.id }}">
+  <a class="sr-only" href="#content">skip to content</a>
+
+  {% include header.html %}
+
+  {% assign post = page %}
+
+  <main id="content" class="main page-content" aria-label="Content">
+
+    <div class="wrapper-thin my-6 py-6">
+
+		<h1 class="h1">{{ post.title }}</h1>
+
+      {% assign authCount =  post.authors|size %}
+      {% if authCount == 1 %}
+        {% for author in post.authors %}
+        <div class="author my-4">
+          <figure>
+            <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }} image" data-animate-in="fade" data-animate-in-delay="110" />
+          </figure>
+          <div>
+            <p>{{ author.author }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      {% else %}
+        <div class="author">
+          {% for author in post.authors %}
+          <figure>
+            <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
+          </figure>
+          {% endfor %}
+          <div>
+            <p>{% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
+          </div>
+        </div>
+      {% endif %}
+
+		<hr class="my-4" />
+
+		<div class="rte mb-6">
+			{{ content }}
+		</div>
+
+		{% if post.tags  %}
+    <hr />
+		<div class="tags mt-6">
+			<svg viewBox="0 0 20.8 20.8" width="20" height="20">
+				<path fill="#33333E" d="M9.5,0l9.9,1.4l1.4,9.9l-9.2,9.2c-0.2,0.2-0.4,0.3-0.7,0.3s-0.5-0.1-0.7-0.3l-9.9-9.9C0.1,10.4,0,10.2,0,9.9
+					s0.1-0.5,0.3-0.7L9.5,0z M12.3,8.5c0.2,0.2,0.4,0.3,0.6,0.4c0.2,0.1,0.5,0.2,0.8,0.2c0.3,0,0.5-0.1,0.8-0.2c0.2-0.1,0.5-0.2,0.6-0.4
+					c0.2-0.2,0.3-0.4,0.4-0.6c0.1-0.2,0.2-0.5,0.2-0.8c0-0.3-0.1-0.5-0.2-0.8c-0.1-0.2-0.2-0.5-0.4-0.6c-0.2-0.2-0.4-0.3-0.6-0.4
+					c-0.2-0.1-0.5-0.2-0.8-0.2c-0.5,0-1,0.2-1.4,0.6c-0.4,0.4-0.6,0.9-0.6,1.4C11.7,7.6,11.9,8.1,12.3,8.5z"/>
+			</svg>
+		  <p class="tag-list">{% for tag in post.tags %}<span class="tag tag--{{ tag.tag | slugify }}">{{ tag.tag }}</span>{% endfor %}</p>
+		</div>
+	  {% endif %}
+	</div>
+
+
+  {% assign col = page.collection %}
+
+	<aside class="wrapper my-6" id="related-posts">
+		<hr />
+		<h2 class="h6 mt-5 mb-5">You might also like</h2>
+		<ul class="post-list post-list--split">
+		{% for relatedPost in site[col] %}
+    {% if relatedPost.title != post.title %}
+			<li class="mb-5 js-related-post">
+				<a class="h4 mb-1" href="{{ relatedPost.url }}">{{ relatedPost.title }}</a>
+        {% assign authCount =  relatedPost.authors|size %}
+        {% if authCount == 1 %}
+          {% for author in relatedPost.authors %}
+          <div class="author my-4">
+            <figure>
+              <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }} image" data-animate-in="fade" data-animate-in-delay="110" />
+            </figure>
+            <div>
+              <p>{{ author.author }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        {% else %}
+          <div class="author">
+            {% for author in relatedPost.authors %}
+            <figure>
+              <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
+            </figure>
+            {% endfor %}
+            <div>
+              <p>{% for author in relatedPost.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
+            </div>
+          </div>
+        {% endif %}
+			</li>
+      {% endif %}
+		{% endfor %}
+		</ul>
+
+    <script>
+      var hasPosts = document.getElementsByClassName('js-related-post');
+      if (hasPosts.length == 0) {
+        document.getElementById('related-posts').classList.add('d-none');
+      }
+    </script>
+	</aside>
+
+
+  </main>
+
+  {% include footer.html %}
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/collector/api.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/octolytics.js' | relative_url }}"></script>
+</body>
+</html>

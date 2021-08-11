@@ -1,0 +1,63 @@
+// ---------------------------------------------------------------------
+//  State
+// ---------------------------------------------------------------------
+
+
+.soft-img {
+  max-width: 384px;
+  margin: 0 auto;
+}
+
+.sotf-preview {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: opacity $trans;
+
+  &:hover {
+    cursor: pointer;
+    //opacity: 0.6;
+
+    .sotf-preview__content {
+    //  color: $blue;
+      text-decoration-color: $black;
+    }
+  }
+
+  @include start-at($medium) {
+
+  }
+}
+
+.sotf-preview__media {
+  width: 60px;
+  min-width: 60px;
+
+  img {
+    width: 100%;
+  }
+
+  @include start-at($medium) {
+    width: 108px;
+    min-width: 108px;
+  }
+}
+
+.sotf-preview__content {
+  margin-left: 16px;
+  transition: color $trans, text-decoration $trans;
+  text-decoration: underline;
+  text-decoration-color: $white;
+
+  @include start-at($medium) {
+    margin-left: 24px;
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------

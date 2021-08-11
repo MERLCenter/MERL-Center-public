@@ -1,0 +1,81 @@
+<header class="site-header">
+		<div class="site-header__inner">
+			<div class="site-branding">
+				<a href="{{ "/" | relative_url }}">
+	        <img src="{{ '/assets/img/MERL-Center-logo.svg' | relative_url }}" alt="MERL Center logo" />
+	        <span class="sr-only">Return to homepage</span>
+				</a>
+			</div>
+
+			<nav id="site-navigation" class="desktop-navigation">
+				<ul>
+					<li{% if page.id == 'case-studies' %} class="is-active"{% endif %}>
+    				<a href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
+    			</li>
+					<li{% if page.id == 'guide' %} class="is-active"{% endif %}>
+    				<a href="{{ '/guide/' | relative_url }}">Guides</a>
+    			</li>
+					<li>
+    				<a href="https://github.com/MERLTech/MERL-Center-public" target="_blank">
+							<span>View the Repo </span>
+							{% octicon arrow-up-right height:16 %}
+						</a>
+    			</li>
+				</ul>
+
+				<div id="desktop-search">
+					<svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M18.031 16.617L22.314 20.899L20.899 22.314L16.617 18.031C15.0237 19.3082 13.042 20.0029 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20.0029 13.042 19.3082 15.0237 18.031 16.617ZM16.025 15.875C17.2941 14.5699 18.0029 12.8204 18 11C18 7.132 14.867 4 11 4C7.132 4 4 7.132 4 11C4 14.867 7.132 18 11 18C12.8204 18.0029 14.5699 17.2941 15.875 16.025L16.025 15.875Z" fill="white"/>
+					</svg>
+				</div>
+			</nav>
+
+			<div class="menu-toggle js-menu-trigger">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect x="6" y="6" width="16" height="1" fill="white" id="b-top" />
+					<rect x="2" y="16" width="16" height="1" fill="white" id="b-btm"/>
+					<rect x="2" y="11" width="20" height="1" fill="white" id="b-md" />
+					<circle cx="3" cy="6.5" r="1" fill="white"/>
+					<circle cx="21" cy="16.5" r="1" fill="white"/>
+				</svg>
+				<span>Menu</span>
+				<span>Close</span>
+			</div>
+		</div>
+		<div class="navigation-drawer">
+			<div>
+				<ul>
+					<li{% if page.id == 'home' %} class="is-active"{% endif %}>
+    				<a href="{{ '/' | relative_url }}">Home</a>
+    			</li>
+					<li{% if page.id == 'case-studies' %} class="is-active"{% endif %}>
+    				<a href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
+    			</li>
+					<li{% if page.id == 'guide' %} class="is-active"{% endif %}>
+    				<a href="{{ '/guide/' | relative_url }}">Beginner's Guide</a>
+    			</li>
+					<li>
+    				<a href="https://github.com/MERLTech/MERL-Center-public" target="_blank">
+							<span>View the Repo </span>
+							{% octicon arrow-up-right height:16 %}
+						</a>
+    			</li>
+				</ul>
+
+				<div class="mobile-utility d-none">
+					<a class="icon-link" href="">
+						<span></span>
+						<svg width="7" height="10" viewBox="0 0 7 10">
+							<path d="M1.92247 9.75581L6.67831 4.99997L1.92247 0.244141L0.744141 1.42247L4.32164 4.99997L0.744141 8.57747L1.92247 9.75581Z" fill="white"/>
+						</svg>
+					</a>
+					<a class="btn" href="">
+						<span></span>
+						<svg width="7" height="10" viewBox="0 0 7 10">
+							<path d="M1.92247 9.75581L6.67831 4.99997L1.92247 0.244141L0.744141 1.42247L4.32164 4.99997L0.744141 8.57747L1.92247 9.75581Z" fill="white"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>

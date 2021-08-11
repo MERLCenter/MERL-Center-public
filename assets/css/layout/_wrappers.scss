@@ -1,0 +1,186 @@
+
+// ---------------------------------------------------------------------
+//  Wrapper Styles (Horizontal Spacing)
+// ---------------------------------------------------------------------
+
+.wrapper {
+  @include wrapper;
+}
+
+.wrapper-wide {
+  @include wrapper;
+  max-width: 1520px;
+}
+
+.wrapper-thin {
+  @include wrapper;
+  max-width: 812px;
+}
+
+.wrapper-full {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper-after-md {
+  width: 100%;
+
+  @include start-at($medium) {
+    @include wrapper;
+    max-width: $wrapper-width;
+  }
+}
+
+.wrapper-form {
+  position: relative;
+  z-index: 2;
+}
+
+
+// ----------------------------------------
+// Extensions
+// ----------------------------------------
+
+.carousel-long {
+  width: auto;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  @include start-at($large) {
+    @include wrapper;
+  }
+
+  &::-webkit-scrollbar {
+    display: block;
+    height: 2px;
+    background: $border;
+  }
+  &::-webkit-scrollbar-track {
+    background: $gray;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $gray-dark;
+  }
+
+  > * {
+    width: 220px;
+    min-width: 220px;
+    height: auto;
+    margin: 0 10px;
+    background: red;
+
+    @include start-at($medium) {
+      min-width: auto;
+      width: calc(25% - 16px);
+    }
+  }
+}
+
+
+@include stop-at($large) {
+
+  // .wrapper-scroll-h {
+  //   overflow: hidden;
+  //
+  // }
+
+  .wrapper-scroll-h .row {
+    width: auto;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-bottom: 24px;
+
+    &::-webkit-scrollbar {
+  		display: block;
+  		height: 2px;
+  		background: $border;
+  	}
+  	&::-webkit-scrollbar-track {
+  	  background: $gray;
+  	}
+  	&::-webkit-scrollbar-thumb {
+  	  background: $gray-dark;
+  	}
+
+    > * {
+      min-width: 244px;
+    }
+  }
+}
+
+@include start-at($large) {
+  .wrapper-scroll-h {
+    .row {
+      align-items: stretch;
+
+      > * {
+        display: flex;
+        height: 100%;
+      }
+
+      > * > * {
+        padding-bottom: 24px;
+        border-bottom: 1px solid $border;
+      }
+    }
+  }
+}
+
+
+
+
+// ----------------------------------------
+// Extensions
+// ----------------------------------------
+
+.wrapper-thin {
+  @include wrapper;
+  max-width: 820px;
+}
+
+
+.my-7 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  @include start-at($large) {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+.py-7 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  @include start-at($large) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+
+.my-8 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  @include start-at($large) {
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+}
+.py-8 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @include start-at($large) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

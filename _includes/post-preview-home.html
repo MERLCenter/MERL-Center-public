@@ -1,0 +1,57 @@
+{% capture link = post.url %}{{ post.url | relative_url }}{% endcapture %}
+{% if post.outgoing %}
+  {% assign link = post.outgoingUrl %}
+{% endif %}
+
+<a class="post-preview" href="{{ link }}" data-animate-in="up" data-animate-in-delay="110" data-tags="{{ post.collection }}, {% for tag in post.tags %}{{ tag.tag | slugify }}, {% endfor %}" {% if post.outgoing %} target="_blank"{% endif %}>
+
+  {% if post.featuredImage %}
+  {% capture img %}/assets/img/posts/{{ post.featuredImage }}{% endcapture %}
+  <figure class="post-preview__media">
+    <img src="{{ img | relative_url }}" alt="{{ post.title }}" />
+  </figure>
+  {% else %}
+  <figure class="post-preview__media">
+    <img style="max-width: 80px;" src="{{ '/assets/img/MERL-Center-icon.svg' | relative_url }}" alt="MERL Center icon" />
+  </figure>
+  {% endif %}
+
+  <div class="post-preview__content">
+
+    <h4 class="h2 mb-2">{{ post.title }}</h4>
+
+    {% assign authCount =  post.authors|size %}
+    {% if authCount == 1 %}
+      {% for author in post.authors %}
+      <div class="author my-4">
+        <figure>
+          <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }} image" data-animate-in="fade" data-animate-in-delay="110" />
+        </figure>
+        <div>
+          <p>{{ author.author }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    {% else %}
+      <div class="author">
+        {% for author in post.authors %}
+        <figure>
+          <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
+        </figure>
+        {% endfor %}
+        <div>
+          <p>{% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
+        </div>
+      </div>
+    {% endif %}
+
+
+    <p class="tag-list"><span class="tag tag--{{ post.collection }}">{% if post.collection == 'caseStudies' %}Case Studies{% else %}{{ post.collection | capitalize }}{% endif %}</span> {% for tag in post.tags %}<span class="tag tag--{{ tag.tag | slugify }}">{{ tag.tag }}</span>{% endfor %}</p>
+  </div>
+
+
+  <div class="circle-arrow">
+    <span class="sr-only">Read More</span>
+    {% octicon arrow-right height:16 %}
+  </div>
+</a>

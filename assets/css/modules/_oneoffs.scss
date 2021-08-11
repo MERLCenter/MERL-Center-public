@@ -1,0 +1,52 @@
+// ---------------------------------------------------------------------
+//  One Offs
+// ---------------------------------------------------------------------
+
+.cta-block {
+  display: block;
+  padding: 60px 28px 48px;
+  position: relative;
+  z-index: 1;
+
+  @include start-at($large) {
+    max-width: 375px;
+    margin-left: auto;
+  }
+
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $yellow;
+    border-radius: 0px 16px 0px 0px;
+    z-index: -1;
+  }
+
+  &:after {
+    content: '';
+    width: 236px;
+    height: 376px;
+    position: absolute;
+    z-index: -2;
+    background: url('./images/svgs/dot-group.svg') center / cover no-repeat;
+    top: 40px;
+    right: -14px;
+
+    @include start-at($medium) {
+      width: 376px;
+      height: 440px;
+      top: auto;
+      bottom: -48px;
+      right: -82px;
+    }
+  }
+
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
