@@ -2,8 +2,20 @@
 layout: blog-post
 title: Dispelling myths and qualifying assumptions about open source for MERL practitioners
 authors:
+  - author: Melissa Edmiston
+    authorTitle: insert
+    authorGitHubHandle: Medmiston
+    authorGitHubID: 70719187
+  - author: Brittany Stubbs
+    authorTitle: insert
+    authorGitHubHandle: bns568
+    authorGitHubID: 4657848
+  - author: Anh Bui
+    authorTitle: insert
+    authorGitHubHandle: abuivn
+    authorGitHubID: 70040791
   - author: Mala Kumar
-    authorTitle: Director of Tech for Social Good, GitHub Social Impact
+    authorTitle: Director, Tech for Social Good at GitHub
     authorGitHubHandle: malakumar85
     authorGitHubID: 12953652
 tags:
@@ -19,7 +31,7 @@ outgoingUrl:
 
 ---
 
-_By Melissa Edmiston, Brittany Stubbs, Anh Bui and Mala Kumar, with edits by Stephanie Coker_
+_With edits by Stephanie Coker_
 
 _Note that this beginner's guide is useful for any of MERL practitioners, program managers, procurement officers or funders who are interested in using or creating open source software, data or content for a MERL project or problem statement. [See our definition of MERL here](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md)._
 
