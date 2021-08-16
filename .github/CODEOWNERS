@@ -1,11 +1,8 @@
 # default CodeOwners
 * @merltech/merl-center-public-admins
 
-# Learning Content CodeOwners
-learning-content/* @merltech/merl-center-lc-editors
-
-# Learning Content Beginner's Guides CodeOwners
-learning-content/beginners-guides/* @merltech/merl-center-lc-editors
-
 # Learning Content Case Studies CodeOwners
-learning-content/case-studies/* @merltech/merl-center-lc-editors
+_caseStudies/* @merltech/merl-center-lc-editors
+
+# Learning Content Guides CodeOwners
+_guides/* @merltech/merl-center-lc-editors
