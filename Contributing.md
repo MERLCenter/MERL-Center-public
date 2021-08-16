@@ -40,11 +40,11 @@ _Note you will need the correct permissions level (access) to follow the steps b
 
 1. Go to the Code tab at the top of the screen
 2. Click on `learning-content` directory (folder)
-3. Click on the `beginners-guides` or `case-studies` sub-directory (folder), depending on the type of content you're submitting
+3. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
 4. At the top right, click the `Add file` button, then `Create new file` if you don't have a markdown file already created or `Upload file` if you do
 5. _(forthcoming) Add your `frontmatter` (the information above the dotted lines) to the file. [Follow this piece as an example.](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.md)_
 6. Add your content formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
-7. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) to review and merge your pull request.
+7. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team to review and merge your pull request.
 8. After your pull request has been merged, your content will be live on the repo immediately and on the (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
 
 ### Edit an Existing Piece of Learning Content
@@ -52,7 +52,7 @@ _Note you will need the correct permissions level (access) to follow the steps b
 2. Click the pencil icon indicated below
 <img width="1258" alt="EditFile" src="https://user-images.githubusercontent.com/12953652/126375993-89b76420-766e-4df2-9f55-d117f35bd7d9.png">
 
-3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
+3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` team to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
 4. After your pull request has been merged, your content will be live on the repo immediately and on the (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
 
 ### Formatting Options for Learning Content
@@ -72,15 +72,13 @@ _Note that despite `CodeOwners` containing the word "code", the MERL Center uses
 ### Permissions Levels
 Types of Contributions | All Org Members | WG Writer | WG Editor | WG Admin | GitHub Teams
 ---------------------- | --------------- | --------- | --------- | -------- | ------------
-Read-only LC | X | X | X | X | merl-center-public
-Propose LC changes through [forks](https://github.com/orgs/MERLTech/teams) | X | -- | -- | -- | merl-center-public
+Read-only LC | X | X | X | X | Anyone
 Propose LC changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers
 Approve and merge LC changes | -- | -- | X | X | merl-center-lc-editors
 Approve and merge MCCR changes | -- | -- | X | X | merl-center-mccr-editors
-Read-only WCA | X | X | X | X | merl-center-public
-Propose WCA changes through [forks](https://github.com/orgs/MERLTech/teams) | X | -- | -- | -- | merl-center-public
-Propose WCA changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-wca-writers
-Approve and merge WCA changes | -- | -- | X | X | merl-center-wca-editors
+Read-only WCA | X | X | X | X | Anyone
+Propose WCA changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
+Approve and merge WCA changes | -- | -- | X | X | merl-center-public-admins (to be added)
 Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
 **Abbreviations**
@@ -106,10 +104,6 @@ _more coming_
 
 ## Contact
 
-GitHub ID | Contact | Ask About
---------- | ---- | ---------
-@malakumar85 | malakumar85@github.com | Anything about the MERL Center repo
-@scoker-me | scoker@tccgrp.com | MERL Center onboarding
-@andrewrmn | (insert) | Website bug fixes
+Email [themerlcenter@gmail.com](mailto:themercenter@gmail.com) with feedback or questions.
 
 [Back to top](#sections)
