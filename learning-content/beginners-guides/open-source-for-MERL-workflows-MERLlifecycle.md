@@ -1,3 +1,5 @@
+# DO NOT MAKE EDITS TO THIS FILE. EDITS SHOULD BE MADE HERE: https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/_guides/2020-12-08-open-source-merl-workflows.md
+
 # Open Source for MERL Workflows
 
 _By Stephanie Coker, Mala Kumar and Vidya Mahadevan_
