@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Open Source for MERL Workflows
+title: A Guide to Evaluating Open Source versus Proprietary Software for Data Workflows in the Social Sector
 authors:
   - author: Stephanie Coker
     authorTitle: Evaluation & Learning Consultant at TCC Group
