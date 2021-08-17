@@ -1,3 +1,5 @@
+# DO NOT MAKE EDITS TO THIS FILE. EDITS SHOULD BE MADE HERE: https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/_caseStudies/2021-05-01-building-an-open-source-data-management-system.md
+
 # Building an Open Source Data Management System for Monitoring and Evaluation based on Data Standards
 
 _By Munir Mahomar, with editing contributions from Mala Kumar, Froilán Irizarry Rivera and Benjamin Kinsella_
