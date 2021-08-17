@@ -1,3 +1,4 @@
+# DO NOT MAKE EDITS TO THIS FILE. EDITS SHOULD GO HERE: https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/_caseStudies/2021-03-26-ruby-for-good-open-source.md
 
 # Ruby for Good: Building Community in Open Source
 
