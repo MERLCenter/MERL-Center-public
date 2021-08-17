@@ -13,3 +13,9 @@ This is the public repository of the MERL Center on which publicly available lea
 
 ## How to Contribute
 [Check out the contributing doc here.](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md)
+
+### Join the MERL Center
+If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). To become a MERL Center member, you must have some professional experience in MERL or experience in open source software, content or data.
+
+### MERL Center Website
+Content found on this repo can also be found at [https://merlcenter.org](https://merlcenter.org).
