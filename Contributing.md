@@ -8,6 +8,12 @@ The MERL Center is an interdisciplinary community that is creating resources for
 
 This is the public repository of the MERL Center on which publicly available learning content and the code for the forthcoming MERL Center website are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. **Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center member, which is free of charge and limited to those who have some experience in MERL and/or open source. Currently, only MERL Center members can propose changes to content, though this may change in the future to allow change proposals from anyone.** Anyone - regardless of MERL Center membership - can access published MERL Center content through this public repository. 
 
+### Join the MERL Center
+If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). To become a MERL Center member, you must have some professional experience in MERL or experience in open source software, content or data.
+
+### MERL Center Website
+Content found on this repo can also be found at [https://merlcenter.org](https://merlcenter.org).
+
 ## Licenses
 - Learning Content (see below) is under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
 - Code is under [the MIT license](LICENSE)
