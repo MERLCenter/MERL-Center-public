@@ -18,8 +18,7 @@ outgoing: false
 outgoingUrl:
 ---
 
-
-_By Munir Mahomar, with editing contributions from Mala Kumar, Froilán Irizarry Rivera and Benjamin Kinsella_
+_With edits from Mala Kumar, Froilán Irizarry Rivera and Benjamin Kinsella_
 
 
 ## Introduction
