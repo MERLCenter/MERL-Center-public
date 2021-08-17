@@ -1,3 +1,5 @@
+# DO NOT MAKE EDITS ON THIS FILE. UPDATES SHOULD BE MADE HERE: https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/_guides/2021-04-23-Dispelling-myths-qualifying-assumptions.md
+
 # Dispelling myths and qualifying assumptions about open source for MERL practitioners
 
 _By Melissa Edmiston, Brittany Stubbs, Anh Bui and Mala Kumar, with edits by Stephanie Coker_
