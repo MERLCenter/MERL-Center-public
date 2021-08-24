@@ -49,9 +49,9 @@ _Note you will need the correct permissions level (access) to follow the steps b
 4. Add your `frontmatter`, which is the information above the dotted lines, to the file. [Follow this guide as an example.](https://insertlink.com)
 5. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
 6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team to review and merge your pull request.
-7. The CodeOwner may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit the file directly. You'll be prompted to either push those changes to the same pull request (branch) or or create another branch (think of it as a pull request to a pull request).
+7. Someone from the CodeOwners team may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit directly. Once you edit, you'll have to options in the `Commit changes` dialogue: push those changes to the same pull request or create another branch (think of it as a pull request to a pull request).
 
-<img width="1635" alt="Screen Shot 2021-08-24 at 10 48 27 AM" src="https://user-images.githubusercontent.com/12953652/130639008-95248da6-6090-4a8a-a653-2f9389e57802.png">
+<img width="1641" alt="Screen Shot 2021-08-24 at 11 58 58 AM" src="https://user-images.githubusercontent.com/12953652/130650222-a10d3696-5552-4acb-9b39-64e35f106bd8.png">
 
 8. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly.  
 
