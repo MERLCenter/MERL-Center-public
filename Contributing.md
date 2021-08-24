@@ -47,11 +47,11 @@ _You need the correct permissions level (access) to follow the steps below. Cont
 2. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
 3. At the top right, click the `Add file` button, then `Create new file` if you don't already have a markdown file created. Click `Upload file` if you do already have a markdown file created.
 4. Add your title of your file in the following format: `YYYY-MM-DD-this-is-my-title.md`. A real example is 2021-04-23-Dispelling-myths-qualifying-assumptions.md, which appears on the website at https://merlcenter.org/guides/Dispelling-myths-qualifying-assumptions
-5. Add your `frontmatter`, which is the information that needs to appear at the top of a piece, to the file. Click the pencil icon [on this file](https://github.com/MERLTech/MERL-Center-public/blob/main/sample-frontmatter.md) 
+5. Add your `frontmatter`, which is the information that needs to appear at the top, to the file. Click the pencil icon [on this file](https://github.com/MERLTech/MERL-Center-public/blob/main/sample-frontmatter.md) 
 
 <img width="1256" alt="Screen Shot 2021-08-24 at 1 44 36 PM" src="https://user-images.githubusercontent.com/12953652/130664969-bca31906-09e9-4c86-8e65-3aff707a8708.png">
 
-and copy the text highlighted in blue below into your post.
+and copy the text highlighted below in blue into your post.
 <img width="1288" alt="Screen Shot 2021-08-24 at 1 44 58 PM" src="https://user-images.githubusercontent.com/12953652/130665018-128255ea-6b7b-4e6d-8de5-50752d9ca0f1.png">
 
 6. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
