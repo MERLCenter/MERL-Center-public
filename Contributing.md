@@ -92,8 +92,8 @@ _Note that despite `CodeOwners` containing the word "code", the MERL Center uses
 `CodeOwners` are automatically assigned to pull requests (propose changes) made to files in a particular sub-directory (folder). This removes the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you want to be added to the editing team.
 
 ### Permissions Levels**
-Types of Contributions | All Org Members | Writer | Editor | Admin | GitHub Teams
----------------------- | --------------- | ------ | ------ | ----- | ------------
+Types of Contributions | Public | MERL Center Writer | MERL Center Editor | MERL Center Admin | GitHub Teams Names
+---------------------- | ------ | ------------------ | ------------------ | ----------------- | ------------------
 Read-only Learning Content | X | X | X | X | Anyone
 Propose Learning Content changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers, merl-center-lc-editors, merl-center-public-admins  
 Approve and merge Learning Content changes | -- | -- | X | X | merl-center-lc-editors, merl-center-public-admins
