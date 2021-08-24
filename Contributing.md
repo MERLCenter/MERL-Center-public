@@ -73,7 +73,7 @@ _Note you will need the correct permissions level (access) to follow the steps b
   - 1.1. The aspect ratio of featured images will be retained
   - 1.2. Larger photos (more than 1000 x 1000 px) may appear blurry
   - 1.3. If there is no featured image listed, the default MERL Center logo will appear on the website
-2. Use a descriptive title for your image using lowercase (no caps) and no spaces. Use -dashes- if you need to separate words in the image file name. 
+2. Use a descriptive title for your image using lowercase (no caps) and no spaces. Use -dashes- if you need to separate words in the image file name. Example: this-is-my-image-file.png
 
 ### Adding Images to Your Learning Content
 1. Click on the Code tab at the top of the screen
