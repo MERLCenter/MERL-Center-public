@@ -44,7 +44,7 @@ _For any inputs or outputs that are part of the MERL Center public-facing websit
 ### Create a New Piece of Learning Content
 _Note you will need the correct permissions level (access) to follow the steps below. Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
 
-1. Go to the Code tab at the top of the screen
+1. Click on the Code tab at the top of the screen
 2. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
 3. At the top right, click the `Add file` button, then `Create new file` if you don't already have a markdown file created. Click `Upload file` if you do already have a markdown file created.
 4. Add your `frontmatter`, which is the information above the dotted lines to the file. [Follow this guide as an example.](https://insertlink.com)
@@ -64,13 +64,27 @@ _Note you will need the correct permissions level (access) to follow the steps b
 3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` team to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
 4. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly. The CodeOwner may request changes before merging.
 
-### Formatting Options for Learning Content
-- One author vs multiple authors
-- One tag vs multiple authors
-- Dates must be in DD/MM/YYYY
+#### Formatting Options for Learning Content
+- One author or more authors
+- One or more tags
+- Featured image or no featured image
 
-### Adding Pictures to Your Learning Content
-_coming soon_
+### Formatting Images for Learning Content
+1. Featured images will appear as the learning content piece thumbnail 
+  1.1. The aspect ratio of featured images will be retained
+  1.2. Larger photos (more than 1000 x 1000 px) may appear blurry
+  1.3. If there is featured image, the default MERL Center logo will appear on the website
+2. Use a descriptive title for your image using lowercase (no caps) and no spaces. Use -dashes- if you need to separate words in the image file name. 
+
+### Adding Images to Your Learning Content
+1. Click on the Code tab at the top of the screen
+2. Click on `assets`, `img`, `posts`
+3. Drag your picture into the folder OR at the top, click on `Add file` and then `Upload files`. Upload your file and click `Commit changes`
+4. To add a feature image, copy and paste the name of your image file in the `featuredImage:` field. For example:
+
+featuredImage: building-open-source-conceptual-model1.png
+
+5. To add an image in the body of your learning content, use this - ![Conceptual Model](/assets/img/posts/name-of-your-image-file.png) - where the part after /posts is the name of your image file.
 
 ### CodeOwners
 
@@ -103,7 +117,7 @@ _Only admins are allowed to make most changes to the MERL Center website. Below 
 
 #### Add tags
 1. Consult with the MERL Center admins to propose a tag
-2. Go to (insert file).yaml 
+2. Go to https://github.com/MERLTech/MERL-Center-public/blob/main/_data/tags.yml 
 3. Follow the steps above to make a pull request and add your tag
 
 _more coming_
@@ -112,6 +126,6 @@ _more coming_
 
 ## Contact
 
-Email [themerlcenter@gmail.com](mailto:themercenter@gmail.com) with feedback or questions.
+Email [themerlcenter@gmail.com](mailto:themercenter@gmail.com) with feedback or questions, or open an [issue](https://github.com/MERLTech/MERL-Center-public/issues).
 
 [Back to top](#sections)
