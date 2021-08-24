@@ -81,9 +81,9 @@ _Note you will need the correct permissions level (access) to follow the steps b
 3. Drag your picture into the folder OR at the top, click on `Add file` and then `Upload files`. Upload your file and click `Commit changes`
 4. To add a feature image, copy and paste the name of your image file in the `featuredImage:` field. For example:
 
-featuredImage: building-open-source-conceptual-model1.png
+`featuredImage: building-open-source-conceptual-model1.png`
 
-5. To add an image in the body of your learning content, use this - ![Conceptual Model](/assets/img/posts/name-of-your-image-file.png) - where the part after /posts is the name of your image file.
+5. To add an image in the body of your learning content, use this - `![Conceptual Model](/assets/img/posts/name-of-your-image-file.png)` - where the part after /posts is the name of your image file.
 
 ### CodeOwners
 
