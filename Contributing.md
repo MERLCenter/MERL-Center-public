@@ -59,7 +59,7 @@ _Note you will need the correct permissions level (access) to follow the steps b
 ### Edit an Existing Piece of Learning Content
 1. Navigate to the piece of learning content you wish to edit by following the first three steps above
 2. Click the pencil icon indicated below
-<img width="1258" alt="EditFile" src="https://user-images.githubusercontent.com/12953652/126375993-89b76420-766e-4df2-9f55-d117f35bd7d9.png">
+<img width="1235" alt="Screen Shot 2021-08-24 at 11 00 36 AM" src="https://user-images.githubusercontent.com/12953652/130640695-a2266ece-da2e-4328-96f3-cc293932c6a8.png">
 
 3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` team to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
 4. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly. The CodeOwner may request changes before merging.
