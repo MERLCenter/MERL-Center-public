@@ -9,6 +9,9 @@
 
 			<nav id="site-navigation" class="desktop-navigation">
 				<ul>
+					<li{% if page.id == 'about' %} class="is-active"{% endif %}>
+    				<a href="{{ '/about/' | relative_url }}">About</a>
+    			</li>
 					<li{% if page.id == 'case-studies' %} class="is-active"{% endif %}>
     				<a href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
     			</li>
@@ -48,6 +51,9 @@
 					<li{% if page.id == 'home' %} class="is-active"{% endif %}>
     				<a href="{{ '/' | relative_url }}">Home</a>
     			</li>
+					<li{% if page.id == 'about' %} class="is-active"{% endif %}>
+						<a href="{{ '/about/' | relative_url }}">About</a>
+					</li>
 					<li{% if page.id == 'case-studies' %} class="is-active"{% endif %}>
     				<a href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
     			</li>
