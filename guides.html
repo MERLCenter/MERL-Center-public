@@ -20,51 +20,47 @@ permalink: /guide/
 
 
 
-  <div class="wrapper my-6">
+<div class="wrapper my-6">
 
-    <hr class="hr-thin" />
+  <hr class="hr-thin" />
 
-    <h2 class="h6 mt-4 mb-5">Explore our work</h2>
+  <h2 class="h6 mt-4 mb-5">Explore our work</h2>
 
-    <div class="btn btn--outline btn--static js-filter-toggle d-lg-none col-12 mb-4">
-      <span>Filters</span>
-      {% octicon filter height:16 %}
-    </div>
-
-    <div class="filters">
-      <div class="filters__inner">
-        <div class="filter">
-          <p>MERL Technology Workflow:</p>
-
-          <div class="dropdown">
-            <select id="workflow-filters">
-              <option value="">
-                <span>All workflows {% octicon chevron-down height:16 %}</span>
-              </option>
-              {% for tag in site.data.tags %}
-              <option value="{{ tag.tag | slugify }}">
-                <span>{{ tag.tag }}</span>
-              </option>
-              {% endfor %}
-            </select>
-          </div>
-        </div>
-
-        <a class="reset-desk js-reset-filters" href="">Reset Filters</a>
-        <div class="filter__close js-filter-toggle">{% octicon x height:16 %}</div>
-      </div>
-      <div class="screen js-filter-toggle"></div>
-    </div>
-
-    <hr />
-
-
-    <ul class="post-preview-list js-filtered-list">
-      {% for post in site.guides %}
-      <li>
-        {% include post-preview.html %}
-      </li>
-      {% endfor %}
-    </ul>
-
+  <div class="btn btn--outline btn--static js-filter-toggle d-lg-none col-12 mb-4">
+    <span>Filters</span>
+    {% octicon filter height:16 %}
   </div>
+
+  <div class="filters">
+    <div class="filters__inner">
+      <div class="filter">
+        <p>MERL Technology Workflow:</p>
+        <div class="dropdown">
+          <select id="workflow-filters">
+            <option value="">
+              <span>All workflows {% octicon chevron-down height:16 %}</span>
+            </option>
+            {% for tag in site.data.tags %}
+            <option value="{{ tag.tag | slugify }}">
+              <span>{{ tag.tag }}</span>
+            </option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <a class="reset-desk js-reset-filters" href="">Reset Filters</a>
+      <div class="filter__close js-filter-toggle">{% octicon x height:16 %}</div>
+    </div>
+    <div class="screen js-filter-toggle"></div>
+  </div>
+
+  <hr />
+
+  <ul class="post-preview-list js-filtered-list">
+    {% for post in site.guides %}
+    <li>
+      {% include post-preview.html %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
