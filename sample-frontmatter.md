@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Dispelling myths and qualifying assumptions about open source for MERL practitioners
+title: insert
 authors:
   - author: insert
     authorTitle: insert
@@ -15,9 +15,9 @@ authors:
     authorGitHubHandle: insert
     authorGitHubID: insert
 tags:
-  #- tag: Data Collection and Management
-  - tag: Data Analysis and Visualization
-  - tag: Reporting
+  #- tag: insert
+  - tag: insert
+  - tag: insert
 
 # images should be in the /assets/img/insights/ folder
 featuredImage:
