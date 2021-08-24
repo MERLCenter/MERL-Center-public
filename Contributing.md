@@ -4,12 +4,12 @@
 [Background](#background) | [Licenses](#licenses) | [Types of MERL Center content](#types-of-merl-center-content) | [For MERL Center Members](#for-merl-center-members) | [Contact](#contact)
 
 ## Background
-The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/)
+The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and is organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here.](https://socialimpact.github.com/insights/collaboration-power-merl-center/) 
 
-This is the public repository of the MERL Center on which publicly available learning content and the code for the forthcoming MERL Center website are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. **Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center member, which is free of charge and limited to those who have some experience in MERL and/or open source. Currently, only MERL Center members can propose changes to content, though this may change in the future to allow change proposals from anyone.** Anyone - regardless of MERL Center membership - can access published MERL Center content through this public repository. 
+This is the public repository of the MERL Center on which learning content and the website code for the [MERL Center website](https://merlcenter.org) are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repos(itories) - this public repo and a repo that is only for members. **Anyone who wants to propose and contribute a new piece of learning content must go through a basic onboarding process and become a MERL Center member.** Becoming a MERL Center member is free and quick, though we ask MERL Center members have at least one year of professional experience related to MERL and/or open source. Currently, only MERL Center members can propose changes to content. This may change in the future to allow anyone to propose changes. Anyone with access to GitHub has read-only access to everything on this repo. 
 
 ### Join the MERL Center
-If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). To become a MERL Center member, you must have some professional experience in MERL or experience in open source software, content or data.
+If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). To become a MERL Center member, we ask you have at least one year of professional experience related to MERL and/or open source.
 
 ### MERL Center Website
 Content found on this repo can also be found at [https://merlcenter.org](https://merlcenter.org).
@@ -24,7 +24,7 @@ Content found on this repo can also be found at [https://merlcenter.org](https:/
 
 ### Learning Content
 
-_For any inputs or outputs that are a direct part of case studies or guides_
+_Learning content currently refres to case studies or guides found at https://merlcenter.org
 
 - Text - text that is exclusively or primarily for a case study or a guide
 - Images - charts, graphs, screenshots, photos that are exclusively or primarily for a case study or a guide
@@ -32,36 +32,37 @@ _For any inputs or outputs that are a direct part of case studies or guides_
 
 ### Web Code
 
-_For any inputs or outputs that are part of the MERL Center public-facing website_
-
-- Code - front-end or back-end code for a MERL Center website
+- Front-end or back-end code for https://merlcenter.org
 
 [Back to top](#sections)
 
 ## For MERL Center Members
 
 ### Create a New Piece of Learning Content
-_Note you will need the correct permissions level (access) to follow the steps below. Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
+_You need the correct permissions level (access) to follow the steps below. Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you're a MERL Center member without access. Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo._
+
+**The following steps are for the browser version of GitHub:**
 
 1. Click on the Code tab at the top of the screen
 2. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
 3. At the top right, click the `Add file` button, then `Create new file` if you don't already have a markdown file created. Click `Upload file` if you do already have a markdown file created.
-4. Add your `frontmatter`, which is the information above the dotted lines, to the file. [Follow this guide as an example.](https://insertlink.com)
-5. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
-6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team to review and merge your pull request.
-7. Someone from the CodeOwners team may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit directly. Once you edit, you'll have to options in the `Commit changes` dialogue: push those changes to the same pull request or create another branch (think of it as a pull request to a pull request).
+4. Add your title of your file in the following format: `YYYY-MM-DD-this-is-my-title.md`. A real example is 2021-04-23-Dispelling-myths-qualifying-assumptions.md, which appears on the website at https://merlcenter.org/guides/Dispelling-myths-qualifying-assumptions
+5. Add your `frontmatter`, which is the information above the dotted lines, to the file. [Follow this guide as an example.](https://insertlink.com)
+6. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
+7. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team (Editors team) to review and merge your pull request.
+8. Someone from the CodeOwners team (Editors team) may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit directly. Once you edit, you'll have two options in the `Commit changes` dialogue: push those changes to the same pull request or create another branch, which you can think of as a pull request to a pull request.
 
 <img width="1641" alt="Screen Shot 2021-08-24 at 11 58 58 AM" src="https://user-images.githubusercontent.com/12953652/130650222-a10d3696-5552-4acb-9b39-64e35f106bd8.png">
 
 8. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly.  
 
 ### Edit an Existing Piece of Learning Content
-1. Navigate to the piece of learning content you wish to edit by following the first three steps above
+1. Navigate to the piece of learning content you wish to edit by following the first two steps above
 2. Click the pencil icon indicated below
 <img width="1235" alt="Screen Shot 2021-08-24 at 11 00 36 AM" src="https://user-images.githubusercontent.com/12953652/130640695-a2266ece-da2e-4328-96f3-cc293932c6a8.png">
 
-3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` team to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
-4. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly. The CodeOwner may request changes before merging.
+3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` team (Editors team) to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
+4. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly. The CodeOwner (editor) may request changes before merging.
 
 #### Formatting Options for Learning Content
 - One author or more authors
@@ -70,9 +71,9 @@ _Note you will need the correct permissions level (access) to follow the steps b
 
 ### Formatting Images for Learning Content
 1. Featured images will appear as the learning content piece thumbnail 
-  - 1.1. The aspect ratio of featured images will be retained
-  - 1.2. Larger photos (more than 1000 x 1000 px) may appear blurry
-  - 1.3. If there is no featured image listed, the default MERL Center logo will appear on the website
+  - The aspect ratio of featured images will be retained
+  - Larger photos (more than 1000 x 1000 px) may appear blurry
+  - If there is no featured image listed, the default MERL Center logo will appear on the website as the thumbnail
 2. Use a descriptive title for your image using lowercase (no caps) and no spaces. Use -dashes- if you need to separate words in the image file name. Example: this-is-my-image-file.png
 
 ### Adding Images to Your Learning Content
