@@ -42,12 +42,12 @@ _For any inputs or outputs that are part of the MERL Center public-facing websit
 ## For MERL Center Members
 
 ### Create a New Piece of Learning Content
-_Note you will need the correct permissions level (access) to follow the steps below. Contact themerlcenter@gmail.com if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
+_Note you will need the correct permissions level (access) to follow the steps below. Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
 
 1. Go to the Code tab at the top of the screen
 2. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
 3. At the top right, click the `Add file` button, then `Create new file` if you don't already have a markdown file created. Click `Upload file` if you do already have a markdown file created.
-4. Add your `frontmatter`, which is the information above the dotted lines to the file. [Follow this guide as an example.](insert link)
+4. Add your `frontmatter`, which is the information above the dotted lines to the file. [Follow this guide as an example.](https://insertlink.com)
 5. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
 6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team to review and merge your pull request.
 7. The CodeOwner may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit the file directly. You'll be prompted to either push those changes to the same pull request (branch) or or create another branch (think of it as a pull request to a pull request).
@@ -76,23 +76,22 @@ _coming soon_
 
 _Note that despite `CodeOwners` containing the word "code", the MERL Center uses `CodeOwners` to review and merge pull requests on text files._
 
-`CodeOwners` are automatically assigned to pull requests made to files in a particular sub-directory to take out the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact the MERL Center admins if you want to be added to the editing team.
+`CodeOwners` are automatically assigned to pull requests (propose changes) made to files in a particular sub-directory (folder). This removes the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you want to be added to the editing team.
 
 ### Permissions Levels
-Types of Contributions | All Org Members | WG Writer | WG Editor | WG Admin | GitHub Teams
----------------------- | --------------- | --------- | --------- | -------- | ------------
+Types of Contributions | All Org Members | Writer | Editor | Admin | GitHub Teams
+---------------------- | --------------- | ------ | ------ | ----- | ------------
 Read-only LC | X | X | X | X | Anyone
 Propose LC changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers
 Approve and merge LC changes | -- | -- | X | X | merl-center-lc-editors
 Approve and merge MCCR changes | -- | -- | X | X | merl-center-mccr-editors
 Read-only WCA | X | X | X | X | Anyone
 Propose WCA changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
-Approve and merge WCA changes | -- | -- | X | X | merl-center-public-admins (to be added)
+Approve and merge WCA changes | -- | -- | X | X | merl-center-public-admins
 Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
 **Abbreviations**
 
-- WG = Working Group
 - LC = Learning Content
 - WCA = Web Code and Assets
 
