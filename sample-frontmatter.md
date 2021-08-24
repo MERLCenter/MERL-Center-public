@@ -27,7 +27,13 @@ outgoingUrl:
 
 ---
 
-The above text is frontmatter that should be inserted at the top of every learning content piece. Without this frontmatter, the post will not appear correctly on the website. Below is an explanation of how to fill out each field. **Note that if certain characters like colons or semi-colons appear in a field, they may cause a website display error.**
+## About
+The above text is frontmatter that should be inserted at the top of every learning content piece. Without this frontmatter, the post will not appear correctly on the website. Click on the pencil icon above to go to edit mode. Copy the text highlighted in blue, as shown below, to your post. 
+
+<img width="1288" alt="Screen Shot 2021-08-24 at 1 44 58 PM" src="https://user-images.githubusercontent.com/12953652/130678404-8fd2473e-b52e-414b-8961-54623f14402f.png">
+
+## Fields
+Below is an explanation of how to fill out each field. **Note that if certain characters like colons or semi-colons appear in a field, they may cause a website display error.**
 
 Read more about content types in the [contributing file here](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md#adding-images-to-your-learning-content).
 
