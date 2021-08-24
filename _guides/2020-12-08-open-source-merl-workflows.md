@@ -20,7 +20,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/insights/ folder
-featuredImage:
+featuredImage: open-source-for-MERL-workflows-MERLlifecycle.png
 
 outgoing: false
 outgoingUrl:
