@@ -42,16 +42,19 @@ _For any inputs or outputs that are part of the MERL Center public-facing websit
 ## For MERL Center Members
 
 ### Create a New Piece of Learning Content
-_Note you will need the correct permissions level (access) to follow the steps below. Contact a MERL Center admin if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
+_Note you will need the correct permissions level (access) to follow the steps below. Contact themerlcenter@gmail.com if you don't have access. The following steps are for the browser version of GitHub. **Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo.**_
 
 1. Go to the Code tab at the top of the screen
-2. Click on `learning-content` directory (folder)
-3. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
-4. At the top right, click the `Add file` button, then `Create new file` if you don't have a markdown file already created or `Upload file` if you do
-5. _(forthcoming) Add your `frontmatter` (the information above the dotted lines) to the file. [Follow this piece as an example.](https://github.com/MERLTech/MERL-Center-public/blob/main/learning-content/beginners-guides/open-source-for-MERL-workflows-MERLlifecycle.md)_
-6. Add your content formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
-7. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team to review and merge your pull request.
-8. After your pull request has been merged, your content will be live on the repo immediately and on the (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
+2. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
+3. At the top right, click the `Add file` button, then `Create new file` if you don't already have a markdown file created. Click `Upload file` if you do already have a markdown file created.
+4. Add your `frontmatter`, which is the information above the dotted lines to the file. [Follow this guide as an example.](insert link)
+5. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
+6. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team to review and merge your pull request.
+7. The CodeOwner may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit the file directly. You'll be prompted to either push those changes to the same pull request (branch) or or create another branch (think of it as a pull request to a pull request).
+
+<img width="1635" alt="Screen Shot 2021-08-24 at 10 48 27 AM" src="https://user-images.githubusercontent.com/12953652/130639008-95248da6-6090-4a8a-a653-2f9389e57802.png">
+
+8. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly.  
 
 ### Edit an Existing Piece of Learning Content
 1. Navigate to the piece of learning content you wish to edit by following the first three steps above
@@ -59,12 +62,12 @@ _Note you will need the correct permissions level (access) to follow the steps b
 <img width="1258" alt="EditFile" src="https://user-images.githubusercontent.com/12953652/126375993-89b76420-766e-4df2-9f55-d117f35bd7d9.png">
 
 3. Make your changes and click the `Commit changes` button. This will open a pull request and automatically assign the `CodeOwners` team to review. You can also assign a specific individual you want to review your changes, such as the author of the original post.
-4. After your pull request has been merged, your content will be live on the repo immediately and on the (forthcoming) MERL Center website shortly. The CodeOwner may request changes before merging.
+4. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly. The CodeOwner may request changes before merging.
 
 ### Formatting Options for Learning Content
 - One author vs multiple authors
 - One tag vs multiple authors
-- Dates must be in DD/MM/YYYY (TBC)
+- Dates must be in DD/MM/YYYY
 
 ### Adding Pictures to Your Learning Content
 _coming soon_
