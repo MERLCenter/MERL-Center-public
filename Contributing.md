@@ -24,11 +24,11 @@ Content found on this repo can also be found at [https://merlcenter.org](https:/
 
 ### Learning Content
 
-_For any inputs or outputs that are a direct part of case studies or beginner's guides_
+_For any inputs or outputs that are a direct part of case studies or guides_
 
-- Text - text that is exclusively or primarily for a case study or a beginner's guide
-- Images - charts, graphs, screenshots, photos that are exclusively or primarily for a case study or a beginner's guide
-- Code - code that is exclusively or primarily part of a case study or a beginner's guide
+- Text - text that is exclusively or primarily for a case study or a guide
+- Images - charts, graphs, screenshots, photos that are exclusively or primarily for a case study or a guide
+- Code - code that is exclusively or primarily part of a case study or a guide
 
 ### Web Code and Assets
 
