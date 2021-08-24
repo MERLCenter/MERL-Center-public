@@ -15,8 +15,8 @@ If you'd like to become a MERL Center member, [please fill out this form](https:
 Content found on this repo can also be found at [https://merlcenter.org](https://merlcenter.org).
 
 ## Licenses
-- Learning Content (see below) is under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
-- Code is under [the MIT license](LICENSE)
+- Learning Content (see below) found in this repository is under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/)
+- Code found in this repository is under [the MIT license](https://opensource.org/licenses/MIT)
 
 [Back to top](#sections)
 
@@ -30,12 +30,11 @@ _For any inputs or outputs that are a direct part of case studies or guides_
 - Images - charts, graphs, screenshots, photos that are exclusively or primarily for a case study or a guide
 - Code - code that is exclusively or primarily part of a case study or a guide
 
-### Web Code and Assets
+### Web Code
 
 _For any inputs or outputs that are part of the MERL Center public-facing website_
 
 - Code - front-end or back-end code for a MERL Center website
-- Assets - UI assets, other images, UX research, content for a MERL Center website
 
 [Back to top](#sections)
 
@@ -92,22 +91,18 @@ _Note that despite `CodeOwners` containing the word "code", the MERL Center uses
 
 `CodeOwners` are automatically assigned to pull requests (propose changes) made to files in a particular sub-directory (folder). This removes the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you want to be added to the editing team.
 
-### Permissions Levels
+### Permissions Levels**
 Types of Contributions | All Org Members | Writer | Editor | Admin | GitHub Teams
 ---------------------- | --------------- | ------ | ------ | ----- | ------------
-Read-only LC | X | X | X | X | Anyone
-Propose LC changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers
-Approve and merge LC changes | -- | -- | X | X | merl-center-lc-editors
-Approve and merge MCCR changes | -- | -- | X | X | merl-center-mccr-editors
-Read-only WCA | X | X | X | X | Anyone
-Propose WCA changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
-Approve and merge WCA changes | -- | -- | X | X | merl-center-public-admins
+Read-only Learning Content | X | X | X | X | Anyone
+Propose Learning Content changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers, merl-center-lc-editors, merl-center-public-admins  
+Approve and merge Learning Content changes | -- | -- | X | X | merl-center-lc-editors, merl-center-public-admins
+Read-only Web Code | X | X | X | X | Anyone
+Propose Web Code changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
+Approve and merge Web Code changes | -- | -- | X | X | merl-center-public-admins
 Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
-**Abbreviations**
-
-- LC = Learning Content
-- WCA = Web Code and Assets
+** Permissions levels are a work-in-progress and should be fully implemented by October 2021.
 
 ![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/MERL-Center-public/blob/main/contributing-images/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
 
