@@ -105,8 +105,8 @@ Read-only Learning Content | X | X | X | X | Anyone with access to GitHub
 Propose Learning Content changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers, merl-center-lc-editors, merl-center-public-admins  
 Approve and merge Learning Content changes | -- | -- | X | X | merl-center-lc-editors, merl-center-public-admins
 Read-only Web Code | X | X | X | X | Anyone with access to GitHub
-Propose Web Code changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
-Approve and merge Web Code changes | -- | -- | X | X | merl-center-public-admins
+Propose (limited) Web Code changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
+Approve and merge (limited) Web Code changes | -- | -- | X | X | merl-center-public-admins
 Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
 - Permissions levels are a work-in-progress and should be fully implemented by October 2021
