@@ -105,8 +105,6 @@ Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 * Permissions levels are a work-in-progress and should be fully implemented by October 2021
 **  MERL Center Editors are the same as the `CodeOwners` teams (see above)
 
-![MERL Center Public Repo Permissions Model](https://github.com/MERLTech/MERL-Center-public/blob/main/contributing-images/MERL%20Center%20Public%20Repo%20Permissions%20Model.png)
-
 ### Things MERL Center Members can do to Modify the Website
 
 _Only admins are allowed to make most changes to the MERL Center website. Below is a list of things any MERL Center member can do._
