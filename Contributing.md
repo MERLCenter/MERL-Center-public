@@ -47,7 +47,13 @@ _You need the correct permissions level (access) to follow the steps below. Cont
 2. Click on the `_guides` or `_caseStudies` sub-directory (folder), depending on the type of content you're submitting
 3. At the top right, click the `Add file` button, then `Create new file` if you don't already have a markdown file created. Click `Upload file` if you do already have a markdown file created.
 4. Add your title of your file in the following format: `YYYY-MM-DD-this-is-my-title.md`. A real example is 2021-04-23-Dispelling-myths-qualifying-assumptions.md, which appears on the website at https://merlcenter.org/guides/Dispelling-myths-qualifying-assumptions
-5. Add your `frontmatter`, which is the information above the dotted lines, to the file. [Follow this guide as an example.](https://insertlink.com)
+5. Add your `frontmatter`, which is the information that needs to appear at the top of a piece, to the file. Click the pencil icon [on this file](https://github.com/MERLTech/MERL-Center-public/blob/main/sample-frontmatter.md) 
+
+<img width="1256" alt="Screen Shot 2021-08-24 at 1 44 36 PM" src="https://user-images.githubusercontent.com/12953652/130664969-bca31906-09e9-4c86-8e65-3aff707a8708.png">
+
+and copy the text highlighted in blue below into your post.
+<img width="1288" alt="Screen Shot 2021-08-24 at 1 44 58 PM" src="https://user-images.githubusercontent.com/12953652/130665018-128255ea-6b7b-4e6d-8de5-50752d9ca0f1.png">
+
 6. Below the dotted line, add the body of your content that is formatted in markdown. [Here's a markdown cheat sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) to help you format.
 7. Click the `Commit changes` button to submit your file. This will open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and automatically assign the [`CodeOwners`](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) team (Editors team) to review and merge your pull request.
 8. Someone from the CodeOwners team (Editors team) may request you make changes before they merge your pull request. To do so, click on the `Pull requests` tab at the top, click on your pull request, then click on the three dots by your file to edit directly. Once you edit, you'll have two options in the `Commit changes` dialogue: push those changes to the same pull request or create another branch, which you can think of as a pull request to a pull request.
