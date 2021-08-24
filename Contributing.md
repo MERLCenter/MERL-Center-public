@@ -102,8 +102,8 @@ Propose Web Code changes through [pull requests](https://docs.github.com/en/gith
 Approve and merge Web Code changes | -- | -- | X | X | merl-center-public-admins
 Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
-* Permissions levels are a work-in-progress and should be fully implemented by October 2021
-**  MERL Center Editors are the same as the `CodeOwners` teams (see above)
+- Permissions levels are a work-in-progress and should be fully implemented by October 2021
+- MERL Center Editors are the same as the `CodeOwners` teams (see above)
 
 ### Things MERL Center Members can do to Modify the Website
 
