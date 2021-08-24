@@ -41,15 +41,11 @@ permalink: /case-studies/
               <option value="">
                 <span>All workflows {% octicon chevron-down height:16 %}</span>
               </option>
-              <option value="data-collection-and-management">
-                <span>Data Collection and Management</span>
+              {% for tag in site.data.tags %}
+              <option value="{{ tag.tag | slugify }}">
+                <span>{{ tag.tag }}</span>
               </option>
-              <option value="data-analysis-and-visualization">
-                <span>Data Analysis and Visualization</span>
-              </option>
-              <option value="reporting">
-                <span>Reporting</span>
-              </option>
+              {% endfor %}
             </select>
           </div>
         </div>
