@@ -61,7 +61,7 @@ Leave the space after the colon blank. The fields below `tags` should be filled 
 Add one or more tags [from this list](https://github.com/MERLTech/MERL-Center-public/blob/main/_data/tags.yml) as separate lines, as shown above. Put a hash (#) to designate the primary tag, e.g. `#- tag: Data Collection and Management`
 
 #### `featuredImage:`
-Copy and paste **only** the image file name here. Note that images must be uploaded to [this sub-directory](https://github.com/MERLTech/MERL-Center-public/tree/main/assets/img/posts) to appear on the website. 
+Copy and paste **only** the image file name here. Note that images must be uploaded to [this sub-directory](https://github.com/MERLTech/MERL-Center-public/tree/main/assets/img/posts) to appear on the website. [Read about formatting images here](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md#adding-images-to-your-learning-content).
 
 #### `outgoing:`
 Write `true` if this post should link directly to an external website. Write `false` if this post should display content on https://merlcenter.org
