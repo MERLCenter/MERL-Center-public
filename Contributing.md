@@ -9,7 +9,7 @@ The MERL Center is an interdisciplinary community that is creating resources for
 This is the public repository of the MERL Center on which learning content and the website code for the [MERL Center website](https://merlcenter.org) are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repos(itories) - this public repo and a repo that is only for members. **Anyone who wants to propose and contribute a new piece of learning content must go through a basic onboarding process and become a MERL Center member.** Becoming a MERL Center member is free and quick, though we ask MERL Center members have at least one year of professional experience related to MERL and/or open source. Currently, only MERL Center members can propose changes to content. This may change in the future to allow anyone to propose changes. Anyone with access to GitHub has read-only access to everything on this repo. 
 
 ### Join the MERL Center
-If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). To become a MERL Center member, we ask you have at least one year of professional experience related to MERL and/or open source.
+If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). We ask you have at least one year of professional experience related to MERL and/or open source.
 
 ### MERL Center Website
 Content found on this repo can also be found at [https://merlcenter.org](https://merlcenter.org).
@@ -71,7 +71,7 @@ and copy the text highlighted below in blue into your post.
 4. After your pull request has been merged, your content will be live on the repo immediately and on the [MERL Center](https://merlcenter.org) website shortly. The CodeOwner (editor) may request changes before merging.
 
 #### Formatting Options for Learning Content
-- One author or more authors
+- One or more authors
 - One or more tags
 - Featured image or no featured image
 
@@ -85,18 +85,18 @@ and copy the text highlighted below in blue into your post.
 ### Adding Images to Your Learning Content
 1. Click on the Code tab at the top of the screen
 2. Click on `assets`, `img`, `posts`
-3. Drag your picture into the folder OR at the top, click on `Add file` and then `Upload files`. Upload your file and click `Commit changes`
+3. Drag your picture in OR at the top, click on `Add file` and then `Upload files`. Upload your file and click `Commit changes`
 4. To add a feature image, copy and paste the name of your image file in the `featuredImage:` field. For example:
 
 `featuredImage: building-open-source-conceptual-model1.png`
 
-5. To add an image in the body of your learning content, use this - `![Conceptual Model](/assets/img/posts/name-of-your-image-file.png)` - where the part after /posts is the name of your image file.
+5. To add an image in the body of your learning content, use this - `![Description of your image](/assets/img/posts/name-of-your-image-file.png)` - where the part after /posts is the name of your image file.
 
 ### CodeOwners
 
 _Note that despite `CodeOwners` containing the word "code", the MERL Center uses `CodeOwners` to review and merge pull requests on text files._
 
-`CodeOwners` are automatically assigned to pull requests (propose changes) made to files in a particular sub-directory (folder). This removes the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) here and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you want to be added to the editing team.
+`CodeOwners` are automatically assigned to pull requests (proposed changes) made to files in a particular sub-directory (folder). This removes the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you want to be added to the `CodeOwners` (Editors) team.
 
 ### Permissions Levels*
 Types of Contributions | Non-MERL Center Members | MERL Center Writer | MERL Center Editor** | MERL Center Admin | GitHub Teams Names
@@ -106,7 +106,7 @@ Propose Learning Content changes through [pull requests](https://docs.github.com
 Approve and merge Learning Content changes | -- | -- | X | X | merl-center-lc-editors, merl-center-public-admins
 Read-only Web Code | X | X | X | X | Anyone with access to GitHub
 Propose (limited) Web Code changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
-Approve and merge (limited) Web Code changes | -- | -- | X | X | merl-center-public-admins
+Approve and merge (limited) Web Code changes | -- | -- | -- | X | merl-center-public-admins
 Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
 - Permissions levels are a work-in-progress and should be fully implemented by October 2021
@@ -114,7 +114,7 @@ Change Repo settings | -- | -- | -- | X | merl-center-public-admins
 
 ### Things MERL Center Members can do to Modify the Website
 
-_Only admins are allowed to make most changes to the MERL Center website. Below is a list of things any MERL Center member can do._
+_Only admins are allowed to make most changes to the MERL Center website. Below is a list of things any MERL Center writer or editor can do._
 
 #### Add tags
 1. Consult with the MERL Center admins to propose a tag
