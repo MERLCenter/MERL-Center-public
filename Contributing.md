@@ -39,7 +39,9 @@ _Learning content currently refres to case studies or guides found at https://me
 ## For MERL Center Members
 
 ### Create a New Piece of Learning Content
-_You need the correct permissions level (access) to follow the steps below. Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you're a MERL Center member without access. Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo._
+_You need the correct permissions level (access) to follow the steps below. Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you're a MERL Center member without access. Your piece of content [must have completed these steps](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md#steps-to-contribute-learning-content) before being submitted to this repo. Note that file is only visible to MERL Center members._
+
+_[Here's a markdown formatting guide](https://guides.github.com/features/mastering-markdown/)_
 
 **The following steps are for the browser version of GitHub:**
 
@@ -77,9 +79,9 @@ and copy the text highlighted below in blue into your post.
 
 ### Formatting Images for Learning Content
 1. Featured images will appear as the learning content piece thumbnail 
-  - The aspect ratio of featured images will be retained
-  - Larger photos (more than 1000 x 1000 px) may appear blurry
-  - If there is no featured image listed, the default MERL Center logo will appear on the website as the thumbnail
+  1. The aspect ratio of featured images will be retained
+  1. Larger photos (more than 1000 x 1000 px) may appear blurry
+  1. If there is no featured image listed, the default MERL Center logo will appear on the website as the thumbnail
 2. Use a descriptive title for your image using lowercase (no caps) and no spaces. Use -dashes- if you need to separate words in the image file name. Example: this-is-my-image-file.png
 
 ### Adding Images to Your Learning Content
