@@ -19,7 +19,7 @@ tags:
   - tag: insert
   - tag: insert
 
-# images should be in the /assets/img/insights/ folder
+# images should be in the /assets/img/posts/ folder
 featuredImage:
 
 outgoing: false
