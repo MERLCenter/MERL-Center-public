@@ -23,7 +23,7 @@ tags:
   - tag: Data Analysis and Visualization
   - tag: Reporting
 
-# images should be in the /assets/img/insights/ folder
+# images should be in the /assets/img/posts/ folder
 featuredImage:
 
 outgoing: false
