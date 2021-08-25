@@ -8,7 +8,7 @@ authors:
     authorGitHubID: 2126867
 tags:
   - tag: Data Collection and Management
-  #- tag: Data Analysis and Visualization
+  - tag: Data Analysis and Visualization
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
