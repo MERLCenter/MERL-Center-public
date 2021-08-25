@@ -19,7 +19,7 @@ authors:
     authorGitHubHandle: malakumar85
     authorGitHubID: 12953652
 tags:
-  #- tag: Data Collection and Management
+  - tag: Data Collection and Management
   - tag: Data Analysis and Visualization
   - tag: Reporting
 
