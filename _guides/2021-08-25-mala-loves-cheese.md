@@ -7,7 +7,7 @@ authors:
     authorGitHubHandle: malakumar85
     authorGitHubID: 12953652
 tags:
-  #- tag: Data Collection and Management
+  - tag: Data Collection and Management
 
 # images should be in the /assets/img/insights/ folder
 featuredImage: manchego-cheese.jpg
