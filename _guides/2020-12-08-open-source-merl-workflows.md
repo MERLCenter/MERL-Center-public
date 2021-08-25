@@ -15,11 +15,11 @@ authors:
     authorGitHubHandle: insert
     authorGitHubID: insert
 tags:
-  #- tag: Data Collection and Management
+  - tag: Data Collection and Management
   - tag: Data Analysis and Visualization
   - tag: Reporting
 
-# images should be in the /assets/img/insights/ folder
+# images should be in the /assets/img/posts/ folder
 featuredImage: open-source-for-MERL-workflows-MERLlifecycle.png
 
 outgoing: false
