@@ -8,7 +8,7 @@ authors:
     authorGitHubID: 12953652
 tags:
   - tag: Data Analysis and Visualization
-  #- tag: Reporting
+  - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
 featuredImage: 
