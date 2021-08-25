@@ -7,7 +7,7 @@ authors:
     authorGitHubHandle: designbygia
     authorGitHubID: 56228717
 tags:
-   #- tag: Data Collection and Management
+   - tag: Data Collection and Management
    - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
