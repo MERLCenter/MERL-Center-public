@@ -1,11 +1,11 @@
 ---
 layout: blog-post
-title: Mala loves cheese
+title: Ben's first attempt
 authors:
-  - author: Mala Kumar
-    authorTitle: Director
-    authorGitHubHandle: malakumar85
-    authorGitHubID: 12953652
+  - author: Ben K
+    authorTitle: 
+    authorGitHubHandle: bjk127
+    authorGitHubID: 
 tags:
   #- tag: Data Collection and Management
 
@@ -17,11 +17,8 @@ outgoingUrl:
 
 ---
 
-## About Mala
-Mala grew up in Virginia, which is in the United States and not really known for cheese. Then Mala moved to France and discovered cheese does not just come in the form of processed yellow squares. However, French cheese can be smelly and Mala is not really a fan of that, either. Then Mala moved to New York and OMG, there is so much cheese! Manchego, brie, queso blanco, the list goes on.
-
-## About Cheese
-Cheese is really **delicious**. Unless you're lactose-intolerant or vegan, in which case, it's not. Better to stick to vegetables in that case.
+## About Ben
+Ben who?
 
 ### Picture of cheese
 
