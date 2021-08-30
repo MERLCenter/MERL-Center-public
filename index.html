@@ -32,7 +32,14 @@ id: home
   <div class="filters">
     <div class="filters__inner">
       <div class="filter">
-        <p>MERL Technology Workflow:</p>
+        <p class="d-flex"><span>MERL Technology Workflow:</span>
+          <div class="tooltip-wrap">
+            {% octicon info height:16 %}
+            <div class="tooltip">
+              <p>Read more about these categories  <a href="https://merlcenter.org/guides/open-source-merl-workflows">in this post</a>.</p>
+            </div>
+          </div>
+        </p>
 
         <div class="dropdown">
           <select id="workflow-filters">
