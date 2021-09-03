@@ -1,3 +1,94 @@
-theme: jekyll-theme-cayman
-title: MERL Center
-description: Monitoring, evaluation, research & learning and open source software, data, & tools
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: The official MERL open source community
+email: contact@github.com
+description: |
+    MERL Center is an open source community creating resources for monitoring, evaluation, research and learning (MERL) practitioners of all technology capacities.
+twitter_username: github
+github_username:  github
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-octicons
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - script
+  - vendor/gems
+  - node_modules
+  - node_modules/**/*.md
+  - node_modules/**/CHANGELOG.md
+  - CHANGELOG.md
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+seo:
+
+sass:
+  style: :compressed
+  # Where you keep your scss files
+  sass_dir: assets/css/
+  # Where sass should look for other scss
+  load_paths:
+    - node_modules/
+
+
+collections:
+  caseStudies:
+    output: true
+    permalink: /:collection/:title/
+  guides:
+    output: true
+    permalink: /:collection/:title/
+
+feed:
+  collections:
+    caseStudies:
+      path: "case-studies/feed.xml"
+
+seo:
+
+
+twitter:
+  username: github
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: assets/img/social-card.png
+      layout: default
+      is_post: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: blog

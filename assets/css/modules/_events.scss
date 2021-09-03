@@ -1,0 +1,67 @@
+// ---------------------------------------------------------------------
+//  Events
+// ---------------------------------------------------------------------
+
+.event-preview {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 236px;
+    height: 276px;
+    position: absolute;
+    z-index: -1;
+    background: url('./images/svgs/dot-group.svg') center / cover no-repeat;
+    top: 120px;
+    left: -14px;
+
+    @include start-at($medium) {
+      width: 376px;
+      height: 440px;
+      top: 60px;
+      left: -140px;
+    }
+  }
+
+  @include start-at($medium) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+.event-preview__media {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 360px;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  @include start-at($medium) {
+    width: calc(50% - 24px);
+    height: 430px;
+  }
+}
+
+.event-preview__content {
+  margin: 48px 0;
+
+  @include start-at($medium) {
+    width: calc(50% - 24px);
+    margin: 72px 0;
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------

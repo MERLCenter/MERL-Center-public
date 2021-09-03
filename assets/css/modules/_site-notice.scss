@@ -1,0 +1,64 @@
+// ---------------------------------------------------------------------
+//
+// ---------------------------------------------------------------------
+
+.site-notice {
+  background: $brand;
+  color: $white;
+  display: flex;
+  align-items: center;
+  padding: 21px 48px 21px 24px;
+  position: relative;
+  display: none;
+
+  @include start-at($large) {
+    padding-right: 60px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    @include link;
+    text-decoration: underline;
+    transition: opacity $trans;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .close {
+    position: absolute;
+    top: 21px;
+    right: 24px;
+    transition: opacity $trans;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+
+    &:hover {
+      opacity: 0.6;
+      cursor: pointer;
+    }
+  }
+}
+
+.site-notice.site-notice--white {
+  background: $white;
+  color: $black;
+  border-bottom: 1px solid $border;
+
+  a {
+    color: $black;
+  }
+}
+
+
+// ----------------------------------------
+//
+// ----------------------------------------

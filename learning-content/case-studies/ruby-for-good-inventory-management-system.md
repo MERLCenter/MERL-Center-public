@@ -1,3 +1,4 @@
+# DO NOT MAKE EDITS TO THIS FILE. EDITS SHOULD GO HERE: https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/_caseStudies/2021-03-26-ruby-for-good-open-source.md
 
 # Ruby for Good: Building Community in Open Source
 
@@ -9,7 +10,7 @@ The mission of the nonprofit organization Ruby for Good is to deliver specialize
 
 Today, in 2021, with continued stakeholder engagement, that proof-of-concept has become a part of Ruby for Good's portfolio of projects that it maintains and supports, and has since expanded to a multi-tenant Software-as-a-Service (SaaS). It serves the inventory management needs of over 120 Diaper Banks, Period Supply, and Adult Incontinence Supply organizations throughout the United States, and their nearly 2,000 nonprofit partner organizations, at no cost to them or their partners. The software is 100% volunteer supported, the hosting is donated, and the application is actively developed by several dozens of volunteers, and has had nearly 200 contributors from around the world (6 of 7 continents!).
 
-The Diaper Bank has a repository on the[ Ruby for Good GitHub organization](https://github.com/rubyforgood/diaper), which is under an MIT (open source) license. Ruby for Good has helped dozens of budding volunteers submit their first Pull Request, participated in 5 Hacktoberfests, as well as several large software development conferences including Rubyconf, Railsconf, and Strangeloop, and have presented at the National Diaperbank Network (NDBN) conference twice. 
+The Diaper Bank has a repository on the [Ruby for Good GitHub organization](https://github.com/rubyforgood/diaper), which is under an MIT (open source) license. Ruby for Good has helped dozens of budding volunteers submit their first Pull Request, participated in 5 Hacktoberfests, as well as several large software development conferences including Rubyconf, Railsconf, and Strangeloop, and have presented at the National Diaperbank Network (NDBN) conference twice. 
 
 Through the Diaper Bank application, Ruby for Good simultaneously enables a non-technical community to streamline their business processes and also provides the technical community with opportunities to support the nonprofits serving critical missions, contribute to vital social impact work, learn from peers, and skill-up.
 

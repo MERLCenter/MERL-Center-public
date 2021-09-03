@@ -1,3 +1,5 @@
+# DO NOT MAKE EDITS HERE. EDITS SHOULD BE MADE ON THIS FILE: https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/_guides/2021-05-26-evaluating-open-source-vs-proprietary-software.md
+
 # Evaluating Open Source versus Proprietary Software for Data Workflows in the Social Sector: A Beginner’s Guide
 ### Stephanie Coker and Benjamin Kinsella
 

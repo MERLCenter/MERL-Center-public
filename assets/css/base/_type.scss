@@ -1,0 +1,249 @@
+// ---------------------------------------------------------------------
+//  Typography Styles
+// ---------------------------------------------------------------------
+
+// ----------------------------------------
+// Headings
+// ----------------------------------------
+
+
+.h1,
+.rte h1 {
+  display: block;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 36px !important;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include start-at($large) {
+    font-size: 48px !important;
+  }
+}
+
+.h2,
+.rte h2 {
+  display: block;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 28px !important;
+  line-height: 115%;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include start-at($large) {
+    font-size: 36px !important;
+  }
+}
+
+
+@mixin h3 {
+  display: block;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include start-at($large) {
+    font-size: 36px !important;
+  }
+}
+
+.h3,
+.rte h3 {
+  @include h3;
+}
+
+
+@mixin h4 {
+  display: block;
+  font-style: normal;
+  font-feature-settings: 'salt' on;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include start-at($large) {
+    font-size: 24px !important;
+  }
+}
+
+.h4,
+.rte h4 {
+  @include h4;
+}
+
+@mixin h5 {
+  display: block;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include start-at($large) {
+    font-size: 18px !important;
+  }
+}
+
+.h5,
+.rte h5 {
+  @include h5;
+}
+
+
+@mixin h6 {
+  display: block;
+  font-family: $mono;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 125%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include start-at($large) {
+    font-size: 16px !important;
+  }
+}
+
+.h6,
+.rte h6,
+.h6-alt,
+.rte .h6-alt {
+  @include h6;
+}
+
+
+// ----------------------------------------
+// Body copy
+// ----------------------------------------
+
+@mixin para {
+  display: block;
+  font-family: $sans-serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.p,
+p {
+  @include para;
+
+  + p {
+    margin-top: 18px;
+  }
+}
+
+.rte p {
+  //color: $gray;
+
+  + p {
+    margin-top: 18px;
+  }
+}
+
+
+@mixin p-lg {
+  @include para;
+  font-size: 20px;
+}
+
+.p-lg {
+  @include p-lg;
+}
+
+
+@mixin p-sm {
+  @include para;
+  font-size: 13px;
+}
+
+.p-sm,
+small {
+  @include p-sm;
+}
+
+small {
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+// ----------------------------------------
+// Links
+// ----------------------------------------
+
+@mixin link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  // letter-spacing: 0.04em;
+  // text-transform: uppercase;
+}
+
+.link {
+  @include link;
+}
+.link-bold {
+  @include link;
+  font-weight: 700;
+}
+
+.rte b, .rte strong,
+b, strong {
+  font-weight: 700 !important;
+}
+
+.text-white {
+
+  p {
+    color: $white;
+  }
+}
+
+
+.font-mono {
+  font-family: $mono;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+  letter-spacing: 0;
+}

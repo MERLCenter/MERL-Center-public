@@ -1,0 +1,184 @@
+// ---------------------------------------------------------------------
+//  Media Styles
+// ---------------------------------------------------------------------
+
+.img-full {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  overflow: hidden;
+
+  img, picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.wrapper-full.img-height-auto {
+  picture, img {
+    width: 100%;
+  }
+}
+
+// ----------------------------------------
+// Video
+// ----------------------------------------
+
+.video-wrap {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  z-index: 1;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  iframe,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+// ----------------------------------------
+// image tile
+// ----------------------------------------
+//
+// .image-tile {
+//   display: flex;
+//   flex-wrap: wrap;
+//   align-items: stretch;
+//
+//   @include start-at($medium) {
+//     flex-wrap: nowrap;
+//
+//     &.image-tile--flip {
+//       figure {
+//         order: 20;
+//       }
+//       .image-tile {
+//         order: 1;
+//       }
+//     }
+//   }
+//
+//   figure {
+//     order: 1;
+//     width: 100%;
+//     height: 328px;
+//
+//     @include start-at($medium) {
+//       width: 50%;
+//       min-width: 50%;
+//       min-height: 500px;
+//     }
+//
+//     img {
+//       object-fit: cover;
+//       width: 100%;
+//       height: 100%;
+//     }
+//   }
+//
+//   .image-tile__content {
+//     width: 100%;
+//     order: 2;
+//     padding: 48px 24px 80px;
+//
+//     @include start-at($medium) {
+//       width: 50%;
+//       min-height: 500px;
+//       padding: 48px 24px;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//     }
+//
+//     @include start-at($large) {
+//       padding: 48px 48px;
+//     }
+//   }
+//
+//   @include start-at($medium) {
+//
+//   }
+// }
+
+
+// ----------------------------------------
+// Image row
+// ----------------------------------------
+//
+// .image-row {
+//
+//   figure {
+//     margin: 0 0 10px;
+//     padding: 0;
+//     overflow: hidden;
+//     position: relative;
+//     width: 100%;
+//     height: 0;
+//     padding-bottom: 60%;
+//
+//     img {
+//       object-fit: cover;
+//       width: 100%;
+//       height: 100%;
+//       position: absolute;
+//     }
+//   }
+//
+//
+//   @include start-at($small) {
+//     display: flex;
+//     align-items: stretch;
+//     justify-content: space-between;
+//     padding: 0 10px;
+//
+//     figure {
+//       width: calc(33.33% - 5px);
+//       padding-bottom: 20%;
+//       margin: 0;
+//     }
+//   }
+// }
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+.img-full {
+  width: 100%;
+}
+
+.img-cover {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+.bg-image {
+  @include bg-image;
+}
+
+
+// ----------------------------------------
+// SVGs
+// ----------------------------------------
+
+svg {
+  display: block;
+  fill: currentColor;
+}

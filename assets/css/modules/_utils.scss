@@ -1,0 +1,270 @@
+// ---------------------------------------------------------------------
+//  Utility Classes
+// ---------------------------------------------------------------------
+
+
+
+
+// ----------------------------------------
+// Line wrap
+// ----------------------------------------
+
+.line-wrap {
+  border: 1px solid $border;
+  position: relative;
+}
+
+.line-wrap__hd {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background: $white;
+  padding: 4px 36px;
+  margin-top: -1px;
+
+  .h5 {
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: $border;
+  }
+
+  &:before {
+    left: 0;
+  }
+  &:after {
+    right: 0;
+  }
+}
+
+.line-wrap__bd {
+  padding: 36px 24px 0;
+
+  @include start-at($medium) {
+    padding: 92px 92px 0;
+  }
+}
+
+
+.line-right,
+.line-left {
+  display: inline-block;
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: $gray-dark;
+    border-radius: 6px;
+    display: block;
+    position: absolute;
+    left: calc(100% + 8px);
+    top: calc(50% - 3px);
+  }
+
+  &:after {
+    content: '';
+    width: 120vw;
+    height: 1px;
+    background: $gray-dark;
+    border-radius: 6px;
+    display: block;
+    position: absolute;
+    left: calc(100% + 8px);
+    top: 50%;
+    transform: translate3d(0, -50%, 0) scale(0);
+    transition: transform 3s ease-in-out;
+    transform-origin: left;
+  }
+
+  &.in-view {
+
+    &:after {
+      transition-delay: .5s;
+      transform: translate3d(0, -50%, 0) scale(1);
+    }
+  }
+}
+
+.line-left {
+  display: block;
+
+  &:before {
+    right: calc(100% + 34px);
+    left: auto;
+    top: 11px;
+  }
+
+  &:after {
+    left: auto;
+    right: calc(100% + 36px);
+    top: 14px;
+    transform-origin: right;
+  }
+
+  &.in-view {
+
+    &:after {
+      transition-delay: .5s;
+      transform: translate3d(0, -50%, 0) scale(1);
+    }
+  }
+}
+
+
+.theme-dark {
+  .line-wrap {
+    border-color: $gray-dark;
+  }
+
+  .line-wrap__hd {
+    background: $black;
+    color: $white;
+
+    &:before,
+    &:after {
+      background: $gray-dark;
+    }
+  }
+}
+
+.page-id-165 {
+  .logo-list-wrap{
+    background: $black;
+
+    img {
+      //fill: $white;
+    }
+  }
+  .line-wrap {
+    border: none;
+
+  }
+
+  .line-wrap__hd {
+    background: $black;
+    color: $white;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+
+
+.moon-wrap {
+  position: relative;
+}
+.moon-left {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translate3d(-100%, -50%, 0);
+  transition: transform 3s ease-in-out;
+
+  &.in-view {
+    transform: translate3d(-50%, -50%, 0);
+  }
+}
+
+
+
+// ----------------------------------------
+//
+// ----------------------------------------
+
+.flex-flip-sm {
+  @include start-at($small) {
+    order: 4;
+  }
+}
+
+
+// ----------------------------------------
+// Text
+// ----------------------------------------
+
+.text-center {
+  text-align: center;
+
+  p, img, .text-thin {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.text-thin {
+  max-width: 560px;
+}
+
+.text-brand {
+  color: $brand;
+}
+
+.text-white {
+  color: $white !important;
+}
+
+.text-light {
+  color: $gray;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.sr-only,
+.screen-reader-text {
+  @include visually-hidden;
+}
+
+
+// ----------------------------------------
+// Backgrounds
+// ----------------------------------------
+
+.bg-light {
+  background: $cream !important;
+}
+
+.bg-brand {
+  background: $black;
+  color: $white;
+
+  p {
+    color: $white;
+  }
+}
+
+.bg-dark,
+.bg-black {
+  background: $black;
+  color: $white;
+
+  p {
+    color: $white;
+  }
+}

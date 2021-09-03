@@ -1,0 +1,378 @@
+// ---------------------------------------------------------------------
+//  Header CSS
+// ---------------------------------------------------------------------
+
+$header-height-sm: 64px;
+$header-height: 64px;
+
+body {
+  padding-top: $header-height-sm;
+}
+
+.site-header {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+  color: $white;
+  background: $black;
+  transition: opacity $trans;
+
+  .site-header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: $header-height-sm;
+    padding: 0;
+
+    @include start-at($header-breakpoint) {
+      //justify-content: center;
+      padding: 0 $wrapper-padding;
+    }
+  }
+
+  &.is-sticky {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.scrolling-up,
+  &.is-sticky.scrolling-up {
+    opacity: 1;
+    pointer-events: inherit;
+  }
+}
+
+
+html.theme-dark {
+  background: $black;
+  color: $white;
+
+  body {
+    background: $black;
+    color: $white;
+  }
+
+
+}
+
+html.header-dark {
+
+  .site-header,
+  .menu-toggle {
+    color: $black;
+  }
+
+  .menu-is-open {
+    .site-header,
+    .menu-toggle {
+      color: $white;
+    }
+  }
+
+}
+
+// ----------------------------------------
+// Logo
+// ----------------------------------------
+
+.site-branding {
+  width: 160px;
+  margin-left: $wrapper-padding;
+
+  a {
+    display: block;
+    max-width: 182px;
+  }
+
+  svg * {
+    fill: currentColor;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  @include start-at($header-breakpoint) {
+    margin-left: 0;
+  }
+}
+
+
+// ----------------------------------------
+// Main
+// ----------------------------------------
+
+.desktop-navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $white;
+
+  @include stop-at($header-breakpoint) {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 0 12px;
+
+      @include start-at($xlarge) {
+        margin: 0 16px;
+      }
+    }
+  }
+
+  a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px 0;
+    font-family: $sans-serif;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: -14px;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      background: $blue-light;
+      transform-origin: center;
+      transform: scale(0);
+      transition: transform $trans;
+    }
+
+    &:hover {
+
+      &:after {
+        transform: scale(1);
+      }
+    }
+  }
+
+  li.current-menu-item a,
+  li.is-active a {
+    &:after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+#desktop-search {
+  margin-left: 12px;
+  transition: opacity $trans;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.4;
+  }
+}
+
+// ----------------------------------------
+// Utility
+// ----------------------------------------
+
+.desktop-utility {
+  color: $white;
+  font-weight: 500;
+  font-size: 14px;
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+
+  a {
+    white-space: nowrap;
+  }
+
+  a + a {
+    margin-left: 16px;
+  }
+
+  .btn {
+    min-width: 112px;
+    height: 40px;
+    padding: 0;
+  }
+
+  @include start-at(1160px) {
+    display: flex;
+  }
+
+  @include start-at(1440px) {
+    width: 280px;
+
+    a + a {
+      margin-left: 24px;
+    }
+  }
+}
+
+
+// ----------------------------------------
+// Burger
+// ----------------------------------------
+
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0 $wrapper-padding;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-left: 54px;
+  color: $white;
+
+  @include start-at($header-breakpoint) {
+    display: none;
+  }
+
+  rect, circle {
+    fill: currentColor;
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    transition: opacity $trans;
+
+    &:last-child {
+      opacity: 0;
+    }
+  }
+
+  #b-top {
+    transition: transform $trans;
+    transform-origin: left;
+  }
+  #b-btm {
+    transition: transform $trans;
+    transform-origin: right;
+  }
+  #b-md {
+    transition: transform $trans;
+    transform-origin: center;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    #b-top {
+      transform: scaleX(0.8);
+    }
+
+    #b-btm {
+      transform: scaleX(0.8);
+    }
+    #b-md {
+      transform: scaleX(0.4);
+    }
+  }
+
+  box-icon {
+    fill: $white;
+  }
+
+  box-icon[name="menu"] {
+
+  }
+  box-icon[name="x"] {
+    display: none;
+  }
+
+  img {
+    width: 20px;
+    height: 14px;
+  }
+}
+
+.menu-is-open {
+
+  .menu-toggle,
+  .menu-toggle:hover {
+    span {
+      opacity: 0;
+
+      &:last-child {
+        opacity: 1;
+      }
+    }
+    #b-top {
+      transform: scaleX(0);
+    }
+
+    #b-btm {
+      transform: scaleX(0);
+    }
+    #b-md {
+      transform: scaleX(1);
+    }
+  }
+
+  box-icon[name="menu"] {
+    display: none;
+  }
+  box-icon[name="x"] {
+    display: block;
+  }
+}
+
+
+
+// ----------------------------------------
+// Logged in
+// ----------------------------------------
+
+body.logged-in.admin-bar {
+
+  #wpadminbar {
+    position: fixed;
+
+    #wp-admin-bar-search {
+      display: none !important;
+    }
+
+    input[type="submit"] {
+      border: none !important;
+      background: transparent !important;
+      text-align: left !important;
+    }
+  }
+
+  .site-header {
+    top: 46px;
+  }
+
+  .navigation-drawer {
+    top: 112px;
+  }
+
+  @include start-at(783px) {
+    .site-header {
+      top: 32px;
+    }
+
+    .navigation-drawer {
+      top: 98px;
+    }
+  }
+}
