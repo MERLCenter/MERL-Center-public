@@ -23,7 +23,7 @@ outgoingUrl:
 
 ---
 
-# Introduction:
+# Introduction
 Given the central role digital technologies play across many industries, the social sector has benefited enormously from Open Source software (OSS). In 2020, GitHub, the largest software development platform in the world, observed over 1.9 billion contributions to projects, representing a 25% increase in open source repositories from 2019. The proliferation of OSS offers social sector leaders and practitioners the opportunity to innovate and collaborate using digital technologies, providing novel alternatives to proprietary software.
 					
 When selecting new digital technologies - particularly those needed to manage, analyze, and transform data - practitioners in the social sector often face the decision whether to choose an OSS solution over a proprietary one. Most data workflows have viable and popular OSS alternatives to proprietary tools. For example, a data analyst may need to choose between a proprietary visualization tool, such as Tableau, and the open source package, ggplot2 in R. Or a Monitoring and Evaluation (M&E) professional may need to choose between ArcGIS or its OSS equivalent, QGIS, a geographic information system application. In these cases, among others, there are a number of elements to consider, in addition to the software’s costs or available features. Rather, the decision to choose an OSS versus a proprietary solution is nuanced and must be weighed carefully. 
