@@ -11,7 +11,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: 
+featuredImage:
 
 outgoing: false
 outgoingUrl:
@@ -38,10 +38,10 @@ By the end of the case study, readers should be able to walk away with an unders
 **The Challenge Faced by LGBTQI+ United Nations Staff Members**
 Accepting a UN job can be particularly challenging for LGBTQI+ staff, consultants, and interns (hereafter referred to as “staff”) when the majority are based in countries that criminalize homosexual activity. The below chart shows the status of criminalized homosexual activity globally as of December 2016.
 
-![Criminalization of Homosexuality/Homosexual Acts as of December 2016](https://github.com/MERLTech/MERL-Center-public/blob/main/assets/img/posts/criminalization-homosexual-acts.png)
+![Criminalization of Homosexuality/Homosexual Acts as of December 2016](/assets/img/posts/criminalization-homosexual-acts.png)
 **Source:** [Digital Security of LGBTQI Aid Workers](https://gisf.ngo/wp-content/uploads/2020/02/2224-EISF-2017-Digital-Security-of-LGBTQI-Aid-Workers-Awareness-and-Response.pdf)
 
-While many INGOs and government foreign services fully advocate for their LGBTQI+ staff, the UN must reach consensus among member states to follow suit. Because the UN does not formally recognize LGBTQI+ staff as a protected class of people, most UN entities do not have specific policies to ensure LGBTQI+ staff are safe, can openly work with local governments and organizations, and can have their families accompany them to family duty stations. 
+While many INGOs and government foreign services fully advocate for their LGBTQI+ staff, the UN must reach consensus among member states to follow suit. Because the UN does not formally recognize LGBTQI+ staff as a protected class of people, most UN entities do not have specific policies to ensure LGBTQI+ staff are safe, can openly work with local governments and organizations, and can have their families accompany them to family duty stations.
 
 A lack of formal protections and the closed culture of many UN offices places many LGBTQI+ staff in dangerous situations, adds undue mental health stress, and hinders the career path of LGBTQI+ staff, especially those who wish to have a family. These can be further complicated due to an LGBTQI+ staff member’s race, citizenship, religion, socioeconomic class, and native language, among other factors.
 
@@ -58,7 +58,7 @@ The project had three outputs:
 - [A crowdsourcing platform](https://www.devex.com/news/can-an-interactive-online-map-better-inform-lgbtqi-aid-worker-security-88008)
 
 ## The Platform
-The main purpose of the platform was to help UN staff make an informed decision on accepting a new post in a certain country, agency, or context. The platform was designed to crowdsource experiences, strategies and information on how to navigate different contexts from current and former LGBTQI+ UN staff through “sentiment reports” and through surveys. 
+The main purpose of the platform was to help UN staff make an informed decision on accepting a new post in a certain country, agency, or context. The platform was designed to crowdsource experiences, strategies and information on how to navigate different contexts from current and former LGBTQI+ UN staff through “sentiment reports” and through surveys.
 
 Sentiment reports were meant to be open-ended prompts that respondents could use to describe how they felt in a particular UN job and/or give a bird’s eye view of their experience with a particular UN organization, such as UNICEF, the Secretariat, or WFP. The design originally called for “incident reports”, wherein contributors could describe specific discriminatory or hateful events, or transgressions due to their LGBTQI+ identity. However, project research indicated that a more accurate reflection of contributor experiences required less event-specific feedback, and focused more on how respondents generally felt, were treated, could interact, or otherwise experienced their work.
 
@@ -78,9 +78,9 @@ The cost barrier to launch the platform was prohibitively expensive for several 
 Below are some of the major MERL challenges with the platform.
 
 #### Double/multipe disaggregations
-The biggest design challenge was balancing the level of response aggregation needed for privacy with being useful. Aggregating all data in one country across all agencies across all time would not only not help an LGBTQI+ UN staff decide whether to accept their post/consultancy, it might be harmful. 
+The biggest design challenge was balancing the level of response aggregation needed for privacy with being useful. Aggregating all data in one country across all agencies across all time would not only not help an LGBTQI+ UN staff decide whether to accept their post/consultancy, it might be harmful.
 
-For example, suppose the majority of responses for a particular country office were from cisgender gay male staff who said the environment is accepting. If the two demographic characteristics - cisgender and man -  were not displayed, the platform could be misleading for a gay trans woman staff trying to decide whether to accept a post in that office. Given the sensitive information being collected, however, a high level of data aggregation would be needed to display responses without potentially serious repercussions. The project guestimated several hundred responses per country office per UN organization would be needed to display at least two disaggregations. 
+For example, suppose the majority of responses for a particular country office were from cisgender gay male staff who said the environment is accepting. If the two demographic characteristics - cisgender and man -  were not displayed, the platform could be misleading for a gay trans woman staff trying to decide whether to accept a post in that office. Given the sensitive information being collected, however, a high level of data aggregation would be needed to display responses without potentially serious repercussions. The project guestimated several hundred responses per country office per UN organization would be needed to display at least two disaggregations.
 
 Double or multiple disaggregations is a challenge with data collection in the UN system more generally, such as in representative country household surveys. The amount of information gathered is enormous and must be geographically representative, which makes collection expensive. The platform design hoped to navigate around this challenge by crowdsourcing. However, in only considering proprietary solutions, the amount of funding needed required to implement and deploy the platform was prohibitively expensive.
 
@@ -95,14 +95,14 @@ Many of the MERL challenges listed above could have been addressed in a cost-eff
 ### Pybossa
 In the original design of the platform, the only two ways to collect data points were through surveys with multiple choice responses and through open-ended questions on sentiment reports. As described above, few data points to aggregate and display would effectively render the platform useless. The marketing and visibility required to reach enough contributors to reach a critical mass of responses was prohibitively expensive, meaning the platform design needed more ways to collect data.
 
-The overall project included a research component in which Fordham Law School conducted more than 100 in-depth interviews with LGBTQI+ staff. Instead of treating these interviews as separate inputs, the platform could have parsed information from the interviews to expand the pool of usable data points. 
+The overall project included a research component in which Fordham Law School conducted more than 100 in-depth interviews with LGBTQI+ staff. Instead of treating these interviews as separate inputs, the platform could have parsed information from the interviews to expand the pool of usable data points.
 
 The open source software Pybossa can analyze voice clips or transcription text. With permission from the interviewee, the project could have used Pybossa to map interview clips to the platform survey questions and/or sentiment reports, and added relevant time, geographic, UN organization information the interviewee mentioned.
 
 ### Sensemaker
-While not open source, the company Cognitive Edge has a tool called [Sensemaker](https://sensemaker.cognitive-edge.com/product-category/sensemakerapplications/) that uses qualitative data collection methods that might be relevant. Sensemaker collects stories in snippets, and allows people to analyze their own contributions using a predefined set of tools. This allows the company to quickly derive signals based on cognitive frameworks. 
+While not open source, the company Cognitive Edge has a tool called [Sensemaker](https://sensemaker.cognitive-edge.com/product-category/sensemakerapplications/) that uses qualitative data collection methods that might be relevant. Sensemaker collects stories in snippets, and allows people to analyze their own contributions using a predefined set of tools. This allows the company to quickly derive signals based on cognitive frameworks.
 
-One way to build on this approach is to create a guide that would allow platform contributors to self-identify their information. For example, a guide might help a respondent classify how being an LGBTQI+ UN staff in a certain field office felt along a spectrum of un/safe, un/stable, and un/inspiring. This triples the number of data points and with little added effort. In the spirit of open source, the tools developed for the platform could be open sourced and continually iterated upon by the community of respondents. 
+One way to build on this approach is to create a guide that would allow platform contributors to self-identify their information. For example, a guide might help a respondent classify how being an LGBTQI+ UN staff in a certain field office felt along a spectrum of un/safe, un/stable, and un/inspiring. This triples the number of data points and with little added effort. In the spirit of open source, the tools developed for the platform could be open sourced and continually iterated upon by the community of respondents.
 
 ### Community Building
 One aspect of the platform that was missing in the original design is a community building effort. [There are many open source tools](https://opensource.com/alternatives/slack) available that can be integrated into a platform to act as a free direct message or community comment discussion boards. It’s important to note that given the sensitive nature of the platform and the ever-present existence of online bullying and harassment, any direct message or community commenting feature would need strict governance rules and an active community to moderate. This would be a feature to build in a later iteration.

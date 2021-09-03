@@ -168,7 +168,43 @@ ul ul ul {
 blockquote {
     //padding: ($padding / 4);
     font-style: italic;
-    border-left: 2px solid $brand;
+    //font-weight: 500;
+    padding: 0 0 0 12px;
+    margin: 36px 0;
+    border-left: 2px solid $gray;
+    //color: $gray-dark;
+
+    @include start-at($medium) {
+      padding:  0 36px;
+    }
+
+    p {
+      font-weight: 500;
+
+      // &:before {
+      //   content: '“';
+      // }
+      // &:after {
+      //   content: '”';
+      // }
+    }
+
+    ul {
+      color: $gray-dark;
+      list-style-type: none;
+      margin: 12px 0 0;
+
+      li:first-child {
+        position: relative;
+
+        &:before {
+          content: '- ';
+          position: absolute;
+          left: -12px;
+          top: -2px;
+        }
+      }
+    }
     //margin-bottom: ($padding / 2);
 }
 
@@ -426,9 +462,9 @@ audio {
         font-size: 13px;
       }
 
-      &:first-child {
-        font-weight: 600;
-      }
+      // &:first-child {
+      //   font-weight: 600;
+      // }
     }
 
     tr {
