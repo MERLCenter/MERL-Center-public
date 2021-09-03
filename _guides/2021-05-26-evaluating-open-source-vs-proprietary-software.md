@@ -37,7 +37,7 @@ To understand the potential tradeoffs when evaluating OSS versus proprietary sof
 In this Beginner’s Guide, OSS is broadly defined as software that is freely distributed and uploaded to an accessible repository that provides source code. More specifically, code, data, or content has to be under an open source license, insofar that the code base is accessible at no cost (see The Open Source Initiative for further outline and definitions). Proprietary software, on the other hand, is copyrighted, such that limits against use, distribution, and/or modification are imposed by the copyright holder. Moreover, along the continuum of software development licenses also exists a business model known as Open Core. That is, Open Core is generally understood as the monetization of commercially produced OSS, proprietary add-ons that provide additional features that come with a commercial license. Examples of Open Core Software include many Service (SaaS) products, like Kafka, a data streaming service under Apache 2.0, Oracle’s MySQL database, Neo4j with the enterprise addition under a commercial license, among many others. To conceptualize the range of differences between OSS, Open Core, and proprietary software, see Figure 1:
 
 **Figure 1: Open Source, Open Core, and Proprietary Software Continuum**
-![Open Source Proprietary Continuum](https://github.com/MERLTech/MERL-Center-public/blob/main/assets/img/posts/open-source-proprietary-continuum.png)
+![Open Source Proprietary Continuum](/assets/img/posts/open-source-proprietary-continuum.png)
 	
 # Summary of findings
 When evaluating OSS and proprietary software, four considerations were identified across the interviews and survey’s results. More specifically, practitioners maintained that software interoperability - the ability for their solution to “understand” and work with other software - was imperative, given many teams’ cross-functional work. Costs were also a salient theme, insofar that it is not just about the price of a solution but also the indirect and opportunity costs associated with building, deploying, and maintaining the solution. However, getting support for these decisions requires leadership buy-in and data mature organizations, which are critical to improve and increase data-related activities. So, too is the adherence to ethical and legal considerations. For summary of the findings, See Table 1. 
@@ -103,7 +103,7 @@ Given the central role digital technology plays in the social and public sector,
 
 
 **Figure 2: Example of Decision Tree Flow for Interoperability of Software Solution**
-![Interoperability Constraint Review](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/interoperability-constraint-review.png)
+![Interoperability Constraint Review](/assets/img/posts/interoperability-constraint-review.png)
 
 To evaluate a solution’s interoperability, consider the following questions:
 
