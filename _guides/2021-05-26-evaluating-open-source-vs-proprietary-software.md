@@ -54,16 +54,19 @@ Ethical and Legal Considerations | The adherence to ethical and legal considerat
 ## Interoperability 
 The first consideration practitioners evaluated their decision against was the compatibility of their solution with other existing proprietary or OSS tools. That is, interoperability - which is defined as the ability for a software product or system to understand and work with other software solutions - played a central role in choosing products that are both sustainable and impactful. For example, does the solution recognize common data formats and communication protocols and are capable of communicating with each other? Can you output the data in other formats (e.g., a csv file), which you can share with other team members? Can the solution be used and shared by multiple stakeholders and groups? 
 
-> If I consider the non-open source products I use like AirTable or Excel/PowerBI, then I use them because they are easy to use and to distribute to third parties. Much of my work is about handing over products and ideas in a sustainable manner so that others can run with it and as a consultant providing MERL advisory services for example, I don't have time to manage the environments to build reliable products so I inevitably go to what is the lowest common denominator...I have had success however combining a lighter internal only open source environment (R for example) and then using APIs or databases, I create bridges to Dropbox or Office365 to provide the interface my clients (African government staff) know.
-> - Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, with more than five years of experience with senior experience of Open Source tools (e.g. more than five years experience / part of primary job functions).
+> "If I consider the non-open source products I use like AirTable or Excel/PowerBI, then I use them because they are easy to use and to distribute to third parties. Much of my work is about handing over products and ideas in a sustainable manner so that others can run with it and as a consultant providing MERL advisory services for example, I don't have time to manage the environments to build reliable products so I inevitably go to what is the lowest common denominator...I have had success however combining a lighter internal only open source environment (R for example) and then using APIs or databases, I create bridges to Dropbox or Office365 to provide the interface my clients (African government staff) know."
+
+##### - Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, with more than five years of experience with senior experience of Open Source tools (e.g. more than five years experience / part of primary job functions).
 
 ## The software development lifecycle
 How and when a software is built, deployed, and maintained offers several considerations for practitioners. For both OSS and proprietary tools, the long-term direction and support of products implicate decisions that practitioners must take in order to choose the right software solutions. In both the survey and semi-structured interviews, evaluating solutions based on how it is updated and maintained is critical, particularly along the lines of a solution’s innovation and staying “up to date”. This notion also raised the importance of identifying solutions with an active community or company that are responsible for the quality, safety, and support of a software. OSS communities or proprietary solutions make continuous improvements to the solution to ensure long-term support and updates to user-friendly interfaces. 
 
 > "A Major concern is the support of the open source community to a specific tool, sometimes you select a good solution that in a couple of years stops being supported (for multiple reasons)"
+
 ##### - Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, with more than five years of experience with senior experience of Open Source tools (e.g. more than five years experience / part of primary job functions). 
 
 > "The biggest constraints I face...is that with either Open Source or proprietary software I need to consider the long term direction and support of the product. In niche markets, proprietary solutions can disappear with small companies while Open projects can stagnate with limited contributions. Either pose a risk."
+
 ##### - Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, with intermediate experience of Open Source tools (e.g. 2-5 years experience / was once but is no longer part of primary job responsibilities).
 
 ## Costs of building, deploying, and maintaining solution
@@ -78,7 +81,7 @@ Driving for change within an organization requires not just the availability of 
 
 > "It's harder to influence colleagues who may not be as tech savvy to move from a proprietary software. The biggest challenge is competing with software that have been taught in school/college."
 
-##### - Monitoring & Evaluation practitioner interviewee.
+##### - Monitoring & Evaluation practitioner interviewee
 
 > "Open source technology usually has a very steep learning curve. My impression is that lots of energy is put into the functionality of open source software rather than form or user interface. For example, Limesurvey takes me almost 3 or 4 times as long to create a survey rather than using SurveyMonkey, which just has a more intuitive interface. Add to that the fact that I not only have to train myself but others means it's a significant time investment most of the time."
 
