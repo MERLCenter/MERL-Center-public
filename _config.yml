@@ -17,8 +17,9 @@ title: The official MERL open source community
 email: contact@github.com
 description: |
     MERL Center is an open source community creating resources for monitoring, evaluation, research and learning (MERL) practitioners of all technology capacities.
-twitter_username: github
-github_username:  github
+url: "https://merlcenter.org"
+twitter_username: MERLTech
+github_username:  MERLTech
 
 # Build settings
 markdown: kramdown
