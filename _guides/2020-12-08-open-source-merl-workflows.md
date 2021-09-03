@@ -56,7 +56,7 @@ _Where_
 In a typical MERL lifecycle, these workflows occur at each stage and often happen simultaneously.
 
 _Figure 1 - Typical MERL and Program Implementation Lifecycle_
-![MERL Lifecycle](https://github.com/MERLTech/MERL-Center-public/blob/main/assets/img/posts/open-source-for-MERL-workflows-MERLlifecycle.png)
+![MERL Lifecycle](assets/img/posts/open-source-for-MERL-workflows-MERLlifecycle.png)
 
 For example, data visualizations can inform the design, implementation and learning of a project’s MERL lifecycle. However, the workflow of creating a data visualization requires a set of tasks to input (cleaned) data into a tool that produces a visual output. An open source tool’s **functionality** refers to the tasks it can do as part of a **MERL technology workflow**. 
 
