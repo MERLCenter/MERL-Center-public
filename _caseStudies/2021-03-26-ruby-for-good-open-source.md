@@ -82,7 +82,7 @@ The technology solution will need to be distributed geographically, as Diaper Ba
 The solution will need to function with regular technology such as desktop or laptop computers, tablets, and mobile devices. Diaper Banks generally have access to at least one or more of these technologies. Some stakeholders have expressed the desire for the ability to use labor-saving technologies such as barcode scanning as an optional means of data entry.
 
 #### DiaperBase Landing Page
-![DiaperBase Homepage](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-diaper-base.png)
+![DiaperBase Homepage](/assets/img/posts/ruby-for-good-diaper-base.png)
 
 
 ### MERL (Monitoring, Evaluation, Research, Learning) Challenges
@@ -96,7 +96,7 @@ For a system that was built on requesting and distributing single items, this wa
 Ruby for Good facilitates skills-based volunteering experiences for companies and this clearly defined project was an ideal one to tackle in one of our engagements. At a facilitated skills-based volunteering engagement organized for Power Home Remodeling Group (PHRG), their engineers worked for an entire week and were able to drive the completion of this project across the finish line. The team at PHRG were impacted by our mission and several have since joined our community as active contributors. They found the experience extremely meaningful as they were able to meet and interact with several of the people running Period Supply and Diaper Bank organizations. They were able to see first hand the far-reaching and direct impact of the gift of their time and talent.
 
 #### DiaperBase Dashboard
-![DiaperBase Dashboard](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-dashboard.png)
+![DiaperBase Dashboard](/assets/img/posts/ruby-for-good-dashboard.png)
 
 ## Actions Taken
 
@@ -115,7 +115,7 @@ We presented to a packed auditorium at the NBDN conference in 2019, and were abl
 Grassroots marketing through product evangelism by our initial users was highly effective, as was the tacit endorsement by the NBDN in sponsoring us with a full session to demo the product and answer questions. We became known as the de facto official inventory management software application of the NBDN; this special status was the result of two years of relationship-building and working directly with the Diaper Banking community to build trust, which was an integral part of our success.
 
 #### Diaper Requests from Partner Organizations
-![DiaperBase Requests](hhttps://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-requests.png)
+![DiaperBase Requests](/assets/img/posts/ruby-for-good-requests.png)
 
 ### Application Intentionally Kept as Basic as Possible
 
@@ -156,7 +156,7 @@ Given high-enough volume, we will have all Pull Requests work against an event-s
 Inclusivity and equity is one of the core values of Ruby for Good and the community is a safe and welcoming one. In addition to GitHub and [Slack](https://rubyforgood.slack.com), we also welcome contributors via social media ([Twitter](https://twitter.com/rubyforgood) and [LinkedIn](https://www.linkedin.com/company/ruby-for-good)). When new GitHub users become repeated contributors, we will often add them to repositories, so that they can push branches up directly instead of using their fork. This also means issues can be assigned to them, and fosters a long term relationship with them as well.
 
 #### Forecasting Feature: Donations
-![DiaperBase Donations](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-donations.png)
+![DiaperBase Donations](/assets/img/posts/ruby-for-good-donations.png)
 
 ## Conclusion
 
