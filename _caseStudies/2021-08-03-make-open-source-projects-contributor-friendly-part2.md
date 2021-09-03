@@ -30,7 +30,7 @@ _With edits from Amy Sample Ward and Mala Kumar_
 </div>
 <br>
 
-## (Continued from Part 1)
+## (Continued from [Part 1](https://merlcenter.org/caseStudies/make-open-source-projects-contributor-friendly-part2/))
 Once you have some contributors interested in your project, there are multiple ways you can stay connected and keep each other up to date. For open source projects, it's helpful to have defined communication protocols in place and make sure new contributors are on-boarded into these ways of communication.
 
 At Hikaya, we invite all our contributors, both current and former, to a dedicated team communication tool so that everyone can stay connected. Since many contributors are working from different parts of the world, we have taken a “remote by default” stance, which means all work tasks, decisions, and communication should happen in designated places such as a messaging channel or tasks should be well documented in a way that contributors can seamlessly hand off or pick up work from each other.
