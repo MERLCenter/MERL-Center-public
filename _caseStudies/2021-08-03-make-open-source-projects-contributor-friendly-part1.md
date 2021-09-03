@@ -39,7 +39,7 @@ We can think of an open source project as defined by the [opensource.guide](http
 
 In the social good sector, an example of a project could be a text-based project such as setting up an information website for knowledge sharing or a software application with its source code readily available for the public to use or contribute to. A general definition for an open source project is that the project can be easily accessible and set up by someone who wants to make a contribution to improve the project.
 
-At Hikaya, we work with open source projects in its traditional terms by developing open source software where the source code is made publicly available and has an officially recognized open source license. Our open source projects can be found on [Github](https://github.com/hikaya-io).
+At Hikaya, we work with open source projects in its traditional terms by developing open source software where the source code is made publicly available and has an officially recognized open source license. Our open source projects can be found on [GitHub](https://github.com/hikaya-io).
 
 ### Setting up an open source project
 When setting up an open source project, it requires you to think about your users differently than you might with another type of project. When developing a product, you are mostly concerned about the people who will end up using the product. However, in an open source project, you also need to think about who would like to contribute to the development of your project. This includes identifying how to recruit key roles like developers, designers, and product managers who will bring their unique set of skills together and can help make your project a success.
@@ -99,8 +99,8 @@ At [Hikaya](https://hikaya.io/), we are building a number of open source project
 
 ### Further Reading
 
-1. **Open Source pre-launch checklist:** https://opensource.guide/starting-a-project/#your-pre-launch-checklist
+1. **Open Source pre-launch checklist:** [https://opensource.guide/starting-a-project/#your-pre-launch-checklist](https://opensource.guide/starting-a-project/#your-pre-launch-checklist)
 
-2. **GitHub contribution and dependency insights:** https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization
+2. **GitHub contribution and dependency insights:** [https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization)
 
-3. **Value of Open Source:** https://www.apereo.org/content/value-open-source-software
+3. **Value of Open Source:** [https://www.apereo.org/content/value-open-source-software](https://www.apereo.org/content/value-open-source-software)
