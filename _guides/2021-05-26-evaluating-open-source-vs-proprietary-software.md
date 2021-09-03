@@ -69,31 +69,37 @@ How and when a software is built, deployed, and maintained offers several consid
 ## Costs of building, deploying, and maintaining solution
 Several participants identified costs as significant factors when evaluating different software solutions. Costs, however, include more than just direct costs, like the price of purchasing a proprietary tool. There are a multiplicity of costs that emerge from additional activities (e.g., direct costs, opportunity costs when building it, understanding what to buy, maintainers, etc.). There were several exogenous factors associated when adopting OSS solutions, and general unwieldiness. These included issues like lack of troubleshooting or fixing broken code. Who will be maintaining or fixing? External consultants? Trained staff? Also evaluating the software’s true costs and understanding different features and business model (e.g., Free and Open Source, Open Core, etc.)
 
-> I think that’s the biggest hurdle. For example, using a package in Python versus a whole data workflow set up in Python. People often don’t know how to differentiate the two. Another example , KoBoToolbox is built on Open Data Kit, people will often have a hard time distinguishing between KoBoToolBox and ODK, when people are comparing these tools, it’s not often equivalent, especially in terms of cost. Hosting an ODK instance might actually cost less, but KoBoToolbox in the long run might be better for the needs because of user interface. When you tell the management team what we’re comparing, they often fixate on the brands. It's hard to explain to management.
+> "I think that’s the biggest hurdle. For example, using a package in Python versus a whole data workflow set up in Python. People often don’t know how to differentiate the two. Another example , KoBoToolbox is built on Open Data Kit, people will often have a hard time distinguishing between KoBoToolBox and ODK, when people are comparing these tools, it’s not often equivalent, especially in terms of cost. Hosting an ODK instance might actually cost less, but KoBoToolbox in the long run might be better for the needs because of user interface. When you tell the management team what we’re comparing, they often fixate on the brands. It's hard to explain to management."
+
 ##### - Software Developer Interviewee
 
 ## Organizational Data maturity and Leadership Buy-In
 Driving for change within an organization requires not just the availability of tools, but also overall support and leadership buy-in for making data-related decisions within an organization. Data maturity, which is broadly understood as the collective duty and goal to prioritize and respond to responsible data practices, is imperative as social organizations must make efforts to have an institutionally strong data culture. In many instances, as conveyed by survey respondents, decisions do not necessarily depend on the part of the software developer or technology team. Rather, decisions often are made by other stakeholders, such as Operations or Business Development, which includes  funding, budgetary constraints, and other strategic directions. Respondents maintained that there often is a bias towards using tools that one already knows, for example solutions that are “industry standard” or generally taught in university courses. Changing tools is often a challenge when the status quo is most familiar across decision-makers. 
 
-> It's harder to influence colleagues who may not be as tech savvy to move from a proprietary software. The biggest challenge is competing with software that have been taught in school/college.
-> - Monitoring & Evaluation practitioner interviewee.
+> "It's harder to influence colleagues who may not be as tech savvy to move from a proprietary software. The biggest challenge is competing with software that have been taught in school/college."
 
-> Open source technology usually has a very steep learning curve. My impression is that lots of energy is put into the functionality of open source software rather than form or user interface. For example, Limesurvey takes me almost 3 or 4 times as long to create a survey rather than using SurveyMonkey, which just has a more intuitive interface. Add to that the fact that I not only have to train myself but others means it's a significant time investment most of the time.
-> - Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, with little experience of Open Source tools (e.g. less than two years / not part of main job responsibilities).
+##### - Monitoring & Evaluation practitioner interviewee.
+
+> "Open source technology usually has a very steep learning curve. My impression is that lots of energy is put into the functionality of open source software rather than form or user interface. For example, Limesurvey takes me almost 3 or 4 times as long to create a survey rather than using SurveyMonkey, which just has a more intuitive interface. Add to that the fact that I not only have to train myself but others means it's a significant time investment most of the time."
+
+##### - Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, with little experience of Open Source tools (e.g. less than two years / not part of main job responsibilities).
 
 ## Ethical and Legal Considerations
 Compliance with legal regulations and ethical considerations is paramount  for social sector practitioners, insofar that there are a multiplicity of dilemmas that include potential harm from humanitarian action. One may ask, why and how would a technical solution relate to legal regulations and ethical considerations? How would a social sector practitioner choose the appropriate software that meets their needs and adheres to legal regulations? 
 
 In both the survey and one-to-one interview, respondents maintained that they continuously evaluated their software solutions against issues like data privacy and security, among other ethical risks. Interestingly, several individuals indicated how many of their colleagues believe that OSS tools are not clear or explicit about adherence to data privacy laws in multiple countries. Others, on the other hand, suggested that there are considerations when choosing proprietary vendors as opposed to using an OSS solution and maintaining it internally. That is, who has access to your data and how can you ensure that private information is kept safe? For instance, consider the following examples:
 
-> The regulations are sizable requiring considerable effort to implement. 
-> Survey respondent working in software development, infrastructure, cloud technology, with senior experience of Open Source tools (e.g. more than five years experience / part of primary job functions).
+> "The regulations are sizable requiring considerable effort to implement." 
 
-> I am also concerned about adhering to privacy laws if I share data or code with others. 
-> Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, Philanthropy with little experience of Open Source tools (e.g. less than two years / not part of main job responsibilities).
+##### Survey respondent working in software development, infrastructure, cloud technology, with senior experience of Open Source tools (e.g. more than five years experience / part of primary job functions).
+
+> "I am also concerned about adhering to privacy laws if I share data or code with others." 
+
+##### Survey respondent working in Data Science/Analysis and Monitoring, Evaluation, Research and Learning, Philanthropy with little experience of Open Source tools (e.g. less than two years / not part of main job responsibilities).
  
-> I was recently on a call with a potential data loader tool and there was excitement with the technical functionality! But the way it’s loaded, it presents security problems that cause them to look elsewhere. If I’m thinking of moving data from here to there, what kind of access do they [the maintainers] have? What are the GDPR actions acting as a subprocessor? What is the messaging if we want them to ingest that data or run queries? For example, “Hey, if are you running these queries, don’t look at that column?” or for log streams, “Hey, you have those logs, but don’t look at people’s names?” 
-> Senior Data Scientist interviewee
+> "I was recently on a call with a potential data loader tool and there was excitement with the technical functionality! But the way it’s loaded, it presents security problems that cause them to look elsewhere. If I’m thinking of moving data from here to there, what kind of access do they [the maintainers] have? What are the GDPR actions acting as a subprocessor? What is the messaging if we want them to ingest that data or run queries? For example, “Hey, if are you running these queries, don’t look at that column?” or for log streams, “Hey, you have those logs, but don’t look at people’s names?” 
+
+##### Senior Data Scientist interviewee
 
 # Which option do I choose? Some Considerations 
 The common challenges and opportunities outlined above showcase several ways in which social actors and leaders evaluate which software solution fits with their organization’s myriad of needs. Here are four considerations for social sector actors and leaders to take into account.
