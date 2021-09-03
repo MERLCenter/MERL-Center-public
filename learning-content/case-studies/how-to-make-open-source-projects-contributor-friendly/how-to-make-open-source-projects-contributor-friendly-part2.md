@@ -8,7 +8,7 @@ _By [Andrew Pham](https://www.andrewpham.org/) with editing contributions from [
 
 <br>
 <div style="text-align: center">
-    <img src="https://hikaya.io/assets/img/ways-to-engage-with-contributors.43cf2006.svg"
+    <img src="https://s3.hikaya.io/blog/ways-to-engage-with-contributors.svg"
     width="700"
     height="350"/>
 </div>
