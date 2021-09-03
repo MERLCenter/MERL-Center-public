@@ -11,7 +11,7 @@ tags:
    - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: 
+featuredImage:
 
 outgoing: false
 outgoingUrl:
@@ -23,11 +23,11 @@ The mission of the nonprofit organization Ruby for Good is to deliver specialize
 
 Today, in 2021, with continued stakeholder engagement, that proof-of-concept has become a part of Ruby for Good's portfolio of projects that it maintains and supports, and has since expanded to a multi-tenant Software-as-a-Service (SaaS). It serves the inventory management needs of over 120 Diaper Banks, Period Supply, and Adult Incontinence Supply organizations throughout the United States, and their nearly 2,000 nonprofit partner organizations, at no cost to them or their partners. The software is 100% volunteer supported, the hosting is donated, and the application is actively developed by several dozens of volunteers, and has had nearly 200 contributors from around the world (6 of 7 continents!).
 
-The Diaper Bank has a repository on the [Ruby for Good GitHub organization](https://github.com/rubyforgood/diaper), which is under an MIT (open source) license. Ruby for Good has helped dozens of budding volunteers submit their first Pull Request, participated in 5 Hacktoberfests, as well as several large software development conferences including Rubyconf, Railsconf, and Strangeloop, and have presented at the National Diaperbank Network (NDBN) conference twice. 
+The Diaper Bank has a repository on the [Ruby for Good GitHub organization](https://github.com/rubyforgood/diaper), which is under an MIT (open source) license. Ruby for Good has helped dozens of budding volunteers submit their first Pull Request, participated in 5 Hacktoberfests, as well as several large software development conferences including Rubyconf, Railsconf, and Strangeloop, and have presented at the National Diaperbank Network (NDBN) conference twice.
 
 Through the Diaper Bank application, Ruby for Good simultaneously enables a non-technical community to streamline their business processes and also provides the technical community with opportunities to support the nonprofits serving critical missions, contribute to vital social impact work, learn from peers, and skill-up.
 
-### Overview of Ruby for Good 
+### Overview of Ruby for Good
 
 Nonprofit and civic organizations work to deliver critical missions across the country, which are more vital in the current climate than ever before. The people on the front lines of these missions don't always have the resources they need to deliver these critical programs. That's where Ruby for Good comes in. We bring together people of varied skills and experiences to build technology solutions that benefit nonprofits. Ruby for Good's mission is to deliver specialized software development solutions to nonprofit organizations to bolster their critical missions, build an inclusive technology community, and provide technology-focused educational opportunities to underserved communities.
 
@@ -37,7 +37,7 @@ We also partner with technology companies and offer skills-based volunteering op
 
 ### Problem Statement This Case Study Explores/Addresses
 
-Creation and maintenance of free technological solutions to operationalize the inventory management of Diaper Banks and similar organizations to enable them to maximize their available funds and resources towards serving vulnerable communities in need. 
+Creation and maintenance of free technological solutions to operationalize the inventory management of Diaper Banks and similar organizations to enable them to maximize their available funds and resources towards serving vulnerable communities in need.
 
 ### Key Takeaways
 
@@ -81,7 +81,7 @@ The technology solution will need to be distributed geographically, as Diaper Ba
 
 The solution will need to function with regular technology such as desktop or laptop computers, tablets, and mobile devices. Diaper Banks generally have access to at least one or more of these technologies. Some stakeholders have expressed the desire for the ability to use labor-saving technologies such as barcode scanning as an optional means of data entry.
 
-#### DiaperBase Landing Page 
+#### DiaperBase Landing Page
 ![DiaperBase Homepage](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-diaper-base.png)
 
 
@@ -89,13 +89,13 @@ The solution will need to function with regular technology such as desktop or la
 
 Effective monitoring is an essential part of impact measurement, process improvement, impact measurement and accountability to funding agencies, as well as other stakeholders. [A KPMG assessment](https://assets.kpmg/content/dam/kpmg/pdf/2014/09/2014-survey-monitoring-evaluation-v4.pdf) of global M&E systems identified the cost of data management and analysis and ease of data accessibility and standardization as key roadblocks to introducing data analytics and "big data" into evaluation systems. A robust monitoring system allows small organizations with limited capacity to access critical information about service delivery and  populations served that would ordinarily be out of reach.   Maintaining inventory for nonprofits throughout the continental and non-continental United States required initial architecture to facilitate a system that would work well regardless of location, inventory inflow processes, and even language differences. Unsurprisingly the value of a single diaper is different in a large city like New York, rural Appalachia, or on one of the small islands of Hawai'i, and the system needed to be able to report on the local value of a diaper. Being open source software, we were able to customize the solution to enable users to enter the value per item. We even needed to build the system to be robust enough to handle non-English characters like those used on the Hawaiian Islands.
 
-A significant challenge faced by Ruby for Good with this project was the needed expansion from serving diaper banks to also serving period supply and adult incontinence organizations. Even though the business process of distributing period supply and adult incontinence products is nearly identical to supplying diapers, there were several major cosmetic changes that needed to be implemented as well as substantial code refactorings to serve the new workflows. As users are often not technically savvy, the wording inside the application is of paramount importance. The cosmetic changes were needed to rename things like Diaper Drive to Donation Drive, Request Diapers to Request Essentials, and since the name of the application was the Diaper application, it required renaming it to something more all-encompassing - the Human Essentials application. We also learned that while the distribution process for period supplies is extremely similar there is one major difference, period supplies are distributed in kits, which are packages containing multiple items. For example, a kit may include tampons, wipes, and pads. 
+A significant challenge faced by Ruby for Good with this project was the needed expansion from serving diaper banks to also serving period supply and adult incontinence organizations. Even though the business process of distributing period supply and adult incontinence products is nearly identical to supplying diapers, there were several major cosmetic changes that needed to be implemented as well as substantial code refactorings to serve the new workflows. As users are often not technically savvy, the wording inside the application is of paramount importance. The cosmetic changes were needed to rename things like Diaper Drive to Donation Drive, Request Diapers to Request Essentials, and since the name of the application was the Diaper application, it required renaming it to something more all-encompassing - the Human Essentials application. We also learned that while the distribution process for period supplies is extremely similar there is one major difference, period supplies are distributed in kits, which are packages containing multiple items. For example, a kit may include tampons, wipes, and pads.
 
-For a system that was built on requesting and distributing single items, this was a major undertaking and would require extensive architectural and code changes. Realistically, this rebranding and code changes were, conservatively, going to be hundreds of hours of work for our open source community of volunteers and likely take several months of donated time to implement, had we only relied on our community. In mid-2020, with the COVID pandemic creating unprecedented challenges, and to achieve this vital change, in a quicker time frame, Ruby for Good turned to a corporate partner. 
+For a system that was built on requesting and distributing single items, this was a major undertaking and would require extensive architectural and code changes. Realistically, this rebranding and code changes were, conservatively, going to be hundreds of hours of work for our open source community of volunteers and likely take several months of donated time to implement, had we only relied on our community. In mid-2020, with the COVID pandemic creating unprecedented challenges, and to achieve this vital change, in a quicker time frame, Ruby for Good turned to a corporate partner.
 
 Ruby for Good facilitates skills-based volunteering experiences for companies and this clearly defined project was an ideal one to tackle in one of our engagements. At a facilitated skills-based volunteering engagement organized for Power Home Remodeling Group (PHRG), their engineers worked for an entire week and were able to drive the completion of this project across the finish line. The team at PHRG were impacted by our mission and several have since joined our community as active contributors. They found the experience extremely meaningful as they were able to meet and interact with several of the people running Period Supply and Diaper Bank organizations. They were able to see first hand the far-reaching and direct impact of the gift of their time and talent.
 
-#### DiaperBase Dashboard 
+#### DiaperBase Dashboard
 ![DiaperBase Dashboard](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-dashboard.png)
 
 ## Actions Taken
@@ -137,25 +137,25 @@ Outside of the event, when the contributors are often GitHub users who are new t
 
 Given that this application serves a critical need within underserved communities nation-wide, we prioritize describing both the need and the impact of the issues that are created. This approach has seen much success, since contributors connect directly with the mission and realize immediately the impact of their contributions. We also emphasize a well-articulated list of criteria for completion. The goal is to ensure that if a contributor submits a pull request and addresses all the criteria, it should be ready to merge into the master branch and become a part of the application.
 
-Issue descriptions often include relevant knowledge, references to prior Pull Requests, and links to code snippets that already exist in the codebase. For contributors who may not have a lot of context on the application, it also includes information that helps set them up for success, and enables them to submit successful Pull Requests. 
+Issue descriptions often include relevant knowledge, references to prior Pull Requests, and links to code snippets that already exist in the codebase. For contributors who may not have a lot of context on the application, it also includes information that helps set them up for success, and enables them to submit successful Pull Requests.
 
 ### Cause for Celebration
 
 GitHub provides metadata about users dispositions towards GitHub and the repository, in the Pull Request itself. The Pull Request will indicate if the user is making their first contribution to the repository, or their first ever contribution to GitHub. We have been tagging Pull Requests for the former with Repo First-timer and the latter with GitHub First-timer. During Ruby for Good events, when someone makes their first Pull Request and it is merged in, an announcement is made and their efforts are recognized and celebrated!
 
-### High-volume Contribution 
+### High-volume Contribution
 
 We have learned that events such as Hacktoberfest are sources of high-volume contribution. Creating as many small, solvable issues that require minimum domain knowledge prior to the event, has enabled success during events.
 
 The issues should be small because larger issues touch more files and are more likely to create merge conflicts. Merge conflicts take time to parse out and are a potential source of bugs, if not done perfectly. Larger issues are also more likely to require more domain knowledge, which are often in short supply at events. We tag these Pull Requests with event-specific labels for reference.
 
-Given high-enough volume, we will have all Pull Requests work against an event-specific branch  based off  the mainline branch, so that the core team can review the changes after the event and ensure there aren't any overlooked bugs or typos. Smaller velocities can be merged into the mainline as we usually do. 
+Given high-enough volume, we will have all Pull Requests work against an event-specific branch  based off  the mainline branch, so that the core team can review the changes after the event and ensure there aren't any overlooked bugs or typos. Smaller velocities can be merged into the mainline as we usually do.
 
 ### Welcoming New Team Members
 
 Inclusivity and equity is one of the core values of Ruby for Good and the community is a safe and welcoming one. In addition to GitHub and [Slack](https://rubyforgood.slack.com), we also welcome contributors via social media ([Twitter](https://twitter.com/rubyforgood) and [LinkedIn](https://www.linkedin.com/company/ruby-for-good)). When new GitHub users become repeated contributors, we will often add them to repositories, so that they can push branches up directly instead of using their fork. This also means issues can be assigned to them, and fosters a long term relationship with them as well.
 
-#### Forecasting Feature: Donations 
+#### Forecasting Feature: Donations
 ![DiaperBase Donations](https://github.com/MERLTech/MERL-Center-public/blob/new-jekyll-site/assets/img/posts/ruby-for-good-donations.png)
 
 ## Conclusion
@@ -166,6 +166,6 @@ We have learned how to successfully engage with the nonprofit community, build t
 
 Ruby for Good has several projects underway, and we invite you to join us in supporting the trajectory of our [Court Appointed Special Advocates (CASA) Project](https://github.com/rubyforgood/casa), for foster youth. The CASA project, which was launched this year, is following the path forged by our inventory management application and is using the lessons learned as we intend to grow it from a single stakeholder application to one supporting CASA's across the country.
 
-### How to Get Involved 
+### How to Get Involved
 
 Join us on [Slack](https://rubyforgood.herokuapp.com/), and view the [Diaper](https://github.com/rubyforgood/diaper) and [Partner](https://github.com/rubyforgood/partner) repositories on [GitHub](https://github.com/rubyforgood/partner). Follow us on social media: [Twitter](https://twitter.com/rubyforgood) and [LinkedIn](https://www.linkedin.com/company/ruby-for-good), and lend your skills, voice, and support to this vital work as we continue to build on our inventory management, CASA, and many other applications. Your support is more critical now than ever before.
