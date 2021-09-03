@@ -59,6 +59,11 @@ APP.Global = {
       document.body.classList.add('localhost');
     }
 
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.body.classList.add('darkmode');
+			document.getElementById('favicon').setAttribute('href', '/assets/img/favicons/favicon-light.png');
+		}
+
     var reportBtn = $('#download-report');
     reportBtnText = $('#download-report > span'),
     reportNote = $('#downloaded-note');
