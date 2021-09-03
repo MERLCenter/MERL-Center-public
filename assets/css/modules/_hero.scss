@@ -13,7 +13,10 @@
     align-items: center;
     justify-content: center;
     min-height: 538px;
+  }
 
+  &.hero--white {
+    background: $white;
   }
 
   &.hero--blue {

@@ -122,6 +122,15 @@ APP.Global = {
       if(hash === 'report') {
         window.location.href = '/insights/#research';
       }
+      // 
+      // $('table td').each(function(){
+      //   let el = $(this);
+      //   let text = el.text();
+      //   if ( text.includes('\"<ul>') ) {
+      //     text.replace('\"<ul>', '<ul>');
+      //   }
+      // });
+
     });
   }
 }
