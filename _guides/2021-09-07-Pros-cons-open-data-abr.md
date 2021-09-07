@@ -25,7 +25,7 @@ tags:
   - tag: Beginner's guide
 
 # images should be in the /assets/img/posts/ folder
-featuredImage:  https://user-images.githubusercontent.com/55405623/132376892-0271ee8c-8fff-4f52-8cda-9b7e27866dd2.png
+featuredImage: mosaic-effect.png
 
 outgoing: false
 outgoingUrl:
