@@ -75,21 +75,20 @@ Open data allows additional individuals to analyze the data and interpret and va
 * An example of different stakeholders using the same open dataset to achieve different results is that of a Singaporean initiative about residential energy consumption. They organized a "hackathon," or a community meeting where researchers, sustainability experts, tech start-ups and developers came together to analyze the data and explore ways to create technological interventions to mitigate the impact of increasing energy use. With invitees being from different backgrounds but accessing the same open data, the ability to interpret the data from their own contexts contributed to the creation of apps that helped in decision-making and increasing accountability.  
 
 
-## CONS/RISK FACTORS
-##### Incorrect use of data and missing data
+## Cons / Risk Factors
+### Incorrect use of data and missing data
 When using open data, proper consideration of data collection methods and metadata is paramount for accuracy. When these are misunderstood, erroneous conclusions may be drawn from data. 
 * For example, an [article]( https://ifstudies.org/blog/are-married-people-still-happier) published by the Institute for Family Studies in 2019 highlighted the results of a study based on an American Time Use Survey (ATUS), an open data survey. The study claimed that childless single people are happier than married ones. However, this was based on a misunderstanding of how a survey conducted by the US Census classifies single people and contradicted results from other open data sources. 
 
-##### Privacy and Consent
+### Privacy and Consent
 Data, whether open or proprietary, is regulated by laws that aim to guard the rights’ of individuals and protect against malicious use of data. The passage of the EU’s General Data Protection Regulation (GDPR) marked the first, enforceable legislation on data privacy and has been touted as the [most significant regulatory development in information policy](https://doi.org/10.1080/13600834.2019.1573501), influencing development of data privacy policy in other territories.
 * A 2020 [study](https://epub.wu.ac.at/7523/1/HCIS2020_A%20Human-centric%20Perspective%20on%20Digital%20Consenting_The%20Case%20of%20GAFAM_Soheil%20Human_Florian%20Cech.pdf) of consent provision options typically offered by large technology companies (Google, Amazon, Facebook, Apple and Microsoft) found several problems with the current frameworks for obtaining consent and concluded that they violated  principles of fairness, accountability and transparency. Further, although a 2015 [study](https://doi.org/10.1371/journal.pone.0125208) found no significant differences in consent provision rates with or without open data policies (suggesting that publishing of open data by itself does not influence consent), consent must be care
 
-	
-##### Mosaic Effect
+### Mosaic Effect
 The mosaic effect is a term used when discussing confidentiality. It is derived from the [mosaic theory of intelligence gathering](https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=2384&context=faculty_scholarship), in which disparate pieces of information become significant when combined with other types of information. Applied to data in the MERL sector, this occurs when multiple datasets are linked to reveal new information. Even if data is appropriately anonymized and efforts are made to remove personal identifiers, if there are multiple datasets containing similar or complementary information, it’s possible to determine identity based on the various data combined across the datasets such as gender, location, educational status etc. Resources are now available to help MERL practications think about how their data may contain certain linkages or risks that may require additional levels of security or anonymization. Figure 1 displays an example of how identity theft can occur when the mosaic effect takes place.
 
 *Figure 1: Mosaic Effect Example of Identity Theft*
 ![Mosaic Effect Example of Identity Theft](/assets/img/posts/mosaic-effect.png)
 
-##### Costs and sustainability of open data projects
+### Costs and sustainability of open data projects
 Open data has been described as a [public good](https://doi.org/10.1017/CBO9780511807763). While the data is offered for free, there is usually a huge cost for the organization implementing the open data initiative. According to [recent literature](https://www.researchgate.net/publication/328501181_Funding_Open_Data), beginning costs of open data initiatives vary from €20,000 to €100,000 per organisation. Start up costs are also followed by adaptation costs, infrastructural costs, and maintenance/operational costs. Additionally, from an NGO/non-profit perspective, funding these open data projects is also reliant on being able to pitch the usefulness of open data to funders. There is a risk of funders’ priorities changing, which can harm the long-term sustainability of the open data project. Another risk is that if funders’ and users’ agendas don’t align, the open data project may end up not serving the needs of the people who actually use the data. All of these sustainability factors affect decision-making around open data initiatives and often end up proving to be insurmountable.
