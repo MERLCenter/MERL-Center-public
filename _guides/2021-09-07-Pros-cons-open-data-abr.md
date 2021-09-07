@@ -1,3 +1,37 @@
+---
+layout: blog-post
+title: insert
+authors:
+  - author: Melissa Edmiston
+    authorTitle: Director of Data and Analytics, American Leprosy Missions
+    authorGitHubHandle: @Medmiston 
+    authorGitHubID: 70719187
+  - author: Stephanie Coker
+    authorTitle: Consultant, TCC Group
+    authorGitHubHandle: @scoker-me 
+    authorGitHubID: 55405623
+  - author: Stephanie Jamilla
+    authorTitle: Monitoring, Evaluation & Learning Specialist, Global Forest Watch
+    authorGitHubHandle: @stejamilla
+    authorGitHubID: 70538010
+ - author: Thembelihle Tshabalala
+    authorTitle: Monitoring, Evaluation & Learning Specialist, Global Forest Watch
+    authorGitHubHandle: @Lihle-TexturedPeople
+    authorGitHubID: 70567847
+tags:
+  - tag: Data Collection and Management
+  - tag: Data Analysis and Visualization
+  - tag: Reporting
+  - tag: Beginner's guide
+
+# images should be in the /assets/img/posts/ folder
+featuredImage:  https://user-images.githubusercontent.com/55405623/132376892-0271ee8c-8fff-4f52-8cda-9b7e27866dd2.png
+
+outgoing: false
+outgoingUrl:
+
+---
+
 # PROS AND CONS OF OPEN DATA
 ### Melissa Edmiston, Stephanie Coker and Stephanie Jamila and ThembeLihle Tshabalala
 Open data is an increasingly important topic in MERL. Many MERL practitioners advocate for open data given the benefits of sharing data that others can use to analyze, reanalyze and draw new and beneficial conclusions. However, making data open  does not come without risks and could result in  unintended consequences. The following guide outlines some of the pros and cons of open data and things to consider when making your data open. For summary of the key points highlighted in the article, see Table 1. 
