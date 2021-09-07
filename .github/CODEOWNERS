@@ -8,4 +8,4 @@ _caseStudies/* @merltech/merl-center-lc-editors
 _guides/* @merltech/merl-center-lc-editors
 
 # Learning Content Picture Assets CodeOwners
-_assets/img/posts* @merltech/merl-center-lc-editors
+_assets/img/posts/* @merltech/merl-center-lc-editors
