@@ -1,4 +1,5 @@
 ---
+
 layout: blog-post
 title: The Pros and Cons of Open Data
 authors:
@@ -32,7 +33,6 @@ outgoingUrl:
 ---
 
 # PROS AND CONS OF OPEN DATA
-### Melissa Edmiston, Stephanie Coker and Stephanie Jamila and ThembeLihle Tshabalala
 Open data is an increasingly important topic in MERL. Many MERL practitioners advocate for open data given the benefits of sharing data that others can use to analyze, reanalyze and draw new and beneficial conclusions. However, making data open  does not come without risks and could result in  unintended consequences. The following guide outlines some of the pros and cons of open data and things to consider when making your data open. For summary of the key points highlighted in the article, see Table 1. 
 
 *Table 1:Summary of key points*  
