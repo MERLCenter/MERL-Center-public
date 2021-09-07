@@ -78,19 +78,19 @@ The following table provides example Open Source Software (OSS) - [see footnote]
 
 MERL Technology Workflow | Tasks and Functionalities | MERL Output | Examples Open Source Software or Tool | Website | GitHub repository
 ------------------------ | ------------------------- | ----------- | ------------------------------------- | ------- | -----------------
-Data Analysis and Visualization | <li>Create visual representations of theories</li><li>Create visual representations of frameworks</li><li>Track KPIs</li> | Theory of change | Theorymaker | http://theorymaker.info/ | https://github.com/optimus-sma/theorymaker
+Data Analysis and Visualization | Create visual representations of theories, Create visual representations of frameworks, Track KPIs | Theory of change | Theorymaker | http://theorymaker.info/ | https://github.com/optimus-sma/theorymaker
 "  | "  | Evaluation matrix | Kashana | http://kashana.org/ | https://github.com/aptivate/kashana |
 "  | "  | Key performance indicators (measurement) framework | Kashana | http://kashana.org/ | --
-Data Analysis and Visualization | <li>Create visual representations of MERL activities</li><li>Project management</li> | MERL Gantt/Project Timeline | OpenProject | https://www.openproject.org/ | https://github.com/opf/openproject
+Data Analysis and Visualization | Create visual representations of MERL activities, Project management | MERL Gantt/Project Timeline | OpenProject | https://www.openproject.org/ | https://github.com/opf/openproject
 "  | "  | Roles and responsibilities for MERL org chart | diagrams.net | https://www.diagrams.net/ | https://github.com/jgraph/drawio
 Data Analysis and Visualization | Create [visual] representations of theories and frameworks | Theory of change | Theorymaker | http://theorymaker.info/ | https://github.com/optimus-sma/theorymaker
 "  | Evaluation matrix | Kashana | http://kashana.org/ | https://github.com/aptivate/kashana
-Data Collection and Management | <li>Create surveys</li><li>Create and store quantitative data</li><li>Create and store qualitative data</li> | Survey data | Kobo Toolbox | https://www.kobotoolbox.org/
+Data Collection and Management | Create surveys, Create and store quantitative data, Create and store qualitative data | Survey data | Kobo Toolbox | https://www.kobotoolbox.org/
 "  | Loads forms and collect data offline  | Survey data| ODK Collect| https://docs.getodk.org/collect-intro/
 "  | Design and manage forms and its submissions  | Survey data | ODK Central | https://docs.getodk.org/getting-started/#get-a-central-server
 "  | "  | Interview recordings/transcriptions | oTranscribe | https://otranscribe.com/ | https://github.com/oTranscribe/oTranscribe
 "  | "  | Database management | PostgreSQL | https://www.postgresql.org/ | https://github.com/postgres/postgres/
-Data Analysis and Visualization, Reporting | <li>Perform statistical analyses</li><li>Perform text analysis</li><li>Perform content analysis</li><li>Generate data visualizations</li> | Statistical analysis (descriptive and inferential) | https://www.r-project.org/ | https://github.com/r-lib
+Data Analysis and Visualization, Reporting | Perform statistical analyses, Perform text analysis, Perform content analysis, Generate data visualizations | Statistical analysis (descriptive and inferential) | https://www.r-project.org/ | https://github.com/r-lib
 "  | "  | Text and content analysis | Coding Analysis Toolkit | https://cat.texifter.com/ | --
 "  | "  | Geospatial analysis | QGIS | https://qgis.org/en/site/ | https://github.com/qgis
 "  | "  | Documents - Word processing | LibreOffice | https://www.libreoffice.org/ | https://github.com/LibreOffice
