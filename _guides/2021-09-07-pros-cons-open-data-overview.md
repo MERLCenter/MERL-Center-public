@@ -1,5 +1,4 @@
 ---
-
 layout: blog-post
 title: The Pros and Cons of Open Data
 authors:
@@ -15,7 +14,7 @@ authors:
     authorTitle: Monitoring, Evaluation & Learning Specialist, Global Forest Watch
     authorGitHubHandle: stejamilla
     authorGitHubID: 70538010
- - author: Thembelihle Tshabalala
+  - author: Thembelihle Tshabalala
     authorTitle: 
     authorGitHubHandle: Lihle-TexturedPeople
     authorGitHubID: 70567847
