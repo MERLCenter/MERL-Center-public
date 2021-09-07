@@ -4,25 +4,24 @@ title: The Pros and Cons of Open Data
 authors:
   - author: Melissa Edmiston
     authorTitle: Director of Data and Analytics, American Leprosy Missions
-    authorGitHubHandle: @Medmiston 
+    authorGitHubHandle: Medmiston 
     authorGitHubID: 70719187
   - author: Stephanie Coker
     authorTitle: Consultant, TCC Group
-    authorGitHubHandle: @scoker-me 
+    authorGitHubHandle: scoker-me 
     authorGitHubID: 55405623
   - author: Stephanie Jamilla
     authorTitle: Monitoring, Evaluation & Learning Specialist, Global Forest Watch
-    authorGitHubHandle: @stejamilla
+    authorGitHubHandle: stejamilla
     authorGitHubID: 70538010
  - author: Thembelihle Tshabalala
-    authorTitle: Monitoring, Evaluation & Learning Specialist, Global Forest Watch
-    authorGitHubHandle: @Lihle-TexturedPeople
+    authorTitle: 
+    authorGitHubHandle: Lihle-TexturedPeople
     authorGitHubID: 70567847
 tags:
   - tag: Data Collection and Management
   - tag: Data Analysis and Visualization
   - tag: Reporting
-  - tag: Beginner's guide
 
 # images should be in the /assets/img/posts/ folder
 featuredImage: mosaic-effect.png
