@@ -12,7 +12,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: 
+featuredImage: https://s3.hikaya.io/blog/ways-to-engage-with-contributors.svg
 
 outgoing: false
 outgoingUrl:
@@ -20,11 +20,11 @@ outgoingUrl:
 
 _With edits from Amy Sample Ward and Mala Kumar_
 
-<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2.html">
+<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2/">
 
 <br>
 <div style="text-align: center">
-    <img src="https://hikaya.io/assets/img/ways-to-engage-with-contributors.43cf2006.svg"
+    <img src="https://s3.hikaya.io/blog/ways-to-engage-with-contributors.svg"
     width="700"
     height="350"/>
 </div>
