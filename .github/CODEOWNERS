@@ -6,3 +6,6 @@ _caseStudies/* @merltech/merl-center-lc-editors
 
 # Learning Content Guides CodeOwners
 _guides/* @merltech/merl-center-lc-editors
+
+# Learning Content Picture Assets CodeOwners
+assets/img/posts* @merltech/merl-center-lc-editors
