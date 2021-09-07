@@ -1,6 +1,6 @@
 # How to make open source projects contributor friendly: _Contributor engagement (Part 2 of 2)_
 
-<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2.html">
+<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2/">
 
 _By [Andrew Pham](https://www.andrewpham.org/) with editing contributions from [Amy Sample Ward](https://github.com/amysampleward) and [Mala Kumar](https://github.com/malakumar85), 4 min read_
 
