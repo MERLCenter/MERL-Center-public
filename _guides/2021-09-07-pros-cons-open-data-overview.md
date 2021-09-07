@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: insert
+title: The Pros and Cons of Open Data
 authors:
   - author: Melissa Edmiston
     authorTitle: Director of Data and Analytics, American Leprosy Missions
