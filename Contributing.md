@@ -24,7 +24,7 @@ Content found on this repo can also be found at [https://merlcenter.org](https:/
 
 ### Learning Content
 
-_Learning content currently refres to case studies or guides found at https://merlcenter.org_
+_Learning content currently refers to case studies or guides found at https://merlcenter.org_
 
 - Text - text that is exclusively or primarily for a case study or a guide
 - Images - charts, graphs, screenshots, photos that are exclusively or primarily for a case study or a guide
@@ -128,7 +128,6 @@ _more coming_
 [Back to top](#sections)
 
 ## Contact
-
 
 Email [themerlcenter@gmail.com](mailto:themercenter@gmail.com) with feedback or questions, or open an [issue](https://github.com/MERLTech/MERL-Center-public/issues).
 
