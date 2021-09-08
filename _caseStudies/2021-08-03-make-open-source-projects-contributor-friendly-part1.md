@@ -12,7 +12,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: 
+featuredImage: how-to-make-open-source-contributor-friendly.png
 
 outgoing: false
 outgoingUrl:
@@ -20,11 +20,11 @@ outgoingUrl:
 
 _With edits from Amy Sample Ward and Mala Kumar_
 
-<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part1.html">
+<link rel="canonical" href="https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part1/">
 
 <br>
 <div style="text-align: center">
-    <img src="https://hikaya.io/assets/img/how-to-make-open-source-contributor-friendly.b6223ced.svg"
+    <img src="https://s3.hikaya.io/blog/how-to-make-open-source-contributor-friendly.svg"
     width="700" 
     height="350"/>
 </div>
@@ -50,7 +50,7 @@ With this in mind, one of your early goals should be to make it as easy as possi
 
 <br>
 <div style="text-align: center">
-    <img src="https://hikaya.io/assets/img/checklist-for-starting-an-open-source-project.64605340.svg" 
+    <img src="https://s3.hikaya.io/blog/checklist-for-starting-an-open-source-project.svg" 
     width="700"
     height="350"/>
 </div>
