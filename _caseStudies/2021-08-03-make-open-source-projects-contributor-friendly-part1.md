@@ -12,7 +12,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: https://s3.hikaya.io/blog/how-to-make-open-source-contributor-friendly.svg
+featuredImage: how-to-make-open-source-contributor-friendly.png
 
 outgoing: false
 outgoingUrl:

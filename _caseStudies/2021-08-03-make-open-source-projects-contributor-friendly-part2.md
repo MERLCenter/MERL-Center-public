@@ -12,7 +12,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: https://s3.hikaya.io/blog/ways-to-engage-with-contributors.svg
+featuredImage: ways-to-engage-with-contributors.png
 
 outgoing: false
 outgoingUrl:
