@@ -93,3 +93,5 @@ defaults:
     values:
       layout: "post"
       category: blog
+
+google_analytics: G-2MNYD6Y5H2

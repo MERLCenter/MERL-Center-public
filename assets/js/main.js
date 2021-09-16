@@ -15,7 +15,6 @@ $(function() {
   APP.Modal.init();
   APP.Sections.init();
   APP.Filters.init();
-  //APP.Scroller.init();
   APP.Carousel.init();
 });
 
@@ -116,21 +115,11 @@ APP.Global = {
     });
 
     // report redirect
-
     let hash = window.location.hash.replace('#', '');
     $(document).ready(function(){
       if(hash === 'report') {
         window.location.href = '/insights/#research';
       }
-      // 
-      // $('table td').each(function(){
-      //   let el = $(this);
-      //   let text = el.text();
-      //   if ( text.includes('\"<ul>') ) {
-      //     text.replace('\"<ul>', '<ul>');
-      //   }
-      // });
-
     });
   }
 }
@@ -148,28 +137,6 @@ APP.Header = {
 
     var lastScrollTop = 0;
 
-    // document.addEventListener("scroll", function(){
-    //   if (w.scrollTop() >= 120) {
-    //     b.addClass('is-sticky');
-    //   } else {
-    //     b.removeClass('is-sticky');
-    //   }
-    //
-    //   var st = window.pageYOffset || document.documentElement.scrollTop;
-    //   if (st > lastScrollTop){
-    //     if( b.hasClass('scrolling-up') ){
-    //       header.classList.remove('scrolling-up');
-    //       b.removeClass('scrolling-up')
-    //     }
-    //   } else {
-    //     if( !b.hasClass('scrolling-up') ){
-    //       b.addClass('scrolling-up');
-    //     }
-    //   }
-    //   lastScrollTop = st <= 0 ? 0 : st;
-    // }, false);
-
-
     $('.js-menu-trigger').click(function(e){
       e.preventDefault();
       if( $('body').hasClass('menu-is-open') ) {
@@ -178,27 +145,6 @@ APP.Header = {
         $('body').addClass('menu-is-open');
       }
     });
-
-
-    // var playBtn = document.getElementById('arctic-vault-video-play');
-    // if( playBtn ) {
-    //     video = document.getElementById('arctic-vault-video');
-    //     bd = document.body;
-    //     safari = false;
-    //
-    //     if(document.body.classList.contains('browser-safari')){
-    //         safari = true;
-    //     }
-    //
-    // 	playBtn.onclick = function() {
-    //         if(safari){
-    //             video.webkitRequestFullscreen();
-    //         } else {
-    //             video.requestFullscreen();
-    //         }
-    //         video.play();
-    // 	}
-    // }
   }
 }
 
@@ -612,62 +558,7 @@ APP.Filters = {
 
 
 // ---------------------------------------------------------------------
-// Scroller
-// ---------------------------------------------------------------------
-
-APP.Scroller = {
-
-  init: function() {
-
-    var items = document.querySelectorAll('*[data-scroll]'),
-    pageOffset = window.pageYOffset;
-
-    function moveEl(el) {
-      let rect = el.getBoundingClientRect();
-      elemTop = rect.top;
-      elemBottom = rect.top + el.offsetHeight;
-      bottomWin = pageOffset + window.innerHeight;
-      wh = window.innerHeight;
-      elheight = el.offsetHeight;
-      offsetDist = (wh - elheight) / 2;
-      scollAmount = (elemTop - offsetDist) * .1;
-      if ( elemTop < bottomWin && elemBottom > 0 ) {
-        gsap.to(el, 0, { y: scollAmount, ease:Power1.easeInOut });
-      }
-      return (elemTop < bottomWin && elemBottom > 0);
-    }
-
-    function detect() {
-      for(var i = 0; i < items.length; i++) {
-        moveEl(items[i]);
-      }
-    }
-
-    // window.addEventListener('scroll', detect);
-    // window.addEventListener('resize', detect);
-
-    function throttle(fn, wait) {
-      var time = Date.now();
-      return function() {
-        if ((time + wait - Date.now()) < 0) {
-          fn();
-          time = Date.now();
-        }
-      };
-    }
-
-    //window.addEventListener('scroll', throttle(detect, 100));
-    window.addEventListener('scroll', detect);
-    window.addEventListener('resize', detect);
-
-    detect();
-
-  }
-};
-
-
-// ---------------------------------------------------------------------
-// Filters
+// Carousel
 // ---------------------------------------------------------------------
 
 APP.Carousel = {
