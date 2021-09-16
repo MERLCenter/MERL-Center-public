@@ -26,6 +26,13 @@
   }
   </style>
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MNYD6Y5H2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2MNYD6Y5H2');
+  </script>
 </head>
 
 <body class="page-loading no-js {{ page.id }}" id="page-{{ page.id }}">
@@ -141,9 +148,7 @@
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/collector/api.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/octolytics.js' | relative_url }}"></script>
 </body>
 </html>
