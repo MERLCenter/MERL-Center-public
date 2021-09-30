@@ -29,6 +29,7 @@ The social sector has benefited enormously from the use of data analytics techno
 Data maturity is a concept used to create structure around an organization’s data capabilities, providing structures and frameworks that guide their work. Data maturity encompasses multiple dimensions. For example,  certain frameworks seek to characterize an organization’s data infrastructures, as well as the activities, skills, knowledge, leadership buy-in, ethics, and more. There are several frameworks that conceptualize these different elements, albeit with different foci, which serve as models for social impact organizations toward becoming more data mature (see Table 1). 
 
 Table 1: Summary of Common Data Maturity Frameworks in The Social Sector
+
 Data Maturity Framework | Summary
 ------------ | -------------
 [Data Orchard/DataKind UK’s Data Maturity Framework](https://drive.google.com/file/d/1wA_QKt49xzdxBguqQiFMu6VBgzEnCyZP/view) | Data Orchard’s and DataKind UK’s framework examines Data Maturity through seven lenses: leadership, skills, culture, data, tools, uses, and analysis.
@@ -51,6 +52,7 @@ Without data and the architectures to support its use, organizations would be un
 
 
 **OSS Applications for Data and Infrastructure**
+
 Data Maturity Questions | Topics to Consider | Examples OSS Application
 ------------ | ------------- | ------------- 
 Does the organization have access to a central data repository (e.g., relational database)? | There are several established OSS databases that allow organizations to get up and running with infrastructure needed to manage data. | There are a variety of widely used OSS relational databases, like [MySQL](https://www.mysql.com/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [MariaDB](https://go.mariadb.com/download-mariadb-server-community106.html?utm_source=google&utm_medium=ppc&utm_campaign=MKG-Search-Google-Branded-NAM&matchtype=e&keyword=mariadb&cid=14238174378&agid=126271746952&device=c&placement=&creative=544660683268&adposition=&gclid=CjwKCAjw-ZCKBhBkEiwAM4qfF3nBTaUAdZLQm1FURk6EzPb0hmqUF6g-TVE7rLMBOPLcyMH3MXYMTBoC_VgQAvD_BwE), among others; There are also many tools for conducting ETL tasks, like [dbt](https://www.getdbt.com/), as well as [Airbyte](https://airbyte.io/) and [Docker](https://www.docker.com/) for deployment.  
@@ -64,6 +66,7 @@ Are there processes for keeping data up to date? | Quality checking data also re
 Delivering value out of data requires an OSS tool that can magically offer the knowledge and skill sets needed to use and understand data. However, OSS tools are designed for the community and in most instances, should be accompanied with documentation, demos, and even use cases. Moreover, tools are only as good as the person using them, so context and domain expertise remain paramount. For an organization that aims to advance their data knowledge and skills, there are a number of resources and available frameworks that give team members the ability to take their first steps with data. These resources should also complement the team’s pre-existing context and domain expertise. 
 
 **OSS Applications for Data Knowledge and Skills**
+
 Data Maturity Questions | Topics to Consider | Examples OSS Application
 ------------ | ------------- | ------------- 
 Do staff demonstrate skills in data literacy and general analytics-related tasks?| Many OSS tools are accompanied with relevant documentation and even demos. These materials not only demonstrate the value of the particular tool, but can also serve to de-risk its adoption within the organization. | Manuals like those found in [R’s CRAN projects](https://cran.r-project.org/manuals.html) and [Python’s packages](https://www.python.org/doc/) give rigorous documentation for packages that support their applications.
@@ -75,6 +78,7 @@ Is data seen as a team effort, rather than just one person's responsibility? | T
 There is a wealth of OSS tools specifically designed to handle a diverse range of data use cases, everything from managing and manipulating data, performing analyses, evaluating outputs, and more. The proliferation of OSS data tools has had an outsized impact on the social sector, allowing organizations to become more effective across their data supply chain.
 
 **OSS Applications for Data Use Cases**
+
 Data Maturity Questions | Topics to Consider | Examples OSS Application
 ------------ | ------------- | ------------- 
 How does the organization currently use data? Is it for descriptive purposes (e.g., reporting, evaluation, etc.)? | There are many OSS tools with large communities to support and maintain common data analysis activities. Many of these packages come with demos and extensive documentation to make it easy to apply them to new data. | [Tidyverse](https://www.tidyverse.org/) is a popular package,including [ggplot2](https://ggplot2.tidyverse.org/) for visualization, [tidyr](https://tidyr.tidyverse.org/) for data tidying, and [dplyr](https://dplyr.tidyverse.org/) for data manipulation, and much more. Python also provides a variety of packages that make data analysis and visualization easy, like [Pandas](https://pandas.pydata.org/) and [Matplotlib](https://matplotlib.org/). Additionally, [Apache Superset](https://superset.apache.org/), is a popular OSS tool to easily visualize data.
@@ -88,6 +92,7 @@ Are datasets and/or results shared with external stakeholders when applicable? |
 It is important to note that OSS applications extend beyond the traditional conceptions of software products and their role in building data infrastructures. In fact, essential elements that make up OSS play an enormous role within the framework of data maturity, including, for example, privacy, security, governance, and compliance. These “responsible” data practices, touched upon in CARE’s model, are critical throughout MERL workflows, and include practices like GDPR compliance, data security, data provenance, and even ethical decision making. Addressing the intersection of the ethical, legal, social and privacy-related challenges across organization’s data workflows is an important step to mitigate risks while doing social justice work.
 
 **OSS Applications for Responsible Data Practices**
+
 Data Maturity Questions | Topics to Consider | Examples OSS Application
 ------------ | ------------- | ------------- 
 Is there a minimum policy and practice in place to ensure data is safeguarded? | Stored data must be safely secured to protect against privacy and security threats. There are many best practices available, as well as OSS tools to support. Many OSS applications also provide documentation! | [GitHub’s guidance on privacy and security](https://github.com/security) provides key considerations for technologists when using OSS tools and repositories. [Gretal.ai](https://gretel.ai/) provides privacy engineering tools that can be used for multiple purposes, like synthetic data creation, in addition to documentation pointing to best practices.
