@@ -19,9 +19,6 @@ outgoingUrl:
 
 ---
 
-# Leveraging Open Source Software to Build a Data Mature Ecosystem in the Social Sector: An Introduction
-Benjamin Kinsella
-
 ## Introduction:
 The social sector has benefited enormously from the use of data analytics technologies, which have introduced novel ways that empower mission-driven organizations to continue achieving impact. For example, powerful open source languages and applications, such as Python, R, QGIS, MySQL, and many more, can be used for a variety of data science and analytics tasks. These tools allow an entity to get up and running with a data-driven solution. However, while social sector organizations can tackle an abundance of data-related challenges using available off-the-shelf tools, many organizations must also consider those foundational pieces and leadership buy-in to begin harnessing the power of data. This guide examines data maturity from the perspective of open source software (OSS) and lists several features that many organizations could use to bolster their data practices.
 
