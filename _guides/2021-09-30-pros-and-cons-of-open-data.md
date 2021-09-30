@@ -38,12 +38,13 @@ Target Audience: Civil society/NGO professionals, academia, MERL practitioners, 
 
 *Table 1: Summary of key points*
 
- Pros                                                                                                                         	| Cons                                                          	|
-|------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------	|
-|Accessibility of data: increased community engagement, improved efficiency and reduced cost, encourages progress and innovation 	| Incorrect use of data and the  problem of missing information 	|
-| Increased transparency                                                                                                       	| Privacy and consent                                           	|
-| Reduced corruption                                                                                                           	| Mosaic effect                                                 	|
-| Interpretation of data                                                                                                       	| Costs and sustainability of open data projects                	|
+Pros         	| Cons            	
+-------------	| ----
+Accessibility of data: increased community engagement, improved efficiency and reduced cost, encourages progress and innovation 	| Incorrect use of data and the  problem of missing information
+Increased transparency  | Privacy and consent
+Reduced corruption  | Mosaic effect      
+Interpretation of data	| Costs and sustainability of open data projects   
+
 ### PROS
 ### Accessibility of data
 One of the overarching benefits of open data is accessibility. Data collection and cleaning can be expensive, and many projects or organizations are limited in their capacity to collect and manage large amounts of data. Making data open increases the number of datasets available for others to analyze and draw conclusions. This can result in:
@@ -56,15 +57,10 @@ Open data has the potential to build a community around the data; bringing peopl
 
 *Figure 1: Diagram of the Missing Maps Community*
 
-"![Diagram of the Missing Maps Community](/assets/img/posts/Missing-maps-community-diagram.png)"
-
-
-
+![Diagram of the Missing Maps Community](/assets/img/posts/Missing-maps-community-diagram.png)
 
 ##### Improved efficiencies and reduced costs: 
 Access to open data . Open data can be used to enhance data that is already at the disposal of organizations and companies of all sizes,  particularly small companies who can benefit from data already available.  Open data can also reduce the chance of duplication in data collection efforts, thus saving time and money for organizations. One widely known source of demographic information is Census data, which is accessible and freely available in the United States by visiting data.census.gov. Individuals and organizations can easily tap into this data source in order to save resources otherwise used for primary data collection. For example, one could use  Census data instead of designing and implementing their own household survey in the United States. Census data can be used as a baseline for programs as part of monitoring & evaluation, reducing costs for both the program stakeholders and the donor. 
-
-
 
 ##### Progress and innovation: 
 Because open data is offered without a monetary barrier, more people have access to it  and can explore new methods of analysis, which can further the field of study or contribute to programmatic advancements, encouraging innovation and progress. 
@@ -81,13 +77,14 @@ With increased transparency comes increased accountability and less corruption. 
 Corruption also tends to group around specific themes that open data must address, such as bribery, corrupt insider fraud, undeclared conflicts of interest and improper use of public funds and lobbying abuses. When these are mapped and linked to sectors, at a minimum, the following datasets should be made open:
 
 *Table 2: Open data topics for fighting corruption*
-| Data Subject                 	| Data Components                                                                                                                                                                	|
-|------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Political parties   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         	| Party budgets, financial and  activity reports                                                                                                                                 	|
-| Parliaments and legislatures 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     | Lobbying activities and parliamentary and  administrative data                                                                                                                 	|
-| Business and private sector  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    	| Company structures, the full name of the company,  its unique identifier number,  a list of company directors,  its statutory filings,  and a list of significant shareholders 	|
-| The judiciary    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       	| Judges’ contact details, case schedules and court decisions                                                                                                                    	|
-| Public officials         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        	| Interest and asset declarations, lobbying, procurement processes                                                                                                               	|
+
+Data Subject 	| Data Components   
+-------------	|----------------
+Political parties  | Party budgets, financial and  activity reports  
+Parliaments and legislatures | Lobbying activities and parliamentary and  administrative data  
+Business and private sector | Company structures, the full name of the company,  its unique identifier number, a list of company directors, its statutory filings,  and a list of significant shareholders
+The judiciary | Judges’ contact details, case schedules and court decisions 
+Public officials | Interest and asset declarations, lobbying, procurement processes   
 
 - One example of a government making such datasets openly available is the [Brazilian Office of the Comptroller General created the Transparency Portal](https://odimpact.org/case-brazils-open-budget-transparency-portal.html). The portal is a government tool aimed at increasing fiscal transparency of the Brazilian Federal Government. In this initiative, the Brazilian government published information such as federal agency expenditures, the cost of elected officials to the government's fiscal budget, and a list of companies banned from doing work for the government. 
 Markdown is a lightweight markup language based on the formatting conventions
@@ -107,6 +104,7 @@ When using open data, proper consideration of data collection methods and metada
 - Open data can also be incorrectly used when assumptions are made about the representativeness of the population. For example, housing eviction data in the United States only represents formal evictions that go through the court system and may not represent the full picture. 
 
 Statistical inferences and data imputation can also present risks when trying to account for missing data. Data can be used or analyzed incorrectly when users don’t pay close attention to the metadata. While the interpretation of data is a positive from an accountability perspective, the negative is that people can also apply open-sourced models or analytical code to datasets incorrectly or misuse or misinterpret the data models. 
+
 ##### Privacy and Consent:
 Data, whether open or proprietary, is regulated by laws that aim to protect the rights of individuals and guard against malicious use of data. The passage of the EU’s General Data Protection Regulation (GDPR) marked the first enforceable legislation on data privacy. GDPR has been touted as the [most significant regulatory development](https://www.tandfonline.com/doi/full/10.1080/13600834.2019.1573501) in information policy, influencing the establishment of data privacy policies in other territories. In the United States, the passage of the California Consumer Privacy Act (CCPA) provided similar protections. The Organization for Economic Co-operation and Development (OECD) also provides [eight dimensions](https://www.oecd.org/sti/ieconomy/oecdguidelinesontheprotectionofprivacyandtransborderflowsofpersonaldata.htm) of data accountability to consider when thinking about privacy protection and transborder flows of personal data. These pieces of legislation and guidelines underscore the importance of consent, and the GDPR specifically requires consent be valid, freely given, specific, informed and active.  
 
@@ -120,7 +118,7 @@ Attention must be paid to correctly deidentifying and anonymizing data that is c
 The mosaic effect is a term used when discussing confidentiality. It is derived from the [mosaic theory of intelligence gathering](https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=2384&=&context=faculty_scholarship&=&sei-redir=1&referer=https%253A%252F%252Fwww.google.com%252Furl%253Fq%253Dhttps%253A%252F%252Fscholarship.law.columbia.edu%252Fcgi%252Fviewcontent.cgi%253Farticle%25253D2384%252526context%25253Dfaculty_scholarship%2526sa%253DD%2526source%253Deditors%2526ust%253D1633022375737000%2526usg%253DAOvVaw3WbhRzKCeQsYruUhec-3nu#search=%22https%3A%2F%2Fscholarship.law.columbia.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D2384%26context%3Dfaculty_scholarship%22), in which disparate pieces of information become significant when combined with other types of information. Applied to data in the MERL sector, this occurs when multiple datasets are linked to reveal new information. Even if data is appropriately anonymized, and efforts are made to remove personal identifiers, if there are multiple datasets containing similar or complementary information, it’s possible to determine identity based on the various data combined across the datasets such as gender, location, educational status, etc. Resources are now available to help MERL practitioners think about how their data may contain certain linkages or risks which may require additional levels of security or anonymization. Figure 2 displays an example of how identity theft can occur when the mosaic effect takes place.
 
 *Figure 2: Mosaic Effect Example of Identity Theft*
-"![Mosaic Effect Example of Identity Theft](/assets/img/posts/mosaic-effect.png)"
+![Mosaic Effect Example of Identity Theft](/assets/img/posts/mosaic-effect.png)
 
 ### Costs and sustainability of open data projects
 Open data has been described as a [public good](https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79). While the data is offered for free, there is usually a huge cost for the organization implementing the open data initiative. According to recent [literature](https://www.researchgate.net/publication/328501181_Funding_Open_Data), beginning costs of open data initiatives vary from €20,000 to €100,000 per organization. Startup costs are also followed by adaptation costs, infrastructural costs, and maintenance/operational costs. [Costs associated with M&E projects](https://www.ocic.on.ca/wp-content/uploads/2017/07/Financing-Monitoring-and-Evaluation-Sample-Toolkit.pdf) vary widely as well, costing anywhere from 3% to 10% of program budgets. For many NGOs or organizations interested in open data for M&E, these costs are out of range. 
@@ -129,7 +127,7 @@ Additionally, from an NGO/non-profit perspective, funding these open data projec
 
 These pros and cons outlined above should be considered and discussed as organizations see to either make their data open or utilize open data collected through other sources. Progress has been made to address some of the challenges, but more work is needed. 
 
-Resources and Citations:
+**Resources and Citations:**
 - OpenStreetMap Blogs: https://blogs.openstreetmap.org/ 
 - Users’ Diaries: https://www.openstreetmap.org/diary 
 - MissingMaps: https://www.missingmaps.org/ 
