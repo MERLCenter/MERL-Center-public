@@ -1,12 +1,11 @@
 ---
 layout: blog-post
-title: Leveraging Open Source Software to Build a Data Mature Ecosystem in the Social Sector: An Introduction
+title: "Leveraging Open Source Software to Build a Data Mature Ecosystem in the Social Sector: An Introduction"
 authors:
   - author: Benjamin Kinsella
     authorTitle: Project Manager
     authorGitHubHandle: bjk127
     authorGitHubID: 25569016
-  
 tags:
   - tag: Data Analysis
   - tag: Data Collection and Management
