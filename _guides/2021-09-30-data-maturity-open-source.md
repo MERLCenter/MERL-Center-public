@@ -109,7 +109,7 @@ To summarize, this guide sought to delineate common approaches to data maturity 
 * [MERL Tech Maturity Models](https://merltech.org/merl-tech-maturity-models/)
 * Ryu, Park, and Park's (2006) paper, [“A Data Quality Management Maturity Model”](https://onlinelibrary.wiley.com/doi/abs/10.4218/etrij.06.0105.0026)
 * Olutayo's (2019) paper, ["Comparative Study of ICT Maturity Measurement Models"](https://www.researchgate.net/publication/336376028_A_Comparative_Study_of_ICT_Maturity_Measurement_Models)
-* Open Data Institute’s report on [designing sustainable data institutions](https://theodi.org/article/designing-sustainable-data-institutions-paper/?__cf_chl_jschl_tk__=9cfd9e9dbde34172a87a33366f60b25f3f0b3776-1612409221-0-Ae0nQoZoLUN8Or-QBXFIlOM0Lnsriy-kBhoIZmCvzLY6AhUrutpxZUKuDF7WsTkBaJJa-GZSXumzfJ4imfKekavjJHef-bGr8HF4jBRtPZmnueyfxtBweOkzJybOMAqtG305UWfawQBNX11D7JZcta_7SZKk-eN5EbZYHhOQ6sCVgEkDnZLBdh2SwQHwxr9e8jLgS0zyq-0J1HpP3xC2MYM9wkXyhbqLtTAnip32s0j5fqnbPgg0T0LMiUNjblDrnP4hFc44scDct1YgebrI-19k2OjybnrZKusSmiojbjQAJGsRD6U5uOmoEi7cS2j7ezkRZI4SEaaSYbX771XkOC1XSAX_OTEwU9iUhUmhUxGCoPebypWGy-NdqVYZD0L_bw)
+* Open Data Institute’s report on [designing sustainable data institutions](https://theodi.org/article/designing-sustainable-data-institutions-paper)
 
 ### Acknowledgements
 This work would not have been possible without the contributions of colleagues and friends from the MERL Center, DataKind, and the broader open source community. Thank you, Mala Kumar, Linda Raftree, Stephanie Coker, Amy Sample Ward, Rachel Wells, and Kevin Kho for your insights and expertise! 
