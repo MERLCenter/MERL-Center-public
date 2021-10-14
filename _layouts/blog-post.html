@@ -69,7 +69,7 @@
           </figure>
           {% endfor %}
           <div>
-            <p>{% for author in post.authors %}{{ author.author }} {% if author.authorTitle and author.authorTitle != 'insert' %}<span> - {{ author.authorTitle }}</span>{% endif %}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
+            <p>{% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
           </div>
         </div>
       {% endif %}
