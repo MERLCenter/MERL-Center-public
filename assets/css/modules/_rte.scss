@@ -14,20 +14,20 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 
 + .btn {
-    margin-top: 20px;
+  margin-top: 20px;
 
-    @include start-at($small) {
-        margin-top: 30px;
-    }
+  @include start-at($small) {
+    margin-top: 30px;
+  }
 }
 
 > *:last-child {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 // ----------------------------------------
@@ -35,54 +35,58 @@ h6 a {
 // ----------------------------------------
 
 p {
-    //max-width: 620px;
+  //max-width: 620px;
 
-    &[style="text-align: center;"],
-    &[style="text-align:center"],
-    &[style="text-align: center"],
-    .text-center & {
-      margin-left: auto;
-      margin-right: auto;
-    }
+  &[style="text-align: center;"],
+  &[style="text-align:center"],
+  &[style="text-align: center"],
+  .text-center & {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    + h1, + h2, + h3,
-    + h4, + h5, + h6 {
-        margin-top: 30px;
-    }
+
+}
+
+p, table, ul {
+  + h1, + h2, + h3,
+  + h4, + h5, + h6 {
+    margin-top: 48px;
+  }
 }
 
 b, strong {
-    font-weight: 500 !important;
-    //@include para;
-    display: inline;
-    margin-bottom: 0;
-    letter-spacing: 0;
+  font-weight: 500 !important;
+  //@include para;
+  display: inline;
+  margin-bottom: 0;
+  letter-spacing: 0;
 
-    margin-bottom: 0;
+  margin-bottom: 0;
 
-    @include start-at($small) {
-        margin-bottom: 0;
-    }
+  @include start-at($small) {
+    margin-bottom: 0;
+  }
 }
 
 h1, h2, h3,
 h4, h5, h6 {
-    &:last-child {
-        margin-bottom: 0;
-    }
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 
 a {
-    color: $brand;
-    font-weight: inherit;
-    text-decoration: underline;
-    transition: opacity $trans;
+  color: $blue;
+  font-weight: inherit;
+  text-decoration: underline;
+  transition: opacity $trans;
 
-    &:hover {
-        opacity: 0.7;
-        text-decoration: underline;
-    }
+  &:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
 }
 //
 // a:link {
@@ -104,36 +108,36 @@ a {
 ul,
 ol,
 dl {
-    margin: 24px 0;
-    //margin-bottom: ($padding / 4);
-    padding-left: 24px;
+  margin: 24px 0;
+  //margin-bottom: ($padding / 4);
+  padding-left: 24px;
 
-    @include start-at($medium) {
-      padding-left: 48px;
-    }
+  @include start-at($medium) {
+    padding-left: 48px;
+  }
 
-    li + li {
-        margin-top: 12px;
-    }
+  li + li {
+    margin-top: 12px;
+  }
 }
 
 ul {
-    list-style-type: disc;
-    //margin: 0 0 ($padding / 4) ($padding / 2);
+  list-style-type: disc;
+  //margin: 0 0 ($padding / 4) ($padding / 2);
 }
 
 ol {
-    list-style-type: decimal;
-    //margin: 0 0 ($padding / 4) ($padding / 2);
+  list-style-type: decimal;
+  //margin: 0 0 ($padding / 4) ($padding / 2);
 }
 
 dt {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 li,
 dd {
-    //margin: 0 0 0 ($padding / 2);
+  //margin: 0 0 0 ($padding / 2);
 }
 
 ul ul,
@@ -145,20 +149,20 @@ ol dl,
 dl ul,
 dl ol,
 dl dl {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ol ul,
 ul ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 ol ol ul,
 ol ul ul,
 ul ol ul,
 ul ul ul {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 
@@ -166,51 +170,59 @@ ul ul ul {
 // pt-6 pb-6s
 // ----------------------------------------
 blockquote {
-    //padding: ($padding / 4);
-    font-style: italic;
-    //font-weight: 500;
-    padding: 0 0 0 12px;
-    margin: 36px 0;
-    border-left: 2px solid $gray;
-    //color: $gray-dark;
+  //padding: ($padding / 4);
+  font-style: italic;
+  //font-weight: 500;
+  margin: 36px 0 0;
 
-    @include start-at($medium) {
-      padding:  0 36px;
-    }
+  background: $gray-light;
+  border-radius: 8px;
+  padding: 24px;
+  //color: $gray-dark;
 
-    p {
-      font-weight: 500;
+  @include start-at($medium) {
+    padding: 24px 36px;
+  }
 
-      // &:before {
-      //   content: '“';
-      // }
-      // &:after {
-      //   content: '”';
-      // }
-    }
+  + h5 {
+    margin-top: 12px;
+    margin-bottom: 36px;
+  }
 
-    ul {
-      color: $gray-dark;
-      list-style-type: none;
-      margin: 12px 0 0;
+  p {
+    font-weight: 500;
+    line-height: 1.7;
 
-      li:first-child {
-        position: relative;
+    // &:before {
+    //   content: '“';
+    // }
+    // &:after {
+    //   content: '”';
+    // }
+  }
 
-        &:before {
-          content: '- ';
-          position: absolute;
-          left: -12px;
-          top: -2px;
-        }
+  ul {
+    color: $gray-dark;
+    list-style-type: none;
+    margin: 12px 0 0;
+
+    li:first-child {
+      position: relative;
+
+      &:before {
+        content: '- ';
+        position: absolute;
+        left: -12px;
+        top: -2px;
       }
     }
-    //margin-bottom: ($padding / 2);
+  }
+  //margin-bottom: ($padding / 2);
 }
 
 address {
-    //margin: 0 0 ($padding / 4) 0;
-    font-style: italic;
+  //margin: 0 0 ($padding / 4) 0;
+  font-style: italic;
 }
 
 // ----------------------------------------
@@ -231,67 +243,67 @@ hr {
 
 em,
 i {
-    font-style: italic;
+  font-style: italic;
 }
 
 del,
 strike,
 s {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 u,
 ins {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 sup {
-    vertical-align: super;
-    font-size: smaller;
+  vertical-align: super;
+  font-size: smaller;
 }
 
 sub {
-    vertical-align: sub;
-    font-size: smaller;
+  vertical-align: sub;
+  font-size: smaller;
 }
 
 big {
-    font-size: larger;
+  font-size: larger;
 }
 
 small {
-    font-size: smaller;
+  font-size: smaller;
 }
 
 abbr,
 acronym {
-    border-bottom: none;
-    text-decoration: none;
+  border-bottom: none;
+  text-decoration: none;
 }
 
 cite,
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 
 q {
-    font-style: italic;
+  font-style: italic;
 }
 
 q::before {
-    content: open-quote;
+  content: open-quote;
 }
 
 q::after  {
-    content: close-quote;
+  content: close-quote;
 }
 
 q:lang(en) {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 bdo {
-    direction: rtl;
+  direction: rtl;
 }
 
 
@@ -300,20 +312,20 @@ bdo {
 // ----------------------------------------
 
 pre {
-    margin: 0 0 12px 0;
-    font-family: "Lucida Console", Monaco, monospace;
-    white-space: normal;
+  margin: 0 0 12px 0;
+  font-family: "Lucida Console", Monaco, monospace;
+  white-space: normal;
 }
 
 code,
 samp,
 tt,
 kbd {
-    font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 var {
-    font-style: italic;
+  font-style: italic;
 }
 
 img {
@@ -356,8 +368,8 @@ img {
 img,
 video,
 audio {
-    max-width: 100% !important;
-    margin: 24px 0;
+  max-width: 100% !important;
+  margin: 24px 0;
 }
 }
 
@@ -367,18 +379,18 @@ audio {
 // ----------------------------------------
 
 .wp-block-preformatted {
-  font-family: $mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 125%;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background: $blue;
-  display: inline-block;
-  padding: 12px 18px;
-  border-radius: 8px 8px 8px 0px;
+font-family: $mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: $blue;
+display: inline-block;
+padding: 12px 18px;
+border-radius: 8px 8px 8px 0px;
 }
 
 
@@ -387,14 +399,14 @@ audio {
 // ----------------------------------------
 
 .rte--sm {
-    p {
-        @include p-sm;
-    }
+p {
+  @include p-sm;
+}
 }
 .rte--lg {
-    p {
-        @include p-lg;
-    }
+p {
+  @include p-lg;
+}
 }
 
 
@@ -403,72 +415,73 @@ audio {
 // ----------------------------------------
 
 .rte {
-  table {
-    width: 100%;
-    min-width: 800px;
+table {
+  width: 100%;
+  min-width: 800px;
+  font-size: 12px;
+  margin: 24px 0;
+  table-layout: fixed;
+
+  @include start-at($medium) {
     font-size: 12px;
-    margin: 24px 0;
+    min-width: 100%;
+  }
+
+  td,
+  th {
+    padding: 0 12px;
+    height: 64px;
+    text-align: left;
+
+    &:first-child {
+      text-align: left;
+    }
+  }
+
+  img, svg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+thead {
+  background: $black;
+
+  tr:first-child,
+  tr:first-child {
+    font-size: 14px;
 
     @include start-at($medium) {
-      font-size: 12px;
-      min-width: 100%;
-    }
-
-    td,
-    th {
-      padding: 0 12px;
-      height: 64px;
-      text-align: center;
-
-      &:first-child {
-        text-align: left;
-      }
-    }
-
-    img, svg {
-      margin-left: auto;
-      margin-right: auto;
+      font-size: 16px;
     }
   }
 
+  td, th {
+    color: $white;
+    font-weight: 500;
+  }
+}
 
+tbody {
+  border: 1px solid $gray;
+  border-top: none;
 
-  thead {
-    background: $black;
+  td {
+    font-size: 10px;
 
-    tr:first-child td:first-child,
-    tr:first-child th:first-child  {
-      font-size: 14px;
-
-      @include start-at($medium) {
-        font-size: 16px;
-      }
+    @include start-at($large) {
+      font-size: 13px;
     }
 
-    td, th {
-      color: $white;
-      font-weight: 500;
-    }
+    // &:first-child {
+    //   font-weight: 600;
+    // }
   }
 
-  tbody {
-    border: 1px solid $gray;
-    border-top: none;
-
-    td {
-      font-size: 10px;
-
-      @include start-at($large) {
-        font-size: 13px;
-      }
-
-      // &:first-child {
-      //   font-weight: 600;
-      // }
-    }
-
-    tr {
-      border-bottom: 1px solid $gray;
-    }
+  tr {
+    border-bottom: 1px solid $gray;
   }
+}
 }

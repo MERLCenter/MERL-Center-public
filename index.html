@@ -82,7 +82,7 @@ id: home
   {% assign posts = caseStudies | concat: guides %}
 
   <ul class="post-preview-list js-filtered-list">
-    {% for post in posts %}
+    {% for post in posts reversed %}
     <li>
       {% include post-preview.html %}
     </li>
