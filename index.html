@@ -32,43 +32,40 @@ id: home
   <div class="filters">
     <div class="filters__inner">
       <div class="filter">
-        <p class="d-flex"><span>MERL Technology Workflow:</span>
+
+        <div class="d-flex mb-3">
+          <p>MERL Technology Workflow:</p>
           <div class="tooltip-wrap">
             {% octicon info height:16 %}
             <div class="tooltip">
-              <p>Read more about these categories  <a href="https://merlcenter.org/guides/open-source-merl-workflows">in this post</a>.</p>
+              <p>Read more about these categories  <a href="https://merlcenter.org/guides/open-source-merl-workflows">in this post</a>. Selecting multiple checkboxes will return content that fits into at least one of the selections.</p>
             </div>
           </div>
-        </p>
+        </div>
 
-        <div class="dropdown">
-          <select id="workflow-filters">
-            <option value="">
-              <span>All workflows {% octicon chevron-down height:16 %}</span>
-            </option>
-            {% for tag in site.data.tags %}
-            <option value="{{ tag.tag | slugify }}">
-              <span>{{ tag.tag }}</span>
-            </option>
-            {% endfor %}
-          </select>
+        <div class="checkboxes" id="workflow-filters">
+          {% for tag in site.data.tags %}
+          <div class="checkbox">
+            <input id="{{ tag.tag | slugify }}" name="{{ tag.tag | slugify }}" value="{{ tag.tag | slugify }}" type="checkbox" />
+            <label for="{{ tag.tag | slugify }}">{{ tag.tag }}</label>
+          </div>
+          {% endfor %}
         </div>
       </div>
       <div class="filter">
-        <p>Content Type:</p>
+        <div class="d-flex mb-3">
+          <p>Content Type:</p>
+        </div>
 
-        <div class="dropdown">
-          <select id="content-type-filters">
-            <option value="">
-              <span>All content types {% octicon chevron-down height:16 %}</span>
-            </option>
-            <option value="caseStudies">
-              <span>Case Studies</span>
-            </option>
-            <option value="guides">
-              <span>Guides</span>
-            </option>
-          </select>
+        <div class="checkboxes" id="content-type-filters">
+          <div class="checkbox">
+            <input id="caseStudies" name="caseStudies" value="caseStudies" type="checkbox" />
+            <label for="caseStudies">Case Studies</label>
+          </div>
+          <div class="checkbox">
+            <input id="guides" name="guides" value="guides" type="checkbox" />
+            <label for="guides">Guides</label>
+          </div>
         </div>
       </div>
       <a class="reset-desk js-reset-filters" href="">Reset Filters</a>

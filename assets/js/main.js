@@ -421,18 +421,19 @@ APP.Filters = {
       });
     }
 
-    const contentTypes = $('#content-type-filters');
-    const workflows = $('#workflow-filters');
+    const contentTypes = $('#content-type-filters input');
+    const workflows = $('#workflow-filters input');
     const filters = $('.js-filter-list a');
     let activeFilters = [];
     let activeContentTypes = [];
 
-    workflows.on('change', function(){
+    contentTypes.on('click', function(){
       let el = $(this);
-      let filter = el.find(":selected").val();
-      activeFilters = [];
-      if(filter.length){
-        activeFilters.push(filter);
+      let filter = el.val();
+      if( activeContentTypes.includes(filter) ) {
+        removeItemOnce(activeContentTypes, filter);
+      } else {
+        activeContentTypes.push(filter);
       }
       updatePosts();
       setTimeout(function(){
@@ -440,12 +441,13 @@ APP.Filters = {
       }, 200);
     });
 
-    contentTypes.on('change', function(){
+    workflows.on('click', function(){
       let el = $(this);
-      let filter = el.find(":selected").val();
-      activeContentTypes = [];
-      if(filter.length){
-        activeContentTypes.push(filter);
+      let filter = el.val();
+      if( activeFilters.includes(filter) ) {
+        removeItemOnce(activeFilters, filter);
+      } else {
+        activeFilters.push(filter);
       }
       updatePosts();
       setTimeout(function(){
@@ -503,9 +505,11 @@ APP.Filters = {
               item.removeClass('has-active-filter');
             }
           }
-
         });
+        window.scrollTo(window.scrollX, window.scrollY - 1);
+        window.scrollTo(window.scrollX, window.scrollY + 1);
       }, 1200);
+
     }
 
     $('.js-reset-filters').click(function(e){
