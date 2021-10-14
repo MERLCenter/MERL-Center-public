@@ -5,7 +5,7 @@
 .post-preview-list {
   list-style-type: none;
 
-  li + li {
+  li + li .post-preview {
     border-top: 1px solid $black;
   }
 }

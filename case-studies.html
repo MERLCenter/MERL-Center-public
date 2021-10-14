@@ -32,19 +32,23 @@ permalink: /case-studies/
   <div class="filters">
     <div class="filters__inner">
       <div class="filter">
-        <p>MERL Technology Workflow:</p>
+        <div class="d-flex mb-3">
+          <p>MERL Technology Workflow:</p>
+          <div class="tooltip-wrap">
+            {% octicon info height:16 %}
+            <div class="tooltip">
+              <p>Read more about these categories  <a href="https://merlcenter.org/guides/open-source-merl-workflows">in this post</a>. Selecting multiple checkboxes will return content that fits into at least one of the selections.</p>
+            </div>
+          </div>
+        </div>
 
-        <div class="dropdown">
-          <select id="workflow-filters">
-            <option value="">
-              <span>All workflows {% octicon chevron-down height:16 %}</span>
-            </option>
-            {% for tag in site.data.tags %}
-            <option value="{{ tag.tag | slugify }}">
-              <span>{{ tag.tag }}</span>
-            </option>
-            {% endfor %}
-          </select>
+        <div class="checkboxes" id="workflow-filters">
+          {% for tag in site.data.tags %}
+          <div class="checkbox">
+            <input id="{{ tag.tag | slugify }}" name="{{ tag.tag | slugify }}" value="{{ tag.tag | slugify }}" type="checkbox" />
+            <label for="{{ tag.tag | slugify }}">{{ tag.tag }}</label>
+          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -57,7 +61,7 @@ permalink: /case-studies/
   <hr />
 
   <ul class="post-preview-list js-filtered-list">
-    {% for post in site.caseStudies %}
+    {% for post in site.caseStudies reversed %}
     <li>
       {% include post-preview.html %}
     </li>

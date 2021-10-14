@@ -59,11 +59,8 @@ $filter-bp: $large;
     height: 100%;
     overflow-y: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-
-
-
     display: none;
 
     .screen {
@@ -95,7 +92,7 @@ $filter-bp: $large;
 
     .filters__inner {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       justify-content: flex-start;
     }
   }
@@ -135,9 +132,9 @@ $filter-bp: $large;
   }
 
   @include start-at($filter-bp) {
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-start;
+    // display: flex;
+    // align-items: baseline;
+    // justify-content: flex-start;
     padding: 12px 0;
     margin-right: 24px;
   }
@@ -180,6 +177,86 @@ $filter-bp: $large;
     }
   }
 
+}
+
+
+.checkboxes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  > div {
+    width: 100%;
+  }
+  // > div {
+  //   margin-right: 24px;
+  //   min-width: 25%;
+  // }
+}
+
+.checkbox {
+//  margin-bottom: 12px;
+  + .checkbox {
+    margin-top: 12px;
+  }
+
+  input {
+    @include visually-hidden;
+  }
+
+  label {
+    position: relative;
+    padding-left: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      //top: 0;
+      display: block;
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    &:before {
+      z-index: 2;
+      border: 1px solid $black;
+      background: transparent;
+      transition: background-color $trans, border-color $trans;
+    }
+
+    &:after {
+      z-index: 3;
+      background:  url('../img/svgs/check.svg') center / 16px 13px no-repeat;
+      transform: scale(0);
+      transition: transform .35s cubic-bezier(0.68,-0.55,0.27,1.75);
+      cursor: pointer;
+    }
+  }
+
+  input:checked + label {
+    &:before {
+      background-color: $blue;
+      border-color: $blue;
+    }
+
+    &:after {
+      transform: scale(1);
+    }
+  }
 }
 
 
