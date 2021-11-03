@@ -12,8 +12,8 @@ authors:
     authorGitHubID: 55405623
   - author: Vidya Mahadevan
     authorTitle: Senior Data Governance Advisory, USAID
-    authorGitHubHandle: insert
-    authorGitHubID: insert
+    authorGitHubHandle:
+    authorGitHubID: 
 tags:
   - tag: Data Collection and Management
   - tag: Data Analysis and Visualization

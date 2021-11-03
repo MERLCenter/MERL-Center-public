@@ -25,7 +25,7 @@
       {% for author in post.authors %}
       <div class="author my-4">
         <figure>
-          <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }} image" data-animate-in="fade" data-animate-in-delay="110" />
+          {% include authorImg.html %}
         </figure>
         <div>
           <p>{{ author.author }}</p>
@@ -36,7 +36,7 @@
       <div class="author">
         {% for author in post.authors %}
         <figure>
-          <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
+          {% include authorImg.html %}
         </figure>
         {% endfor %}
         <div>
