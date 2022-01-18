@@ -20,7 +20,7 @@ outgoingUrl:
 
 ---
 
-_With edits by Gia Coelho, Amy Sample Ward, Mala Kumar and Stephanie Coker_
+_With edits from Gia Coelho, Amy Sample Ward, Mala Kumar and Stephanie Coker_
 
 ## Introduction
 [Global Forest Watch (GFW)](https://globalforestwatch.org/) is an open data platform that provides spatial information on forest change, land use cover, carbon flux, and other contextual datasets related to forests. Anyone (who has access to internet services) can come to globalforestwatch.org and take advantage of its analysis tools and dashboards to monitor where deforestation is happening and derive insights from the data. All of the datasets displayed on the main GFW map, and many additional datasets, are also downloadable off of GFW’s [Open Data Portal](https://data.globalforestwatch.org/). Additionally, the platform is also [open source](https://github.com/readme/featured/global-forest-watch), with its code available on various Github repos for its [front end design](https://github.com/Vizzuality/gfw), [backend infrastructure](https://github.com/wri/gfw-data-api), and [tile services](https://github.com/wri/gfw-tile-cache). GFW is hosted by the [World Resources Institute (WRI)](https://www.wri.org/) but is also an initiative in [partnership](https://globalforestwatch.org/about/) with over 100 institutions, such as the University of Maryland, Google, USAID, and more.
