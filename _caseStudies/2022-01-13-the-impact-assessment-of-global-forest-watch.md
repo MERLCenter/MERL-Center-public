@@ -13,7 +13,7 @@ tags:
   - tag: Reporting
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: GFW-map.png
+featuredImage: GFW-Map.png
 
 outgoing: false
 outgoingUrl:
