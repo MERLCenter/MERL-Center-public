@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Lessons Learned from Evaluating an Open Data Platform: The Impact Assessment of Global Forest Watch
+title: Lessons Learned from Evaluating an Open Data Platform - The Impact Assessment of Global Forest Watch
 authors: 
   - author: Stephanie Jamilla
     authorTitle: Former Monitoring, Evaluation & Learning Specialist, Global Forest Watch
