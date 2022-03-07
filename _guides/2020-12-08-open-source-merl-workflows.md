@@ -107,3 +107,4 @@ A core tenant of the [Principles for Digital Development](https://digitalprincip
 - https://link.springer.com/chapter/10.1007/978-3-319-57735-7_18
 - Davies, 2011. “M&E Software: A List”. Accessed May 26, 2020. https://mande.co.uk/2011/lists/software-lists/me-software-a-list/
 -  DIAL, 2020. Product Registry. Accessed May 27, 2020. https://registry.dial.community/products
+-  DIAL, 2020. Workflows. Accessed March 7, 2022. https://solutions.dial.community/workflows
