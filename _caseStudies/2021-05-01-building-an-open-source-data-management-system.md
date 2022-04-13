@@ -20,19 +20,21 @@ outgoingUrl:
 
 _With edits from Mala Kumar, Froilán Irizarry Rivera and Benjamin Kinsella_
 
-
 ## Introduction
-International development organizations are often challenged with managing large amounts of data and information across multiple programs and partners.  Education Development Center (EDC), a global nonprofit that works to improve education, promote health, and expand economic opportunity around the world, manages data from projects in 22 countries.  In the past, our project teams either created a custom data management platform for their project or purchased a proprietary subscription-based platform.  Both solutions had drawbacks.  Custom solutions could not easily be replicated for other projects, and often stakeholders could not sustain subscription-based platforms beyond the life of the project.
 
-Then we found a better solution.  Using a common data standards approach[1], EDC created an open source data management platform called _[M&E Insight](https://github.com/edc-it/MEInsight)_ with customizable templates that can be easily adapted and scaled for use by international development projects, local governments, and partners. The system features a visual, interactive interface that makes it easy to collect, organize, manage, and analyze data. Data can be entered and extracted through a user-friendly online interface or collected offline and uploaded to the system, where it is then linked to interactive dashboards (with external tools) that are accessible by all stakeholders.
+International development organizations are often challenged with managing large amounts of data and information across multiple programs and partners. Education Development Center (EDC), a global nonprofit that works to improve education, promote health, and expand economic opportunity around the world, manages data from projects in 22 countries. In the past, our project teams either created a custom data management platform for their project or purchased a proprietary subscription-based platform. Both solutions had drawbacks. Custom solutions could not easily be replicated for other projects, and often stakeholders could not sustain subscription-based platforms beyond the life of the project.
+
+Then we found a better solution. Using a common data standards approach[1], EDC created an open source data management platform called _[M&E Insight](https://github.com/edc-it/MEInsight)_ with customizable templates that can be easily adapted and scaled for use by international development projects, local governments, and partners. The system features a visual, interactive interface that makes it easy to collect, organize, manage, and analyze data. Data can be entered and extracted through a user-friendly online interface or collected offline and uploaded to the system, where it is then linked to interactive dashboards (with external tools) that are accessible by all stakeholders.
 
 We have learned that development initiatives share common elements and challenges regarding data management. That is why we designed M&E Insight to meet the Common Education Data Standards (CEDS). Our adherence to the standards provides a common data vocabulary for every project, including a common set of data elements that can be improved, reused, and replicated for any project.
 
 Readers who will find this case study useful include:
+
 - Monitoring, Evaluation, Research, and Learning (MERL) practitioners who work and manage international projects that involve training and distributing goods, such as those in the fields of education, workforce development, and health
 - Software developers interested in using data standards and collaborating with Open Source for MERL and social impact.
 
 ### Tl;dr – Main Conclusions of this Case Study
+
 - Using an open source data management system built on common data standards, EDC created a solution that is scalable and replicable for a variety of different projects and can be deployed very quickly at startup.
 - A simple data model provides a clear organizational framework that allows data from multiple sources to be easily manipulated and aggregated across projects and portfolios.
 - Users must recognize how the model applies to their situation for the solution to be successful.
@@ -71,21 +73,18 @@ In a real-world scenario, international project activities vary by type and size
 The following table describes the conceptual model adapted to different project scenarios:
 
 | Project Type | Organization type | Participant roles | Resources and events |
-|-|-|-|-|
+|--------------|-------------------|-------------------|----------------------|
 | Basic Education | School | Students | 3rd grade Literacy class enrollment |
 | Workforce Development | Partner | Facilitators | Train of Trainers (ToT) workshop |
 | Alternative Learning Systems (ALS) | Field Office | Education Administrators | Professional development training in Safe School Environments |
 | Health | Clinic | Nurses | Distribution of contraceptives |
 
-
-
-| Project Type                       	| Organization type 	| Participant roles        	| Resources and events                                          	|
-|------------------------------------	|-------------------	|--------------------------	|---------------------------------------------------------------	|
-| Basic Education                    	| School            	| Students                 	| 3rd grade Literacy class enrollment                           	|
-| Workforce Development              	| Partner           	| Facilitators             	| Train of Trainers (ToT) workshop                              	|
-| Alternative Learning Systems (ALS) 	| Field Office      	| Education Administrators 	| Professional development training in Safe School Environments 	|
-| Health                             	| Clinic            	| Nurses                   	| Distribution of contraceptives                                	|
-
+| Project Type | Organization type | Participant roles | Resources and events |
+|--------------|-------------------|-------------------|----------------------|
+| Basic Education | School | Students | 3rd grade Literacy class enrollment |
+| Workforce Development | Partner | Facilitators | Train of Trainers (ToT) workshop |
+| Alternative Learning Systems (ALS) | Field Office | Education Administrators | Professional development training in Safe School Environments |
+| Health | Clinic | Nurses | Distribution of contraceptives |
 
 Using this approach, EDC created M&E Insight, using a simplified data model to build an open source data management platform for international development projects.
 
@@ -95,17 +94,17 @@ M&E Insight is currently available in English, Spanish, and French, but new tran
 
 We have been able to use this exact same conceptual model using [M&E Insight](https://github.com/edc-it/MEInsight) for multiple EDC projects in different countries and contexts: a comprehensive sexuality education program in South Africa, a basic education program in Zambia, an accelerated learning program in Liberia, a higher education program in Lebanon, a youth program in the Philippines, and many others. New projects from Rwanda, Uganda, Egypt, and Indonesia will soon start using the same common data standards.
 
-Now that EDC has a sufficient number of projects using common data standards, we can aggregate data across projects and portfolios to see the big picture.  How many beneficiaries do we reach with what kinds of services in what geographies during specific time periods? This is information that we used to have to get by combing through reports and re-entering data into Excel worksheet trackers.  Now we can get it by running queries and generating reports from M&E Insight.
+Now that EDC has a sufficient number of projects using common data standards, we can aggregate data across projects and portfolios to see the big picture. How many beneficiaries do we reach with what kinds of services in what geographies during specific time periods? This is information that we used to have to get by combing through reports and re-entering data into Excel worksheet trackers. Now we can get it by running queries and generating reports from M&E Insight.
 
 ### Challenges implementing data standards
 
 One of the biggest challenges implementing data standards is that project teams do not easily agree that the standards are applicable to their situation and context because they use different vocabularies to name common data elements. They find it difficult translating real-world scenarios to match data standards and usually expect to modify the standard by adding complex customizations instead of understanding how their requirements fit the model. EDC has a project that works with a wide range of education providers from non formal learning centers to formal government primary schools to mobile classrooms. Although each educational setting has unique attributes, in the common data model they are all Organizations of different types.
 
-It is also challenging to convince teams that their MERL platform does not have to do everything. There are cases where they can have requirements that are not met by one platform but can be managed separately with other tools instead of building one unique complex system. For example, EDC implements a workforce development project that seeks and nurtures private sector partnerships, and places youth in internships or employment opportunities. They wanted to track every conversation and meeting with individual contacts from potential private sector entities as well as know which youth in the program were placed in specific internship or employment opportunities.  While M&E Insight can easily track internship or employment placements for youth, it is not designed to manage relationships with private sector partners. So the project decided to purchase a commercial Customer Relationship Management (CRM) platform to meet that unique need, and to track youth placement using M&E Insight. By ensuring that both systems use the same unique identifier for youth, we can easily merge data from both systems.  While the project works with a vendor to configure the commercial CRM platform for relationship management, the M&E Insight platform can be set up immediately to capture key project activity outcomes.
+It is also challenging to convince teams that their MERL platform does not have to do everything. There are cases where they can have requirements that are not met by one platform but can be managed separately with other tools instead of building one unique complex system. For example, EDC implements a workforce development project that seeks and nurtures private sector partnerships, and places youth in internships or employment opportunities. They wanted to track every conversation and meeting with individual contacts from potential private sector entities as well as know which youth in the program were placed in specific internship or employment opportunities. While M&E Insight can easily track internship or employment placements for youth, it is not designed to manage relationships with private sector partners. So the project decided to purchase a commercial Customer Relationship Management (CRM) platform to meet that unique need, and to track youth placement using M&E Insight. By ensuring that both systems use the same unique identifier for youth, we can easily merge data from both systems. While the project works with a vendor to configure the commercial CRM platform for relationship management, the M&E Insight platform can be set up immediately to capture key project activity outcomes.
 
 ## Conclusions
 
-M&E Insight has allowed EDC to quickly and effectively meet the MERL data tracking needs of our global education, workforce development and health projects.   The biggest challenge we faced was convincing our own project staff that M&E Insight’s simple data model and common data vocabulary was the most appropriate way to capture their complex intervention.  Now that we’ve proven it works and can be configured very rapidly, EDC can grow the system and add new features.  And we are actively seeking contributors!
+M&E Insight has allowed EDC to quickly and effectively meet the MERL data tracking needs of our global education, workforce development and health projects. The biggest challenge we faced was convincing our own project staff that M&E Insight’s simple data model and common data vocabulary was the most appropriate way to capture their complex intervention. Now that we’ve proven it works and can be configured very rapidly, EDC can grow the system and add new features. And we are actively seeking contributors!
 
 M&E Insight is available at no cost on GitHub and can be downloaded and configured for use by MERL practitioners at [https://github.com/edc-it/MEInsight](https://github.com/edc-it/MEInsight). A demo site is also available at [https://meinsight.edc.org](https://meinsight.edc.org).
 
