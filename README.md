@@ -6,8 +6,10 @@ The MERL Center is a part of the larger [MERL Tech](https://merltech.org) commun
 ## What's in this repo?
 This is the public repository of the MERL Center on which publicly available learning content and the code for the [MERL Center website](https://merlcenter.org) are hosted. MERL Center members collaborate on the MERL Tech GitHub organization (account) through two repositories - this public repo and a repo that is only for members. Anyone who wishes to propose and contribute a new piece of content must go through a basic onboarding process and become a MERL Center member, which is free of charge. MERL Center members must have some experience in MERL and/or open source, data science or human-centered design. Anyone - regardless of MERL Center membership - can access and fork published MERL Center content on this public repository. Currently, only MERL Center members can propose changes to content with pull requests, though this may open up to more people in the future.
 
-## What is MERL
-[See our working definition](MERLdefinition.md)
+## What is MERL, Data Science and HCD?
+- [MERL working definition](MERLdefinition.md)
+- [Data science working definition](data-science-definition.md)
+- [Human-centered design working definition](human-centered-design-definition.md)
 
 ## License
 - Learning content (see documentation on how to contribute) is under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license
