@@ -48,31 +48,19 @@
 
 		<h1 class="h1">{{ post.title }}</h1>
 
-      {% assign authCount =  post.authors|size %}
-      {% if authCount == 1 %}
+      <div class="author my-4">
         {% for author in post.authors %}
-        <div class="author my-4">
-          <figure>
-            {% include authorImg.html %}
-          </figure>
-          <div>
-            <p>{{ author.author }}</p>
-            {% if author.authorTitle and author.authorTitle != 'insert' %}<span>{{ author.authorTitle }}</span>{% endif %}
-          </div>
-        </div>
+          <figure>{% include authorImg.html %}</figure>
         {% endfor %}
-      {% else %}
-        <div class="author">
-          {% for author in post.authors %}
-          <figure>
-            {% include authorImg.html %}
-          </figure>
-          {% endfor %}
-          <div>
-            <p>{% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
-          </div>
+        <div>
+          <p>
+            {% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %} {% endfor %}
+          </p>
+            {% assign authCount = post.authors|size %} {% if authCount == 1 %}{% for author in post.authors %} {% if author.authorTitle and author.authorTitle != 'insert' %}
+            <span>{{ author.authorTitle }}</span>
+            {% endif %} {% endfor %} {% endif %}
         </div>
-      {% endif %}
+      </div>
 
 		<hr class="my-4" />
 
