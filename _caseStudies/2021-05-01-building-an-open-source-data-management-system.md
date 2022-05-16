@@ -106,10 +106,10 @@ It is also challenging to convince teams that their MERL platform does not have 
 
 M&E Insight has allowed EDC to quickly and effectively meet the MERL data tracking needs of our global education, workforce development and health projects. The biggest challenge we faced was convincing our own project staff that M&E Insight’s simple data model and common data vocabulary was the most appropriate way to capture their complex intervention. Now that we’ve proven it works and can be configured very rapidly, EDC can grow the system and add new features. And we are actively seeking contributors!
 
-M&E Insight is available at no cost on GitHub and can be downloaded and configured for use by MERL practitioners at [https://github.com/edc-it/MEInsight](https://github.com/edc-it/MEInsight). A demo site is also available at [https://meinsight.edc.org](https://meinsight.edc.org).
+M&E Insight is available at no cost on [this GitHub repository](https://github.com/edc-it/MEInsight) and can be downloaded and configured for use by MERL practitioners. A [demo site](https://meinsight.edc.org) is also available to try it out.
 
 ---
 
-[1] M&E Insight is based on the Common Education Data Standards (CEDS) data model approach: [https://ceds.ed.gov/dataModel.aspx](https://ceds.ed.gov/dataModel.aspx).
+[1] M&E Insight is based on the [Common Education Data Standards (CEDS) data model](https://ceds.ed.gov/dataModel.aspx) approach.
 
 The Common Education Data Standards (CEDS) project is a US national collaborative effort to develop voluntary, common data standards for a key set of education data elements to streamline the exchange, comparison, and understanding of data within and across P-20W institutions and sectors. CEDS includes a common vocabulary for data elements, data models that reflect that vocabulary, a variety of tools to understand and use education data, an assembly of metadata from other education data initiatives, and a community of stakeholders who use, support, and develop the standard.
