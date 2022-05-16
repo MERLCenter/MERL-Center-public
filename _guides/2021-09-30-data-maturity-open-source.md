@@ -107,8 +107,8 @@ To summarize, this guide sought to delineate common approaches to data maturity 
 
 ### Resources
 
-- [The FAIR Data Maturity Model](https://www.rd-alliance.org/system/files/FAIR%20Data%20Maturity%20Model_%20specification%20and%20guidelines_v1.00.pdf)
-- - CARE's [Responsible Data Maturity Model](https://careinternational.sharepoint.com/teams/Digital/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FDigital%2FShared%20Documents%2FICT4D%2FArchive%2FResponsible%20Data%2FRD%20Maturity%20Model%2FDrafts%2FResponsible%20Data%20Maturity%20Model%2010%2E16%2E19%2Epdf&parent=%2Fteams%2FDigital%2FShared%20Documents%2FICT4D%2FArchive%2FResponsible%20Data%2FRD%20Maturity%20Model%2FDrafts&p=true&originalPath=aHR0cHM6Ly9jYXJlaW50ZXJuYXRpb25hbC5zaGFyZXBvaW50LmNvbS86YjovdC9EaWdpdGFsL0VlQVR5dUhNUVNGSW9pQnpnS0hWRkt3QnVSZ3dodlE4bUhnVGZsb0ZnbFMxV1E_cnRpbWU9bXA0ZzJjZkkyRWc)
+- [The FAIR Data Maturity Model (pdf)](https://www.rd-alliance.org/system/files/FAIR%20Data%20Maturity%20Model_%20specification%20and%20guidelines_v1.00.pdf)
+- CARE's [Responsible Data Maturity Model](https://careinternational.sharepoint.com/teams/Digital/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FDigital%2FShared%20Documents%2FICT4D%2FArchive%2FResponsible%20Data%2FRD%20Maturity%20Model%2FDrafts%2FResponsible%20Data%20Maturity%20Model%2010%2E16%2E19%2Epdf&parent=%2Fteams%2FDigital%2FShared%20Documents%2FICT4D%2FArchive%2FResponsible%20Data%2FRD%20Maturity%20Model%2FDrafts&p=true&originalPath=aHR0cHM6Ly9jYXJlaW50ZXJuYXRpb25hbC5zaGFyZXBvaW50LmNvbS86YjovdC9EaWdpdGFsL0VlQVR5dUhNUVNGSW9pQnpnS0hWRkt3QnVSZ3dodlE4bUhnVGZsb0ZnbFMxV1E_cnRpbWU9bXA0ZzJjZkkyRWc)
 - DataKind UK and Data Orchard's [data maturity checklist](https://docs.google.com/spreadsheets/d/1q-Ts4rRPWeI7is9mnSPPwWPKTGGle8qNrEdIt1bzlD0/edit#gid=1292036421)
 - Digital Impact’s [Journey to Data Maturity](https://digitalimpact.io/assessing-your-place-on-the-data-maturity-journey-part-1/)
 - [MERL Tech Maturity Models](https://merltech.org/merl-tech-maturity-models/)
