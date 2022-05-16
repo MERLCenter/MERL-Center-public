@@ -100,7 +100,7 @@ The decision to create an open source software, make a dataset open source or ha
 #### Footnotes
 
 1. We define an assumption as something that might be true, whereas a myth is something that is never true.
-2. https://digitalprinciples.org/principle/use-open-standards-open-data-open-source-and-open-innovation/
-3. https://socialimpact.github.com/#report
-4. https://creativecommons.org/about/program-areas/open-data/
-5. https://www.simscale.com/blog/2017/06/open-source-vs-proprietary-software/
+2. [Principles for Digital Development](https://digitalprinciples.org/principle/use-open-standards-open-data-open-source-and-open-innovation/)
+3. [Open Source Software in the Social Sector](https://socialimpact.github.com/#report)
+4. [Creative Commons - Open Data](https://creativecommons.org/about/program-areas/open-data/)
+5. [Open-Source or Proprietary Software — What Is Best for Users?](https://www.simscale.com/blog/2017/06/open-source-vs-proprietary-software/)
