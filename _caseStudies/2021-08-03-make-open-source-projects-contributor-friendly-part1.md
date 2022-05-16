@@ -105,12 +105,12 @@ _This article is originally published on [Hikaya's blog](https://hikaya.io/blog/
 
 ### About Hikaya
 
-At [Hikaya](https://hikaya.io/), we are building a number of open source projects that help nonprofits better manage their data. By building open source solutions on common data standards, we help nonprofits worldwide improve their delivery of goods and services to those most in need while making reporting to funders more transparent. We are a team of data scientists, designers, humanitarians, and software engineers who have lived and worked in some of the most challenging parts of the world and are always welcoming new open source contributors to our team. If you are interested in contributing or would like to learn more, check out our projects at [https://github.com/hikaya-io](https://github.com/hikaya-io).
+At [Hikaya](https://hikaya.io/), we are building a number of open source projects that help nonprofits better manage their data. By building open source solutions on common data standards, we help nonprofits worldwide improve their delivery of goods and services to those most in need while making reporting to funders more transparent. We are a team of data scientists, designers, humanitarians, and software engineers who have lived and worked in some of the most challenging parts of the world and are always welcoming new open source contributors to our team. If you are interested in contributing or would like to learn more, check out our projects at [Hikaya in GitHub](https://github.com/hikaya-io).
 
 ### Further Reading
 
-1. **Open Source pre-launch checklist:** [https://opensource.guide/starting-a-project/#your-pre-launch-checklist](https://opensource.guide/starting-a-project/#your-pre-launch-checklist)
+1. [Open Source pre-launch checklist](https://opensource.guide/starting-a-project/#your-pre-launch-checklist)
 
-2. **GitHub contribution and dependency insights:** [https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization)
+2. [GitHub contribution and dependency insights](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization)
 
-3. **Value of Open Source:** [https://www.apereo.org/content/value-open-source-software](https://www.apereo.org/content/value-open-source-software)
+3. [The Value of Open Source Software](https://www.apereo.org/content/value-open-source-software)
