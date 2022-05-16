@@ -106,9 +106,8 @@ A core tenant of the [Principles for Digital Development](https://digitalprincip
 
 ### Further reading
 
-- UNICEF et al, 2020. “Digital Public Goods, Explore”. Accessed May 28, 2020. https://digitalpublicgoods.net/explore/
-- Wasserman et al, 2017. “OSSpal: Finding and Evaluating Open Source Software”. Accessed May 26, 2020.
-- https://link.springer.com/chapter/10.1007/978-3-319-57735-7_18
-- Davies, 2011. “M&E Software: A List”. Accessed May 26, 2020. https://mande.co.uk/2011/lists/software-lists/me-software-a-list/
-- DIAL, 2020. Product Registry. Accessed May 27, 2020. https://registry.dial.community/products
-- DIAL, 2020. Workflows. Accessed March 7, 2022. https://solutions.dial.community/workflows
+- UNICEF et al, 2020. [“Digital Public Goods, Explore”](https://digitalpublicgoods.net/explore/). Accessed May 28, 2020.
+- Wasserman et al, 2017. [“OSSpal: Finding and Evaluating Open Source Software”](https://link.springer.com/chapter/10.1007/978-3-319-57735-7_18). Accessed May 26, 2020.
+- Davies, 2011. [“M&E Software: A List”](https://mande.co.uk/2011/lists/software-lists/me-software-a-list/). Accessed May 26, 2020.
+- DIAL, 2020. [Product Registry](https://registry.dial.community/products). Accessed May 27, 2020.
+- DIAL, 2020. [Workflows](https://solutions.dial.community/workflows). Accessed March 7, 2022.
