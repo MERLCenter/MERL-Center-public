@@ -53,7 +53,7 @@ One of the overarching benefits of open data is accessibility. Data collection a
 
 Open data has the potential to build a community around the data; bringing people together who are working on similar issues who can exchange ideas, findings and discuss challenges. This can encourage data collaboration rather than competitiveness.
 
-- An example of a community fostered around creating open data is [OpenStreetMap](https://www.openstreetmap.org/#map=5/38.007/-95.844) (OSM), which is an open-data, volunteer-driven global mapping platform. There is a robust community of OSM data users, as can be seen through the platform’s [community blog](v) and [users’ diaries](https://www.openstreetmap.org/diary), through which users share posts, ask questions, and interact with each other.
+- An example of a community fostered around creating open data is [OpenStreetMap](https://www.openstreetmap.org/#map=5/38.007/-95.844) (OSM), which is an open-data, volunteer-driven global mapping platform. There is a robust community of OSM data users, as can be seen through the platform’s [community blog](https://blogs.openstreetmap.org/) and [users’ diaries](https://www.openstreetmap.org/diary), through which users share posts, ask questions, and interact with each other.
 - There is also a vibrant community of people who create the spatial data on OSM. Notably there is the [MissingMaps](https://www.missingmaps.org) project, which is spearheaded by several organizations, aimed at mapping areas prone to disasters and crises. This project has created a global community of mappers all contributing to one goal. For example, one member organization is [YouthMappers](https://www.youthmappers.org), whose mission “is to cultivate a generation of young leaders to create resilient communities and to define their world by mapping it.” Over 260 student-led chapters lead mapathons, which are mapping parties, during which participants come together to contribute to a collaborative mapping project on OSM.
 
 _Figure 1: Diagram of the Missing Maps Community_
@@ -143,34 +143,30 @@ These pros and cons outlined above should be considered and discussed as organiz
 
 **Resources and Citations:**
 
-- OpenStreetMap Blogs: https://blogs.openstreetmap.org/
-- Users’ Diaries: https://www.openstreetmap.org/diary
-- MissingMaps: https://www.missingmaps.org/
-- Youth Mappers: http://youthmappers.org/
-- Increases the rate and ease of discovery:
-- https://www.labfolder.com/why-we-need-open-data-access/
-- NYC Open Data:https://opendata.cityofnewyork.us/
-- Projects: https://opendata.cityofnewyork.us/projects/
-- Context Explorer NYC: https://opendata.cityofnewyork.us/projects/context-explorer-nyc/
-- What We Learned from Open Data on Bullying and Harassment in NYC Schools:
-- https://opendata.cityofnewyork.us/projects/what-we-learned-from-open-data-on-bullying-a
-- d-harassment-in-nyc-schools/
-- Mejora Tu Escuela: http://mejoratuescuela.org/
-- Mexico’s Mejora Tu Escuela: Empowering Citizens to Make Data-Driven Decisions about
-- Education: https://odimpact.org/case-mexicos-mejora-tu-escuela.html
-- Open Data to Fight Corruption:https://images.transparencycdn.org/images/2016_OpenData_LithuaniaJudiciary_EN.pdf
-- Open Data and the Fight against Corruption in South Africa: http://webfoundation.org/docs/2017/04/2017_OpenDataSouthAfrica_EN-2.pdf
-- Brazil’s Open Budget Transparency Portal: Making Public How Public Money Is Spent: https://odimpact.org/case-brazils-open-budget-transparency-portal.html
-- How Government Can Promote Open Data and Help Unleash Over $3 Trillion in Economic Value: https://www.mckinsey.com/~/media/mckinsey/industries/public%20and%20social%20sector/our%20insights/how%20government%20can%20promote%20open%20data/how_govt_can_promote_open_data_and_help_unleash_over_$3_trillion_in_economic_value.pdf
-- South Africa: Code4SA: https://odimpact.org/case-south-africa-code4sa.html
-- MPRApp: https://medicineprices.org.za/
-- Code for South Africa: http://code4sa.org/
-- Are Married People Still Happier?: https://ifstudies.org/blog/are-married-people-still-happier
-- The European Union general data protection regulation: what it is and what it means: https://www.tandfonline.com/doi/full/10.1080/13600834.2019.1573501
-- OECD Guidelines on the Protection of Privacy and Transborder Flows of Personal Data: https://www.oecd.org/sti/ieconomy/oecdguidelinesontheprotectionofprivacyandtransborderflowsofpersonaldata.htm
-- A Human-centric Perspective on Digital Consenting: The Case of GAFAM: https://epub.wu.ac.at/7523/1/HCIS2020_A%20Human-centric%20Perspective%20on%20Digital%20Consenting_The%20Case%20of%20GAFAM_Soheil%20Human_Florian%20Cech.pdf
-- Impact of Open Data Policies on Consent to Participate in Human Subjects Research: Discrepancies between Participant Action and Reported Concerns: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125208
-- The Mosaic Theory, National Security, and the Freedom of Information Act: https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=2384&context=faculty_scholarship
-- Governing the Commons: https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79
-- Funding Open Data: https://www.researchgate.net/publication/328501181_Funding_Open_Data
-- Financing Monitoring & Evaluation: https://www.ocic.on.ca/wp-content/uploads/2017/07/Financing-Monitoring-and-Evaluation-Sample-Toolkit.pdf
+- [OpenStreetMap - Blogs](https://blogs.openstreetmap.org/) 
+- [OpenStreetMap - Users’ Diaries](https://www.openstreetmap.org/diary)
+- [MissingMaps](https://www.missingmaps.org/)
+- [YouthMappers](http://youthmappers.org/)
+- [Why do we need open data access?](https://www.labfolder.com/why-we-need-open-data-access/)
+- [NYC Open Data](https://opendata.cityofnewyork.us/)
+- [NYC Open Data - Project Gallery](https://opendata.cityofnewyork.us/projects/)
+- [NYC Open Data - Context Explorer NYC](https://opendata.cityofnewyork.us/projects/context-explorer-nyc/)
+- [NYC Open Data - What We Learned from Open Data on Bullying and Harassment in NYC Schools](https://opendata.cityofnewyork.us/projects/what-we-learned-from-open-data-on-bullying-and-harassment-in-nyc-schools/)
+- [Mejora Tu Escuela](http://mejoratuescuela.org/)
+- [Mexico’s Mejora Tu Escuela: Empowering Citizens to Make Data-Driven Decisions about Education](https://odimpact.org/case-mexicos-mejora-tu-escuela.html)
+- [Open data to fight corruption – Case study: Lithuania's judiciary (pdf)](https://images.transparencycdn.org/images/2016_OpenData_LithuaniaJudiciary_EN.pdf)
+- [Open data and the fight against corruption in South Africa (pdf)](https://images.transparencycdn.org/images/2017_OpenDataSouthAfrica_EN.pdf)
+- [Brazil’s Open Budget Transparency Portal: Making Public How Public Money Is Spent](https://odimpact.org/case-brazils-open-budget-transparency-portal.html)
+- [How Government Can Promote Open Data and Help Unleash Over $3 Trillion in Economic Value (pdf)](https://www.mckinsey.com/~/media/mckinsey/industries/public%20and%20social%20sector/our%20insights/how%20government%20can%20promote%20open%20data/how_govt_can_promote_open_data_and_help_unleash_over_$3_trillion_in_economic_value.pdf)
+- [South Africa: Code4SA Cheaper Medicines for Consumers](https://odimpact.org/case-south-africa-code4sa.html)
+- [MPRApp](https://medicineprices.org.za/)
+- [Code for South Africa](http://code4sa.org/)
+- [Are Married People Still Happier?](https://ifstudies.org/blog/are-married-people-still-happier)
+- [The European Union general data protection regulation: what it is and what it means](https://www.tandfonline.com/doi/full/10.1080/13600834.2019.1573501)
+- [OECD Guidelines on the Protection of Privacy and Transborder Flows of Personal Data](https://www.oecd.org/sti/ieconomy/oecdguidelinesontheprotectionofprivacyandtransborderflowsofpersonaldata.htm)
+- [A Human-centric Perspective on Digital Consenting: The Case of GAFAM (pdf)](https://epub.wu.ac.at/7523/1/HCIS2020_A%20Human-centric%20Perspective%20on%20Digital%20Consenting_The%20Case%20of%20GAFAM_Soheil%20Human_Florian%20Cech.pdf)
+- [Impact of Open Data Policies on Consent to Participate in Human Subjects Research: Discrepancies between Participant Action and Reported Concerns](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125208)
+- [The Mosaic Theory, National Security, and the Freedom of Information Act](https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=2384&context=faculty_scholarship)
+- [Governing the Commons: The Evolution of Institutions for Collective Action](https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79)
+- [Funding Open Data](https://www.researchgate.net/publication/328501181_Funding_Open_Data)
+- [Financing Monitoring & Evaluation: A Self-study Toolkit (pdf)](https://www.ocic.on.ca/wp-content/uploads/2017/07/Financing-Monitoring-and-Evaluation-Sample-Toolkit.pdf)

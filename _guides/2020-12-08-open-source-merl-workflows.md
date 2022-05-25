@@ -78,25 +78,25 @@ The following table provides example Open Source Software (OSS) - [see footnote]
 
 ## MERL Technology Workflows and Examples of OSS Tools
 
-| MERL Technology Workflow | Tasks and Functionalities | MERL Output | Examples Open Source Software or Tool | Website | GitHub repository |
-| -------------------------| ------------------------- | ----------- | ---------------------------- | ------- | ----------------- |
-| Data Analysis and Visualization | Create visual representations of theories, Create visual representations of frameworks, Track KPIs | Theory of change | Theorymaker | http://theorymaker.info/ | https://github.com/optimus-sma/theorymaker |
-| " | " | Evaluation matrix | Kashana  | http://kashana.org/ | https://github.com/aptivate/kashana |
-| " | " | Key performance indicators (measurement) framework | Kashana | http://kashana.org/ | -- |
-| Data Analysis and Visualization | Create visual representations of MERL activities, Project management | MERL Gantt/Project Timeline | OpenProject | https://www.openproject.org/ | https://github.com/opf/openproject |
-| " | " | Roles and responsibilities for MERL org chart | diagrams.net | https://www.diagrams.net/ | https://github.com/jgraph/drawio |
-| Data Analysis and Visualization | Create [visual] representations of theories and frameworks | Theory of change | Theorymaker | http://theorymaker.info/ | https://github.com/optimus-sma/theorymaker |
-| " | Evaluation matrix | Kashana | http://kashana.org/ | https://github.com/aptivate/kashana |
-| Data Collection and Management | Create surveys, Create and store quantitative data, Create and store qualitative data | Survey data | Kobo Toolbox | https://www.kobotoolbox.org/ |
-| " | Loads forms and collect data offline | Survey data | ODK Collect | https://docs.getodk.org/collect-intro/ |
-| " | Design and manage forms and its submissions | Survey data | ODK Central | https://docs.getodk.org/getting-started/#get-a-central-server |
-| " | " | Interview recordings/transcriptions | oTranscribe | https://otranscribe.com/ | https://github.com/oTranscribe/oTranscribe |
-| " | " | Database management | PostgreSQL | https://www.postgresql.org/ | https://github.com/postgres/postgres/ |
-| Data Analysis and Visualization, Reporting | Perform statistical analyses, Perform text analysis, Perform content analysis, Generate data visualizations | Statistical analysis (descriptive and inferential) | https://www.r-project.org/ | https://github.com/r-lib |
-| " | " | Text and content analysis | Coding Analysis Toolkit | https://cat.texifter.com/ | -- |
-| " | " | Geospatial analysis | QGIS | https://qgis.org/en/site/ | https://github.com/qgis |
-| " | " | Documents - Word processing | LibreOffice | https://www.libreoffice.org/ | https://github.com/LibreOffice |
-| " | " | Dashboard creation | Rstudio Shiny | https://rstudio.github.io/shinydashboard/ | https://github.com/rstudio/shinydashboard |
+| MERL Technology Workflow | Tasks and Functionalities | MERL Output | Examples Open Source Software or Tool |
+| -------------------------| ------------------------- | ----------- | ---------------------------- |
+| Data Analysis and Visualization | Create visual representations of theories, Create visual representations of frameworks, Track KPIs | Theory of change | [Theorymaker](http://theorymaker.info/) ([GitHub repository](https://github.com/optimus-sma/theorymaker)) |
+| " | " | Evaluation matrix | [Kashana](http://kashana.org/) ([GitHub repository](https://github.com/aptivate/kashana)) |
+| " | " | Key performance indicators (measurement) framework | [Kashana](http://kashana.org/) ([GitHub repository](https://github.com/aptivate/kashana)) |
+| Data Analysis and Visualization | Create visual representations of MERL activities, Project management | MERL Gantt/Project Timeline | [OpenProject](https://www.openproject.org/) ([GitHub repository](https://github.com/opf/openproject)) |
+| " | " | Roles and responsibilities for MERL org chart | [diagrams.net](https://www.diagrams.net/) ([GitHub repository](https://github.com/jgraph/drawio)) |
+| Data Analysis and Visualization | Create [visual] representations of theories and frameworks | Theory of change | [Theorymaker](http://theorymaker.info/) ([GitHub repository](https://github.com/optimus-sma/theorymaker)) |
+| " | " | Evaluation matrix | [Kashana](http://kashana.org/) ([GitHub repository](https://github.com/aptivate/kashana)) |
+| Data Collection and Management | Create surveys, Create and store quantitative data, Create and store qualitative data | Survey data | [Kobo Toolbox](https://www.kobotoolbox.org/) |
+| " | Loads forms and collect data offline | Survey data | [ODK Collect](https://docs.getodk.org/collect-intro/) |
+| " | Design and manage forms and its submissions | Survey data | [ODK Central](https://docs.getodk.org/getting-started/#get-a-central-server) |
+| " | " | Interview recordings/transcriptions | [oTranscribe](https://otranscribe.com/) ([GitHub repository](https://github.com/oTranscribe/oTranscribe)) |
+| " | " | Database management | [PostgreSQL](https://www.postgresql.org/) ([GitHub repository](https://github.com/postgres/postgres/)) |
+| Data Analysis and Visualization, Reporting | Perform statistical analyses, Perform text analysis, Perform content analysis, Generate data visualizations | Statistical analysis (descriptive and inferential) | [The R Project](https://www.r-project.org/) ([GitHub repository](https://github.com/r-lib)) |
+| " | " | Text and content analysis | [Coding Analysis Toolkit](https://cat.texifter.com/) |
+| " | " | Geospatial analysis | [QGIS](https://qgis.org/en/site/) ([GitHub repository](https://github.com/qgis)) |
+| " | " | Documents - Word processing | [LibreOffice](https://www.libreoffice.org/) ([GitHub repository](https://github.com/LibreOffice)) |
+| " | " | Dashboard creation | [RStudio Shiny Dashboard](https://rstudio.github.io/shinydashboard/) ([GitHub repository](https://github.com/rstudio/shinydashboard)) |
 
 One goal of the [MERL Center on GitHub](https://merltech.github.io/MERL-Center-public/) is to help MERL practitioners identify open source tools for each stage of the MERL lifecycle, MERL technology workflow, functionality and output to increase adoption. By identifying examples of open source tools for each, we may encourage greater adoption of open source in MERL work.
 
@@ -106,9 +106,8 @@ A core tenant of the [Principles for Digital Development](https://digitalprincip
 
 ### Further reading
 
-- UNICEF et al, 2020. “Digital Public Goods, Explore”. Accessed May 28, 2020. https://digitalpublicgoods.net/explore/
-- Wasserman et al, 2017. “OSSpal: Finding and Evaluating Open Source Software”. Accessed May 26, 2020.
-- https://link.springer.com/chapter/10.1007/978-3-319-57735-7_18
-- Davies, 2011. “M&E Software: A List”. Accessed May 26, 2020. https://mande.co.uk/2011/lists/software-lists/me-software-a-list/
-- DIAL, 2020. Product Registry. Accessed May 27, 2020. https://registry.dial.community/products
-- DIAL, 2020. Workflows. Accessed March 7, 2022. https://solutions.dial.community/workflows
+- UNICEF et al, 2020. [“Digital Public Goods, Explore”](https://digitalpublicgoods.net/explore/). Accessed May 28, 2020.
+- Wasserman et al, 2017. [“OSSpal: Finding and Evaluating Open Source Software”](https://link.springer.com/chapter/10.1007/978-3-319-57735-7_18). Accessed May 26, 2020.
+- Davies, 2011. [“M&E Software: A List”](https://mande.co.uk/2011/lists/software-lists/me-software-a-list/). Accessed May 26, 2020.
+- DIAL, 2020. [Product Registry](https://registry.dial.community/products). Accessed May 27, 2020.
+- DIAL, 2020. [Workflows](https://solutions.dial.community/workflows). Accessed March 7, 2022.
