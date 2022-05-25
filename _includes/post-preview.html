@@ -20,30 +20,17 @@
 
     <h4 class="h2 mb-2">{{ post.title }}</h4>
 
-    {% assign authCount =  post.authors|size %}
-    {% if authCount == 1 %}
+    <div class="author my-4">
       {% for author in post.authors %}
-      <div class="author my-4">
-        <figure>
-          {% include authorImg.html %}
-        </figure>
-        <div>
-          <p>{{ author.author }}</p>
-        </div>
-      </div>
+      <figure>{% include authorImg.html %}</figure>
       {% endfor %}
-    {% else %}
-      <div class="author my-4">
-        {% for author in post.authors %}
-        <figure>
-          {% include authorImg.html %}
-        </figure>
-        {% endfor %}
-        <div>
-          <p>{% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
-        </div>
+      <div>
+        <p>
+          {% for author in post.authors %}{{ author.author }}{% if forloop.last
+          %}{% else %}, {% endif %}{% endfor %}
+        </p>
       </div>
-    {% endif %}
+    </div>
 
 
     <p class="tag-list"><span class="tag tag--{{ post.collection }}">{% if post.collection == 'caseStudies' %}Case Studies{% else %}{{ post.collection | capitalize }}{% endif %}</span> {% for tag in post.tags %}<span class="tag tag--{{ tag.tag | slugify }}">{{ tag.tag }}</span>{% endfor %}</p>

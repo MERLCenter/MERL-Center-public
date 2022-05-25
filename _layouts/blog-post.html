@@ -48,31 +48,19 @@
 
 		<h1 class="h1">{{ post.title }}</h1>
 
-      {% assign authCount =  post.authors|size %}
-      {% if authCount == 1 %}
+      <div class="author my-4">
         {% for author in post.authors %}
-        <div class="author my-4">
-          <figure>
-            {% include authorImg.html %}
-          </figure>
-          <div>
-            <p>{{ author.author }}</p>
-            {% if author.authorTitle and author.authorTitle != 'insert' %}<span>{{ author.authorTitle }}</span>{% endif %}
-          </div>
-        </div>
+          <figure>{% include authorImg.html %}</figure>
         {% endfor %}
-      {% else %}
-        <div class="author">
-          {% for author in post.authors %}
-          <figure>
-            {% include authorImg.html %}
-          </figure>
-          {% endfor %}
-          <div>
-            <p>{% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
-          </div>
+        <div>
+          <p>
+            {% for author in post.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %} {% endfor %}
+          </p>
+            {% assign authCount = post.authors|size %} {% if authCount == 1 %}{% for author in post.authors %} {% if author.authorTitle and author.authorTitle != 'insert' %}
+            <span>{{ author.authorTitle }}</span>
+            {% endif %} {% endfor %} {% endif %}
         </div>
-      {% endif %}
+      </div>
 
 		<hr class="my-4" />
 
@@ -105,30 +93,16 @@
     {% if relatedPost.title != post.title %}
 			<li class="mb-5 js-related-post">
 				<a class="h4 mb-1" href="{{ relatedPost.url }}">{{ relatedPost.title }}</a>
-        {% assign authCount =  relatedPost.authors|size %}
-        {% if authCount == 1 %}
+        <div class="author my-4">
           {% for author in relatedPost.authors %}
-          <div class="author my-4">
-            <figure>
-              <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }} image" data-animate-in="fade" data-animate-in-delay="110" />
-            </figure>
-            <div>
-              <p>{{ author.author }}</p>
-            </div>
-          </div>
+            <figure>{% include authorImg.html %}</figure>
           {% endfor %}
-        {% else %}
-          <div class="author">
-            {% for author in relatedPost.authors %}
-            <figure>
-              <img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
-            </figure>
-            {% endfor %}
-            <div>
-              <p>{% for author in relatedPost.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
-            </div>
+          <div>
+            <p>
+              {% for author in relatedPost.authors %}{{ author.author }}{%if forloop.last%}{% else %}, {% endif %} {% endfor %}
+            </p>
           </div>
-        {% endif %}
+        </div>
 			</li>
       {% endif %}
 		{% endfor %}
