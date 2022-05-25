@@ -80,12 +80,13 @@ h4, h5, h6 {
 a {
   color: $blue;
   font-weight: inherit;
-  text-decoration: underline;
-  transition: opacity $trans;
+  text-decoration: none;
+  border-bottom-style: dotted;
+  border-bottom-color: $blue;
+  border-bottom-width: 0.5px;
 
   &:hover {
-    opacity: 0.7;
-    text-decoration: underline;
+    border-bottom-style:solid;
   }
 }
 //
