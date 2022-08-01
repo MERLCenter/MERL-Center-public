@@ -92,8 +92,9 @@ Now equipped with a deeper understanding of software and data visualization use 
 In brief, there are a prolific number of data visualization tools to choose from. And each day, new tools, use cases, and their communities keep growing! The purpose of this section is not to exhaustively list all available visualization tools. Rather, we provide a brief list of the most common tools, a brief description, and relevant resources to get started. 
 
 ***Table 1: Common Data Visualization Software***
+
 Data Visualization Software | Description | License
------------------------ | ------------------ | ------------------------
+--------------------------- | ----------- | -----------
 [Tableau](https://www.tableau.com/) | One of the most popular visualization software, Tableau is the go-to tool for many organizations. While it is proprietary software with somewhat costly licenses, there is a free and [public version](https://public.tableau.com/en-us/s/), as well as heavy nonprofit discounts provided by the [Tableau Foundation](https://www.tableau.com/foundation). | Proprietary
 [Microsoft PowerBI](https://powerbi.microsoft.com/) | Microsoft Power BI is a business intelligence (BI) platform that enables users to collaborate with data, mostly known for its privacy and security functionalities. The tool tends to be more operational and best suited for organizations that use Microsoft products. There is a public version, albeit offering limited features. | Proprietary
 [Looker](https://www.looker.com/) Google Cloud | Google Cloud’s Looker is another BI tool that allows users to see data, known for its [plugin marketplace](https://docs.looker.com/data-modeling/marketplace). The tool offers a directory of different types of visualizations, as well as pre-made graphics that are plug and play. | Proprietary
