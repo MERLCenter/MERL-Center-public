@@ -21,7 +21,7 @@ outgoingUrl:
 
 **Abstract**: The quality of proprietary business intelligence (BI) software like Tableau and PowerBI seems to far outweigh available open source (OS) BI tools, which often push clients to use Tableau or PowerBI. Is it really Tableau or Bust? Are there no comparable OS tools? Or is there scope for OS tools to provide a level of quality that is effective for use in the MERL tech space? This article examines the gap to provide insight into how existing OS BI tools may be used, in which use cases, and outlines the development needed to reach the level of quality of proprietary tools.
 
-*With contributions from Mala Kumar, Stephanie Coker, Luigi Nuñez, Melissa Edmiston, and Riya Singh*
+_*With contributions from Mala Kumar, Stephanie Coker, Luigi Nuñez, Melissa Edmiston, and Riya Singh*_
 
 ## Introduction
 Effective data visualizations are crucial assets to any organization or mission. Visual analytics provide more than just a synthesis of data. They also serve as indispensable tools that allow teams to make programmatic and organization-level data-driven decisions, including reporting and organizational activities, monitoring and evaluation (M&E) metrics, and more. Having available software that allows teams to understand their data and activities through data visualizations is a critical component of any data mature organization. 
