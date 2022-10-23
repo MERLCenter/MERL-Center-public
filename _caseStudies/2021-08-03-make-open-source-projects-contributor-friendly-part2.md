@@ -65,7 +65,7 @@ If you’d like to move candidates on to the next stage, you can invite them to 
 - Invite to communication channels used by the project and send out calendar invites for any recurring contributor calls.
   Help to resolve any setup issues they are facing.
 
-_This article is originally published on [Hikaya's blog](https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2.html)._
+_This article is originally published on [Hikaya's blog](https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part2/)._
 
 ### About Hikaya
 
