@@ -114,7 +114,7 @@ The open source software Pybossa can analyze voice clips or transcription text. 
 
 ### Sensemaker
 
-While not open source, the company Cognitive Edge has a tool called [Sensemaker](https://sensemaker.cognitive-edge.com/product-category/sensemakerapplications/) that uses qualitative data collection methods that might be relevant. Sensemaker collects stories in snippets, and allows people to analyze their own contributions using a predefined set of tools. This allows the company to quickly derive signals based on cognitive frameworks.
+While not open source, the company Cognitive Edge has a tool called [Sensemaker](https://thecynefin.co/sensemaker/) that uses qualitative data collection methods that might be relevant. Sensemaker collects stories in snippets, and allows people to analyze their own contributions using a predefined set of tools. This allows the company to quickly derive signals based on cognitive frameworks.
 
 One way to build on this approach is to create a guide that would allow platform contributors to self-identify their information. For example, a guide might help a respondent classify how being an LGBTQI+ UN staff in a certain field office felt along a spectrum of un/safe, un/stable, and un/inspiring. This triples the number of data points and with little added effort. In the spirit of open source, the tools developed for the platform could be open sourced and continually iterated upon by the community of respondents.
 
