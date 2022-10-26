@@ -58,7 +58,7 @@ Respondents were asked to mention the tools that they use for the different phas
 *Table 2: Tools used by respondents*
 MERL technology workflow       |Tools                                                                                                     |Frequency
 -------------------------------|----------------------------------------------------------------------------------------------------------|---------
-Data collection and management |Open Data Kit (ODK) Collect                                                                               |3        
+Data collection and management |Open Data Kit (ODK) Collect   |3        
                                |KoboToolbox/Kobo Collect                                                                                  |2        
                                |SurveyCTO                                                                                                 |2        
                                |DHIS2                                                                                                     |1        
