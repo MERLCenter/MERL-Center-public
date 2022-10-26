@@ -59,18 +59,18 @@ Respondents were asked to mention the tools that they use for the different phas
 MERL technology workflow       |Tools                                                                                                     |Frequency
 -------------------------------|----------------------------------------------------------------------------------------------------------|---------
 Data collection and management |Open Data Kit (ODK) Collect   |3        
-                               |KoboToolbox/Kobo Collect                                                                                  |2        
-                               |SurveyCTO                                                                                                 |2        
-                               |DHIS2                                                                                                     |1        
-                               |Excel                                                                                                     |1        
-                               |MES                                                                                                       |1        
-Data analysis and visualization|Excel                                                                                                     |5        
-                               |Stata                                                                                                     |3        
-                               |R                                                                                                         |2        
-                               |PowerBI                                                                                                   |2        
-                               |DHIS2                                                                                                     |1        
-                               |EPI Info                                                                                                  |1        
-                               |MES                                                                                                       |1        
+                               |KoboToolbox/Kobo Collect    |2        
+                               |SurveyCTO |2        
+                               |DHIS2  |1        
+                               |Excel |1        
+                               |MES |1        
+Data analysis and visualization|Excel  |5        
+                               |Stata  |3        
+                               |R   |2        
+                               |PowerBI  |2        
+                               |DHIS2  |1        
+                               |EPI Info  |1        
+                               |MES  |1        
 Data reporting                 |No software specified, mostly channels or format of reporting such as social media, website, policy briefs
 
 #### Challenges:
