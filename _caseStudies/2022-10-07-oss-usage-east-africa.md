@@ -56,24 +56,22 @@ For some organizations, the data they collect do not require sophisticated tools
 Respondents were asked to mention the tools that they use for the different phases of the MERL technology workflow. Table 2 summarizes the tools that were identified, as well as the challenges that organizations face in using these tools. Most of the respondents identified more than one tool for each phase of the technology workflow. Respondents were asked to mention the tools that they use for the different phases of the MERL technology workflow. Table 2 summarizes the tools that were identified. Most of the respondents identified more than one tool for each phase of the technology workflow.
 
 *Table 2: Tools used by respondents*
-| MERL technology workflow        | Tools                                                                                                      | Frequency |
-|---------------------------------|------------------------------------------------------------------------------------------------------------|-----------|
-| Data collection and management  | Open Data Kit (ODK) Collect                                                                                |     3     |
-|                                 | KoboToolbox/Kobo Collect                                                                                   |     2     |
-|                                 | SurveyCTO                                                                                                  |     2     |
-|                                 | DHIS2                                                                                                      |     1     |
-|                                 | Excel                                                                                                      |     1     |
-|                                 | MES                                                                                                        |     1     |
-| Data analysis and visualization | Excel                                                                                                      |     5     |
-|                                 | Stata                                                                                                      |     3     |
-|                                 | R                                                                                                          |     2     |
-|                                 | PowerBI                                                                                                    |     2     |
-|                                 | DHIS2                                                                                                      |     1     |
-|                                 | EPI Info                                                                                                   |     1     |
-|                                 | MES                                                                                                        |     1     |
-| Data reporting                  | No software specified, mostly channels or format of reporting such as social media, website, policy briefs |           |
-|                                 |                                                                                                            |           |
-
+MERL technology workflow       |Tools                                                                                                     |Frequency
+-------------------------------|----------------------------------------------------------------------------------------------------------|---------
+Data collection and management |Open Data Kit (ODK) Collect                                                                               |3        
+                               |KoboToolbox/Kobo Collect                                                                                  |2        
+                               |SurveyCTO                                                                                                 |2        
+                               |DHIS2                                                                                                     |1        
+                               |Excel                                                                                                     |1        
+                               |MES                                                                                                       |1        
+Data analysis and visualization|Excel                                                                                                     |5        
+                               |Stata                                                                                                     |3        
+                               |R                                                                                                         |2        
+                               |PowerBI                                                                                                   |2        
+                               |DHIS2                                                                                                     |1        
+                               |EPI Info                                                                                                  |1        
+                               |MES                                                                                                       |1        
+Data reporting                 |No software specified, mostly channels or format of reporting such as social media, website, policy briefs
 
 #### Challenges:
 Respondents were asked about the challenges around using open source software, and they cited specific products, organizational issues, and M&E-specific challenges.
