@@ -32,8 +32,8 @@ Table 1 below shows the six sections covered in the survey questionnaire.
 
 *Table 1: Survey sections and description*  
 
-No.|Section                      |Description                                                     
-|--------------|----------------------------------------------------------
+No.|Section                      |Description          
+---|--------------|----------------------------------------------------------
 1  |About your organization      |This section gathered information on the sector in which the participant worked (e.g., public sector, private sector, academia, etc.), the geographical scope of the organization’s operations, and their thematic focus.                                                           
 2  |Your role in the organization|This gathered information on the respondent’s experience in MERL and in their organization.
 3  |Tool usage                   |This included questions on the tools used for data collection and management, data analysis and visualization, data reporting, and the organization’s general level of proficiency in those tools. In addition, it also asked questions on the tools’ cost and time efficiency, the challenges that the organization faced in using those tools, and the type of training that they received.
