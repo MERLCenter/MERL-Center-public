@@ -93,6 +93,11 @@ Overall, OSS has made great improvements in the quality of code produced. These 
 
 Proprietary software, on the other hand, may be more prone to bugs, but less susceptible to malicious intent. (Security issues are often discovered and patched faster in OSS.) ([5](https://merlcenter.org/guides/Dispelling-myths-qualifying-assumptions/#footnotes)) Many proprietary software applications also tend to be more user-friendly than their OSS alternatives, as design and function of the software are often developed simultaneously and with the user in mind. Resource constraints and ownership can cause the user experience of OSS to be deprioritized.
 
+<p align="center">
+  <img src="/assets/img/posts/myth-assumption.png" alt="Myth and assumption in OSS" width="100%">
+  <i>Summary of common myths and assumptions in OSS</i>
+</p>
+
 ## Now What?
 
 The decision to create an open source software, make a dataset open source or having your team collaborate on open source content is complicated. As open source software, data and content evolves, so too does our understanding of the methods, uses and relevance to MERL work. Check the MERL Center regularly for new beginner’s guides and case studies, links to resources and open discussions to learn more beyond myths and assumptions of open source.
