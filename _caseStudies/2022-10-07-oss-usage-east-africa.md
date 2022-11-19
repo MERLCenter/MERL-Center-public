@@ -42,6 +42,11 @@ No.|Section                      |Description
 6  |Familiarity with OSS         |This section sought to gauge the respondent’s familiarity with OSS and whether they had alternatives to proprietary software.                                                                                                                                                                                                                                                                
 
 ### Respondents
+
+<p align="center">
+  <img src="/assets/img/posts/infographic-oss-usage-ea.png" alt="Infographic on OSS Usage in East Africa" width="1000">
+</p>
+
 A total of 43 individuals responded to the survey, which included individuals who currently work or used to work in the region. A little more than a third (37.2%) mentioned where they were currently based. Among those 16 individuals that provided their current location, 10 said that they were based in a country in Africa. Most of the respondents did not identify the type of organization they belong to (65.1%) while 16.3% and 11.6% identified themselves as employees of an NGO or work in the private sector, respectively. However, only 15 respondents (34.9%) completed the survey.
 Among the 15 respondents who completed the survey, 11 individuals (73.3%) work for international organizations, followed by national (3; 20.0%) and community-based organizations (1; 6.7%) operating in Djibouti, Ethiopia, Somalia/Somaliland, South Sudan, Sudan, Tanzania, and the Democratic Republic of Congo (DRC). Respondents work in organizations with a variety of and overlapping thematic areas of focus, primarily gender (6 organizations; 40.0%), protection (6; 40.0%), education (5; 33.3%), food security and livelihoods (5; 33.3%), and urban development and infrastructure (5; 33.3%). In addition to these, some respondents also mentioned working in other areas (5; 33.3%) such as public financial management, governance, and security.
 In terms of respondents’ MERL experience, 13 respondents are MERL practitioners (86.7%), of which six (46.2%) have one to 10 years of experience and five (38.5%) have been working in this field for more than 10 years. Ten respondents (66.7%) have been working in their respective organizations for up to three years.
