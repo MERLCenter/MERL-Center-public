@@ -18,32 +18,35 @@ outgoing: false
 outgoingUrl:
 ---
 
-## Introduction:
+## Introduction
 
 The social sector has benefited enormously from the use of data analytics technologies, which have introduced novel ways that empower mission-driven organizations to continue achieving impact. For example, powerful open source languages and applications, such as Python, R, QGIS, MySQL, and many more, can be used for a variety of data science and analytics tasks. These tools allow an entity to get up and running with a data-driven solution. However, while social sector organizations can tackle an abundance of data-related challenges using available off-the-shelf tools, many organizations must also consider those foundational pieces and leadership buy-in to begin harnessing the power of data. This guide examines data maturity from the perspective of open source software (OSS) and lists several features that many organizations could use to bolster their data practices.
 
 ## What is Data Maturity?
 
-Data maturity is a concept used to create structure around an organization’s data capabilities, providing organized frameworks that guide their work. Data maturity encompasses multiple dimensions. For example, certain frameworks seek to characterize an organization’s data infrastructures, as well as the activities, skills, knowledge, leadership buy-in, ethics, and more. There are several frameworks that conceptualize these different elements, albeit with different foci, which serve as models for social impact organizations toward becoming more data mature (see Table 1).
+Data maturity is a concept used to create structure around an organization’s data capabilities, providing organized frameworks that guide their work. Data maturity encompasses multiple dimensions. For example, certain frameworks seek to characterize an organization’s data infrastructures, as well as the activities, skills, knowledge, leadership buy-in, ethics, and more. There are several frameworks that conceptualize these different elements, albeit with different foci, which serve as models for social impact organizations toward becoming more data mature (see [Table 1](#table-1-common-data-maturity-frameworks-in-the-social-sector)).
 
-**Selection of Two Common Data Maturity Frameworks in The Social Sector**
+### Table 1: Common Data Maturity Frameworks in the Social Sector
+
 
 | Data Maturity Framework | Summary |
 | ----------------------- | ------- |
-| [Data Orchard/DataKind UK’s Data Maturity Framework](https://drive.google.com/file/d/1wA_QKt49xzdxBguqQiFMu6VBgzEnCyZP/view) | Data Orchard’s and DataKind UK’s framework examines Data Maturity through seven lenses: leadership, skills, culture, data, tools, uses, and analysis. |
-| [CARE’s Responsible Data Maturity Model](https://www.ictworks.org/wp-content/uploads/2019/11/Responsible_Data_Maturity_Model_10-16-19.pdf) | CARE’s model provides a planning tool for organizations to evaluate their current data practices to identify resources and support for future efforts. In addition to examining elements, such as data and technology readiness, CARE emphasizes the need for “responsible” action to respond to the ethical, legal, social, and privacy-related challenges that come from using data. |
+| <img src="/assets/img/posts/v1-data-orchard-data-kind-mf.png" alt="Data Kind-Data Orchard maturity framework" width="200"> | [Data Orchard’s and DataKind UK’s framework](https://drive.google.com/file/d/1wA_QKt49xzdxBguqQiFMu6VBgzEnCyZP/view) examines data maturity through seven lenses: leadership, skills, culture, data, tools, uses, and analysis. |
+| <img src="/assets/img/posts/CARE-icon.svg" alt="MERL logo" width="200"> | [CARE](https://www.care.org/)’s [Responsible Data Maturity Model](https://www.ictworks.org/wp-content/uploads/2019/11/Responsible_Data_Maturity_Model_10-16-19.pdf) provides a planning tool for organizations to evaluate their current data practices to identify resources and support for future efforts. In addition to examining elements, such as data and technology readiness, CARE emphasizes the need for “responsible” action to respond to the ethical, legal, social, and privacy-related challenges that come from using data. |
 
 ## What is Open Source Software (OSS)?
 
 OSS is broadly defined as software that is freely distributed and uploaded to an accessible repository that provides source code. More specifically, code, data, or content has to be under an open source license, insofar that the code base is _accessible_ at no cost (see [The Open Source Initiative](https://opensource.org/osd) for further definitions). It is also important to note that the Open Source model is decentralized and encourages open collaboration through its source code and documentation, which is freely available to the public. For a further discussion on OSS, see MERL’s guide on [Evaluating Open Source versus Proprietary Software](https://merlcenter.org/guides/evaluating-open-source-vs-proprietary-software/).
 
-## What is The Relationship between OSS and Data Maturity?
+## What is the Relationship between OSS and Data Maturity?
 
 The sample of data maturity frameworks listed above encompass multiple dimensions when thinking of organizational practices that advance and support data use. Consider the example of a social sector organization using data to make programmatic decisions. The data collection efforts, analyses, and report insights rests not only on the organization’s data architectures and tools, but also on the processes that actually allow a team or individual to trust the data they use and make decisions from the insights.
 
 For instance, consider the most basic level - organizations collect data to answer questions: How much did we do? How many people did we impact? How much did we spend? Along this “data supply chain”, each individual and team sees and engages with data - albeit in different ways. Put differently, data flows from basic program activities toward higher levels of aggregation, which are generally used for impact measurement and reporting. A challenge, however, is that the processes of data collection and storage are non-trivial for social sector organizations. Many entities may not have the needed architectures (i.e., databases), workflows, and knowledge to drive value out of their available data. [Exploratory research on data workflows](https://merlcenter.org/guides/open-source-merl-workflows/) by Kumar, Coker, and Mahadevan (2020) demonstrates the importance of these project lifecycles from a monitoring, evaluation, research, and learning (MERL) perspective. That is, the authors showcase how MERL workflows need to be understood to begin integrating OSS tools’ functionality across social sector organizations and, specifically, the MERL lifecycle.
 
 To summarize, OSS offers additional pathways, which have the potential to advance social sectors’ data capabilities. New digital technologies not only provide organizations with the opportunity to extract insights from their data, but also allow them to build, support, and integrate diverse data sources that further drive data-driven decision-making. This article exemplifies these different approaches and considers common OSS tools and frameworks that have the potential to advance data maturity across social sector organizations.
+
+<p align="center"><img src="/assets/img/posts/oss-relationship-dm.png" alt="Relationship between OSS and data maturity" width="500"></p>
 
 ## Data and Infrastructure
 
