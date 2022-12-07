@@ -86,6 +86,11 @@ Interoperability of the data visualization tool is a major requirement that can 
 ### Technical Readiness
 While social sector organizations seek cost-effective outcomes that meet the requirements within their respective fields, a software solution can only go as far as the team and their technical readiness. Building a [data mature](https://merlcenter.org/guides/data-maturity-open-source/) ecosystem requires a confluence of factors, including but not limited to the organization’s data quality, skills, culture, application, leadership, and many other growth areas. So it is important that the practitioner select a data visualization tool that aligns with their organization and its level of technical readiness. Do the primary stakeholders understand - or need knowledge of - how to run and make changes to a Python or R script? Will you need to create a personalized training program for your staff? Or could you use Tableau’s many training programs? Data Maturity comes in all shapes and sizes, thus choosing a data visualization tool requires a delicate tradeoff between any proprietary and OS solution. 
 
+<p align="center">
+  <img src="/assets/img/posts/common-tradeoffs.png" alt="Common software trade offs" width="500">
+  <span>Key themes of common software trade offs</span>
+</p>
+
 ## Getting started with data visualization tools 
 Now equipped with a deeper understanding of software and data visualization use cases within the MERL context, one may ask: What does the landscape of visualization tools look like? And which ones are most commonly used? 
 
