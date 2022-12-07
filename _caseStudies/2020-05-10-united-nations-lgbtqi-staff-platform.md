@@ -33,7 +33,7 @@ By the end of the case study, readers should be able to walk away with an unders
 
 ### Tl;dr - Main Conclusions of this Case Study
 
-- MERL challenges of the tool might have been addressed by using the open source tool Pybossa and open source community-building tools.
+- MERL challenges of the tool might have been addressed by using the open source tool [Pybossa][pybossa] and open source community-building tools.
 - There is an opportunity to reprise the work in a more cost effective way.
 
 ## Context
@@ -43,7 +43,7 @@ By the end of the case study, readers should be able to walk away with an unders
 Accepting a UN job can be particularly challenging for LGBTQI+ staff, consultants, and interns (hereafter referred to as “staff”) when the majority are based in countries that criminalize homosexual activity. The below chart shows the status of criminalized homosexual activity globally as of December 2016.
 
 ![Criminalization of Homosexuality/Homosexual Acts as of December 2016](/assets/img/posts/criminalization-homosexual-acts.png)
-**Source:** [Digital Security of LGBTQI Aid Workers](https://gisf.ngo/wp-content/uploads/2020/02/2224-EISF-2017-Digital-Security-of-LGBTQI-Aid-Workers-Awareness-and-Response.pdf)
+**Source:** [Digital Security of LGBTQI Aid Workers][digital-security]
 
 While many INGOs and government foreign services fully advocate for their LGBTQI+ staff, the UN must reach consensus among member states to follow suit. Because the UN does not formally recognize LGBTQI+ staff as a protected class of people, most UN entities do not have specific policies to ensure LGBTQI+ staff are safe, can openly work with local governments and organizations, and can have their families accompany them to family duty stations.
 
@@ -61,7 +61,7 @@ The project had three outputs:
 
 - Investigative research on LGBTQI+ UN staff experiences
 - A media campaign
-- [A crowdsourcing platform](https://www.devex.com/news/can-an-interactive-online-map-better-inform-lgbtqi-aid-worker-security-88008)
+- [A crowdsourcing platform][crowdsourcing-platform]
 
 ## The Platform
 
@@ -104,23 +104,14 @@ One example was how to classify the word “consultant” in the UN system. Cons
 
 Many of the MERL challenges listed above could have been addressed in a cost-effective manner through the use of open source solutions. Below are examples of specific tools that could be explored if other individuals or groups are interested in reprising the work.
 
-### Pybossa
-
-In the original design of the platform, the only two ways to collect data points were through surveys with multiple choice responses and through open-ended questions on sentiment reports. As described above, few data points to aggregate and display would effectively render the platform useless. The marketing and visibility required to reach enough contributors to reach a critical mass of responses was prohibitively expensive, meaning the platform design needed more ways to collect data.
-
-The overall project included a research component in which Fordham Law School conducted more than 100 in-depth interviews with LGBTQI+ staff. Instead of treating these interviews as separate inputs, the platform could have parsed information from the interviews to expand the pool of usable data points.
-
-The open source software Pybossa can analyze voice clips or transcription text. With permission from the interviewee, the project could have used Pybossa to map interview clips to the platform survey questions and/or sentiment reports, and added relevant time, geographic, UN organization information the interviewee mentioned.
-
-### Sensemaker
-
-While not open source, the company Cognitive Edge has a tool called [Sensemaker](https://sensemaker.cognitive-edge.com/product-category/sensemakerapplications/) that uses qualitative data collection methods that might be relevant. Sensemaker collects stories in snippets, and allows people to analyze their own contributions using a predefined set of tools. This allows the company to quickly derive signals based on cognitive frameworks.
-
-One way to build on this approach is to create a guide that would allow platform contributors to self-identify their information. For example, a guide might help a respondent classify how being an LGBTQI+ UN staff in a certain field office felt along a spectrum of un/safe, un/stable, and un/inspiring. This triples the number of data points and with little added effort. In the spirit of open source, the tools developed for the platform could be open sourced and continually iterated upon by the community of respondents.
+| Tool | Summary |
+| ----------------------- | ------- |
+| <img src="/assets/img/posts/pybossa-logo.png" alt="Pybossa logo" width="200"> | In the original design of the platform, the only two ways to collect data points were through surveys with multiple choice responses and through open-ended questions on sentiment reports. As described above, few data points to aggregate and display would effectively render the platform useless. The marketing and visibility required to reach enough contributors to reach a critical mass of responses was prohibitively expensive, meaning the platform design needed more ways to collect data. <br><br> The overall project included a research component in which Fordham Law School conducted more than 100 in-depth interviews with LGBTQI+ staff. Instead of treating these interviews as separate inputs, the platform could have parsed information from the interviews to expand the pool of usable data points. <br><br> The open source software [Pybossa][pybossa] can analyze voice clips or transcription text. With permission from the interviewee, the project could have used Pybossa to map interview clips to the platform survey questions and/or sentiment reports, and added relevant time, geographic, UN organization information the interviewee mentioned. |
+| <img src="/assets/img/posts/sensemaker-logo.jpeg" alt="Sensemaker logo" width="200"> | While not open source, the company Cognitive Edge has a tool called [Sensemaker][sensemaker] that uses qualitative data collection methods that might be relevant. Sensemaker collects stories in snippets, and allows people to analyze their own contributions using a predefined set of tools. This allows the company to quickly derive signals based on cognitive frameworks. <br><br> One way to build on this approach is to create a guide that would allow platform contributors to self-identify their information. For example, a guide might help a respondent classify how being an LGBTQI+ UN staff in a certain field office felt along a spectrum of un/safe, un/stable, and un/inspiring. This triples the number of data points and with little added effort. In the spirit of open source, the tools developed for the platform could be open sourced and continually iterated upon by the community of respondents. |
 
 ### Community Building
 
-One aspect of the platform that was missing in the original design is a community building effort. [There are many open source tools](https://opensource.com/alternatives/slack) available that can be integrated into a platform to act as a free direct message or community comment discussion boards. It’s important to note that given the sensitive nature of the platform and the ever-present existence of online bullying and harassment, any direct message or community commenting feature would need strict governance rules and an active community to moderate. This would be a feature to build in a later iteration.
+One aspect of the platform that was missing in the original design is a community building effort. [There are many open source tools][os-alternatives-slack] available that can be integrated into a platform to act as a free direct message or community comment discussion boards. It’s important to note that given the sensitive nature of the platform and the ever-present existence of online bullying and harassment, any direct message or community commenting feature would need strict governance rules and an active community to moderate. This would be a feature to build in a later iteration.
 
 ## Conclusion
 
@@ -128,4 +119,11 @@ While the intent of the platform was important and the problem statement clearly
 
 ## To Get Involved
 
-For more information or if you are interested in reprising the work, [please email the MERL Center](mailto:themerlcenter@gmail.com).
+For more information or if you are interested in reprising the work, [please email the MERL Center][email-merl-center].
+
+[email-merl-center]: mailto:themerlcenter@gmail.com
+[digital-security]: https://gisf.ngo/wp-content/uploads/2020/02/2224-EISF-2017-Digital-Security-of-LGBTQI-Aid-Workers-Awareness-and-Response.pdf
+[crowdsourcing-platform]: https://www.devex.com/news/can-an-interactive-online-map-better-inform-lgbtqi-aid-worker-security-88008
+[pybossa]: https://pybossa.com/
+[sensemaker]: https://thecynefin.co/about-sensemaker/
+[os-alternatives-slack]: https://opensource.com/alternatives/slack
