@@ -47,7 +47,7 @@ At Hikaya, we work with open source projects in its traditional terms by develop
 
 When setting up an open source project, it requires you to think about your users differently than you might with another type of project. When developing a product, you are mostly concerned about the people who will end up using the product. However, in an open source project, you also need to think about who would like to contribute to the development of your project. This includes identifying how to recruit key roles like developers, designers, and product managers who will bring their unique set of skills together and can help make your project a success.
 
-With this in mind, one of your early goals should be to make it as easy as possible for potential contributors to find your project and learn more about it. Setting up an open source project in a place that is made publicly available will make it easier for people to find your project and learn more about it. Once you have chosen a place to store files of your project such as in a code repository like [Bitbucket](https://bitbucket.org/product), [GitHub](https://github.com/), or [Gitlab](https://gitlab.com/users/sign_in), you can start putting together an overview of the project on the repository’s `Readme` file or have a dedicated website for the project. This overview should provide a summary of the project including the problem it is trying to solve and how people can contribute. Hikaya uses platforms like [GitHub](https://github.com/[) and [CodeTriage](https://www.codetriage.com/) to make it easier for contributors to find out more about our open source projects.
+With this in mind, one of your early goals should be to make it as easy as possible for potential contributors to find your project and learn more about it. Setting up an open source project in a place that is made publicly available will make it easier for people to find your project and learn more about it. Once you have chosen a place to store files of your project such as in a code repository like [Bitbucket](https://bitbucket.org/product), [GitHub](https://github.com/), or [Gitlab](https://gitlab.com/), you can start putting together an overview of the project on the repository’s `Readme` file or have a dedicated website for the project. This overview should provide a summary of the project including the problem it is trying to solve and how people can contribute. Hikaya uses platforms like [GitHub](https://github.com/) and [CodeTriage](https://www.codetriage.com/) to make it easier for contributors to find out more about our open source projects.
 
 ### Checklist for starting an open source project
 
@@ -101,7 +101,7 @@ When starting a software project, certain technologies and architecture choices 
 
 In Part 2 of this article we will discuss effective ways of engaging with open source contributors.
 
-_This article is originally published on [Hikaya's blog](https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part1.html)._
+_This article is originally published on [Hikaya's blog](https://hikaya.io/blog/how-to-make-open-source-projects-contributor-friendly-part1)._
 
 ### About Hikaya
 
