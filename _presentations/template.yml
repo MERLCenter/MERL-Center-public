@@ -1,9 +1,10 @@
 ---
 presentation-name:
 presenters:
-presentation-date
-presentation-url
-presentation-summary: 
+presentation-date:
+presentation-summary:
+presentation-slides-url:
+presentation-video-url:
 event-presented-at:
 event-url:
 ---
