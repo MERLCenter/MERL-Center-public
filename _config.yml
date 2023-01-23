@@ -94,4 +94,7 @@ defaults:
       layout: "post"
       category: blog
 
+  redirections:
+    output: true
+
 google_analytics: G-2MNYD6Y5H2
