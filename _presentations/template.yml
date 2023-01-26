@@ -1,10 +1,19 @@
 ---
 presentation-name:
-presenters:
+authors:
+  - author: 
+    authorTitle: 
+    authorGitHubHandle: 
+    authorGitHubID: 
 presentation-date:
 presentation-summary:
 presentation-slides-url:
 presentation-video-url:
 event-presented-at:
-event-url:
+event-general:
+  - name
+     url:
+event-specific:
+  - name
+     url:
 ---
