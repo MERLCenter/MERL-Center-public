@@ -5,15 +5,13 @@ authors:
     authorTitle: 
     authorGitHubHandle: 
     authorGitHubID: 
-presentation-date:
-presentation-summary:
-presentation-slides-url:
-presentation-video-url:
+date:
+summary:
+slides-url:
+video-url:
 event-presented-at:
-event-general:
-  - name
-     url:
-event-specific:
-  - name
-     url:
+event-general-name:
+event-general-url:
+event-specific-name:
+event-specific-url:
 ---
