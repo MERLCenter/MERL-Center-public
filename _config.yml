@@ -66,6 +66,9 @@ collections:
   guides:
     output: true
     permalink: /:collection/:title/
+  presentations:
+    output: true
+    permalink: /:collection/:title/
 
 feed:
   collections:
