@@ -1,0 +1,51 @@
+---
+layout: default
+title: Member Presentations
+id: presentations
+permalink: /memberpresentations/
+---
+<div class="hero">
+  <div class="wrapper">
+    <div class="hero__content" data-animate-in="fade" data-animate-in-delay="110">
+
+      <h1 class="h1 mb-3">Member Presentations</h1>
+      <p class="p-lg">MERL Center members present on topics at the intersection of MERL and open source, data science or human-centered design at conferences held around the globe.</p>
+    </div>
+  </div>
+
+  <figure class="hero__pattern" data-animate-in="fade" data-animate-in-delay="150">
+    <img src="{{ '/assets/img/direction/merl-pattern.svg' | relative_url }}" alt="pattern" />
+  </figure>
+</div>
+
+
+<div class="wrapper my-6">
+  <hr class="hr-thin" />
+  <div class="d-flex flex-justify-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <div class="my-6">
+        <h2 class="h6 mb-4">Explore Member Presentations</h2>
+        <div class="rte">
+        </div>
+      </div>
+      <div class="my-6">
+        <h3 class="h6 mb-4">Upcoming Presentations</h2>
+        <div class="rte">
+          <p>We don't have any upcoming presentations scheduled. If you know of any conferences that MERL Center should present at with members, please add it our M & E Conference Event List
+        </div>
+      </div>
+      <div class="my-6">
+        <h3 class="h6 mb-4">Past Presentations</h2>
+        <div class="rte">
+  <ul class="post-preview-list js-filtered-list">
+    {% for post in site.presentations reversed %}
+    <li>
+      {% include presentation.html %}
+    </li>
+    {% endfor %}
+  </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
