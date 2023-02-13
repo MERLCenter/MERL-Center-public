@@ -66,13 +66,13 @@ collections:
   guides:
     output: true
     permalink: /:collection/:title/
+  presentations:
+    output: true
 
 feed:
   collections:
     caseStudies:
       path: "case-studies/feed.xml"
-
-seo:
 
 
 twitter:
