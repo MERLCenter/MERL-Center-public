@@ -13,6 +13,6 @@ video-url: https://drive.google.com/file/d/1R-diIxtYw7Wq8NmcI1CrpLGIUGJ8PdFu/pre
 event-presented-at: 8th Biennial SAMEA conference 2022
 event-general-name: SAMEA conference
 event-general-url: https://sameaconferenceevent.co.za/
-event-specific-name: MERL Center - Open Source Tools and Processes for M&E
+event-specific-name: event-specific-name: SAMEA conference 2022
 event-specific-url: https://www.samea.org.za/event?slug=event-samea-2022-conference
 ---
