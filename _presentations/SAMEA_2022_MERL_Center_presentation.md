@@ -1,6 +1,6 @@
 ---
 anchor-tag: SAMEA-2022-MERL-Center-presentation
-name: SAMEA Presentation: HCD approaches to M&E Capacity Development
+name: SAMEA Presentation - HCD approaches to M&E Capacity Development
 authors:
   - author: Mutsa Chinyamakobvu
     authorTitle: M&E Data Specialist, Datalab, South Africa
