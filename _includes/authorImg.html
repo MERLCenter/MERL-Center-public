@@ -1,5 +1,18 @@
 {% if author.authorGitHubID %}
-<img class="left-img" src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
+<img
+  class="left-img circle my-0"
+  src="https://avatars.githubusercontent.com/u/{{ author.authorGitHubID }}?s=72"
+  alt="{{ author.author }}"
+  data-animate-in="fade"
+  data-animate-in-delay="110"
+/>
 {% else %}
-<img class="left-img" src="{{ '/assets/img/author-fallback.png' | relative_url }}" alt="{{ author.author }}" data-animate-in="fade" data-animate-in-delay="110" />
+<img
+  class="left-img circle my-0"
+  src="{{ '/assets/img/author-fallback.png' | relative_url }}"
+  alt="{{ author.author }}"
+  data-animate-in="fade"
+  data-animate-in-delay="110"
+/>
 {% endif %}
+
