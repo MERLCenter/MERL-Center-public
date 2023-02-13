@@ -1,6 +1,6 @@
 ---
 anchor-tag: merl-center-presentation-2022
-name: MERL Center Presentation 2022
+name: Mozfest 2022 - MERL Center
 authors:
   - author: Mala Kumar
     authorTitle: Director, Tech for Social Good, GitHub
