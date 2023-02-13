@@ -21,13 +21,15 @@ permalink: /presentations/
 
 <div class="wrapper my-6">
   <hr class="hr-thin" />
+
+  <div class="my-6">
+    <h2 class="h6 mb-4">Explore Member Presentations</h2>
+    <div class="rte">
+    </div>
+  </div>
+  <hr/>
   <div class="d-flex flex-justify-center">
     <div class="col-12 col-md-10 col-lg-8">
-      <div class="my-6">
-        <h2 class="h6 mb-4">Explore Member Presentations</h2>
-        <div class="rte">
-        </div>
-      </div>
       <div class="my-6">
         <h3 class="h6 mb-4">Upcoming Presentations</h2>
         <div class="rte">
@@ -37,13 +39,13 @@ permalink: /presentations/
       <div class="my-6">
         <h3 class="h6 mb-4">Past Presentations</h2>
         <div class="rte">
-  <ul class="post-preview-list js-filtered-list">
-    {% for post in site.presentations reversed %}
-    <li>
+  <section id="past-presentations">
+    {% for presentation in site.presentations reversed %}
+      <div>
       {% include presentation.html %}
-    </li>
+      </div>
     {% endfor %}
-  </ul>
+  </section>
         </div>
       </div>
     </div>
