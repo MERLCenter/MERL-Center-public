@@ -1,50 +1,84 @@
-<!-- title section -->
-  <div class="my-6">
-    <h4 class="h2 mb-2" id="{{ presentation.id }}">{{ presentation.title }}</h4>
+<div class="mb-5">
+  <!-- title section -->
+  <div>
+    <h2 class="h2 mb-2" id="{{ presentation.anchor-tag }}">
+      {{ presentation.name }}
+    </h2>
+  </div>
+  <!-- authors appearing - KEEP -->
+  {% assign authCount = presentation.authors|size %}
+  <!--  -->
+  {% if authCount == 1 %}
+  <!--  -->
+  {% for author in presentation.authors %}
+  <div class="author my-4">
+    <div style="width: 38px" class="d-none d-md-flex">
+      {% include authorImg.html %}
+    </div>
+    <div class="ml-1">
+      <p>{{ author.author }}</p>
+    </div>
+  </div>
+  {% endfor %} {% else %}
+  <div class="author my-4">
+    {% for author in presentation.authors %}
+    <figure class="d-none d-md-flex">{% include authorImg.html %}</figure>
+    {% endfor %}
+    <div>
+      <p>
+        {% for author in presentation.authors %} {{ author.author }} {% if
+        forloop.last %}{% else %}, {% endif %}{% endfor %}
+      </p>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Summary -->
+  <div class="mb-3">
+    <p>{{ presentation.summary }}</p>
+  </div>
+
+  <!-- Video Embed-->
+  <div
+    class="mb-2"
+    style="position: relative; width: 100%; padding-top: 56.25%"
+  >
+    <iframe
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      "
+      src="{{ presentation.video-url }}"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <!-- event-general and specific links-->
+  <div>
+    <p>
+      <a href="{{ presentation.event-general-url }}"
+        >{{ presentation.event-general-name }}</a
+      >
+      |
+      <a href="{{ presentation.event-specific-url }}"
+        >{{ presentation.event-specific-name }}</a
+      >
+    </p>
+  </div>
+
+  <!-- Watch info -->
+  <div class="rte">
+    <p>
+      Watch: <a href="{{ presentation.video-url }}">Video</a> |
+      <a href="{{ presentation.slides-url }}">PDF</a>
+    </p>
+  </div>
 </div>
-<!-- authors appearing - KEEP -->
-    {% assign authCount =  presentation.authors|size %}
-    {% if authCount == 1 %}
-      {% for author in presentation.authors %}
-      <div class="author my-4">
-        <figure>
-          {% include authorImg.html %}
-        </figure>
-        <div>
-          <p>{{ author.author }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    {% else %}
-      <div class="author">
-        {% for author in presentation.authors %}
-        <figure>
-          {% include authorImg.html %}
-        </figure>
-        {% endfor %}
-        <div>
-          <p>{% for author in presentation.authors %}{{ author.author }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}</p>
-        </div>
-      </div>
-    {% endif %}
-
-<!-- Summary -->
-    <div class="rte">
-<p> {{ presentation.summary }}</p>
-    </div>
-
-<!-- Video Embed-->
- <p><iframe width="560" height="315" src="{{ presentations.video-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
-
-
-<!-- event-general and specific links-->
-    <div class="rte">
-<p><a href="{{ presentation.event-general-url }}">{{ presentation.event-general-name }}</a> | 
- <a href="{{ presentation.event-specific-url }}">{{ presentation.event-specific-name }}</a></p>
-    </div>
-
-<!-- Watch info -->
-    <div class="rte">
-<p>Watch: <a href="{{ presentation.event-video-url }}">Video</a> | 
- <a href="{{ presentation.event-slides-url }}">PDF</a></p>
-    </div>
