@@ -11,7 +11,7 @@ tags:
   #- tag: Data Collection and Management
 
 # images should be in the /assets/img/posts/ folder
-featuredImage: 
+featuredImage: HCDProcessMap_MChinyamakobvu.png
 
 outgoing: false
 outgoingUrl:
