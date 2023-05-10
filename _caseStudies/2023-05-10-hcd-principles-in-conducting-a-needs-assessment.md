@@ -1,3 +1,23 @@
+---
+layout: blog-post
+title: The use of HCD principles in conducting a needs assessment
+authors:
+  - author: Mutsa Carole Chinyamakobvu
+    authorTitle: 
+    authorGitHubHandle: mutsacc
+    authorGitHubID: 26001770
+
+tags:
+  #- tag: Data Collection and Management
+
+# images should be in the /assets/img/posts/ folder
+featuredImage: 
+
+outgoing: false
+outgoingUrl:
+
+---
+
 ## Case Study: The use of HCD principles in conducting a needs assessment
 By Mutsa Carole Chinyamakobvu
 
@@ -41,9 +61,6 @@ In August 2022, a group of lecturers volunteering for Professors Without Borders
 
 [Uganda Rural Development Training (URDT)  Girls’ School](https://urdt.net/urdt-girls-school-urdtgs/), is an all girl’s school that was established in 2000 in Kagadi district in Western Uganda. The school was instituted to “fill the need for education that is linked to development and women empowerment”. Their pedagogical approach is to employ the 2-generation approach, where parents learn along with their children to “develop a shared vision for their home, analyze their current situation, apply systems thinking, team learning, plan together and learn new skills”. 
 
-It is common to find elderly citizens over 70 years old on campus teaching young students, as they have traditional practical knowledge that is attainable and still useful for families today. This is a picture of a Traditional Wisdom Specialist with a student in the field.
-![img source](https://i0.wp.com/www.aru.ac.ug/wp-content/uploads/2019/01/Role_of_TWS_ARU.jpg?w=595&ssl=1)
-
 The students are viewed as change agents in their home and in the community, as they are encouraged to study while also being equipped through “training to generate sustainable income, health, family cooperation, and peace at home”. This education is transferred back at home through various projects to uplift the family economically, and it transferred through educative theater, workshops and radio programmes - all which results in students as young as seventeen years old being [able to attest](https://www.youtube.com/watch?v=K2opGQ3jQJo&t=153s) that they have managed to build their family a house from revenue they are getting from family farming projects, for example. In contrast to other schools, URDT Girls’ School aims to produce “functionally literate, principled, entrepreneurial and responsible citizens”.
 
 It was probable to the author that cultural differences between how URDT teaching staff and the visiting lecturers engaged, taught, learned, communicated, and prioritized activities - made a typical data collection process for the needs inadequate. Often, assessment data collection tools consist of online or paper surveys and interviews that are designed in light of the existing available data. Obtaining available data was a substantial challenge in an agriculture-focused institution where teaching, assessment and communication methods did not prioritize written accounts or data storage in ways common to the visiting lecturers. The teaching staff’s experience with tech tools was non-uniform and sparse. Their teaching [methodology](https://urdt.net/our-methodology/) was one that prioritized group discussions and practical hands-on work to enable swift rural transformation. As such, it was decided to run focus group interviews in order to get as much information from the variation of responses given, and account for the gaps in hearing and understanding that had been identified earlier in the interactions of  the volunteer lecturers and URDT staff. 
@@ -53,6 +70,7 @@ It was probable to the author that cultural differences between how URDT teachin
 The first round of a focus group data collection exercise consisted of an adapted [closed card sorting](https://help.playbookux.com/en/articles/5366050-open-vs-closed-vs-hybrid-card-sorting) activity. In small groups of three to four, the teaching staff would stick up post-it notes of:
 1. what e-learning tools or methods they had used before, and 
 2. what they hoped to gain from the course.
+
 The resulting data showed that they already knew about many of the common approaches: Zoom, Learning Management Systems, online assessments, and other multi-media tools to encourage attendance and participation. However, their responses to what they hoped to gain from the course were vague - they listed the same tools without elaborating in what ways they wanted to improve on them. The scope of the words “tools you have used before” had not been clarified to exclude single-use experiences, and time spent in the lab later revealed that they knew of the tools but had little practice.
 
 Since the depth of knowledge of e-learning methods was still not evident, the author partnered with a fellow visiting lecturer to run two parallel sessions with two separate objectives. One session was a facilitated fun physical game that required small groups to race to an endpoint while being guided by a team lead. The team lead knew the steps to the end but was not allowed to reveal this knowledge; they could only indicate whether you had taken the right or wrong step with each turn. Within the groups, members each took a turn trying to get to the end by retracing the successful steps of the previous member and guessing what the next step could be. The various groups also had to compete to be the first to get to the endpoint.  This exercise was not necessarily related to e-learning, the objective of the exercise was to break the ice and later encourage the teaching staff to be as extensively forthcoming as they had been during the exercise. In the end, the teaching staff shared multiple ways they had tried to engage in e-learning methods and failed, through a highly engaged debrief round-table discussion. They also proactively discussed whose methods they were choosing to follow and why.
@@ -62,12 +80,12 @@ A session parallel to the fun exercise was later done in the computer lab, on th
 At this stage, the author finally felt she had enough knowledge to run a survey and ask more informed questions about different kinds of tools they may recognize, the scope of usage, student engagement with chosen tools, and their own chosen alternatives to difficult learning leaps in e-teaching methods. To elicit all this, she ran a survey administered through Google forms as a third and final data-collection exercise to determine the details of what we would spend the second week of our time together learning. After setting everyone up with a gmail account, the 30-question survey took only an hour to complete together, with support where needed.
 
 The conducting of a needs assessment that the author had thought would only take a day, had taken an entire week. The week focused on getting oriented to the teaching staff’s ways of engagement and eliciting their requirements for the e-learning course, by employing various real-time evaluation techniques such as impromptu interviews, focus groups and constant observations. The observations from each day informed the course of the next, and the evaluation continued until there was sufficient information to design the required learning materials. Patricia Rogers (Better Evaluation, 2020) aptly describes real-time evaluation as a combination of the following factors: real-time data, real-time reporting, multiple cycles, double loop learning and diverse sensemaking.
+
 ![](/assets/img/posts/RealTimeEvaluations_PRogers.png)
-![RTE](https://raw.githubusercontent.com/MERLTech/MERL-Center-public/mutsacc-Real-time-evaluations-PRogers/assets/img/posts/RealTimeEvaluations_PRogers.png)
 
-Throughout all forms of data collection employed, and in no particular order, the needs assessment process had consisted of mixed iterations of the following:
+Throughout all forms of data collection employed, and in no particular order, the needs assessment process had consisted of mixed iterations of the following techniques: eliciting current reality and expectations of improvement, stakeholder engagement and feedback, observations of demonstrations, gathering various forms of evidence, analysing information, and identifying root causes.
 
-
+![](/assets/img/posts/NeedsAssessmentTechniques_MChinyamakobvu.jpg)
 
 All these steps were employed in various ways and sequences in order to determine the objectives, content, and structure of the e-learning methods course to be given to the teaching staff for the remainder of the time spent at URDT.
 
@@ -79,7 +97,15 @@ The [MERL Center definition of HCD](https://merlcenter.org/human-centered-design
 In an attempt to align with this definition, it is necessary to note that, not only was it important to figure out what the teaching staff needed in order to continue teaching when students are not physically at school, it was also important to figure out how to elicit accurate and relevant information for an effective course delivery.
 
 
-While undergoing the rapid and real-time evaluation process of the current situation, HCD principles were employed to inform an effective solution as per the process map shown alongside. The participatory facilitation techniques to collect data were rooted in the need to find the appropriate inspiration for learning design that would speak coherently to the recipients of the course ultimately designed in the ideation phase and ultimately implemented. At the end of each day, the process of reconciling the day’s observations involved reviewing and analyzing the feedback and adapting the drafted course to fit the new narratives that were emanating with each set of findings. A couple of times, the ideas of how the course should be delivered were completely discarded for a new version relevant to the needs identified as priority requirements for an e-learning pivot. Documenting this experience for those who had commissioned this work was a critical step to ensuring that the implementation of this annual partnership could continue to improve in effectiveness and impact.
+While undergoing the rapid and real-time evaluation process of the current situation, HCD principles were employed to inform an effective solution as per the HCD Process Map which is carried out in the following steps:
+1. Inspiration - Driven by observation and empathy. This can be participatory.
+2. Ideation - Creatively designing multiple solutions, refining them, integrating feedback, iteratively coming up with the best prototype.
+3. Implementation - Build partnerships, solidify your idea, share it with the world.
+
+![](/assets/img/posts/HCDProcessMap_MChinyamakobvu.png)
+
+
+The participatory facilitation techniques to collect data were rooted in the need to find the appropriate inspiration for learning design that would speak coherently to the recipients of the course ultimately designed in the ideation phase and ultimately implemented. At the end of each day, the process of reconciling the day’s observations involved reviewing and analyzing the feedback and adapting the drafted course to fit the new narratives that were emanating with each set of findings. A couple of times, the ideas of how the course should be delivered were completely discarded for a new version relevant to the needs identified as priority requirements for an e-learning pivot. Documenting this experience for those who had commissioned this work was a critical step to ensuring that the implementation of this annual partnership could continue to improve in effectiveness and impact.
 
 Raphael Graser (SSWM) more personably denotes the steps from Inspiration > Ideation > Implementation as “Hear > Create > Deliver”. The Needs Assessment process lends itself only to the first stage of this three-step process. The repetitive real-time evaluation process kept going all week because the author wanted to accurately “hear” what the needs were.
 
@@ -103,11 +129,11 @@ As learned through this experience and the research that followed, the scope of 
 
 1. Rubin, J., & Chisnell, D. (2011). *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*. John Wiley & Sons.
 2. *Bridging the Research to Practice Gap - Innovative research methods and dissemination practices are leading the way*. Psychology Today (2016) [[Organisation website](https://www.psychologytoday.com/us/blog/psyched/201608/bridging-the-research-practice-gap)]
-3. Lyon AR et al., (2020). *Leveraging Human-Centered Design to Implement Modern Psychological Science: Return on an Early Investment*. Am Psychol, 75(8), 1067-1079 [[National Library of Medicine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7709137/#R19)]
-4. Hartson HR, (1998). *Human-computer interaction: Interdisciplinary roots and trends*. Journal of Systems and Software, 43, 103–118. [[CrossRef](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7709137/#R35)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Journal+of+Systems+and+Software&title=Human-computer+interaction:+Interdisciplinary+roots+and+trends&author=HR+Hartson&volume=43&publication_year=1998&pages=103-118&doi=10.1016/S0164-1212(98)10026-2&)]
-5. Rogers P, (2020). *Monitoring and Evaluation for Adaptive Management*. Working Paper Series Number 4. Better Evaluation [[Free article](https://www.betterevaluation.org/sites/default/files/Real%2520time%2520evaluation%2520paper%2520Dec%25202020%2520FINAL.pdf)]
-6. *Human-Centered Design definition*,(2023). MERL Centre [[Organisation Website](https://merlcenter.org/human-centered-design-definition.html)]
-7. Graser R. (2020) *Human-Centered Design. Sustainable Sanitation and Water Management* [[Organisation website](https://sswm.info/sswm-solutions-bop-markets/affordable-wash-services-and-products/innovation-tools/human-centred-design)]
-8. Damschroder LJ et al., (2009). *Fostering implementation of health services research findings into practice: A consolidated framework for advancing implementation science*. Implementation Science, 4(1), 50 10.1186/1748-5908-4-50 [[PMC free article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2736161/)]
+5. Lyon AR et al., (2020). *Leveraging Human-Centered Design to Implement Modern Psychological Science: Return on an Early Investment*. Am Psychol, 75(8), 1067-1079 [[National Library of Medicine](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7709137/#R19)]
+6. Hartson HR, (1998). *Human-computer interaction: Interdisciplinary roots and trends*. Journal of Systems and Software, 43, 103–118. [[CrossRef](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7709137/#R35)] [[Google Scholar](https://scholar.google.com/scholar_lookup?journal=Journal+of+Systems+and+Software&title=Human-computer+interaction:+Interdisciplinary+roots+and+trends&author=HR+Hartson&volume=43&publication_year=1998&pages=103-118&doi=10.1016/S0164-1212(98)10026-2&)]
+7. Rogers P, (2020). *Monitoring and Evaluation for Adaptive Management*. Working Paper Series Number 4. Better Evaluation [[Free article](https://www.betterevaluation.org/sites/default/files/Real%2520time%2520evaluation%2520paper%2520Dec%25202020%2520FINAL.pdf)]
+8. *Human-Centered Design definition*,(2023). MERL Centre [[Organisation Website](https://merlcenter.org/human-centered-design-definition.html)]
+9. Graser R. (2020) *Human-Centered Design. Sustainable Sanitation and Water Management* [[Organisation website](https://sswm.info/sswm-solutions-bop-markets/affordable-wash-services-and-products/innovation-tools/human-centred-design)]
+10. Damschroder LJ et al., (2009). *Fostering implementation of health services research findings into practice: A consolidated framework for advancing implementation science*. Implementation Science, 4(1), 50 10.1186/1748-5908-4-50 [[PMC free article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2736161/)]
 
 
