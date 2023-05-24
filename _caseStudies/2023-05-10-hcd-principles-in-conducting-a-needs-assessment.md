@@ -83,11 +83,11 @@ The conducting of a needs assessment that the author had thought would only take
 
 ![](/assets/img/posts/RealTimeEvaluations_PRogers.png)
 
-Throughout all forms of data collection employed, and in no particular order, the needs assessment process had consisted of mixed iterations of the following techniques: eliciting current reality and expectations of improvement, stakeholder engagement and feedback, observations of demonstrations, gathering various forms of evidence, analysing information, and identifying root causes.
+The needs assessment process can consist of mixed iterations of the following techniques: describing current reality vs. desired future expectations, engaging stakeholders relevant to the intended outcome, observing people and/or systems at work, identifying root causes and defining the problem, collecting self-assessments & peer reviews, and gathering evidence through questionnaires.
 
-![](/assets/img/posts/NeedsAssessmentTechniques_MChinyamakobvu.jpg)
+![](/assets/img/posts/NeedsAssessmentTechniques.png)
 
-All these steps were employed in various ways and sequences in order to determine the objectives, content, and structure of the e-learning methods course to be given to the teaching staff for the remainder of the time spent at URDT.
+Many of these steps were employed in various ways and sequences in order to determine the objectives, content, and structure of the e-learning methods course to be given to the teaching staff for the remainder of the time spent at URDT.
 
 ### How we incorporated HCD
 
