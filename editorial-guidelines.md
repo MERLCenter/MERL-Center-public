@@ -1,8 +1,8 @@
 # MERL Center Editorial Guidelines
 
-This is the editorial style guideline for all content the MERL Center produces. The goal of this file is to create consistency among contributions of different authors. It is not meant to be authoritative or erase an individual author's voice! Read more about t[ypes of MERL Center contributions here](https://github.com/MERLTech/merl-center/blob/main/Contribute/contributing-ReadMe.md).
+This is the editorial style guideline for all content the MERL Center produces. The goal of this file is to create consistency among contributions of different authors. It is not meant to be authoritative or erase an individual author's voice! Read more about t[ypes of MERL Center contributions here](https://github.com/merlcenter/merl-center/blob/main/Contribute/contributing-ReadMe.md).
 
-Note that any content created for the MERL Center must abide by the [Code of Conduct](https://github.com/MERLTech/merl-center/blob/main/Contribute/CODE_OF_CONDUCT.md).
+Note that any content created for the MERL Center must abide by the [Code of Conduct](https://github.com/merlcenter/merl-center/blob/main/Contribute/CODE_OF_CONDUCT.md).
 
 ## Text
 
@@ -25,9 +25,9 @@ There is no specific length requirement. Break up long pieces with sections. Ens
 
 _coming soon_
 
-Color | Hex | Fill | Hex
-------|-----|------|----
-Color 1 | Hex value | Color fill 1 | Hex value
+| Color   | Hex       | Fill         | Hex       |
+| ------- | --------- | ------------ | --------- |
+| Color 1 | Hex value | Color fill 1 | Hex value |
 
 
 ### Titles and Labels
