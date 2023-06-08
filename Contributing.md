@@ -1,7 +1,7 @@
 # Contributing to the MERL Center public repo
 ## Sections
 
-[Background](#background) | [Licenses](#licenses) | [Types of MERL Center content](#types-of-merl-center-content) | [For MERL Center Members](#for-merl-center-members) | [Contact](#contact)
+[Background](#background) | [Licenses](#licenses) | [Types of MERL Center content](#types-of-merl-center-content) | [For MERL Center Members](#for-merl-center-members) | [For MERL Center Developers](#for-merl-center-developers) | [Contact](#contact)
 
 ## Background
 The MERL Center is an interdisciplinary community that is creating resources for [monitoring, evaluation, research and learning (MERL)](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md) practitioners to understand if, how, and when to use open source solutions. The MERL Center is a part of the larger [MERL Tech](https://merltech.org) community and was organized and funded by GitHub's Social Impact, Tech for Social Good team. [You can read more about the MERL Center here](https://socialimpact.github.com/insights/collaboration-power-merl-center/).  As of May 2023, the MERL Center is a project of [Civic Tech Structure, Inc.](https://civictechstructure.org) a 501(c)(3).
@@ -101,15 +101,15 @@ _Note that despite `CodeOwners` containing the word "code", the MERL Center uses
 `CodeOwners` are automatically assigned to pull requests (proposed changes) made to files in a particular sub-directory (folder). This removes the guess work on who should edit a piece of learning content. You can read about [`CodeOwners` generally here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners) and view the [MERL Center `CodeOwners` file here](https://github.com/MERLTech/MERL-Center-public/blob/main/.github/CODEOWNERS). Contact [themerlcenter@gmail.com](mailto:themerlcenter@gmail.com) if you want to be added to the `CodeOwners` (Editors) team.
 
 ### Permissions Levels*
-Types of Contributions | Non-MERL Center Members | MERL Center Writer | MERL Center Editor** | MERL Center Admin | GitHub Teams Names
----------------------- | ----------------------- | ------------------ | ------------------- | ----------------- | ------------------
-Read-only Learning Content | X | X | X | X | Anyone with access to GitHub
-Propose Learning Content changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-lc-writers, merl-center-lc-editors, merl-center-public-admins  
-Approve and merge Learning Content changes | -- | -- | X | X | merl-center-lc-editors, merl-center-public-admins
-Read-only Web Code | X | X | X | X | Anyone with access to GitHub
-Propose (limited) Web Code changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | -- | X | X | X | merl-center-public-admins
-Approve and merge (limited) Web Code changes | -- | -- | -- | X | merl-center-public-admins
-Change Repo settings | -- | -- | -- | X | merl-center-public-admins
+| Types of Contributions                                                                                                                                        | Non-MERL Center Members | MERL Center Writer | MERL Center Editor** | MERL Center Admin | GitHub Teams Names                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------------ | -------------------- | ----------------- | ------------------------------------------------------------------------- |
+| Read-only Learning Content                                                                                                                                    | X                       | X                  | X                    | X                 | Anyone with access to GitHub                                              |
+| Propose Learning Content changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)   | --                      | X                  | X                    | X                 | merl-center-lc-writers, merl-center-lc-editors, merl-center-public-admins |
+| Approve and merge Learning Content changes                                                                                                                    | --                      | --                 | X                    | X                 | merl-center-lc-editors, merl-center-public-admins                         |
+| Read-only Web Code                                                                                                                                            | X                       | X                  | X                    | X                 | Anyone with access to GitHub                                              |
+| Propose (limited) Web Code changes through [pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) | --                      | X                  | X                    | X                 | merl-center-public-admins                                                 |
+| Approve and merge (limited) Web Code changes                                                                                                                  | --                      | --                 | --                   | X                 | merl-center-public-admins                                                 |
+| Change Repo settings                                                                                                                                          | --                      | --                 | --                   | X                 | merl-center-public-admins                                                 |
 
 - Permissions levels are a work-in-progress and should be fully implemented by October 2021
 - MERL Center Editors are the same as the `CodeOwners` teams (see above)
@@ -126,6 +126,17 @@ _Only admins are allowed to make most changes to the MERL Center website. Below 
 _more coming_
 
 [Back to top](#sections)
+
+## For MERL Center Developers
+#### How to set up your local environment
+1. Fork your own copy of merl-center-public repository
+2. Clone your forked repository with `git clone url_of_your_forked_repository.git`
+3. Navigate into the root directory of the repository you just cloned
+4. Check if you have Ruby installed by running `ruby -v` in your terminal. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
+5. Run the command `gem install bundler`
+6. Run the command `bundle install` to install all the dependencies from the Gemfile
+7. Check if you have npm installed with `npm -v`. If you don't have npm installed, you will need to download node.js [here](https://nodejs.org/en/download/)
+8. Run the command `npm run start`
 
 ## Contact
 
