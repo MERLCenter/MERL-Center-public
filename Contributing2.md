@@ -1,7 +1,7 @@
 # MERL Center Developer Guide
 
 ## How To Set Up Your Local Development Environment
-### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
+#### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
    
 <details><summary>See screenshot</summary>
 
@@ -9,7 +9,7 @@
 
 </details>
 
-### 2. Clone your forked repository
+#### 2. Clone your forked repository
 ```
 git clone replace_with_your_fork_url.git
 ```
@@ -19,35 +19,35 @@ git clone replace_with_your_fork_url.git
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/0dddd8a1-76eb-4f8f-9804-1ca47f66d2a2)
 </details>
 
-### 3. Navigate into root directory of repository you just cloned
+#### 3. Navigate into root directory of repository you just cloned
 ```
 cd MERL-Center-public
 ```
 
-### 4. Check if you have Ruby installed locally. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
+#### 4. Check if you have Ruby installed locally. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
 ```
 ruby -v
 ```
-### 5. Install the bundler gem with this command
+#### 5. Install the bundler gem with this command
 ```
 gem install bundler
 ```
 
-### 6. Install dependencies from Gemfile with this command
+#### 6. Install dependencies from Gemfile with this command
 ```
 bundle install
 ```
-### 7. Check if you have npm installed. If you don't have npm installed, download node.js [here](https://nodejs.org/en/download/)
+#### 7. Check if you have npm installed. If you don't have npm installed, download node.js [here](https://nodejs.org/en/download/)
 ```
 npm -v
 ```
-### 8. Run the start script from our package.json
+#### 8. Run the start script from our package.json
 ```
 npm run start
 ```
-### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
+#### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-### 10. Set up your local repository to track changes from the original repository
+#### 10. Set up your local repository to track changes from the original repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
@@ -60,40 +60,40 @@ git remote -v
 
 
 ## How To Create A Pull Request
-### 1. Switch to the main branch
+#### 1. Switch to the main branch
 ```
 git switch main
 ```
-### 2. Pull down latest changes from main repository
+#### 2. Pull down latest changes from main repository
 ```
 git pull upstream main
 ```
 
-### 3. Create a new branch for each issue you work on
+#### 3. Create a new branch for each issue you work on
 ```
 git checkout -b some_branch_name
 ```
 
-### 4. Check the status of your local repository
+#### 4. Check the status of your local repository
 ```
 git status
 ```
 Verify that you are NOT on the main branch anymore
-### 5. Add files to staging area
+#### 5. Add files to staging area
 ```
 git add .
 ```
-### 6. Commit changes to local repository
+#### 6. Commit changes to local repository
 ```
 git commit -m "short descriptive commit message"
 ```
-### 7. Push changes to your forked repository
+#### 7. Push changes to your forked repository
 ```
 git push --set-upstream origin some_branch_name
 ```
 Note: replace `some_branch_name` with the name of the branch you created in step 3
 
-### 8. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
+#### 8. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
 
 <details><summary>See screenshot</summary>
 
