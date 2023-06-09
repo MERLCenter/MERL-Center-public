@@ -1,6 +1,12 @@
 # MERL Center Developer Guide
 
-## How To Set Up Your Local Development Environment
+### [Set Up Local Dev Environment](#how-to-set-up-local-dev-environment)
+
+### [Review A Pull Request](#how-to-review-a-pull-request)
+
+### [Create A Pull Request](#how-to-create-a-pull-request)
+
+## Set Local Dev Environment
 #### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
    
 <details><summary>See screenshot</summary>
@@ -58,8 +64,53 @@ git remote -v
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/8f91b2d2-8c68-44af-8ae9-caf0ca2ee9cb)
 
 
+## Review A Pull Request
+#### 1. Add yourself as a reviewer of the pull request on Github
+<details><summary>See screenshot</summary>
 
-## How To Create A Pull Request
+![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/c0ad7dee-a460-431e-bb51-b4b64da68f73)
+
+</details>
+
+#### 2. Make sure you are on the main branch of your local repository
+``` 
+git switch main
+```
+#### 3. Pull down latest changes from main repository
+```
+git pull upstream main
+```
+#### 4. Make a new branch where you will pull down the changes from the pull request
+```
+git checkout -b pr-creator-name-branch-name main
+```
+#### 5. Pull down the changes from the pull request creator's branch on their forked repository
+```
+git pull url_of_pr_creator_forked_repository.git branch_name_from_pr
+```
+#### 6. Run the start script from our package.json
+```
+npm run start
+```
+#### 7. Navigate to `localhost:4000` in your browser to check that the changes from the pull request are working as expected
+
+#### 8. Go back to github and find the "Files Changed" tab of the pull request to submit feedback
+You have three options for submitting feedback:
+<br>
+a. You can leave a comment on the pull request
+<br>
+b. You can approve the pull request which will allow for merging
+<br>
+c. You can request changes which will prevent pull request from being merged until changes are made and you re-review the pull request
+<details><summary>See screenshot</summary>
+
+![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/08d7322b-2947-49f1-b0d2-f7e7d31719be)
+
+</details>
+
+
+
+## Create A Pull Request
 #### 1. Switch to the main branch
 ```
 git switch main
@@ -102,4 +153,3 @@ Note: replace `some_branch_name` with the name of the branch you created in step
 </details>
 
 
-## How To Review Pull Requests
