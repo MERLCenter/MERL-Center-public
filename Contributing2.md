@@ -47,7 +47,7 @@ npm run start
 ```
 ### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-## 10. Set up your local repository to track changes from the original repository
+### 10. Set up your local repository to track changes from the original repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
@@ -69,28 +69,37 @@ git switch main
 git pull upstream main
 ```
 
-
-### 1. Create a new branch for each issue you work on
+### 3. Create a new branch for each issue you work on
 ```
-git checkout -b short_descriptive_branch_name
+git checkout -b some_branch_name
 ```
 
-### 1. Check the status of your local repository
+### 4. Check the status of your local repository
 ```
 git status
 ```
-### 2. Add files to staging area
+Verify that you are NOT on the main branch anymore
+### 5. Add files to staging area
 ```
 git add .
 ```
-### 3. Commit changes to local repository
+### 6. Commit changes to local repository
 ```
 git commit -m "short descriptive commit message"
 ```
-### 4. Push changes to your forked repository
+### 7. Push changes to your forked repository
 ```
-git push
+git push --set-upstream origin some_branch_name
 ```
+Note: replace `some_branch_name` with the name of the branch you created in step 3
+
+### 8. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
+
+<details><summary>See screenshot</summary>
+
+![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/4f467adc-a296-4e00-8f6e-09a3dffcc208)
+
+</details>
 
 
 ## How To Review Pull Requests
