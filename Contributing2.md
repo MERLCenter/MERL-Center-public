@@ -6,6 +6,8 @@
 
 ### [Create A Pull Request](#how-to-create-a-pull-request)
 
+#### Note: For this guide, you will need to replace text surrounded by `<>` with the appropriate text for each situation. Do not include `<>` characters in your commands
+
 ## Set Local Dev Environment
 #### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
    
@@ -17,7 +19,7 @@
 
 #### 2. Clone your forked repository
 ```
-git clone replace_with_your_fork_url.git
+git clone <your-fork-url>.git
 ```
 
 <details><summary>See screenshot</summary>
@@ -82,12 +84,20 @@ git pull upstream main
 ```
 #### 4. Make a new branch where you will pull down the changes from the pull request
 ```
-git checkout -b pr-creator-name-branch-name main
+git checkout -b <pr-creator-name-branch-name> main
 ```
+Tip: copy the branch name from the pull request and change the `:` to a `-` to use as the branch name
+![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/99d863c1-2245-4eb2-8f5c-4336422b9f33)
 #### 5. Pull down the changes from the pull request creator's branch on their forked repository
 ```
-git pull url_of_pr_creator_forked_repository.git branch_name_from_pr
+git pull <url-of-forked-repository>.git <branch-name-from-pr>
 ```
+Tip: click on the "from" link on the pull request to get the url of the forked repository
+![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/6992b056-88d1-4024-8ec8-3b9b84a08b3c)
+Tip: copy the url from browser up to point where repository name ends. Do not copy the `/tree/` part of the url. Use the branch name from the end of the url. i.e. the part that comes after `/tree/`
+![Screenshot from 2023-06-09 09-37-09](https://github.com/MERLTech/MERL-Center-public/assets/73561520/b5298f3d-cedc-45c3-88a3-88d6f9683b02)
+
+
 #### 6. Run the start script from our package.json
 ```
 npm run start
@@ -122,7 +132,7 @@ git pull upstream main
 
 #### 3. Create a new branch for each issue you work on
 ```
-git checkout -b some_branch_name
+git checkout -b <relevant-branch-name>
 ```
 
 #### 4. Check the status of your local repository
@@ -140,9 +150,9 @@ git commit -m "short descriptive commit message"
 ```
 #### 7. Push changes to your forked repository
 ```
-git push --set-upstream origin some_branch_name
+git push --set-upstream origin <relevant-branch-name>
 ```
-Note: replace `some_branch_name` with the name of the branch you created in step 3
+Note: replace `<relevent-branch-name>` with the name of the branch you created in step 3
 
 #### 8. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
 
