@@ -1,12 +1,13 @@
 # MERL Center Developer Guide
 
-### [Set Up Local Dev Environment](#how-to-set-up-local-dev-environment)
+### Table of Contents
+#### [Set Up Local Dev Environment](#how-to-set-up-local-dev-environment)
 
-### [Review A Pull Request](#how-to-review-a-pull-request)
+#### [Review A Pull Request](#how-to-review-a-pull-request)
 
-### [Create A Pull Request](#how-to-create-a-pull-request)
+#### [Create A Pull Request](#how-to-create-a-pull-request)
 
-#### Note: For this guide, you will need to replace text surrounded by `<>` with the appropriate text for each situation. Do not include `<>` characters in your commands
+##### For this guide, please replace text surrounded by `<>` with the appropriate text for each command. Do not include `<>` characters in your commands.
 
 ## Set Local Dev Environment
 #### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
@@ -55,7 +56,7 @@ npm run start
 ```
 #### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-#### 10. Set up your local repository to track changes from the original repository
+#### 10. Add a remote called `upstream` to your local repository that points to the main repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
@@ -64,6 +65,12 @@ Verify that your local repository is tracking changes from the original reposito
 git remote -v
 ```
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/8f91b2d2-8c68-44af-8ae9-caf0ca2ee9cb)
+
+#### 11. Add fetch configuration to simplify pulling down branch data for pull request reviews
+```
+git config --add remote.upstream.fetch "+refs/pull/*/head:refs/remotes/upstream/pr/*"
+```
+This command adds additional fetch instructions to your .git/config file so that you can pull down branches from pull requests on the main repository.
 
 
 ## Review A Pull Request
@@ -82,21 +89,14 @@ git switch main
 ```
 git pull upstream main
 ```
-#### 4. Make a new branch where you will pull down the changes from the pull request
+#### 4. Fetch all pull request data from the main repository using the upstream remote
 ```
-git checkout -b <pr-creator-name-branch-name> main
+git fetch upstream
 ```
-Tip: copy the branch name from the pull request and change the `:` to a `-` to use as the branch name
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/99d863c1-2245-4eb2-8f5c-4336422b9f33)
-#### 5. Pull down the changes from the pull request creator's branch on their forked repository
+#### 5. Checkout the specific pull request you want to review
 ```
-git pull <url-of-forked-repository>.git <branch-name-from-pr>
+git checkout pr/<number>
 ```
-Tip: click on the "from" link on the pull request to get the url of the forked repository
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/6992b056-88d1-4024-8ec8-3b9b84a08b3c)
-Tip: copy the url from browser up to point where repository name ends. Do not copy the `/tree/` part of the url. Use the branch name from the end of the url. i.e. the part that comes after `/tree/`
-![Screenshot from 2023-06-09 09-37-09](https://github.com/MERLTech/MERL-Center-public/assets/73561520/b5298f3d-cedc-45c3-88a3-88d6f9683b02)
-
 
 #### 6. Run the start script from our package.json
 ```
@@ -107,17 +107,14 @@ npm run start
 #### 8. Go back to github and find the "Files Changed" tab of the pull request to submit feedback
 You have three options for submitting feedback:
 <br>
-a. You can leave a comment on the pull request
-<br>
-b. You can approve the pull request which will allow for merging
-<br>
-c. You can request changes which will prevent pull request from being merged until changes are made and you re-review the pull request
+- Leave a comment on the pull request
+- Approve the pull request which will allow for merging
+- Request changes which will prevent pull request from being merged until changes are made and you re-review the pull request
 <details><summary>See screenshot</summary>
 
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/08d7322b-2947-49f1-b0d2-f7e7d31719be)
 
 </details>
-
 
 
 ## Create A Pull Request
