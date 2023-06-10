@@ -95,7 +95,7 @@ git fetch upstream
 ```
 #### 5. Checkout the specific pull request you want to review
 ```
-git checkout pr/<number>
+git checkout upstream/pr/<number>
 ```
 
 #### 6. Run the start script from our package.json
