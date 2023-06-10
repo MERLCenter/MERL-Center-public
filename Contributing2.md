@@ -1,18 +1,18 @@
 # MERL Center Developer Guide
 
 ### Table of Contents
-#### [Set Up Local Dev Environment](#how-to-set-up-local-dev-environment)
+#### [Local Dev Environment](#set-up-local-dev-environment)
 
-#### [Review A Pull Request](#how-to-review-a-pull-request)
+#### [Reviewing Pull Requests](#review-a-pull-request)
 
-#### [Create A Pull Request](#how-to-create-a-pull-request)
+#### [Creating Pull Requests](#create-a-pull-request)
 
 ##### For this guide, please replace text surrounded by `<>` with the appropriate text for each command. Do not include `<>` characters in your commands.
 
-## Set Local Dev Environment
+## Set Up Local Dev Environment
 #### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
    
-<details><summary>See screenshot</summary>
+<details><summary><b>see screenshot</b></summary>
 
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/fb0ac86f-54fe-4cab-b19a-a2762d9ee703)
 
@@ -23,7 +23,7 @@
 git clone <your-fork-url>.git
 ```
 
-<details><summary>See screenshot</summary>
+<details><summary><b>see screenshot</b></summary>
 
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/0dddd8a1-76eb-4f8f-9804-1ca47f66d2a2)
 </details>
@@ -70,12 +70,12 @@ git remote -v
 ```
 git config --add remote.upstream.fetch "+refs/pull/*/head:refs/remotes/upstream/pr/*"
 ```
-This command adds additional fetch instructions to your .git/config file so that you can pull down branches from pull requests on the main repository.
+This command adds additional fetch instructions to your .git/config file so that you can more easily pull down branches from pull requests on the main repository.
 
 
 ## Review A Pull Request
 #### 1. Add yourself as a reviewer of the pull request on Github
-<details><summary>See screenshot</summary>
+<details><summary><b>see screenshot</b></summary>
 
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/c0ad7dee-a460-431e-bb51-b4b64da68f73)
 
@@ -105,16 +105,18 @@ npm run start
 #### 7. Navigate to `localhost:4000` in your browser to check that the changes from the pull request are working as expected
 
 #### 8. Go back to github and find the "Files Changed" tab of the pull request to submit feedback
+<details><summary><b>see screenshot</b></summary>
+
+![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/08d7322b-2947-49f1-b0d2-f7e7d31719be)
+
+</details>
+
 You have three options for submitting feedback:
 <br>
 - Leave a comment on the pull request
 - Approve the pull request which will allow for merging
 - Request changes which will prevent pull request from being merged until changes are made and you re-review the pull request
-<details><summary>See screenshot</summary>
 
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/08d7322b-2947-49f1-b0d2-f7e7d31719be)
-
-</details>
 
 
 ## Create A Pull Request
@@ -153,7 +155,7 @@ Note: replace `<relevent-branch-name>` with the name of the branch you created i
 
 #### 8. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
 
-<details><summary>See screenshot</summary>
+<details><summary><b>see screenshot</b></summary>
 
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/4f467adc-a296-4e00-8f6e-09a3dffcc208)
 
