@@ -7,7 +7,7 @@
 
 #### [Creating Pull Requests](#create-a-pull-request)
 
-##### For this guide, please replace text surrounded by `<>` with the appropriate text for each command. Do not include `<>` characters in your commands.
+##### *For this guide, please replace text surrounded by `<>` with the appropriate text for each command. Do not include `<>` characters in your commands.
 
 ## Set Up Local Dev Environment
 #### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
@@ -70,7 +70,7 @@ git remote -v
 ```
 git config --add remote.upstream.fetch "+refs/pull/*/head:refs/remotes/upstream/pr/*"
 ```
-This command adds additional fetch instructions to your .git/config file so that you can more easily pull down branches from pull requests on the main repository.
+This command adds additional fetch instructions to your `.git/config` file so that you can more easily pull down branches from pull requests on the main repository
 
 
 ## Review A Pull Request
@@ -102,7 +102,7 @@ git checkout pr/<number>
 ```
 npm run start
 ```
-#### 7. Navigate to `localhost:4000` in your browser to check that the changes from the pull request are working as expected
+#### 7. Navigate to `localhost:4000` in your browser to check if the changes from the pull request are working as expected
 
 #### 8. Go back to github and find the "Files Changed" tab of the pull request to submit feedback
 <details><summary><b>see screenshot</b></summary>
@@ -138,22 +138,25 @@ git checkout -b <relevant-branch-name>
 ```
 git status
 ```
-Verify that you are NOT on the main branch anymore
-#### 5. Add files to staging area
+Verify that you are on your newly created branch from step 3 and NOT on the main branch
+
+#### 5. Make necessary changes to code in order to satisfy the requirements of the issue you are working on
+
+#### 6. Add the changes to staging area
 ```
 git add .
 ```
-#### 6. Commit changes to local repository
+#### 7. Commit the changes to your local repository
 ```
 git commit -m "short descriptive commit message"
 ```
-#### 7. Push changes to your forked repository
+#### 8. Push the changes to your forked repository using the `origin` remote
 ```
 git push --set-upstream origin <relevant-branch-name>
 ```
 Note: replace `<relevent-branch-name>` with the name of the branch you created in step 3
 
-#### 8. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
+#### 9. Navigate to your forked repository on GitHub and click the "Compare & pull request" button
 
 <details><summary><b>see screenshot</b></summary>
 
