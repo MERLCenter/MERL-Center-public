@@ -134,11 +134,10 @@ git pull upstream main
 git checkout -b <relevant-branch-name>
 ```
 
-#### 4. Check the status of your local repository
+#### 4. Verify that you are on your newly created branch from step 3 and NOT on the main branch
 ```
-git status
+git branch
 ```
-Verify that you are on your newly created branch from step 3 and NOT on the main branch
 
 #### 5. Make necessary changes to code in order to satisfy the requirements of the issue you are working on
 
