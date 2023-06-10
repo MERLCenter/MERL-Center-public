@@ -1,11 +1,11 @@
 # MERL Center Developer Guide
 
 ### Table of Contents
-#### [Local Dev Environment](#set-up-local-dev-environment)
+1. [Set Up Local Dev Environment](#set-up-local-dev-environment)
 
-#### [Reviewing Pull Requests](#review-a-pull-request)
+2. [Review A Pull Request](#review-a-pull-request)
 
-#### [Creating Pull Requests](#create-a-pull-request)
+3. [Create A Pull Request](#create-a-pull-request)
 
 ##### *For this guide, please replace text surrounded by `<>` with the appropriate text for each command. Do not include `<>` characters in your commands.
 
