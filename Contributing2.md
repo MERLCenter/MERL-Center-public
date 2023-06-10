@@ -56,7 +56,7 @@ npm run start
 ```
 #### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-#### 10. Add a remote called `upstream` to your local repository that points to the main repository
+#### 10. Add a remote called `upstream` to your local repository that points to the upstream repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
@@ -70,7 +70,7 @@ git remote -v
 ```
 git config --add remote.upstream.fetch "+refs/pull/*/head:refs/remotes/upstream/pr/*"
 ```
-This command adds additional fetch instructions to your `.git/config` file so that you can more easily pull down branches from pull requests on the main repository
+This command adds additional fetch instructions to your `.git/config` file so that you can more easily pull down branches from pull requests on the upstream repository
 
 
 ## Review A Pull Request
@@ -85,11 +85,11 @@ This command adds additional fetch instructions to your `.git/config` file so th
 ``` 
 git switch main
 ```
-#### 3. Pull down latest changes from main branch of main repository
+#### 3. Pull down latest changes from main branch of upstream repository
 ```
 git pull upstream main
 ```
-#### 4. Fetch all pull request data from the main repository using the upstream remote
+#### 4. Fetch all pull request data from the upstream repository using the upstream remote that was modified in step 11 of setting up your local dev environment
 ```
 git fetch upstream
 ```
