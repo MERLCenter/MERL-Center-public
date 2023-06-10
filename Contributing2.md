@@ -85,7 +85,7 @@ This command adds additional fetch instructions to your `.git/config` file so th
 ``` 
 git switch main
 ```
-#### 3. Pull down latest changes from main repository
+#### 3. Pull down latest changes from main branch of main repository
 ```
 git pull upstream main
 ```
@@ -124,7 +124,7 @@ You have three options for submitting feedback:
 ```
 git switch main
 ```
-#### 2. Pull down latest changes from main repository
+#### 2. Pull down latest changes from main branch of upstream repository
 ```
 git pull upstream main
 ```
