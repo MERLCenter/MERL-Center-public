@@ -56,11 +56,11 @@ npm run start
 ```
 #### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-#### 10. Add a remote called `upstream` to your local repository that points to the upstream repository
+#### 10. Add a remote called `upstream` to your local repository that points to the main repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
-Verify that your local repository is tracking changes from the original repository
+Verify that the origin remote points to your fork and the upstream remote points to the main repository
 ```
 git remote -v
 ```
