@@ -8,7 +8,7 @@ authors:
     authorGitHubID: 26001770
 
 tags:
-  #- tag: Data Collection and Management
+  - tag: Data Collection and Management
 
 # images should be in the /assets/img/posts/ folder
 featuredImage: HCDProcessMap_MChinyamakobvu.png
