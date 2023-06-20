@@ -46,17 +46,14 @@ gem install bundler
 ```
 bundle install
 ```
-#### 7. Check if you have npm installed. If you don't have npm installed, download node.js [here](https://nodejs.org/en/download/)
-```
-npm -v
-```
-#### 8. Run the start script from our package.json
-```
-npm run start
-```
-#### 9. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-#### 10. Add a remote called `upstream` to your local repository that points to the main repository
+#### 7. Start the Jekyll server with this command
+```
+bundle exec jekyll serve --livereload
+```
+#### 8. Navigate to `localhost:4000` in your browser to see the site running locally 
+
+#### 9. Add a remote called `upstream` to your local repository that points to the main repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
@@ -66,7 +63,7 @@ git remote -v
 ```
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/8f91b2d2-8c68-44af-8ae9-caf0ca2ee9cb)
 
-#### 11. Add fetch configuration to simplify pulling down branch data for pull request reviews
+#### 10. Add fetch configuration to simplify pulling down branch data for pull request reviews
 ```
 git config --add remote.upstream.fetch "+refs/pull/*/head:refs/remotes/upstream/pr/*"
 ```
