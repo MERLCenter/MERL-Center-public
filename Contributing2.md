@@ -33,27 +33,19 @@ git clone <your-fork-url>.git
 cd MERL-Center-public
 ```
 
-#### 4. Check if you have Ruby installed locally. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
-```
-ruby -v
-```
-#### 5. Install the bundler gem with this command
-```
-gem install bundler
-```
+#### 4. Check if you have Docker installed locally. If you don't have Docker installed, follow the instructions [here](https://docs.docker.com/get-docker/)
 
-#### 6. Install dependencies from Gemfile with this command
 ```
-bundle install
+docker -v
 ```
+#### 5. Run this command to start the Docker container
 
-#### 7. Start the Jekyll server with this command
 ```
-bundle exec jekyll serve --livereload
+docker compose up
 ```
-#### 8. Navigate to `localhost:4000` in your browser to see the site running locally 
+#### 6. Navigate to `localhost:4000` in your browser to see the site running locally 
 
-#### 9. Add a remote called `upstream` to your local repository that points to the main repository
+#### 7. Add a remote called `upstream` to your local repository that points to the main repository
 ```
 git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
 ```
@@ -63,7 +55,7 @@ git remote -v
 ```
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/8f91b2d2-8c68-44af-8ae9-caf0ca2ee9cb)
 
-#### 10. Add fetch configuration to simplify pulling down branch data for pull request reviews
+#### 8. Add fetch configuration to simplify pulling down branch data for pull request reviews
 ```
 git config --add remote.upstream.fetch "+refs/pull/*/head:refs/remotes/upstream/pr/*"
 ```
