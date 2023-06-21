@@ -6,7 +6,9 @@ RUN bundle config --global frozen 1
 
 WORKDIR /usr/src/app
 
+# copy gems first to cache bundle install
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
+# copy whole repo into the image
 COPY . .
