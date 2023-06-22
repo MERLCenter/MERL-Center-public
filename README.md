@@ -16,7 +16,7 @@ This is the public repository of the MERL Center on which publicly available lea
 - Code is under [the MIT license](LICENSE).
 
 ## How to Contribute
-[Check out the contributing doc here.](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md)
+Check out the [contributing instructions for non technical contributors](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md)
 
 ### Join the MERL Center
 If you'd like to become a MERL Center member, [please fill out this form](https://forms.gle/ULFWYt6y4fkw2FH28). We ask MERL Center members have at least one year of professional work experience in MERL and/or open source.
