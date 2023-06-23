@@ -10,7 +10,13 @@
 ##### *For this guide, please replace text surrounded by `<>` with the appropriate text for each command. Do not include `<>` characters in your commands.
 
 ## Set Up Local Dev Environment
-#### 1. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
+
+#### 1. Check if you have git installed with the command below. If you do not have git on your machine, follow the installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+```
+git --version
+```
+
+#### 2. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
    
 <details><summary><b>see screenshot</b></summary>
 
@@ -18,7 +24,7 @@
 
 </details>
 
-#### 2. Clone your forked repository
+#### 3. Clone your forked repository
 ```
 git clone <your-fork-url>.git
 ```
@@ -28,21 +34,45 @@ git clone <your-fork-url>.git
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/0dddd8a1-76eb-4f8f-9804-1ca47f66d2a2)
 </details>
 
-#### 3. Navigate into root directory of repository you just cloned
+#### 4. Navigate into root directory of repository you just cloned
 ```
 cd MERL-Center-public
 ```
-
-#### 4. Check if you have Docker installed locally. If you don't have Docker installed, follow the instructions [here](https://docs.docker.com/get-docker/)
+#### 5. You have two options for starting the server locally
+##### 1. Using docker
+##### 1a. Check if you have Docker installed locally. If you don't have Docker installed, follow the instructions [here](https://docs.docker.com/get-docker/)
 
 ```
 docker -v
 ```
-#### 5. Run this command to start the Docker container
+##### 1b. Run this command to build the Docker image
 
+```
+docker compose build
+```
+###### 1c. Run this command to start the server locally
 ```
 docker compose up
 ```
+
+#### 2. Using Ruby
+##### 2a. Check if you have Ruby installed locally. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
+```
+ruby -v
+```
+##### 2b. Install the bundler gem with this command
+```
+gem install bundler
+```
+##### 2c. Install dependencies from Gemfile with this command
+```
+bundle install
+```
+##### 2d. Run this command to start the server locally
+```
+bundle exec jekyll serve --livereload
+```
+
 #### 6. Navigate to `localhost:4000` in your browser to see the site running locally 
 
 #### 7. Add a remote called `upstream` to your local repository that points to the main repository
@@ -151,5 +181,3 @@ Note: replace `<relevent-branch-name>` with the name of the branch you created i
 ![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/4f467adc-a296-4e00-8f6e-09a3dffcc208)
 
 </details>
-
-
