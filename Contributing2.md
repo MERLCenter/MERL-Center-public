@@ -50,7 +50,7 @@ docker -v
 ```
 docker compose build
 ```
-###### 1c. Run this command to start the server locally
+##### 1c. Run this command to start the server locally
 ```
 docker compose up
 ```
