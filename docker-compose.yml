@@ -1,0 +1,16 @@
+version: '3'
+services:
+  jekyll:
+    container_name: jekyll-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: merl-center:v1
+    # host flag allows Jekyll server to be accessed from outside the container
+    command: bundle exec jekyll serve --livereload --host=0.0.0.0
+    # volume allows changes to be seen on localhost immediately instead of having to delete and rebuild image
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 4000:4000
+      - 35729:35729 # port for livereload
