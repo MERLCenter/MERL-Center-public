@@ -11,11 +11,11 @@
 
 ## Set Up Local Dev Environment
 
-#### 1. Check if you have git installed with the command below. If you do not have git on your machine, follow the installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+#### 1. Check if you have git installed with the command below. 
 ```
 git --version
 ```
-
+If you do not have git on your machine, follow the installation instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 #### 2. Fork your own copy of merl-center-public repository on GitHub by clicking the fork button in the top right corner of the repository page
    
 <details><summary><b>see screenshot</b></summary>
@@ -39,7 +39,7 @@ git clone <your-fork-url>.git
 cd MERL-Center-public
 ```
 #### 5. You have two options for starting the server locally
-##### 1. Using docker
+#### Option #1 - Using Docker (recommended)
 ##### 1a. Check if you have Docker installed locally. If you don't have Docker installed, follow the instructions [here](https://docs.docker.com/get-docker/)
 
 ```
@@ -55,7 +55,7 @@ docker compose build
 docker compose up
 ```
 
-#### 2. Using Ruby
+#### Option #2 - Using Jekyll
 ##### 2a. Check if you have Ruby installed locally. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
 ```
 ruby -v
