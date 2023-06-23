@@ -55,7 +55,7 @@ docker compose build
 docker compose up
 ```
 
-#### Option #2 - Using Jekyll
+#### Option #2 - Using Ruby directly
 ##### 2a. Check if you have Ruby installed locally. If you don't have Ruby installed, follow the instructions [here](https://www.ruby-lang.org/en/documentation/installation/) to install Ruby
 ```
 ruby -v
@@ -108,7 +108,7 @@ git switch main
 ```
 git pull upstream main
 ```
-#### 4. Fetch all pull request data from the upstream repository using the upstream remote that was modified in step 11 of setting up your local dev environment
+#### 4. Fetch all pull request data from the main repository using the upstream remote that was modified in step 8 of setting up your local dev environment
 ```
 git fetch upstream
 ```
