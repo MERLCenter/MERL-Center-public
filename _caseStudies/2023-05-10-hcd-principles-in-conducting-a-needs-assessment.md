@@ -81,7 +81,7 @@ At this stage, the author finally felt she had enough knowledge to run a survey 
 
 The conducting of a needs assessment that the author had thought would only take a day, had taken an entire week. The week focused on getting oriented to the teaching staff’s ways of engagement and eliciting their requirements for the e-learning course, by employing various real-time evaluation techniques such as impromptu interviews, focus groups and constant observations. The observations from each day informed the course of the next, and the evaluation continued until there was sufficient information to design the required learning materials. Patricia Rogers (Better Evaluation, 2020) aptly describes real-time evaluation as a combination of the following factors: real-time data, real-time reporting, multiple cycles, double loop learning and diverse sensemaking.
 
-![](/assets/img/posts/RealTimeEvaluations_PRogers_v2.jpg)
+![](/assets/img/posts/RealTimeEvaluations_PRogers_v2.png)
 
 The needs assessment process can consist of mixed iterations of the following techniques: describing current reality vs. desired future expectations, engaging stakeholders relevant to the intended outcome, observing people and/or systems at work, identifying root causes and defining the problem, collecting self-assessments & peer reviews, and gathering evidence through questionnaires.
 
