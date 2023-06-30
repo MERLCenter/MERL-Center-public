@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: The use of HCD principles in conducting a needs assessment
+title: The use of Human Centered Design (HCD) principles in conducting a needs assessment
 authors:
   - author: Mutsa Carole Chinyamakobvu
     authorTitle: 
@@ -18,7 +18,7 @@ outgoingUrl:
 
 ---
 
-## Case Study: The use of HCD principles in conducting a needs assessment
+## Case Study: The use of  Human Centered Design (HCD) principles in conducting a needs assessment
 By Mutsa Carole Chinyamakobvu
 
 ### Keywords
@@ -59,11 +59,11 @@ This article will discuss the context of the particular case that inspired this 
 
 In August 2022, a group of lecturers volunteering for Professors Without Borders were welcomed to a rural school in Uganda to give a short course to the teaching staff on the “Opportunities of 21st-Century E-Learning Methodologies”. The volunteers had little knowledge of how the teaching staff were delivering their classes at the time. Due to connectivity issues, it was nearly impossible to establish any details to prepare for the two-week course. Whenever a communication channel was present, it was also clear that hearing and understanding one another was going to be a barrier to consider mindfully when choosing an approach to deliver the course.
 
-[Uganda Rural Development Training (URDT)  Girls’ School](https://urdt.net/urdt-girls-school-urdtgs/), is an all girl’s school that was established in 2000 in Kagadi district in Western Uganda. The school was instituted to “fill the need for education that is linked to development and women empowerment”. Their pedagogical approach is to employ the 2-generation approach, where parents learn along with their children to “develop a shared vision for their home, analyze their current situation, apply systems thinking, team learning, plan together and learn new skills”. 
+[Uganda Rural Development Training (URDT)  Girls’ School](https://urdteduc.ac.ug/urdt-girl-school/), is an all girl’s school that was established in 2000 in Kagadi district in Western Uganda. The school was instituted to “fill the need for education that is linked to development and women empowerment”. Their pedagogical approach is to employ the 2-generation approach, where parents learn along with their children to “develop a shared vision for their home, analyze their current situation, apply systems thinking, team learning, plan together and learn new skills”. 
 
-The students are viewed as change agents in their home and in the community, as they are encouraged to study while also being equipped through “training to generate sustainable income, health, family cooperation, and peace at home”. This education is transferred back at home through various projects to uplift the family economically, and it transferred through educative theater, workshops and radio programmes - all which results in students as young as seventeen years old being [able to attest](https://www.youtube.com/watch?v=K2opGQ3jQJo&t=153s) that they have managed to build their family a house from revenue they are getting from family farming projects, for example. In contrast to other schools, URDT Girls’ School aims to produce “functionally literate, principled, entrepreneurial and responsible citizens”.
+The students are viewed as change agents in their home and in the community, as they are encouraged to study while also being equipped through “training to generate sustainable income, health, family cooperation, and peace at home”. This education is transferred back at home through various projects to uplift the family economically, and it is transferred through educative theater, workshops and radio programmes - all which results in students as young as seventeen years old being [able to attest](https://www.youtube.com/watch?v=K2opGQ3jQJo&t=153s) that they have managed to build their family a house from revenue they are getting from family farming projects, for example. In contrast to other schools, URDT Girls’ School aims to produce “functionally literate, principled, entrepreneurial and responsible citizens”.
 
-It was probable to the author that cultural differences between how URDT teaching staff and the visiting lecturers engaged, taught, learned, communicated, and prioritized activities - made a typical data collection process for the needs inadequate. Often, assessment data collection tools consist of online or paper surveys and interviews that are designed in light of the existing available data. Obtaining available data was a substantial challenge in an agriculture-focused institution where teaching, assessment and communication methods did not prioritize written accounts or data storage in ways common to the visiting lecturers. The teaching staff’s experience with tech tools was non-uniform and sparse. Their teaching [methodology](https://urdt.net/our-methodology/) was one that prioritized group discussions and practical hands-on work to enable swift rural transformation. As such, it was decided to run focus group interviews in order to get as much information from the variation of responses given, and account for the gaps in hearing and understanding that had been identified earlier in the interactions of  the volunteer lecturers and URDT staff. 
+It was probable to the author that cultural differences between how URDT teaching staff and the visiting lecturers engaged, taught, learned, communicated, and prioritized activities - made a typical data collection process for the needs inadequate. Often, assessment data collection tools consist of online or paper surveys and interviews that are designed in light of the existing available data. Obtaining available data was a substantial challenge in an agriculture-focused institution where teaching, assessment and communication methods did not prioritize written accounts or data storage in ways common to the visiting lecturers. The teaching staff’s experience with tech tools was non-uniform and sparse. Their teaching [methodology](https://urdteduc.ac.ug/methodology/) was one that prioritized group discussions and practical hands-on work to enable swift rural transformation. As such, it was decided to run focus group interviews in order to get as much information from the variation of responses given, and account for the gaps in hearing and understanding that had been identified earlier in the interactions of  the volunteer lecturers and URDT staff. 
 
 ### Unstructured data collection methods to assess needs
 
@@ -81,7 +81,7 @@ At this stage, the author finally felt she had enough knowledge to run a survey 
 
 The conducting of a needs assessment that the author had thought would only take a day, had taken an entire week. The week focused on getting oriented to the teaching staff’s ways of engagement and eliciting their requirements for the e-learning course, by employing various real-time evaluation techniques such as impromptu interviews, focus groups and constant observations. The observations from each day informed the course of the next, and the evaluation continued until there was sufficient information to design the required learning materials. Patricia Rogers (Better Evaluation, 2020) aptly describes real-time evaluation as a combination of the following factors: real-time data, real-time reporting, multiple cycles, double loop learning and diverse sensemaking.
 
-![](/assets/img/posts/RealTimeEvaluations_PRogers.png)
+![](/assets/img/posts/RealTimeEvaluations_PRogers_v2.png)
 
 The needs assessment process can consist of mixed iterations of the following techniques: describing current reality vs. desired future expectations, engaging stakeholders relevant to the intended outcome, observing people and/or systems at work, identifying root causes and defining the problem, collecting self-assessments & peer reviews, and gathering evidence through questionnaires.
 
@@ -92,7 +92,8 @@ Many of these steps were employed in various ways and sequences in order to dete
 ### How we incorporated HCD
 
 The [MERL Center definition of HCD](https://merlcenter.org/human-centered-design-definition.html) is as follows:
-> “Human-centered design (HCD) is a framework that places the needs, desires and behaviors of key stakeholders, beneficiaries, users or teaching staff at the center of design and implementation decisions. HCD can be used to create and inform digital products, physical products, programs and communities. It can rely on iterative cycles of co-creating, collaborating, testing and refining solutions. HCD requires contextual analysis and understanding in order to base design decisions on how stakeholders or end-users already think, communicate and engage. In MERL, HCD can be used to inform who is asked what, when and how. It can provide insights on why something is happening. In using HCD for MERL, it is important to consider human rights and equitable solutions.” <
+> “Human-centered design (HCD) is a framework that places the needs, desires and behaviors of key stakeholders, beneficiaries, users or teaching staff at the center of design and implementation decisions. HCD can be used to create and inform digital products, physical products, programs and communities. It can rely on iterative cycles of co-creating, collaborating, testing and refining solutions. HCD requires contextual analysis and understanding in order to base design decisions on how stakeholders or end-users already think, communicate and engage. In MERL, HCD can be used to inform who is asked what, when and how. It can provide insights on why something is happening. In using HCD for MERL, it is important to consider human rights and equitable solutions.”
+
 
 In an attempt to align with this definition, it is necessary to note that, not only was it important to figure out what the teaching staff needed in order to continue teaching when students are not physically at school, it was also important to figure out how to elicit accurate and relevant information for an effective course delivery.
 
