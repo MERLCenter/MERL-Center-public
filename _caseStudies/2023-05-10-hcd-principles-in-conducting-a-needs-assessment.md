@@ -95,6 +95,7 @@ The [MERL Center definition of HCD](https://merlcenter.org/human-centered-design
 > “Human-centered design (HCD) is a framework that places the needs, desires and behaviors of key stakeholders, beneficiaries, users or teaching staff at the center of design and implementation decisions. HCD can be used to create and inform digital products, physical products, programs and communities. It can rely on iterative cycles of co-creating, collaborating, testing and refining solutions. HCD requires contextual analysis and understanding in order to base design decisions on how stakeholders or end-users already think, communicate and engage. In MERL, HCD can be used to inform who is asked what, when and how. It can provide insights on why something is happening. In using HCD for MERL, it is important to consider human rights and equitable solutions.”
 
 
+
 In an attempt to align with this definition, it is necessary to note that, not only was it important to figure out what the teaching staff needed in order to continue teaching when students are not physically at school, it was also important to figure out how to elicit accurate and relevant information for an effective course delivery.
 
 
