@@ -514,10 +514,23 @@ APP.Filters = {
 
     $('.js-reset-filters').click(function(e){
       e.preventDefault();
-      activeFilters = [];
+      // contentTypes.val('');
+      // workflows.val('');  //no longer needed
+
+      //loop over each active filter
+      activeFilters.forEach((element)=>{
+        const activeElement = document.getElementById(element);   // get the element by id
+        activeElement.checked = false;                            // set the checkbox.checked = false
+      })
+      
+      activeContentTypes.forEach((element)=>{
+        const activeElement = document.getElementById(element);
+        activeElement.checked = false;
+      })
+
+      //clear the active filter array
       activeContentTypes = [];
-      contentTypes.val('');
-      workflows.val('');
+      activeFilters = [];
       updatePosts();
     });
 
