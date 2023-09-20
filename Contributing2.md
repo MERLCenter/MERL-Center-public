@@ -20,7 +20,7 @@ If you do not have git on your machine, follow the installation instructions [he
    
 <details><summary><b>see screenshot</b></summary>
 
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/fb0ac86f-54fe-4cab-b19a-a2762d9ee703)
+![image](https://github.com/MERLCenter/MERL-Center-public/assets/73561520/fb0ac86f-54fe-4cab-b19a-a2762d9ee703)
 
 </details>
 
@@ -31,7 +31,7 @@ git clone <your-fork-url>.git
 
 <details><summary><b>see screenshot</b></summary>
 
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/0dddd8a1-76eb-4f8f-9804-1ca47f66d2a2)
+![image](https://github.com/MERLCenter/MERL-Center-public/assets/73561520/0dddd8a1-76eb-4f8f-9804-1ca47f66d2a2)
 </details>
 
 #### 4. Navigate into root directory of repository you just cloned
@@ -178,6 +178,6 @@ Note: replace `<relevent-branch-name>` with the name of the branch you created i
 
 <details><summary><b>see screenshot</b></summary>
 
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/4f467adc-a296-4e00-8f6e-09a3dffcc208)
+![image](https://github.com/MERLCenter/MERL-Center-public/assets/73561520/4f467adc-a296-4e00-8f6e-09a3dffcc208)
 
 </details>
