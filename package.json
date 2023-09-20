@@ -5,7 +5,7 @@
   "description": "Home of GitHub Satellite",
   "main": "index.js",
   "scripts": {
-    "start": "bundle exec jekyll serve --incremental",
+    "start": "bundle exec jekyll serve --livereload",
     "test": "npx stylelint 'assets/**/*.scss' --config .github/linters/.stylelintrc --ignore-path .github/linters/.stylelintignore"
   },
   "repository": {
