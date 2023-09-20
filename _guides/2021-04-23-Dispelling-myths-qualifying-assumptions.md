@@ -32,7 +32,7 @@ outgoingUrl:
 
 _With edits by Stephanie Coker_
 
-_Note that this beginner's guide is useful for any of MERL practitioners, program managers, procurement officers or funders who are interested in using or creating open source software, data or content for a MERL project or problem statement. [See our definition of MERL here](https://github.com/MERLTech/MERL-Center-public/blob/main/MERLdefinition.md)._
+_Note that this beginner's guide is useful for any of MERL practitioners, program managers, procurement officers or funders who are interested in using or creating open source software, data or content for a MERL project or problem statement. [See our definition of MERL here](https://github.com/merlcenter/MERL-Center-public/blob/main/MERLdefinition.md)._
 
 ## Introduction
 

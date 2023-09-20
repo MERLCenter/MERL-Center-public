@@ -35,7 +35,7 @@ The above text is frontmatter that should be inserted at the top of every learni
 ## Fields
 Below is an explanation of how to fill out each field. **Note that if certain characters like colons or semi-colons appear in a field, they may cause a website display error.**
 
-Read more about content types in the [contributing file here](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md#adding-images-to-your-learning-content).
+Read more about content types in the [contributing file here](https://github.com/merlcenter/MERL-Center-public/blob/main/Contributing.md#adding-images-to-your-learning-content).
 
 #### `layout: blog-post`
 Do not change this field
@@ -64,10 +64,10 @@ This is the avatar of the user. Go to their user profile - e.g. https://github.c
 Leave the space after the colon blank. The fields below `tags` should be filled out.
 
 #### `- tag:`
-Add one or more tags [from this list](https://github.com/MERLTech/MERL-Center-public/blob/main/_data/tags.yml) as separate lines, as shown above. Put a hash (#) to designate the primary tag, e.g. `#- tag: Data Collection and Management`
+Add one or more tags [from this list](https://github.com/merlcenter/MERL-Center-public/blob/main/_data/tags.yml) as separate lines, as shown above. Put a hash (#) to designate the primary tag, e.g. `#- tag: Data Collection and Management`
 
 #### `featuredImage:`
-Copy and paste **only** the image file name here. Note that images must be uploaded to [this sub-directory](https://github.com/MERLTech/MERL-Center-public/tree/main/assets/img/posts) to appear on the website. [Read about formatting images here](https://github.com/MERLTech/MERL-Center-public/blob/main/Contributing.md#adding-images-to-your-learning-content).
+Copy and paste **only** the image file name here. Note that images must be uploaded to [this sub-directory](https://github.com/merlcenter/MERL-Center-public/tree/main/assets/img/posts) to appear on the website. [Read about formatting images here](https://github.com/merlcenter/MERL-Center-public/blob/main/Contributing.md#adding-images-to-your-learning-content).
 
 #### `outgoing:`
 Write `true` if this post should link directly to an external website. Write `false` if this post should display content on https://merlcenter.org
