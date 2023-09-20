@@ -77,13 +77,13 @@ bundle exec jekyll serve --livereload
 
 #### 7. Add a remote called `upstream` to your local repository that points to the main repository
 ```
-git remote add upstream https://github.com/MERLTech/MERL-Center-public.git
+git remote add upstream https://github.com/MERLCenter/MERL-Center-public.git
 ```
 Verify that the origin remote points to your fork and the upstream remote points to the main repository
 ```
 git remote -v
 ```
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/8f91b2d2-8c68-44af-8ae9-caf0ca2ee9cb)
+![image](https://github.com/MERLCenter/MERL-Center-public/assets/73561520/8f91b2d2-8c68-44af-8ae9-caf0ca2ee9cb)
 
 #### 8. Add fetch configuration to simplify pulling down branch data for pull request reviews
 ```
@@ -96,7 +96,7 @@ This command adds additional fetch instructions to your `.git/config` file so th
 #### 1. Add yourself as a reviewer of the pull request on Github
 <details><summary><b>see screenshot</b></summary>
 
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/c0ad7dee-a460-431e-bb51-b4b64da68f73)
+![image](https://github.com/MERLCenter/MERL-Center-public/assets/73561520/c0ad7dee-a460-431e-bb51-b4b64da68f73)
 
 </details>
 
@@ -126,7 +126,7 @@ npm run start
 #### 8. Go back to github and find the "Files Changed" tab of the pull request to submit feedback
 <details><summary><b>see screenshot</b></summary>
 
-![image](https://github.com/MERLTech/MERL-Center-public/assets/73561520/08d7322b-2947-49f1-b0d2-f7e7d31719be)
+![image](https://github.com/MERLCenter/MERL-Center-public/assets/73561520/08d7322b-2947-49f1-b0d2-f7e7d31719be)
 
 </details>
 
