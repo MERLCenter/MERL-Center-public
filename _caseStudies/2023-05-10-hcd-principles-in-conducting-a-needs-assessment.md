@@ -17,15 +17,7 @@ outgoing: false
 outgoingUrl:
 
 ---
-
-## Case Study: The use of  Human Centered Design (HCD) principles in conducting a needs assessment
-By Mutsa Carole Chinyamakobvu
-
-### Keywords
-
-Human-Centered Design; Needs Assessment, Real-Time Evaluation, Unstructured Data Collection
-
-### Introduction
+## Introduction
 
 Originating from the fields of ergonomics and engineering, human-centered design ([HCD](https://github.com/MERLTech/MERL-Center-public/blob/main/human-centered-design-definition.md)) was a technique used to enhance the design of management information systems and to enhance product development (Rubin, J., & Chisnell, D., 2011). Having evolved over time to feature considerably in computer science and artificial intelligence, HCD is favored for its capacity to consider the needs and circumstances of the user or participant in every step of a product or solution design. In monitoring, evaluation, research and learning (MERL) projects, understanding the needs and behaviors of beneficiaries is critical. HCD is thus a natural way to approach MERL projects for the best possible outcomes.
 
@@ -43,7 +35,7 @@ HCD seeks to close the longstanding research-to-practice gap[^1] (Lyon AR et al.
 [^1]: The research-to-practice gap is an ongoing issue in the evidence-based movement that began in the medical field in the early 1990s, where the practical implementation of research is low and therefore unsuccessful due to “many proximal factors such as inadequate practitioner training, a poor fit between treatment requirements and existing organizational structures, insufficient administrative support, and practitioner resistance to change” ([Psychology Today, 2016](https://www.psychologytoday.com/us/blog/psyched/201608/bridging-the-research-practice-gap))
 
 
-### Purpose of this Case Study
+## Purpose of this Case Study
 
 This case study will explore the implementation of an HCD approach to conducting a needs assessment of teaching staff at a school in Uganda. Having been commissioned to give a short course on E-Learning methodologies and opportunities by [Professors without Borders](https://prowibo.org/), Mutsa conducted a needs assessment as a prelude to designing a relevant course with course objectives that would meet the needs of the organization.  
 
@@ -55,7 +47,7 @@ This article will discuss the context of the particular case that inspired this 
 - Carefully and minutely considering the setting in which an implementation will be utilized is a useful technique to center your immediate users effectively
 
 
-### Context
+## Context
 
 In August 2022, a group of lecturers volunteering for Professors Without Borders were welcomed to a rural school in Uganda to give a short course to the teaching staff on the “Opportunities of 21st-Century E-Learning Methodologies”. The volunteers had little knowledge of how the teaching staff were delivering their classes at the time. Due to connectivity issues, it was nearly impossible to establish any details to prepare for the two-week course. Whenever a communication channel was present, it was also clear that hearing and understanding one another was going to be a barrier to consider mindfully when choosing an approach to deliver the course.
 
@@ -65,7 +57,7 @@ The students are viewed as change agents in their home and in the community, as 
 
 It was probable to the author that cultural differences between how URDT teaching staff and the visiting lecturers engaged, taught, learned, communicated, and prioritized activities - made a typical data collection process for the needs inadequate. Often, assessment data collection tools consist of online or paper surveys and interviews that are designed in light of the existing available data. Obtaining available data was a substantial challenge in an agriculture-focused institution where teaching, assessment and communication methods did not prioritize written accounts or data storage in ways common to the visiting lecturers. The teaching staff’s experience with tech tools was non-uniform and sparse. Their teaching [methodology](https://urdteduc.ac.ug/methodology/) was one that prioritized group discussions and practical hands-on work to enable swift rural transformation. As such, it was decided to run focus group interviews in order to get as much information from the variation of responses given, and account for the gaps in hearing and understanding that had been identified earlier in the interactions of  the volunteer lecturers and URDT staff. 
 
-### Unstructured data collection methods to assess needs
+## Unstructured data collection methods to assess needs
 
 The first round of a focus group data collection exercise consisted of an adapted [closed card sorting](https://help.playbookux.com/en/articles/5366050-open-vs-closed-vs-hybrid-card-sorting) activity. In small groups of three to four, the teaching staff would stick up post-it notes of:
 1. what e-learning tools or methods they had used before, and 
@@ -89,7 +81,7 @@ The needs assessment process can consist of mixed iterations of the following te
 
 Many of these steps were employed in various ways and sequences in order to determine the objectives, content, and structure of the e-learning methods course to be given to the teaching staff for the remainder of the time spent at URDT.
 
-### How we incorporated HCD
+## How we incorporated HCD
 
 The [MERL Center definition of HCD](https://merlcenter.org/human-centered-design-definition.html) is as follows:
 > “Human-centered design (HCD) is a framework that places the needs, desires and behaviors of key stakeholders, beneficiaries, users or teaching staff at the center of design and implementation decisions. HCD can be used to create and inform digital products, physical products, programs and communities. It can rely on iterative cycles of co-creating, collaborating, testing and refining solutions. HCD requires contextual analysis and understanding in order to base design decisions on how stakeholders or end-users already think, communicate and engage. In MERL, HCD can be used to inform who is asked what, when and how. It can provide insights on why something is happening. In using HCD for MERL, it is important to consider human rights and equitable solutions.”
@@ -111,7 +103,7 @@ The participatory facilitation techniques to collect data were rooted in the nee
 
 Raphael Graser (SSWM) more personably denotes the steps from Inspiration > Ideation > Implementation as “Hear > Create > Deliver”. The Needs Assessment process lends itself only to the first stage of this three-step process. The repetitive real-time evaluation process kept going all week because the author wanted to accurately “hear” what the needs were.
 
-### How HCD could have been incorporated better
+## How HCD could have been incorporated better
 
 Had the author more accurately anticipated how the lack of contextual awareness would need to be tactfully and rapidly redeemed, she may have been able to better prepare the data collection process in a more structured format with clear objectives. The explorative and unstructured approach may have been the reason it took an entire week to elicit needs, out of the two weeks assigned at URDT. Though a week is not necessarily a long time to conduct a needs assessment, it would have been more ideal to solidify an approach much sooner and deliver the course over the remainder of the two weeks. The needs assessment objectives were very broad, the author wanted to explore and understand both the internal structures of the organization, and the external circumstances in which they operate.
 
