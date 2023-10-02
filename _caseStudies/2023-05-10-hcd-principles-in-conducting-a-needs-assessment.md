@@ -41,7 +41,7 @@ This case study will explore the implementation of an HCD approach to conducting
 
 This article will discuss the context of the particular case that inspired this research on the synergies between HCD and MERL, the unstructured methods used to assess needs, and how HCD could have been better incorporated.
 
-### Key Takeaways
+## Key Takeaways
 
 - A multi-faceted unstructured data collection approach to conducting a needs assessment can elicit broad and relevant data about your users that, though comprehensive, may need to still be processed extensively before use
 - Carefully and minutely considering the setting in which an implementation will be utilized is a useful technique to center your immediate users effectively
